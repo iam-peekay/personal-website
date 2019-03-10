@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://affectionate-jang-b43f86.netlify.com',
   title: 'Blog by Preethi Kasireddy',
   subtitle: 'Founder & CEO of TruStory. I have a passion for understanding things at a fundamental level and sharing it as clearly as possible.',
   copyright: '© All rights reserved.',
