@@ -8,6 +8,7 @@ const Layout = ({ children, title, description }) => (
       <html lang="en" />
       <title>{title}</title>
       <meta name="description" content={description} />
+      <script src="https://cdn.convertkit.com/assets/CKJS4.js?v=21"></script>
     </Helmet>
     {children}
   </div>

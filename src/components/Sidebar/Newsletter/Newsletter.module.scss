@@ -1,0 +1,61 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.newsletter {
+    @include margin-bottom(1);
+
+    &__title {
+        font-size: $typographic-base-font-size * 1.125;
+        font-weight: 600;
+        @include line-height(1.125);
+        @include margin(.5, 0, .5, 0);
+    }
+
+    &__subtitle {
+        color: $color-gray;
+        @include line-height(1);
+        @include margin-bottom(.5)
+    }
+
+    &__confirm {
+        color: $color-secondary;
+        @include line-height(1);
+        @include margin-bottom(.5)
+    }
+
+    &__error {
+        color: red;
+        @include line-height(1);
+        @include margin-bottom(.5)
+    }
+
+    &__captcha {
+        left: -999em !important;
+        position: absolute !important;
+    }
+
+    &__input {
+        border: 1px solid lighten($color-gray, 18%);
+        border-radius: 0;
+        font-size: $typographic-small-font-size;
+        padding: 10px;
+        -webkit-appearance: none;
+        width: 43%;
+    }
+
+    &__submit {
+        background-color: transparent;
+        border: 1px solid $color-primary;
+        color: $color-primary;
+        cursor: pointer;
+        font-size: $typographic-small-font-size;
+        margin-left: 10px;
+        padding: 10px;
+
+        &:hover,
+        &:focus {
+            background-color: $color-primary;
+            color: $color-white;
+        }
+    }
+}
