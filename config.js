@@ -31,12 +31,10 @@ module.exports = {
     photo: '/photo.jpg',
     bio: 'Founder & CEO of TruStory. I have a passion for understanding things at a fundamental level and sharing it as clearly as possible.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'iam.preethi.k@gmail.com',
+      twitter: 'iam_preethi',
+      github: 'iam-peekay',
+      linkedin: 'https://www.linkedin.com/in/preethi-kasireddy-41383528/'
     }
   }
 };
