@@ -1,14 +1,19 @@
 ---
-title: "Why I left the best job in the world"
-date: 2015-09-11T17:34:40.523Z
-template: "post"
+template: post
+title: Why I left the best job in the world
+slug: /posts/why-i-left-the-best-job-in-the-world/
 draft: false
-slug: "/posts/why-i-left-the-best-job-in-the-world/"
-category: ""
-tags: [Education,Coding,Andree]
-description: "I feel deeply fortunate to have worked with some of the smartest people in technology — people like Marc Andreessen, Ben Horowitz and Chris Dixon among others — and to have learned so much from them…"
+date: 2015-09-11T17:34:40.523Z
+description: >-
+  I feel deeply fortunate to have worked with some of the smartest people in
+  technology — people like Marc Andreessen, Ben Horowitz and Chris Dixon among
+  others — and to have learned so much from them…
+category: Life
+tags:
+  - Education
+  - Coding
+  - Andreessen Horowitz
 ---
-
 ### Why I left the best job in the world
 
 <figure>
@@ -111,11 +116,11 @@ Needless to say, my mom is completely against it. She thinks I’m absolutely nu
 
 Sure, I don’t have a CS degree from Stanford or MIT. Sure, I might not get a job at Google or Facebook. But whether or not I get into Facebook or Google is not the point of why I want to do this. My goal is to genuinely _learn_. The road map I have in mind looks like this:
 
-1\. Figure out what I like developing on the most: Front-end vs. Back-end, Mobile vs. Web, and what application areas I find most interesting: Machine Learning, Artificial Intelligence, Robotics, Computer Vision, etc.
+1. Figure out what I like developing on the most: Front-end vs. Back-end, Mobile vs. Web, and what application areas I find most interesting: Machine Learning, Artificial Intelligence, Robotics, Computer Vision, etc.
 
-2\. Get _really_ good at it
+2. Get _really_ good at it
 
-3\. Use those skills to change the world. That could mean building a world-changing company or something else entirely.
+3. Use those skills to change the world. That could mean building a world-changing company or something else entirely.
 
 So yes, I might not have the CS degree from Stanford, but I will as work hard as humanly possible to supplement the degree I don’t have by gaining real-world experience building real-world products. I realize that as I’m starting out some recruiters and hiring managers will still disregard me for not having a CS degree, but that’s OK. I’m confident that I will find at least one person who is willing to trust me by giving me a chance to prove myself, and fortunately that’s often all you need in the tech world. I’m willing to start from the bottom and work my way up, just as I did in finance.
 
@@ -140,27 +145,3 @@ The craziest part of all this is that I know there’s a chance I might end up n
 So, here’s to taking another chance in life and reaching for more. I can’t promise you that I’ll end up being the best software engineer, but I _can_ promise you that I’ll learn a ton and be better than what I am today. I can promise you that I won’t “fail” — I won’t let that happen.
 
 Now it’s _your_ turn. Find the thing on your back burner that’s upsetting you and take the first step.
-
-<figure>
-
-![](/media/why-i-left-the-best-job-in-the-world-2.jpeg)
-
-</figure>
-
-_Published in_ **Startups, Wanderlust, and Life Hacking**
-
-<figure>
-
-[![](/media/why-i-left-the-best-job-in-the-world-3.png)](http://supply.us9.list-manage.com/subscribe?u=310af6eb2240d299c7032ef6c&id=d28d8861ad)
-
-</figure><figure>
-
-[![](/media/why-i-left-the-best-job-in-the-world-4.png)](https://blog.growth.supply/)
-
-</figure><figure>
-
-[![](/media/why-i-left-the-best-job-in-the-world-5.png)](https://twitter.com/swlh_)
-
-</figure>
-
--
