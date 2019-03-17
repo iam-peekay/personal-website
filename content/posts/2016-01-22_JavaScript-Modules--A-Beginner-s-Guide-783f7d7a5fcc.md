@@ -1,12 +1,20 @@
 ---
-title: "JavaScript Modules: A Beginner’s Guide"
-date: 2016-01-22T16:10:07.817Z
-template: "post"
+template: post
+title: 'JavaScript Modules: A Beginner’s Guide'
+slug: /posts/javascript-modules-a-beginner-s-guide/
 draft: false
-slug: "/posts/javascript-modules-a-beginner-s-guide/"
-category: ""
-tags: [JavaScript,ES6,Web Development,Education,Programming]
-description: "If you’re a newcomer to JavaScript, jargon like “module bundlers vs. module loaders,” “Webpack vs. Browserify” and “AMD vs. CommonJS” can quickly become overwhelming. In this post, I’ll unpack these…"
+date: 2016-01-22T16:10:07.817Z
+description: >-
+  If you’re a newcomer to JavaScript, jargon like “module bundlers vs. module
+  loaders,” “Webpack vs. Browserify” and “AMD vs. CommonJS” can quickly become
+  overwhelming. In this post, I’ll unpack these…
+category: How it works
+tags:
+  - JavaScript
+  - ES6
+  - Web Development
+  - Education
+  - Programming
 ---
 
 ### JavaScript Modules: A Beginner’s Guide
