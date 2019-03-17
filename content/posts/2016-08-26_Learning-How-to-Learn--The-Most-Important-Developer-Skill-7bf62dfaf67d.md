@@ -1,12 +1,20 @@
 ---
-title: "Learning How to Learn: The Most Important Developer Skill"
-date: 2016-08-26T15:03:56.157Z
-template: "post"
+template: post
+title: 'Learning How to Learn: The Most Important Developer Skill'
+slug: /posts/learning-how-to-learn-the-most-important-developer-skill/
 draft: false
-slug: "/posts/learning-how-to-learn-the-most-important-developer-skill/"
-category: ""
-tags: [Programming,Learning,Life Lessons,Learning To Code,Psychology]
-description: "When you’re a developer, your job requires you to learn every single day — in spite of the constant lure of distractions like Hacker News, Twitter, Reddit, and Facebook. You constantly encounter new…"
+date: 2016-08-26T15:03:56.157Z
+description: >-
+  When you’re a developer, your job requires you to learn every single day — in
+  spite of the constant lure of distractions like Hacker News, Twitter, Reddit,
+  and Facebook. You constantly encounter new…
+category: Life
+tags:
+  - Programming
+  - Learning
+  - Life Lessons
+  - Learning To Code
+  - Psychology
 ---
 
 ### Learning How to Learn: The Most Important Developer Skill
