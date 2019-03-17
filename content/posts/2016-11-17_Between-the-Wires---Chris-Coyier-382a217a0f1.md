@@ -1,14 +1,21 @@
 ---
-title: "Between the Wires | Chris Coyier"
-date: 2016-11-17T16:47:59.611Z
-template: "post"
+template: post
+title: Between the Wires | Chris Coyier
+slug: /posts/between-the-wires-chris-coyier/
 draft: false
-slug: "/posts/between-the-wires-chris-coyier/"
-category: ""
-tags: [Entrepreneurship,Technology,Web Design,CSS,JavaScript]
-description: "I am the co-founder of CodePen.io, a well-known collaboration “playground” for the front-end, creator of CSS-Tricks, a site dedicated to teaching all things web design and development, and the…"
+date: 2016-11-17T16:47:59.611Z
+description: >-
+  I am the co-founder of CodePen.io, a well-known collaboration “playground” for
+  the front-end, creator of CSS-Tricks, a site dedicated to teaching all things
+  web design and development, and the…
+category: Interviews
+tags:
+  - Entrepreneurship
+  - Technology
+  - Web Design
+  - CSS
+  - JavaScript
 ---
-
 ### Between the Wires | Chris Coyier
 
 <figure>
@@ -107,7 +114,7 @@ So at a point I thought I could do that too. It was a project that I could wrap 
 
 ### **A common fear when it comes to starting something, is a fear of being financially unsustainable. We’re curious to hear how you managed to become financially sustainable with CodePen, and how long that took?**
 
-> Even if what you do fails, you learn a lot \[…\]
+> Even if what you do fails, you learn a lot \[…]
 
 CSS-Tricks was making some money, and I had written a book about Wordpress that was doing okay. So, it was easier for me to get started. My other two founders, Tim and Alex, also had some savings to lean back on.
 
@@ -125,7 +132,7 @@ We also do some advertising as well, because of how many views we get. We have a
 
 ### **How do you decide which features should be free versus PRO? How do you get that balance right?**
 
-> Monetization is the hardest stuff to think about, period. \[…\] In the end, how do I know for sure that we made the right choice? I don’t.
+> Monetization is the hardest stuff to think about, period. \[…] In the end, how do I know for sure that we made the right choice? I don’t.
 
 Monetization is the hardest stuff to think about, period. You get so much conflicting advice too. It’s crazy.
 
@@ -243,7 +250,7 @@ I have hobbies, I go on vacation. I have enough of a well-rounded life that I do
 
 ### **How do you build a culture with remote teams?**
 
-> Positivity is also really important to CodePen and our team embraces it. \[…\] It feels safe here, comfortable, and that’s how good communities are born.
+> Positivity is also really important to CodePen and our team embraces it. \[…] It feels safe here, comfortable, and that’s how good communities are born.
 
 I probably think about this a little too much. I like to shower people with praise. I like to talk things out as a team and find those small teaching moments. Culture comes from that — from moments where you think about how to approach a situation and why, as a team. I also encourage people to pay attention to industry news, and throw their two cents in. Those are culture-building moments.
 
@@ -257,7 +264,7 @@ Positivity is also really important to CodePen and our team embraces it. We neve
 
 ### **Who are your programming heroes?**
 
-> It’s hard for me to look at random people in the industry and consider them programming heroes. \[…\] My heroes are the the people I work with directly.
+> It’s hard for me to look at random people in the industry and consider them programming heroes. \[…] My heroes are the the people I work with directly.
 
 When you work directly with someone and experience their genius on a day-to-day basis, they feel like the best programmer in the world, and that’s how I feel all the time.
 
@@ -278,19 +285,3 @@ So yeah, my heroes are the the people I work with directly. They’re my heroes.
 ![](/media/between-the-wires-chris-coyier-9.)
 
 <figcaption>CodePen team</figcaption></figure>
-
-fin.
-
-Donate to support this project: [https://opencollective.com/betweenthewires](https://opencollective.com/betweenthewires)
-
-This project is made possible with sponsorships from [frontendmasters.com](https://frontendmasters.com/), [egghead.io](https://egghead.io/) and [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge).
-
-<figure>
-
-![](/media/between-the-wires-chris-coyier-10.png)
-
-<figcaption>Our sponsors.</figcaption></figure>
-
-Suggest a maker you’d like to hear from, please fill out this [form](https://goo.gl/forms/XhR1IyLXJHNMljcp1).
-
-Send feedback to [betweenthewires](https://twitter.com/betweenthewires) on Twitter.
