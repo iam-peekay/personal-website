@@ -1,12 +1,20 @@
 ---
-title: "JavaScript Modules Part 2: Module Bundling"
-date: 2016-02-05T16:42:12.561Z
-template: "post"
+template: post
+title: 'JavaScript Modules Part 2: Module Bundling'
+slug: /posts/javascript-modules-part-2-module-bundling/
 draft: false
-slug: "/posts/javascript-modules-part-2-module-bundling/"
-category: ""
-tags: [JavaScript,ES6,Programming,Technology,Software Development]
-description: "In Part I of this post, I talked about what modules are, why developers use them, and the various ways to incorporate them into your programs. In this second part, I’ll tackle what exactly it means…"
+date: 2016-02-05T16:42:12.561Z
+description: >-
+  In Part I of this post, I talked about what modules are, why developers use
+  them, and the various ways to incorporate them into your programs. In this
+  second part, I’ll tackle what exactly it means…
+category: How it works
+tags:
+  - JavaScript
+  - ES6
+  - Programming
+  - Technology
+  - Software Development
 ---
 
 ### JavaScript Modules Part 2: Module Bundling
