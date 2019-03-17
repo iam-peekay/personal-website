@@ -1,12 +1,17 @@
 ---
-title: "Going from jQuery Spaghetti to MVC"
-date: 2015-10-27T21:02:41.174Z
-template: "post"
+template: post
+title: Going from jQuery Spaghetti to MVC
+slug: /posts/going-from-jquery-spaghetti-to-mvc/
 draft: false
-slug: "/posts/going-from-jquery-spaghetti-to-mvc/"
-category: ""
-tags: [Software Development,JavaScript]
-description: "This week, let’s start with a look at the typical web developer’s experience going from pure jQuery to an MVC framework. Phase 1: You discover this incredible scripting library called jQuery. It’s…"
+date: 2015-10-27T21:02:41.174Z
+description: >-
+  This week, let’s start with a look at the typical web developer’s experience
+  going from pure jQuery to an MVC framework. Phase 1: You discover this
+  incredible scripting library called jQuery. It’s…
+category: Coding
+tags:
+  - Software Development
+  - JavaScript
 ---
 
 ### Going from jQuery Spaghetti to MVC
