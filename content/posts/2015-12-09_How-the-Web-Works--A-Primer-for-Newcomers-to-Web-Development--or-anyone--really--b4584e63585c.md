@@ -1,12 +1,23 @@
 ---
-title: "How the Web Works: A Primer for Newcomers to Web Development (or anyone, really)"
-date: 2015-12-09T16:00:09.151Z
-template: "post"
+template: post
+title: >-
+  How the Web Works: A Primer for Newcomers to Web Development (or anyone,
+  really)
+slug: >-
+  /posts/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really/
 draft: false
-slug: "/posts/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really/"
-category: ""
-tags: [Web Development,Learning To Code,Education,Design,Technology]
-description: "If you’re just getting into web development, chances are you think you know how the web works — at least on a basic level. …But then you try to explain how a basic website works and draw a blank…"
+date: 2015-12-09T16:00:09.151Z
+description: >-
+  If you’re just getting into web development, chances are you think you know
+  how the web works — at least on a basic level. …But then you try to explain
+  how a basic website works and draw a blank…
+category: How it works
+tags:
+  - Web Development
+  - Learning To Code
+  - Education
+  - Design
+  - Technology
 ---
 
 ### How the Web Works: A Primer for Newcomers to Web Development (or anyone, really)
