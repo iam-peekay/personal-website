@@ -1,12 +1,20 @@
 ---
-title: "Learn the fundamentals of functional programming — for free, in your inbox"
-date: 2017-01-20T16:24:44.638Z
-template: "post"
+template: post
+title: 'Learn the fundamentals of functional programming — for free, in your inbox'
+slug: /posts/learning-the-fundamentals-of-functional-programming/
 draft: false
-slug: "/posts/learning-the-fundamentals-of-functional-programming/"
-category: ""
-tags: [Functional Programming,JavaScript,Learning,Self Improvement,Learning To Code]
-description: "If you’re a software developer, you’ve probably noticed a growing trend: software applications keep getting more complicated. It falls on our shoulders as developers to build, test, maintain, and…"
+date: 2017-01-20T16:24:44.638Z
+description: >-
+  If you’re a software developer, you’ve probably noticed a growing trend:
+  software applications keep getting more complicated. It falls on our shoulders
+  as developers to build, test, maintain, and…
+category: How it works
+tags:
+  - Functional Programming
+  - JavaScript
+  - Learning
+  - Self Improvement
+  - Learning To Code
 ---
 
 ### Learn the fundamentals of functional programming — for free, in your inbox
