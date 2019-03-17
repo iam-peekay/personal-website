@@ -1,12 +1,20 @@
 ---
-title: "Internationalization in React"
-date: 2016-08-05T15:09:41.661Z
-template: "post"
+template: post
+title: Internationalization in React
+slug: /posts/internationalization-in-react/
 draft: false
-slug: "/posts/internationalization-in-react/"
-category: ""
-tags: [JavaScript,React,Web Development,Programming,Tech]
-description: "Internationalization is a big problem. If you want your application to make a worldwide impact, you have to deal with language barriers. Unfortunately, the road from “Your funds will arrive by July…"
+date: 2016-08-05T15:09:41.661Z
+description: >-
+  Internationalization is a big problem. If you want your application to make a
+  worldwide impact, you have to deal with language barriers. Unfortunately, the
+  road from “Your funds will arrive by July…
+category: Coding
+tags:
+  - JavaScript
+  - React
+  - Web Development
+  - Programming
+  - Tech
 ---
 
 ### Internationalization in React
