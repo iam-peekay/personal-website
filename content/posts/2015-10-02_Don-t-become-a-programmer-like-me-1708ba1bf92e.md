@@ -1,12 +1,18 @@
 ---
-title: "Don’t become a programmer like me"
-date: 2015-10-02T17:38:43.036Z
-template: "post"
+template: post
+title: Don’t become a programmer like me
+slug: /posts/don-t-become-a-programmer-like-me/
 draft: false
-slug: "/posts/don-t-become-a-programmer-like-me/"
-category: ""
-tags: [Women In Tech,Tech,Gender Equality]
-description: "I recently stumbled upon this Quora post by a concerned parent asking for advice in discouraging her daughter from becoming a programmer: At first glance, I was furious. I couldn’t fathom why a…"
+date: 2015-10-02T17:38:43.036Z
+description: >-
+  I recently stumbled upon this Quora post by a concerned parent asking for
+  advice in discouraging her daughter from becoming a programmer: At first
+  glance, I was furious. I couldn’t fathom why a…
+category: 'Life, Coding, Female'
+tags:
+  - Women In Tech
+  - Tech
+  - Gender Equality
 ---
 
 ### Don’t become a programmer like me
