@@ -1,12 +1,20 @@
 ---
-title: "The Great Programming Jargon Bake-off"
-date: 2016-12-20T16:29:43.133Z
-template: "post"
+template: post
+title: The Great Programming Jargon Bake-off
+slug: /posts/programming-mental-models/
 draft: false
-slug: "/posts/programming-mental-models/"
-category: ""
-tags: [Programming,Web Development,Tech,Learning To Code,Technology]
-description: "Terminology like this is sprinkled throughout programming blog posts, conference talks, papers, and text books. But don’t be turned off by this jargon. Let’s jump right in and break some of these…"
+date: 2016-12-20T16:29:43.133Z
+description: >-
+  Terminology like this is sprinkled throughout programming blog posts,
+  conference talks, papers, and text books. But don’t be turned off by this
+  jargon. Let’s jump right in and break some of these…
+category: Coding
+tags:
+  - Programming
+  - Web Development
+  - Tech
+  - Learning To Code
+  - Technology
 ---
 
 ### The Great Programming Jargon Bake-off
