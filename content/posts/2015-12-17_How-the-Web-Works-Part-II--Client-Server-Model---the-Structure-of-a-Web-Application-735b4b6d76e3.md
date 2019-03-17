@@ -1,12 +1,23 @@
 ---
-title: "How the Web Works Part II: Client-Server Model & the Structure of a Web Application"
-date: 2015-12-17T16:12:36.558Z
-template: "post"
+template: post
+title: >-
+  How the Web Works Part II: Client-Server Model & the Structure of a Web
+  Application
+slug: >-
+  /posts/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application/
 draft: false
-slug: "/posts/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application/"
-category: ""
-tags: [Web Development,Tech,Programming,Design,Technology]
-description: "In my previous post, we dived into how the web works on a basic level, including the interaction between a client (your computer) and a server (another computer which responds to the client’s…"
+date: 2015-12-17T16:12:36.558Z
+description: >-
+  In my previous post, we dived into how the web works on a basic level,
+  including the interaction between a client (your computer) and a server
+  (another computer which responds to the client’s…
+category: How it works
+tags:
+  - Web Development
+  - Tech
+  - Programming
+  - Design
+  - Technology
 ---
 
 ### How the Web Works Part II: Client-Server Model & the Structure of a Web Application
