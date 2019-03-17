@@ -1,14 +1,21 @@
 ---
-title: "Blockchains don’t scale. Not today, at least. But there’s hope."
-date: 2017-08-23T14:40:20.493Z
-template: "post"
+template: post
+title: 'Blockchains don’t scale. Not today, at least. But there’s hope.'
+slug: /posts/blockchains-dont-scale-not-today-at-least-but-there-s-hope/
 draft: false
-slug: "/posts/blockchains-dont-scale-not-today-at-least-but-there-s-hope/"
-category: ""
-tags: [Blockchain,Ethereum,Bitcoin,Technology,Future]
-description: "The first Bitcoin paper was first released in 2008. My excitement about the potential of blockchain technology has been building ever since. 
- 
-Decentralized digital currency, once just a far-fetched…"
+date: 2017-08-23T14:40:20.493Z
+description: >-
+  The first Bitcoin paper was first released in 2008. My excitement about the
+  potential of blockchain technology has been building ever since. 
+
+  Decentralized digital currency, once just a far-fetched…
+category: Blockchain
+tags:
+  - Blockchain
+  - Ethereum
+  - Bitcoin
+  - Technology
+  - Future
 ---
 
 ### Blockchains don’t scale. Not today, at least. But there’s hope.
