@@ -1,14 +1,22 @@
 ---
-title: "It’s not too late to “break in” to crypto"
-date: 2018-10-29T15:01:11.696Z
-template: "post"
+template: post
+title: It’s not too late to “break in” to crypto
+slug: /posts/its-not-too-late-to-break-in-to-crypto/
 draft: false
-slug: "/posts/its-not-too-late-to-break-in-to-crypto/"
-category: ""
-tags: [Cryptocurrency,Blockchain,Bitcoin,Ethereum,Entrepreneurship]
-description: "I receive a lot of emails from crypto enthusiasts asking for advice on how to “break in” to crypto.
- 
-And I totally get it! After all, crypto is a highly technical and multi-disciplinary field that…"
+date: 2018-10-29T15:01:11.696Z
+description: >-
+  I receive a lot of emails from crypto enthusiasts asking for advice on how to
+  “break in” to crypto.
+
+  And I totally get it! After all, crypto is a highly technical and
+  multi-disciplinary field that…
+category: Blockchain
+tags:
+  - Cryptocurrency
+  - Blockchain
+  - Bitcoin
+  - Ethereum
+  - Entrepreneurship
 ---
 
 ### It’s not too late to “break in” to crypto
