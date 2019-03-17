@@ -1,12 +1,20 @@
 ---
-title: "Let’s Learn JavaScript Closures"
-date: 2016-04-29T15:30:09.166Z
-template: "post"
+template: post
+title: Let’s Learn JavaScript Closures
+slug: /posts/lets-learn-javascript-closures/
 draft: false
-slug: "/posts/lets-learn-javascript-closures/"
-category: ""
-tags: [JavaScript,ES6,Programming,Learning To Code,Learning]
-description: "The Internet is packed with great explanations of “what” closures are, but few deep-dives into the “why” side of things. I find that understanding the internals ultimately gives developers a stronger…"
+date: 2016-04-29T15:30:09.166Z
+description: >-
+  The Internet is packed with great explanations of “what” closures are, but few
+  deep-dives into the “why” side of things. I find that understanding the
+  internals ultimately gives developers a stronger…
+category: How it works
+tags:
+  - JavaScript
+  - ES6
+  - Programming
+  - Learning To Code
+  - Learning
 ---
 
 ### Let’s Learn JavaScript Closures
