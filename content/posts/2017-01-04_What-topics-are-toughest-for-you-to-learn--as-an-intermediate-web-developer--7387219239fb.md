@@ -1,12 +1,21 @@
 ---
-title: "What topics are toughest for you to learn, as an intermediate web developer?"
-date: 2017-01-04T15:02:00.497Z
-template: "post"
+template: post
+title: 'What topics are toughest for you to learn, as an intermediate web developer?'
+slug: >-
+  /posts/what-topics-are-toughest-for-you-to-learn-as-an-intermediate-web-developer/
 draft: false
-slug: "/posts/what-topics-are-toughest-for-you-to-learn-as-an-intermediate-web-developer/"
-category: ""
-tags: [Programming,Web Development,Life Lessons,Learning,Learning To Code]
-description: "Beginners can feast on hundreds of courses on sites like TreeHouse, FreeCodeCamp and Egghead.io, alongside dozens of immersive bootcamps like Hack Reactor and App Academy. Advanced programmers…"
+date: 2017-01-04T15:02:00.497Z
+description: >-
+  Beginners can feast on hundreds of courses on sites like TreeHouse,
+  FreeCodeCamp and Egghead.io, alongside dozens of immersive bootcamps like Hack
+  Reactor and App Academy. Advanced programmers…
+category: Coding
+tags:
+  - Programming
+  - Web Development
+  - Life Lessons
+  - Learning
+  - Learning To Code
 ---
 
 ### _What topics are toughest for you to learn, as an intermediate web developer?_
