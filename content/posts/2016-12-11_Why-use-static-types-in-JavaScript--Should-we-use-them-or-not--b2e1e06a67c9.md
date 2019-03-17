@@ -1,12 +1,20 @@
 ---
-title: "Why use static types in JavaScript? Should we use them or not?"
-date: 2016-12-11T18:27:35.515Z
-template: "post"
+template: post
+title: Why use static types in JavaScript? Should we use them or not?
+slug: /posts/why-use-static-types-in-javascript-part-4/
 draft: false
-slug: "/posts/why-use-static-types-in-javascript-part-4/"
-category: ""
-tags: [JavaScript,Programming,Computer Science,Software Development,Learning To Code]
-description: "The first programming languages I learned were JavaScript and Python, both of which are dynamically-typed languages. But my foray into static types have added a whole new dimension to how I think…"
+date: 2016-12-11T18:27:35.515Z
+description: >-
+  The first programming languages I learned were JavaScript and Python, both of
+  which are dynamically-typed languages. But my foray into static types have
+  added a whole new dimension to how I think…
+category: Coding
+tags:
+  - JavaScript
+  - Programming
+  - Computer Science
+  - Software Development
+  - Learning To Code
 ---
 
 ### Why use static types in JavaScript? Should we use them or not?
