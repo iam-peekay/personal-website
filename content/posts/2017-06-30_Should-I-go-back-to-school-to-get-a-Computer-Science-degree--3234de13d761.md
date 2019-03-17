@@ -1,12 +1,20 @@
 ---
-title: "Should I go back to school to get a Computer Science degree?"
-date: 2017-06-30T15:22:35.611Z
-template: "post"
+template: post
+title: Should I go back to school to get a Computer Science degree?
+slug: /posts/should-i-go-back-to-school-to-get-a-cs-degree/
 draft: false
-slug: "/posts/should-i-go-back-to-school-to-get-a-cs-degree/"
-category: ""
-tags: [Programming,Careers,Life Lessons,Self Improvement,Education]
-description: "This week’s question for my “Ask Preethi’ series is one that’s near and dear to me, because I too once struggled to figure out the right answer. “I have been teaching myself to code for almost a year…"
+date: 2017-06-30T15:22:35.611Z
+description: >-
+  This week’s question for my “Ask Preethi’ series is one that’s near and dear
+  to me, because I too once struggled to figure out the right answer. “I have
+  been teaching myself to code for almost a year…
+category: Coding
+tags:
+  - Programming
+  - Careers
+  - Life Lessons
+  - Self Improvement
+  - Education
 ---
 
 ### Should I go back to school to get a Computer Science degree?
