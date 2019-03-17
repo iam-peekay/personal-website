@@ -1,12 +1,18 @@
 ---
-title: "Documentation is Scary for Newcomers"
-date: 2015-11-04T15:45:32.025Z
-template: "post"
+template: post
+title: Documentation is Scary for Newcomers
+slug: /posts/documentation-is-scary-for-newcomers/
 draft: false
-slug: "/posts/documentation-is-scary-for-newcomers/"
-category: ""
-tags: [Software Development,JavaScript,Documentation]
-description: "I’m amazed how quickly the last four weeks at Hack Reactor flew by! Here’s an updated diagram of what I’ve learned: As you can see, the past segment was definitely meaty. Yet it was my favorite week…"
+date: 2015-11-04T15:45:32.025Z
+description: >-
+  I’m amazed how quickly the last four weeks at Hack Reactor flew by! Here’s an
+  updated diagram of what I’ve learned: As you can see, the past segment was
+  definitely meaty. Yet it was my favorite week…
+category: Coding
+tags:
+  - Software Development
+  - JavaScript
+  - Documentation
 ---
 
 ### Documentation is Scary for Newcomers
