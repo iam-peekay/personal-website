@@ -1,14 +1,21 @@
 ---
-title: "I’ve done programming tutorials. Now what?"
-date: 2017-08-17T15:07:24.468Z
-template: "post"
+template: post
+title: I’ve done programming tutorials. Now what?
+slug: /posts/ive-done-programming-tutorials-now-what/
 draft: false
-slug: "/posts/ive-done-programming-tutorials-now-what/"
-category: ""
-tags: [Web Development,Learning To Code,Technology,Startup,Self Improvement]
-description: "This week’s question for my Ask Preethi series is about how to go from simply doing tutorials to the actually building real world applications. So, you decided to learn to code and maybe went through…"
+date: 2017-08-17T15:07:24.468Z
+description: >-
+  This week’s question for my Ask Preethi series is about how to go from simply
+  doing tutorials to the actually building real world applications. So, you
+  decided to learn to code and maybe went through…
+category: Coding
+tags:
+  - Web Development
+  - Learning To Code
+  - Technology
+  - Startup
+  - Self Improvement
 ---
-
 ### I’ve done programming tutorials. Now what?
 
 <figure>
@@ -29,4 +36,4 @@ So, you decided to learn to code and maybe went through a few online tutorials. 
 
 But what’s next? You actually want to build something, but it feels like you’re not able to put everything together.
 
-What do you do next? Well, here’s my 13-minute answer to this question:
+What do you do next? Well, here’s my 13-minute answer to this question: https://www.youtube.com/watch?v=OxfJ7xw5hQE
