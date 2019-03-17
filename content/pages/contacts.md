@@ -2,7 +2,7 @@
 template: page
 title: Contact me
 slug: Contact me
-draft: true
+draft: false
 ---
 Email: preethi@preethireddy.com
 
