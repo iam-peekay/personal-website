@@ -1,12 +1,20 @@
 ---
-title: "What does it mean when code is “easy to reason about”?"
-date: 2016-09-30T14:52:14.835Z
-template: "post"
+template: post
+title: What does it mean when code is “easy to reason about”?
+slug: /posts/what-does-it-mean-when-code-is-easy-to-reason-about/
 draft: false
-slug: "/posts/what-does-it-mean-when-code-is-easy-to-reason-about/"
-category: ""
-tags: [JavaScript,Functional Programming,Programming,Software Development,Coding]
-description: "After a while, I’d heard “easy to reason about” in so many contexts that I figured it was just another semi-meaningless developer buzzword. The truth is, the expression does have a significant…"
+date: 2016-09-30T14:52:14.835Z
+description: >-
+  After a while, I’d heard “easy to reason about” in so many contexts that I
+  figured it was just another semi-meaningless developer buzzword. The truth is,
+  the expression does have a significant…
+category: Coding
+tags:
+  - JavaScript
+  - Functional Programming
+  - Programming
+  - Software Development
+  - Coding
 ---
 
 ### **What does it mean when code is “easy to reason about”?**
