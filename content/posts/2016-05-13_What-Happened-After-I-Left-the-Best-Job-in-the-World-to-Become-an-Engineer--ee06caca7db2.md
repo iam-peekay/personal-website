@@ -1,12 +1,19 @@
 ---
-title: "What Happened After I Left the Best Job in the World to Become an Engineer?"
-date: 2016-05-13T15:40:53.486Z
-template: "post"
+template: post
+title: What Happened After I Left the Best Job in the World to Become an Engineer?
+slug: >-
+  /posts/what-happened-after-i-left-the-best-job-in-the-world-to-become-an-engineer/
 draft: false
-slug: "/posts/what-happened-after-i-left-the-best-job-in-the-world-to-become-an-engineer/"
-category: ""
-tags: [Programming,Coding,Life Lessons]
-description: "Behind every successful career is a dream that got left behind. For me, that dream was software engineering. It’s been almost a year since I walked away from an amazing job at Andreessen Horowitz to…"
+date: 2016-05-13T15:40:53.486Z
+description: >-
+  Behind every successful career is a dream that got left behind. For me, that
+  dream was software engineering. It’s been almost a year since I walked away
+  from an amazing job at Andreessen Horowitz to…
+category: Life
+tags:
+  - Programming
+  - Coding
+  - Life Lessons
 ---
 
 ### What Happened After I Left the Best Job in the World to Become an Engineer?
