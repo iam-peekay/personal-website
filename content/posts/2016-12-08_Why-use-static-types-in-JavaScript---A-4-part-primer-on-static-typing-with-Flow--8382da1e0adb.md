@@ -1,7 +1,7 @@
 ---
 template: post
 title: >-
-  Why use static types in JavaScript? (A 4-part primer on static typing with
+  Why use static types in JavaScript? (A 3-part primer on static typing with
   Flow)
 slug: /posts/why-use-static-types-in-javascript-part-1/
 draft: false
