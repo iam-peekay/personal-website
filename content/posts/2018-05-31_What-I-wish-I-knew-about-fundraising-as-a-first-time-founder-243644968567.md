@@ -1,12 +1,20 @@
 ---
-title: "What I wish I knew about fundraising as a first-time founder"
-date: 2018-05-31T14:57:50.646Z
-template: "post"
+template: post
+title: What I wish I knew about fundraising as a first-time founder
+slug: /posts/what-i-wish-i-knew-about-fundraising-as-a-first-time-founder/
 draft: false
-slug: "/posts/what-i-wish-i-knew-about-fundraising-as-a-first-time-founder/"
-category: ""
-tags: [Entrepreneurship,Software Development,Technology,Venture Capital,Startup]
-description: "When I founded my company TruStory last year, I was fortunate to connect with an angel investor who immediately saw its potential. She made a bet on me and my idea, and wrote a pre-seed check that…"
+date: 2018-05-31T14:57:50.646Z
+description: >-
+  When I founded my company TruStory last year, I was fortunate to connect with
+  an angel investor who immediately saw its potential. She made a bet on me and
+  my idea, and wrote a pre-seed check that…
+category: Startup
+tags:
+  - Entrepreneurship
+  - Software Development
+  - Technology
+  - Venture Capital
+  - Startup
 ---
 
 ### What I wish I knew about fundraising as a first-time founder
