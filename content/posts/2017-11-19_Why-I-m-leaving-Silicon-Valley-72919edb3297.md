@@ -1,12 +1,20 @@
 ---
-title: "Why I’m leaving Silicon Valley"
-date: 2017-11-19T18:38:19.568Z
-template: "post"
+template: post
+title: Why I’m leaving Silicon Valley
+slug: /posts/why-im-leaving-silicon-valley/
 draft: false
-slug: "/posts/why-im-leaving-silicon-valley/"
-category: ""
-tags: [Startup,Cryptocurrency,Entrepreneurship,Silicon Valley,Blockchain]
-description: "This post is a personal one. Rather than sharing insights on Blockchain or Javascript, I’d like to walk through my inner journey the past few years. It’s a journey that’s left me itching for change —…"
+date: 2017-11-19T18:38:19.568Z
+description: >-
+  This post is a personal one. Rather than sharing insights on Blockchain or
+  Javascript, I’d like to walk through my inner journey the past few years. It’s
+  a journey that’s left me itching for change —…
+category: Life
+tags:
+  - Startup
+  - Cryptocurrency
+  - Entrepreneurship
+  - Silicon Valley
+  - Blockchain
 ---
 
 ### Why I’m leaving Silicon Valley
