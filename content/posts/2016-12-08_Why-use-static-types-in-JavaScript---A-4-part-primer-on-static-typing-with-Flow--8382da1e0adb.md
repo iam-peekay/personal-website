@@ -1,12 +1,22 @@
 ---
-title: "Why use static types in JavaScript? (A 4-part primer on static typing with Flow)"
-date: 2016-12-08T17:46:02.133Z
-template: "post"
+template: post
+title: >-
+  Why use static types in JavaScript? (A 4-part primer on static typing with
+  Flow)
+slug: /posts/why-use-static-types-in-javascript-part-1/
 draft: false
-slug: "/posts/why-use-static-types-in-javascript-part-1/"
-category: ""
-tags: [JavaScript,Programming,Flowtype,Computer Science,Web Development]
-description: "As a JavaScript developer, you can code all day long without encountering any static types. So why bother learning about them? Well it turns out learning types isn’t just an exercise in…"
+date: 2016-12-08T17:46:02.133Z
+description: >-
+  As a JavaScript developer, you can code all day long without encountering any
+  static types. So why bother learning about them? Well it turns out learning
+  types isn’t just an exercise in…
+category: Coding
+tags:
+  - JavaScript
+  - Programming
+  - Flowtype
+  - Computer Science
+  - Web Development
 ---
 
 ### Why use static types in JavaScript? (A 4-part primer on static typing with Flow)
