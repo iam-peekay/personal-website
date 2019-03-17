@@ -1,12 +1,20 @@
 ---
-title: "Between the Wires | MooTools"
-date: 2017-02-02T17:12:42.063Z
-template: "post"
+template: post
+title: Between the Wires | MooTools
+slug: /posts/between-the-wires-mootools/
 draft: false
-slug: "/posts/between-the-wires-mootools/"
-category: ""
-tags: [JavaScript,React,Web Development,Open Source,Facebook]
-description: "If you were doing web development in 2009, MooTools might very well not need an introduction! MooTools was a well-known JavaScript utility library for building “powerful and flexible code with its…"
+date: 2017-02-02T17:12:42.063Z
+description: >-
+  If you were doing web development in 2009, MooTools might very well not need
+  an introduction! MooTools was a well-known JavaScript utility library for
+  building “powerful and flexible code with its…
+category: Interviews
+tags:
+  - JavaScript
+  - React
+  - Web Development
+  - Open Source
+  - Facebook
 ---
 
 ### Between the Wires | MooTools
