@@ -1,12 +1,20 @@
 ---
-title: "Fundamental challenges with public blockchains"
-date: 2017-12-10T18:30:01.506Z
-template: "post"
+template: post
+title: Fundamental challenges with public blockchains
+slug: /posts/fundamental-challenges-with-public-blockchains/
 draft: false
-slug: "/posts/fundamental-challenges-with-public-blockchains/"
-category: ""
-tags: [Blockchain,Bitcoin,Ethereum,Software Development,Technology]
-description: "Decentralized exchanges, prediction markets, and asset management platforms are just a few of the exciting applications being explored by blockchain developers. Exciting enough, in fact, to raise…"
+date: 2017-12-10T18:30:01.506Z
+description: >-
+  Decentralized exchanges, prediction markets, and asset management platforms
+  are just a few of the exciting applications being explored by blockchain
+  developers. Exciting enough, in fact, to raise…
+category: Blockchain
+tags:
+  - Blockchain
+  - Bitcoin
+  - Ethereum
+  - Software Development
+  - Technology
 ---
 
 ### Fundamental challenges with public blockchains
