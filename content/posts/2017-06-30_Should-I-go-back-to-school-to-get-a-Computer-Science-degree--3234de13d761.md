@@ -16,7 +16,6 @@ tags:
   - Self Improvement
   - Education
 ---
-
 ### Should I go back to school to get a Computer Science degree?
 
 <figure>
@@ -45,4 +44,4 @@ This week’s question for my “[Ask Preethi](https://medium.freecodecamp.org/w
 
 Everyone’s circumstances are different— including timing, affordability, job obligations, family responsibilities, and so much more.
 
-Therefore, while I don’t have a silver bullet answer to this question, I’ll share how I evaluated this decision for myself:
+Therefore, while I don’t have a silver bullet answer to this question, I’ll share how I evaluated this decision for myself: https://www.youtube.com/watch?v=9TVYjjWkuOU
