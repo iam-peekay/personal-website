@@ -1,12 +1,21 @@
 ---
-title: "Between the Wires: An interview with Chris Coyier of CodePen & CSS-Tricks fame"
-date: 2017-06-13T14:11:08.501Z
-template: "post"
+template: post
+title: 'Between the Wires: An interview with Chris Coyier of CodePen & CSS-Tricks fame'
+slug: >-
+  /posts/between-the-wires-an-interview-with-chris-coyier-of-codepen-css-tricks-fame/
 draft: false
-slug: "/posts/between-the-wires-an-interview-with-chris-coyier-of-codepen-css-tricks-fame/"
-category: ""
-tags: [Entrepreneurship,CSS,Technology,Startup,Design]
-description: "I interviewed the co-founder of CodePen.io, a well-known collaboration “playground” for the front-end, and creator of CSS-Tricks, a site dedicated to teaching all things web design and development…"
+date: 2017-06-13T14:11:08.501Z
+description: >-
+  I interviewed the co-founder of CodePen.io, a well-known collaboration
+  “playground” for the front-end, and creator of CSS-Tricks, a site dedicated to
+  teaching all things web design and development…
+category: Interviews
+tags:
+  - Entrepreneurship
+  - CSS
+  - Technology
+  - Startup
+  - Design
 ---
 
 ### Between the Wires: An interview with Chris Coyier of CodePen & CSS-Tricks fame
