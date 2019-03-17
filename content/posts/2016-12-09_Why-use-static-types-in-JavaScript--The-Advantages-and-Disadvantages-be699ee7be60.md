@@ -1,12 +1,20 @@
 ---
-title: "Why use static types in JavaScript? The Advantages and Disadvantages"
-date: 2016-12-09T16:26:22.348Z
-template: "post"
+template: post
+title: Why use static types in JavaScript? The Advantages and Disadvantages
+slug: /posts/why-use-static-types-in-javascript-part-2-part-3/
 draft: false
-slug: "/posts/why-use-static-types-in-javascript-part-2-part-3/"
-category: ""
-tags: [JavaScript,Programming,Computer Science,Software Development,Web Development]
-description: "We covered a lot of ground in Part 1! With syntax out of the way, let’s finally get to the fun part: exploring the advantages and disadvantages of using static types. Static type checking allows us…"
+date: 2016-12-09T16:26:22.348Z
+description: >-
+  We covered a lot of ground in Part 1! With syntax out of the way, let’s
+  finally get to the fun part: exploring the advantages and disadvantages of
+  using static types. Static type checking allows us…
+category: Coding
+tags:
+  - JavaScript
+  - Programming
+  - Computer Science
+  - Software Development
+  - Web Development
 ---
 
 ### Why use static types in JavaScript? The Advantages and Disadvantages
