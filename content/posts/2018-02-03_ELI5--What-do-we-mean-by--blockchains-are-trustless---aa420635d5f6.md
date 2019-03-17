@@ -1,12 +1,20 @@
 ---
-title: "ELI5: What do we mean by “blockchains are trustless”?"
-date: 2018-02-03T18:29:19.443Z
-template: "post"
+template: post
+title: 'ELI5: What do we mean by “blockchains are trustless”?'
+slug: /posts/eli5-what-do-we-mean-by-blockchains-are-trustless/
 draft: false
-slug: "/posts/eli5-what-do-we-mean-by-blockchains-are-trustless/"
-category: ""
-tags: [Blockchain,Bitcoin,Crypto,Ethereum,Software Development]
-description: "Many of us are guilty of describing blockchains as “trustless” systems. However, I’ve come to realize that the term “trustless” is ambiguous, confusing, and most importantly, inaccurate. Blockchains…"
+date: 2018-02-03T18:29:19.443Z
+description: >-
+  Many of us are guilty of describing blockchains as “trustless” systems.
+  However, I’ve come to realize that the term “trustless” is ambiguous,
+  confusing, and most importantly, inaccurate. Blockchains…
+category: Blockchain
+tags:
+  - Blockchain
+  - Bitcoin
+  - Crypto
+  - Ethereum
+  - Software Development
 ---
 
 ### ELI5: What do we mean by “blockchains are trustless”?
