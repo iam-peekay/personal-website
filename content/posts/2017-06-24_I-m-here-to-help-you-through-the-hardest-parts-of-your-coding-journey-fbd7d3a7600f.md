@@ -1,12 +1,20 @@
 ---
-title: "I’m here to help you through the hardest parts of your coding journey"
-date: 2017-06-24T18:12:36.763Z
-template: "post"
+template: post
+title: I’m here to help you through the hardest parts of your coding journey
+slug: /posts/what-are-the-most-challenging-parts-of-your-coding-journey/
 draft: false
-slug: "/posts/what-are-the-most-challenging-parts-of-your-coding-journey/"
-category: ""
-tags: [Programming,YouTube,Education,Technology,Startup]
-description: "Starting today, I’m collaborating with freeCodeCamp on a YouTube series called Ask Preethi. You can write me with your coding questions, doubts, frustrations, and experiences. Each week, I’ll answer…"
+date: 2017-06-24T18:12:36.763Z
+description: >-
+  Starting today, I’m collaborating with freeCodeCamp on a YouTube series called
+  Ask Preethi. You can write me with your coding questions, doubts,
+  frustrations, and experiences. Each week, I’ll answer…
+category: Coding
+tags:
+  - Programming
+  - YouTube
+  - Education
+  - Technology
+  - Startup
 ---
 
 ### I’m here to help you through the hardest parts of your coding journey
