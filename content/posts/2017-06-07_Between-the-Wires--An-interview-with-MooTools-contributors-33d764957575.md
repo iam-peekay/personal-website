@@ -1,12 +1,20 @@
 ---
-title: "Between the Wires: An interview with MooTools contributors"
-date: 2017-06-07T17:43:17.005Z
-template: "post"
+template: post
+title: 'Between the Wires: An interview with MooTools contributors'
+slug: /posts/between-the-wires-an-interview-with-mootools-contributors/
 draft: false
-slug: "/posts/between-the-wires-an-interview-with-mootools-contributors/"
-category: ""
-tags: [Web Development,JavaScript,Open Source,React,Web Design]
-description: "If you were doing web development in 2009, MooTools might very well not need an introduction! MooTools was a well-known JavaScript utility library for building “powerful and flexible code with its…"
+date: 2017-06-07T17:43:17.005Z
+description: >-
+  If you were doing web development in 2009, MooTools might very well not need
+  an introduction! MooTools was a well-known JavaScript utility library for
+  building “powerful and flexible code with its…
+category: Interviews
+tags:
+  - Web Development
+  - JavaScript
+  - Open Source
+  - React
+  - Web Design
 ---
 
 ### Between the Wires: An interview with MooTools contributors
