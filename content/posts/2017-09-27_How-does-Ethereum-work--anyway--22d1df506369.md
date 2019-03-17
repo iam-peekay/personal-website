@@ -1,12 +1,20 @@
 ---
-title: "How does Ethereum work, anyway?"
-date: 2017-09-27T14:07:11.688Z
-template: "post"
+template: post
+title: 'How does Ethereum work, anyway?'
+slug: /posts/how-does-ethereum-work-anyway/
 draft: false
-slug: "/posts/how-does-ethereum-work-anyway/"
-category: ""
-tags: [Blockchain,Ethereum,Cryptocurrency,Decentralization,Software Development]
-description: "Odds are you’ve heard about the Ethereum blockchain, whether or not you know what it is. It’s been in the news a lot lately, including the cover of some major magazines, but reading those articles…"
+date: 2017-09-27T14:07:11.688Z
+description: >-
+  Odds are you’ve heard about the Ethereum blockchain, whether or not you know
+  what it is. It’s been in the news a lot lately, including the cover of some
+  major magazines, but reading those articles…
+category: Blockchain
+tags:
+  - Blockchain
+  - Ethereum
+  - Cryptocurrency
+  - Decentralization
+  - Software Development
 ---
 
 ### How does Ethereum work, anyway?
