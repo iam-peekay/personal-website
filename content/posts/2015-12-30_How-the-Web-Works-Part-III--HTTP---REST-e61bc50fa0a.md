@@ -1,12 +1,20 @@
 ---
-title: "How the Web Works Part III: HTTP & REST"
-date: 2015-12-30T16:12:13.318Z
-template: "post"
+template: post
+title: 'How the Web Works Part III: HTTP & REST'
+slug: /posts/how-the-web-works-part-iii-http-rest/
 draft: false
-slug: "/posts/how-the-web-works-part-iii-http-rest/"
-category: ""
-tags: [JavaScript,Web Development,Learning To Code,Tech,Technology]
-description: "We went over basic web architecture in part I, and we talked about web application structure in part II. Now it’s time to roll up our sleeves and tackle part III: a closer look at HTTP and REST…"
+date: 2015-12-30T16:12:13.318Z
+description: >-
+  We went over basic web architecture in part I, and we talked about web
+  application structure in part II. Now it’s time to roll up our sleeves and
+  tackle part III: a closer look at HTTP and REST…
+category: How it works
+tags:
+  - JavaScript
+  - Web Development
+  - Learning To Code
+  - Tech
+  - Technology
 ---
 
 ### How the Web Works Part III: HTTP & REST
