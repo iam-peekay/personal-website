@@ -1,12 +1,18 @@
 ---
-title: "Don’t Spend Your Life Waiting for the Weekend"
-date: 2015-11-18T16:04:02.220Z
-template: "post"
+template: post
+title: Don’t Spend Your Life Waiting for the Weekend
+slug: /posts/don-t-spend-your-life-waiting-for-the-weekend/
 draft: false
-slug: "/posts/don-t-spend-your-life-waiting-for-the-weekend/"
-category: ""
-tags: [Learning,Life Lessons,JavaScript]
-description: "If not, I commend and envy you. For the rest of us, let’s admit that the workweek lifestyle sucks — “living for the weekend” may be a good subject for a country song, but it’s a bad way to live your…"
+date: 2015-11-18T16:04:02.220Z
+description: >-
+  If not, I commend and envy you. For the rest of us, let’s admit that the
+  workweek lifestyle sucks — “living for the weekend” may be a good subject for
+  a country song, but it’s a bad way to live your…
+category: Life
+tags:
+  - Learning
+  - Life Lessons
+  - JavaScript
 ---
 
 ### Don’t Spend Your Life Waiting for the Weekend
