@@ -1,12 +1,23 @@
 ---
-title: "TruStory raises a seed round led by True Ventures and other notable investors and Angels"
-date: 2018-05-23T21:30:09.512Z
-template: "post"
+template: post
+title: >-
+  TruStory raises a seed round led by True Ventures and other notable investors
+  and Angels
+slug: >-
+  /posts/trustory-raises-a-seed-round-led-by-true-ventures-and-other-notable-investors-and-angels/
 draft: false
-slug: "/posts/trustory-raises-a-seed-round-led-by-true-ventures-and-other-notable-investors-and-angels/"
-category: ""
-tags: [Blockchain,Cryptocurrency,Fake News,Startup,Software Development]
-description: "I’m delighted to share that my company, TruStory, has raised a $3M seed round led by True Ventures with participation from Pantera Capital, Kindred Ventures, Homebrew, Coinbase Ventures, Wonder…"
+date: 2018-05-23T21:30:09.512Z
+description: >-
+  I’m delighted to share that my company, TruStory, has raised a $3M seed round
+  led by True Ventures with participation from Pantera Capital, Kindred
+  Ventures, Homebrew, Coinbase Ventures, Wonder…
+category: TruStory
+tags:
+  - Blockchain
+  - Cryptocurrency
+  - Fake News
+  - Startup
+  - Software Development
 ---
 
 <figure>
