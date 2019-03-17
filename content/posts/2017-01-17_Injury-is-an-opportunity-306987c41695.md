@@ -1,12 +1,20 @@
 ---
-title: "Injury is an opportunity"
-date: 2017-01-17T17:01:11.475Z
-template: "post"
+template: post
+title: Injury is an opportunity
+slug: /posts/injury-is-an-opportunity/
 draft: false
-slug: "/posts/injury-is-an-opportunity/"
-category: ""
-tags: [Fitness,Personal Development,Life Lessons,Self Improvement,Learning]
-description: "Another way to look at injury is as “an opportunity to strengthen the parts of ourselves that are not injured”. We are always hurting in some regard, and approaching it as an opportunity can have a…"
+date: 2017-01-17T17:01:11.475Z
+description: >-
+  Another way to look at injury is as “an opportunity to strengthen the parts of
+  ourselves that are not injured”. We are always hurting in some regard, and
+  approaching it as an opportunity can have a…
+category: Life
+tags:
+  - Fitness
+  - Personal Development
+  - Life Lessons
+  - Self Improvement
+  - Learning
 ---
 
 ### Injury is an opportunity
