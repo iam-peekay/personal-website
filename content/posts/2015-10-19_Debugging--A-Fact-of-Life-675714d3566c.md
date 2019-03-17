@@ -1,12 +1,18 @@
 ---
-title: "Debugging: A Fact of Life"
-date: 2015-10-19T15:00:01.223Z
-template: "post"
+template: post
+title: 'Debugging: A Fact of Life'
+slug: /posts/debugging-a-fact-of-life/
 draft: false
-slug: "/posts/debugging-a-fact-of-life/"
-category: ""
-tags: []
-description: "Another week at Hack Reactor has passed and the rhythm is beginning to feel natural: wake up, gym, shower, eat, hack, eat, hack, eat, hack, eat, sleep, repeat. Luckily, the emotional roller coasters…"
+date: 2015-10-19T15:00:01.223Z
+description: >-
+  Another week at Hack Reactor has passed and the rhythm is beginning to feel
+  natural: wake up, gym, shower, eat, hack, eat, hack, eat, hack, eat, sleep,
+  repeat. Luckily, the emotional roller coasters…
+category: Coding
+tags:
+  - JavaScript
+  - Coding
+  - Debugging
 ---
 
 ### Debugging: A Fact of Life
