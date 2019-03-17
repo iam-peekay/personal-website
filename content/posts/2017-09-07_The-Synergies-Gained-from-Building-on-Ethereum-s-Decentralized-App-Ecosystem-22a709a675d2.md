@@ -1,12 +1,21 @@
 ---
-title: "The Synergies Gained from Building on Ethereum’s Decentralized App Ecosystem"
-date: 2017-09-07T14:40:35.692Z
-template: "post"
+template: post
+title: The Synergies Gained from Building on Ethereum’s Decentralized App Ecosystem
+slug: >-
+  /posts/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/
 draft: false
-slug: "/posts/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/"
-category: ""
-tags: [Blockchain,Ethereum,Network Effect,Decentralized Web,Software Development]
-description: "When the first home telephones were being installed in the 1870s, the companies selling them had a problem: phones aren’t very useful if you can only call a few people. However, this challenge got…"
+date: 2017-09-07T14:40:35.692Z
+description: >-
+  When the first home telephones were being installed in the 1870s, the
+  companies selling them had a problem: phones aren’t very useful if you can
+  only call a few people. However, this challenge got…
+category: Blockchain
+tags:
+  - Blockchain
+  - Ethereum
+  - Network Effect
+  - Decentralized Web
+  - Software Development
 ---
 
 ### The Synergies Gained from Building on Ethereum’s Decentralized App Ecosystem
