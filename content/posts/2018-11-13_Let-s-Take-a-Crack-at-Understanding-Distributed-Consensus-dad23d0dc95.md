@@ -1,12 +1,20 @@
 ---
-title: "Let’s Take a Crack at Understanding Distributed Consensus"
-date: 2018-11-13T15:20:54.484Z
-template: "post"
+template: post
+title: Let’s Take a Crack at Understanding Distributed Consensus
+slug: /posts/lets-take-a-crack-at-understanding-distributed-consensus/
 draft: false
-slug: "/posts/lets-take-a-crack-at-understanding-distributed-consensus/"
-category: ""
-tags: [Blockchain,Cryptocurrency,Software Development,Technology,Bitcoin]
-description: "Blockchains have forced engineers and scientists to re-examine firmly entrenched paradigms in distributed computing. Let’s take a crack at understanding key consensus algorithms — and why they matter."
+date: 2018-11-13T15:20:54.484Z
+description: >-
+  Blockchains have forced engineers and scientists to re-examine firmly
+  entrenched paradigms in distributed computing. Let’s take a crack at
+  understanding key consensus algorithms — and why they matter.
+category: Blockchain
+tags:
+  - Blockchain
+  - Cryptocurrency
+  - Software Development
+  - Technology
+  - Bitcoin
 ---
 
 Distributed systems can be difficult to understand, mainly because the knowledge surrounding them _is_ distributed. But don’t worry, I’m well aware of the irony. While teaching myself distributed computing, I fell flat on my face many times. Now, after many trials and tribulations, I’m finally ready to explain the basics of distributed systems to you.
