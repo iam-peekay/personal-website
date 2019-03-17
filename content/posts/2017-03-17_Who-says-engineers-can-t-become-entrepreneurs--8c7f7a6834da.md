@@ -1,12 +1,20 @@
 ---
-title: "Who says engineers can’t become entrepreneurs?"
-date: 2017-03-17T14:09:25.036Z
-template: "post"
+template: post
+title: Who says engineers can’t become entrepreneurs?
+slug: /posts/who-says-engineers-cant-be-entrepreneurs/
 draft: false
-slug: "/posts/who-says-engineers-cant-be-entrepreneurs/"
-category: ""
-tags: [Startup,Artificial Intelligence,Entrepreneurship,Software Development,Personal Development]
-description: "A lot of people warned me not to walk away from my great position at Andreessen Horowitz to pursue software engineering. …And now that I’m leaving my dream job engineering at Coinbase to co-found a…"
+date: 2017-03-17T14:09:25.036Z
+description: >-
+  A lot of people warned me not to walk away from my great position at
+  Andreessen Horowitz to pursue software engineering. …And now that I’m leaving
+  my dream job engineering at Coinbase to co-found a…
+category: Life
+tags:
+  - Startup
+  - Artificial Intelligence
+  - Entrepreneurship
+  - Software Development
+  - Personal Development
 ---
 
 ### Who says engineers can’t become entrepreneurs?
