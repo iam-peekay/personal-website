@@ -1,12 +1,19 @@
 ---
-title: "You don’t have to be a programming wizard to build an open-source library"
-date: 2016-01-05T16:32:09.238Z
-template: "post"
+template: post
+title: You don’t have to be a programming wizard to build an open-source library
+slug: >-
+  /posts/you-don-t-have-to-be-a-programming-wizard-to-build-an-open-source-library/
 draft: false
-slug: "/posts/you-don-t-have-to-be-a-programming-wizard-to-build-an-open-source-library/"
-category: ""
-tags: [JavaScript,Web Development,Open Source]
-description: "If there’s one thing I’ve learned about programming over the last few months, it’s that you don’t have to be a programming wizard to build something useful. Case in point: My teammates Banun Idris…"
+date: 2016-01-05T16:32:09.238Z
+description: >-
+  If there’s one thing I’ve learned about programming over the last few months,
+  it’s that you don’t have to be a programming wizard to build something useful.
+  Case in point: My teammates Banun Idris…
+category: Coding
+tags:
+  - JavaScript
+  - Web Development
+  - Open Source
 ---
 
 ### You don’t have to be a programming wizard to build an open-source library
