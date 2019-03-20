@@ -7,7 +7,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 6,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-136595553-1',
   menu: [
     {
       label: 'Articles',
@@ -15,11 +15,11 @@ module.exports = {
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about-me'
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
+      path: '/pages/contact-me'
     },
     {
       label: 'Newsletters',

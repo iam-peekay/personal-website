@@ -1,7 +1,7 @@
 ---
 template: page
 title: Contact me
-slug: Contact me
+slug: /pages/contact-me/
 draft: false
 ---
 I live in sunny Los Angeles ☀️
