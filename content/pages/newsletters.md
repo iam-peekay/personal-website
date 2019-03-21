@@ -2,7 +2,7 @@
 template: page
 title: Newsletters
 slug: /pages/newsletters/
-draft: true
+draft: false
 ---
 ## Coming soon! 
 
