@@ -4,7 +4,7 @@ title: Newsletters
 slug: /pages/newsletters/
 draft: false
 ---
-## Coming soon! 
+## Coming soon!
 
 Sign up [here](https://www.preethikasireddy.com/): 
 
