@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://affectionate-jang-b43f86.netlify.com',
+  url: 'https://www.preethikasireddy.com',
   title: 'Blog by Preethi Kasireddy',
   subtitle: 'Founder & CEO of TruStory. I have a passion for understanding things at a fundamental level and sharing it as clearly as possible.',
   copyright: '© All rights reserved.',
@@ -31,7 +31,7 @@ module.exports = {
     photo: '/photo.jpg',
     bio: 'Founder & CEO of TruStory. I have a passion for understanding things at a fundamental level and sharing it as clearly as possible.',
     contacts: {
-      email: 'iam.preethi.k@gmail.com',
+      email: 'preethi@preethireddy.com',
       twitter: 'iam_preethi',
       github: 'iam-peekay',
       linkedin: 'https://www.linkedin.com/in/preethi-kasireddy-41383528/'
