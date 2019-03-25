@@ -12,7 +12,9 @@ I'm the Founder & CEO of [TruStory](https://www.trustory.io/). We're building a 
 
 ## **My journey**
 
-I'm a self-taught engineer turned entrepreneur. I'll share a little bit about my journey below:
+I'm a self-taught engineer turned entrepreneur. 
+
+_A little bit about my journey below:_
 
 I [was once](https://www.linkedin.com/in/preethi-kasireddy-41383528/) a banker at Goldman Sachs and investor at Andreessen Horowitz. 
 
@@ -22,13 +24,13 @@ Yeah, so, you see, I have an _obsessive_ personality. **All or nothing** is my m
 
 So, as I was saying, I got obsessed with coding. Learning to code was the best decision I made in my life. It was the first time I fell in love with “work”. I can't say I was an amazing programmer. Not even close. In fact, I got a lot of rejections from companies like Google and Airbnb and lots more. I eventually [landed a job at Coinbase](https://www.preethikasireddy.com/posts/what-happened-after-i-left-the-best-job-in-the-world-to-become-an-engineer/) as a software engineer. 
 
-Many people have asked me why I would turn away an amazing career to go learn to code. Honestly, I'm glad I didn't listen to these people because learning to code was 100% worth it. It gave me access to an underworld I was dying to have access to. It gave me the ability to finally learn how things work at a fundamental level, down to the bytes. I no longer felt debilitated by not being able to understand how things worked. 
+Many people have asked me why I would turn away an amazing career to go learn to code. They told me it was the wrong thing to do. It didn't align with a typical career path. Honestly, I'm glad I didn't listen to these people because learning to code was 100% worth it. It gave me access to an underworld I was dying to have access to. It gave me the ability to finally learn how things work at a fundamental level, down to the bytes. I no longer felt debilitated by not being able to understand how things worked. 
 
-In short, learning to code gave me the freedom to learn, explore and truly understand. I can't imagine not having this skillset.
+In short, learning to code gave me the freedom to learn, explore and truly understand. It's a superpower that I wholeheartedly cherish.
 
 ## What now
 
-I spend all my time building my company, [TruStory](https://www.trustory.io/), and don't code day to day anymore. I do lots and lots of other fun things.
+I spend all my time building my company, [TruStory](https://www.trustory.io/), and don't code day to day anymore.  
 
 So what exactly do I do?
 
