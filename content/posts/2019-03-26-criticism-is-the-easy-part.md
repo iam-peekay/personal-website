@@ -2,8 +2,8 @@
 template: post
 title: Criticism is the easy part
 slug: Criticism is the easy part
-draft: true
-date: 2019-03-28T01:08:17.441Z
+draft: false
+date: 2019-03-27T16:01:00.000Z
 description: >+
   Last weekend, I tweeted something that struck a nerve. It took me a total of
   10 seconds to draft that tweet. But the lessons it left me with were
