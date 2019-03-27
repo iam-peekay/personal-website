@@ -39,7 +39,7 @@ As with all aspects of web development, the devil is in the details. :)
 
 When you divide your program into modules, you typically organize those modules into different files and folders. Chances are, you’ll also have a group of modules for the libraries you’re using, like Underscore or React.
 
-As a result, each of those files has to be included in your main HTML file in a **_<script>_** tag, which is then loaded by the browser when a user visits your home page. Having separate **_<script>_** tags for each file means that the browser has to load each file individually: one… by… one.
+As a result, each of those files has to be included in your main HTML file in a `<script>` tag, which is then loaded by the browser when a user visits your home page. Having separate `<script>` tags for each file means that the browser has to load each file individually: one… by… one.
 
 …Which is bad news for page load time.
 
@@ -81,7 +81,7 @@ So in this case, we have one dependency (myDependency). Using the command below,
 browserify main.js -o bundle.js
 ```
 
-Browserify does this by jumping in to parse the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) for each **_require_** call in order to traverse the entire dependency graph of your project. Once it’s figured out how your dependencies are structured, it bundles them all in the right order into a single file. At that point, all you have to do is insert a single **_<script>_** tag with your **_“bundle.js”_** file into your html to ensure that all of your source code is downloaded in one HTTP request. Bam! Bundled to go.
+Browserify does this by jumping in to parse the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) for each **_require_** call in order to traverse the entire dependency graph of your project. Once it’s figured out how your dependencies are structured, it bundles them all in the right order into a single file. At that point, all you have to do is insert a single `<script>` tag with your **_“bundle.js”_** file into your html to ensure that all of your source code is downloaded in one HTTP request. Bam! Bundled to go.
 
 Similarly, if you have multiple files with multiple dependencies, you simply tell Browserify what your entry file is and sit back while it does its magic.
 
