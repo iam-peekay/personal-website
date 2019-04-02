@@ -20,7 +20,7 @@ tags:
 
 ![](/media/fundamental-challenges-with-public-blockchains-0.png)
 
-<figcaption>Source: <a href="http://www.englishblog.com/2012/02/cartoon-murdoch-walking-on-thin-ice.html#.Wi17n7A-d24" class="figcaption-link">http://www.englishblog.com/2012/02/cartoon-murdoch-walking-on-thin-ice.html#.Wi17n7A-d24</a></figcaption></figure>
+</figure>
 
 There’s no question that blockchain technology has enormous potential.
 
