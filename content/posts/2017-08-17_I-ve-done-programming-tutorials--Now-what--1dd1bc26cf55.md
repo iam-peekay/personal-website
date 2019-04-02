@@ -16,8 +16,6 @@ tags:
   - Startup
   - Self Improvement
 ---
-### I’ve done programming tutorials. Now what?
-
 <figure>
 
 ![](/media/ive-done-programming-tutorials-now-what-0.jpeg)
