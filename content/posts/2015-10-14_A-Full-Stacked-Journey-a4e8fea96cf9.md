@@ -1,16 +1,19 @@
 ---
-title: "A Full-Stacked Journey"
-date: 2015-10-14T14:58:57.508Z
-template: "post"
+template: post
+title: A Full-Stacked Journey
+slug: /posts/a-full-stacked-journey/
 draft: false
-slug: "/posts/a-full-stacked-journey/"
-category: ""
-tags: [Software Development,Communication,JavaScript]
-description: "I spent the past week putting in 12-hour days at Hack Reactor, an immersive coding program here in sunny (cloudy?) San Francisco. After 6 straight days of Sublime Text, Stacks, Queues, Hash tables…"
+date: 2015-10-14T14:58:57.508Z
+description: >-
+  I spent the past week putting in 12-hour days at Hack Reactor, an immersive
+  coding program here in sunny (cloudy?) San Francisco. After 6 straight days of
+  Sublime Text, Stacks, Queues, Hash tables…
+category: Coding
+tags:
+  - Software Development
+  - Communication
+  - JavaScript
 ---
-
-### A Full-Stacked Journey
-
 My journey into software development has officially begun.
 
 I spent the past week putting in 12-hour days at Hack Reactor, an immersive coding program here in sunny (cloudy?) San Francisco.
@@ -35,8 +38,8 @@ Fasten your seatbelt — this is going to be one hell of a ride! :)
 
 Constructing a hash table implementation for JavaScript. A hash table is a data structure used to implement an associative array — a structure that can map keys to values. The reason we would use a hash table over another data structure is because it allows for constant time access, i.e. O(1). Note that insert & remove operations are O(1) most of the time, but the worst case is O(n). This can occur because:
 
-*   When a hash table is growing, it resizes itself and every element must be rehashed
-*   It’s possible for all keys to hash to the same bucket, in which case it becomes a O(n) search for an item in that bucket
+* When a hash table is growing, it resizes itself and every element must be rehashed
+* It’s possible for all keys to hash to the same bucket, in which case it becomes a O(n) search for an item in that bucket
 
 My favorite parts of the implementation was learning how to avoid collisions and how to resize the hash table to maintain optimal performance.
 
