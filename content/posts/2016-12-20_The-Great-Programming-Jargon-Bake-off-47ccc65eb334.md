@@ -16,9 +16,6 @@ tags:
   - Learning To Code
   - Technology
 ---
-
-### The Great Programming Jargon Bake-off
-
 <figure>
 
 ![](/media/programming-mental-models-0.jpeg)
@@ -113,8 +110,8 @@ When you can modify an object after its creation, it’s “mutable.” When you
 
 A pure function has two qualities:
 
-1.  It relies only on the input provided — and not on any external state that may change during its evaluation or in between calls.
-2.  It doesn’t cause any semantically observable side effects, such as modifying a global object or a parameter passed by reference.
+1. It relies only on the input provided — and not on any external state that may change during its evaluation or in between calls.
+2. It doesn’t cause any semantically observable side effects, such as modifying a global object or a parameter passed by reference.
 
 <figure>
 
@@ -233,7 +230,7 @@ Some examples languages that emphasize functional programming include Haskell, L
 
 The Object Oriented programming paradigm places major emphasis on the use of objects. This results in programs that are made out of objects that interact with one another. These objects can contain data (in the form of fields or attributes) and behavior (in the form of methods).
 
-It’s a style of partitioning (or encapsulating) the state of a program via objects to make analyzing the effect of changes tractable \[1\].
+It’s a style of partitioning (or encapsulating) the state of a program via objects to make analyzing the effect of changes tractable \[1].
 
 Moreoever, object-oriented programs uses inheritance and/or composition as their main mechanisms for code reuse. Inheritance means that a new class can be defined in terms of existing classes by specifying just how the new class is different. It represents an “is-a” relationship (e.g. a Bird class which extends an Animal class). Composition, on the other hand, is when classes contain instances of other classes that implement the desired functionality. It represents a “has a” relationship (e.g. a Bird class has an instance of a Wing class as it’s member).
 
@@ -289,4 +286,4 @@ As always, your feedback and input is really important to me. I read and conside
 
 Finally, you can also check out the [Prezi presentation](http://prezi.com/fftgbgltl-6u/?utm_campaign=share&utm_medium=copy&rc=ex0share) I built for this article.
 
-\[1\] Thank you to [Kent Beck](https://medium.com/u/db2690bcb10e) for his input on this.
+\[1] Thank you to [Kent Beck](https://medium.com/u/db2690bcb10e) for his input on this.
