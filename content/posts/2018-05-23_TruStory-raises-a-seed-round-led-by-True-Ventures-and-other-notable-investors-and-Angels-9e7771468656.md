@@ -19,14 +19,11 @@ tags:
   - Startup
   - Software Development
 ---
-
 <figure>
 
 ![](/media/trustory-raises-a-seed-round-led-by-true-ventures-and-other-notable-investors-and-angels-0.png)
 
 </figure>
-
-### TruStory raises a seed round led by True Ventures and other notable investors and Angels
 
 I’m delighted to share that my company, TruStory, has raised a $3M seed round led by True Ventures with participation from [Pantera Capital](https://www.panteracapital.com/), [Kindred Ventures](https://kindredvc.com/), [Homebrew](http://www.homebrew.co/), [Coinbase Ventures](https://blog.coinbase.com/introducing-coinbase-ventures-c67865a1d2fe), [Wonder Ventures](https://www.wondervc.com/), [Abstract Ventures](https://www.abstractvc.com/), [Ausum Ventures](https://www.ausum.vc/), Dream Machine ([Alexia Tsotsis](https://twitter.com/alexia)), and others. A number of stellar angels also joined the round, including [Fred Ehrsam](https://twitter.com/fehrsam?lang=en), [David King](https://angel.co/deekay), [Scott Belsky](http://www.scottbelsky.com/), [Josh Elman](https://twitter.com/joshelman), [Alok Vasudev](https://twitter.com/alokvasudev), [Jessica Verrilli](https://twitter.com/jess), and other great supporters. It’s an honor to have each of these partners on board.
 
@@ -36,7 +33,7 @@ This funding will help us build a world-class engineering, design, and community
 
 TruStory is a platform for users to discover and validate claims that people make online, whether in a blog post, whitepaper, website, or social media post.
 
-> Our mission is to bring authenticity into the digital and decentralized world.
+> Our mission is to bring authenticity into the digital world.
 
 Unlike in today’s web where the onus for fact-checking is on the reader, in TruStory, every “story” or claim goes through a unique validation process that leverages a distributed network of participants with robust economic and social incentives to surface the truth.
 
