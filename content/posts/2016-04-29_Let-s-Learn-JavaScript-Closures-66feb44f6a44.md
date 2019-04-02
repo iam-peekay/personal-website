@@ -16,9 +16,6 @@ tags:
   - Learning To Code
   - Learning
 ---
-
-### Let’s Learn JavaScript Closures
-
 <figure>
 
 ![](/media/lets-learn-javascript-closures-0.jpeg)
@@ -133,6 +130,7 @@ var moar = foo(5); // Closure
 */
 moar(15); 
 ```
+
 <figure>
 
 ![](/media/lets-learn-javascript-closures-3.png)
@@ -149,15 +147,15 @@ Then when **boop** returns, it gets popped off the stack and **bar** is resumed:
 
 When we have a bunch of execution contexts running one after another — often being paused in the middle and then later resumed — we need some way to keep track of state so we can manage the order and execution of these contexts. And that is in fact the case; as per the ECMAScript spec, each execution context has various state components that are used to keep track of the progress the code in each context has made. These include:
 
-*   **Code evaluation state:** Any state needed to perform, suspend, and resume evaluation of the code associated with this execution context
-*   **Function:** The function object which the execution context is evaluating (or null if the context being evaluated is a _script_ or _module_)
-*   **Realm:** A set of internal objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources
-*   **Lexical Environment:** Used to resolve identifier references made by code within this execution context.
-*   **Variable Environment:** Lexical Environment whose EnvironmentRecord holds bindings created by VariableStatements within this execution context.
+* **Code evaluation state:** Any state needed to perform, suspend, and resume evaluation of the code associated with this execution context
+* **Function:** The function object which the execution context is evaluating (or null if the context being evaluated is a _script_ or _module_)
+* **Realm:** A set of internal objects, an ECMAScript global environment, all of the ECMAScript code that is loaded within the scope of that global environment, and other associated state and resources
+* **Lexical Environment:** Used to resolve identifier references made by code within this execution context.
+* **Variable Environment:** Lexical Environment whose EnvironmentRecord holds bindings created by VariableStatements within this execution context.
 
 If this sounds too confusing to you, don’t worry. Of all these variables, the Lexical Environment variable is the one that’s most interesting to us because it explicitly states that it resolves _“identifier references”_ made by code within this execution context. You can think of “identifiers” as variables. Since our original goal was to figure out how it’s possible for us to magically access variables even after a function (or “context”) has returned, Lexical Environment looks like something we should dig into!
 
-**_Note_**_: Technically, both Variable Environment and Lexical Environment are used to implement closures. But for simplicity’s sake, we’ll generalize it to an “Environment”. For a detailed explanation on the difference between Lexical and Variable Environment, see Dr. Alex Rauschmayer’s excellent_ [_article_](http://www.2ality.com/2011/04/ecmascript-5-spec-lexicalenvironment.html)_._
+_**Note**: Technically, both Variable Environment and Lexical Environment are used to implement closures. But for simplicity’s sake, we’ll generalize it to an “Environment”. For a detailed explanation on the difference between Lexical and Variable Environment, see Dr. Alex Rauschmayer’s excellent_ [_article_](http://www.2ality.com/2011/04/ecmascript-5-spec-lexicalenvironment.html)_._
 
 ### **Lexical Environment**
 
@@ -165,9 +163,9 @@ By definition: _A Lexical Environment is a specification type used to define the
 
 Let’s break this down.
 
-*   **_“Used to define the association of Identifiers”:_**  The purpose of a Lexical Environment is to manage data (i.e. identifiers) within code. In other words, it gives meaning to identifiers. For instance, if we had a line of code “_console.log(x / 10)”,_ it’s meaningless to have a variable (or “identifier”) **x** without something that provides meaning for that variable. The Lexical Environments provides this meaning (or “association”) via its Environment Record (see below).
-*   **_“Lexical Environment consists of an Environment Record”:_** An Environment Record is a fancy way to say that it keeps a record of all identifiers and their bindings that exist within a Lexical Environment. Every Lexical Environment has it’s own Environment Record.
-*   **_“Lexical nesting structure”:_**  This is the interesting part, which is basically saying that an inner environment references the outer environment that surrounds it, and that this outer environment can have its own outer environment as well. As a result, an environment can serve as the outer environment for more than one inner environment. The global environment is the only Lexical environment that does not have an outer environment. The language here is tricky, so let’s use a metaphor and think of lexical environments like layers of an onion: the global environment is the outermost layer of the onion; every subsequent layer below is nested within.
+* _**“Used to define the association of Identifiers”:**_  The purpose of a Lexical Environment is to manage data (i.e. identifiers) within code. In other words, it gives meaning to identifiers. For instance, if we had a line of code “_console.log(x / 10)”,_ it’s meaningless to have a variable (or “identifier”) **x** without something that provides meaning for that variable. The Lexical Environments provides this meaning (or “association”) via its Environment Record (see below).
+* _**“Lexical Environment consists of an Environment Record”:**_ An Environment Record is a fancy way to say that it keeps a record of all identifiers and their bindings that exist within a Lexical Environment. Every Lexical Environment has it’s own Environment Record.
+* _**“Lexical nesting structure”:**_  This is the interesting part, which is basically saying that an inner environment references the outer environment that surrounds it, and that this outer environment can have its own outer environment as well. As a result, an environment can serve as the outer environment for more than one inner environment. The global environment is the only Lexical environment that does not have an outer environment. The language here is tricky, so let’s use a metaphor and think of lexical environments like layers of an onion: the global environment is the outermost layer of the onion; every subsequent layer below is nested within.
 
 <figure>
 
@@ -188,7 +186,7 @@ LexicalEnvironment = {
 };
 ```
 
-*   **_“A new Lexical Environment is created each time such code is evaluated”:_** Each time an enclosing outer function is called, a new lexical environment is created. This is important — we’ll come back to this point again at the end. _(Side note: a function is not the only way to create a Lexical Environment. Others include a block statement or a catch clause. For simplicity’s sake, I’ll focus on environment created by functions throughout this post)_
+* _**“A new Lexical Environment is created each time such code is evaluated”:**_ Each time an enclosing outer function is called, a new lexical environment is created. This is important — we’ll come back to this point again at the end. _(Side note: a function is not the only way to create a Lexical Environment. Others include a block statement or a catch clause. For simplicity’s sake, I’ll focus on environment created by functions throughout this post)_
 
 In short, every execution context has a Lexical Environment. This Lexical environments holds variables and their associated values, and also has a reference to its outer environment. The Lexical Environment can be the global environment, a module environment (which contains the bindings for the top level declarations of a Module), or a function environment (environment created due to the invocation of a function).
 
@@ -293,7 +291,7 @@ As you can see, dynamic scope often leads to some ambiguity. It’s not exactly 
 Some of that may strike you as off-topic, but we’ve actually covered everything we need to know to understand closures:
 
 > Every function has an execution context, which comprises of an environment that gives meaning to the variables within that function and a reference to its parent’s environment. A reference to the parent’s environment makes all variables in the parent scope available for all inner functions, regardless of whether the inner function(s) are invoked outside or inside the scope in which they were created.
-
+>
 > So, it appears as if the function “remembers” this environment (or scope) because the function literally has a reference to the environment (and the variables defined in that environment)!
 
 Coming back to the nested structure example:
@@ -584,13 +582,13 @@ This is a very powerful technique — it gives the closure function **guessP
 
 ### **Tl;dr**
 
-*   Execution context is an abstract concept used by the ECMAScript specification to  track the runtime evaluation of code. At any point in time, there can only be one execution context that is executing code.
-*   Every execution context has a Lexical Environment. This Lexical environments holds identifier bindings (i.e. variables and their associated values), and also has a reference to its outer environment.
-*   The set of identifiers that each environment has access to is called “scope.” We can nest these scopes into a hierarchical chain of environments, known as the “scope chain”.
-*   Every function has an execution context, which comprises of a Lexical Environment that gives meaning to the variables within that function and a reference to its parent’s environment. And so it appears as if the function “remembers” this environment (or scope) because the function literally has a reference to this environment. This is a closure.
-*   A closure is created every time an enclosing outer function is called. In other words, the inner function does not need to return for a closure to be created.
-*   The scope of a closure in JavaScript is lexical, meaning it’s defined statically by its location within the source code.
-*   Closures have many practical use cases. One important use case is to maintain a private reference to a variable in the outer scope.
+* Execution context is an abstract concept used by the ECMAScript specification to  track the runtime evaluation of code. At any point in time, there can only be one execution context that is executing code.
+* Every execution context has a Lexical Environment. This Lexical environments holds identifier bindings (i.e. variables and their associated values), and also has a reference to its outer environment.
+* The set of identifiers that each environment has access to is called “scope.” We can nest these scopes into a hierarchical chain of environments, known as the “scope chain”.
+* Every function has an execution context, which comprises of a Lexical Environment that gives meaning to the variables within that function and a reference to its parent’s environment. And so it appears as if the function “remembers” this environment (or scope) because the function literally has a reference to this environment. This is a closure.
+* A closure is created every time an enclosing outer function is called. In other words, the inner function does not need to return for a closure to be created.
+* The scope of a closure in JavaScript is lexical, meaning it’s defined statically by its location within the source code.
+* Closures have many practical use cases. One important use case is to maintain a private reference to a variable in the outer scope.
 
 ### **Clos(ure)ing remarks**
 
@@ -602,7 +600,7 @@ PS: I’m human and make mistakes — so if you find any mistakes I’d love
 
 For the sake of brevity I left out a few topics that might be interesting to some readers. Here are some links that I wanted to share:
 
-*   **What’s the VariableEnvironment within an execution context?** Dr. Axel Rauschmayer does a phenomenol job explaining it so I’ll leave you off with a link to his blog post: [http://www.2ality.com/2011/04/ecmascript-5-spec-lexicalenvironment.html](http://www.2ality.com/2011/04/ecmascript-5-spec-lexicalenvironment.html)
-*   **What are the different types of Environment Records?** Read the spec here: [http://www.ecma-international.org/ecma-262/6.0/#sec-environment-records](http://www.ecma-international.org/ecma-262/6.0/#sec-environment-records)
-*   **Excellent article by MDN on closures:** [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-*   Others? Please suggest and I’ll add them!
+* **What’s the VariableEnvironment within an execution context?** Dr. Axel Rauschmayer does a phenomenol job explaining it so I’ll leave you off with a link to his blog post: <http://www.2ality.com/2011/04/ecmascript-5-spec-lexicalenvironment.html>
+* **What are the different types of Environment Records?** Read the spec here: <http://www.ecma-international.org/ecma-262/6.0/#sec-environment-records>
+* **Excellent article by MDN on closures:** <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures>
+* Others? Please suggest and I’ll add them!
