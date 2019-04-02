@@ -16,9 +16,6 @@ tags:
   - Technology
   - Software Development
 ---
-
-### JavaScript Modules Part 2: Module Bundling
-
 <figure>
 
 ![](/media/javascript-modules-part-2-module-bundling-0.jpeg)
@@ -81,7 +78,7 @@ So in this case, we have one dependency (myDependency). Using the command below,
 browserify main.js -o bundle.js
 ```
 
-Browserify does this by jumping in to parse the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) for each **_require_** call in order to traverse the entire dependency graph of your project. Once it’s figured out how your dependencies are structured, it bundles them all in the right order into a single file. At that point, all you have to do is insert a single `<script>` tag with your **_“bundle.js”_** file into your html to ensure that all of your source code is downloaded in one HTTP request. Bam! Bundled to go.
+Browserify does this by jumping in to parse the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) for each _**require**_ call in order to traverse the entire dependency graph of your project. Once it’s figured out how your dependencies are structured, it bundles them all in the right order into a single file. At that point, all you have to do is insert a single `<script>` tag with your _**“bundle.js”**_ file into your html to ensure that all of your source code is downloaded in one HTTP request. Bam! Bundled to go.
 
 Similarly, if you have multiple files with multiple dependencies, you simply tell Browserify what your entry file is and sit back while it does its magic.
 
@@ -109,9 +106,9 @@ For example, if you have a web app with blocks of code that are only required un
 
 Code splitting is just one of many compelling features Webpack offers, and the Internet is full of strong opinion pieces on whether Webpack or Browserify is better. Here are just a few of the more level-headed discussions that I found useful for wrapping my head around the issue:
 
-*   [https://gist.github.com/substack/68f8d502be42d5cd4942](https://gist.github.com/substack/68f8d502be42d5cd4942)
-*   [http://mattdesl.svbtle.com/browserify-vs-webpack](http://mattdesl.svbtle.com/browserify-vs-webpack)
-*   [http://blog.namangoel.com/browserify-vs-webpack-js-drama](http://blog.namangoel.com/browserify-vs-webpack-js-drama)
+* <https://gist.github.com/substack/68f8d502be42d5cd4942>
+* <http://mattdesl.svbtle.com/browserify-vs-webpack>
+* <http://blog.namangoel.com/browserify-vs-webpack-js-drama>
 
 ### ES6 modules
 
@@ -246,7 +243,7 @@ function filter(collection, test) {
 filter([1, 2, 3], function(x) { return x === 2 });
 ```
 
-Notice how this time both **_each_** and **_filter_** are included. This is because **_filter_** is defined to use **_each_**, so we need both exports for the module to work.
+Notice how this time both _**each**_ and _**filter**_ are included. This is because _**filter**_ is defined to use _**each**_, so we need both exports for the module to work.
 
 Pretty slick, huh?
 
@@ -264,10 +261,10 @@ Unfortunately, ES6 modules still require some extra work, since there isn’t a 
 
 <figcaption><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import" class="figcaption-link">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import</a></figcaption></figure>
 
-Here are a couple of the options for building/converting ES6 modules to work in the browser, with **#1** being the most common approach today:
+Here are a couple of the options for building/converting ES6 modules to work in the browser, with **\#1** being the most common approach today:
 
-1.  Use a transpiler (e.g. Babel or Traceur) to transpile your ES6 code to ES5 code in either CommonJS, AMD, or UMD format. Then pipe the transpiled code through a module bundler like Browserify or Webpack to create one or more bundled files.
-2.  Use [Rollup.js](http://rollupjs.org/), which is very similar to option #1 except that Rollup piggybacks on the power of ES6 modules to statically analyze your ES6 code and dependencies before bundling. It uses “tree shaking” to include the bare minimum in your bundle. Overall, the main benefit of Rollup.js over Browserify or Webpack when you’re using ES6 modules is that tree shaking could make your bundles smaller. The caveat is that Rollup provide several formats to bundle your code to, including ES6, CommonJS, AMD, UMD, or IIFE. The IIFE and UMD bundles would work in your browser as they are, but if you choose to bundle to AMD, CommonJS, or ES6, you need to find other methods to convert that code into a format the browser understands (e.g. by using Browserify, Webpack, RequireJS, etc.).
+1. Use a transpiler (e.g. Babel or Traceur) to transpile your ES6 code to ES5 code in either CommonJS, AMD, or UMD format. Then pipe the transpiled code through a module bundler like Browserify or Webpack to create one or more bundled files.
+2. Use [Rollup.js](http://rollupjs.org/), which is very similar to option #1 except that Rollup piggybacks on the power of ES6 modules to statically analyze your ES6 code and dependencies before bundling. It uses “tree shaking” to include the bare minimum in your bundle. Overall, the main benefit of Rollup.js over Browserify or Webpack when you’re using ES6 modules is that tree shaking could make your bundles smaller. The caveat is that Rollup provide several formats to bundle your code to, including ES6, CommonJS, AMD, UMD, or IIFE. The IIFE and UMD bundles would work in your browser as they are, but if you choose to bundle to AMD, CommonJS, or ES6, you need to find other methods to convert that code into a format the browser understands (e.g. by using Browserify, Webpack, RequireJS, etc.).
 
 ### Jumping through hoops
 
