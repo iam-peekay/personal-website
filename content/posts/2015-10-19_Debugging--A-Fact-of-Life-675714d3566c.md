@@ -14,9 +14,6 @@ tags:
   - Coding
   - Debugging
 ---
-
-### Debugging: A Fact of Life
-
 Another week at Hack Reactor has passed and the rhythm is beginning to feel natural: wake up, gym, shower, eat, hack, eat, hack, eat, hack, eat, sleep, repeat.
 
 Luckily, the emotional roller coasters keep it from ever feeling repetitive. I spent my entire walk during lunch hour a few days ago stressing over a problem that my pair and I were trying to debug for hours, worried that we’d never figure it out. Contrast that to Saturday when I was strolling in the sun with my favorite music jamming and thinking to myself “wow, this is amazing. I get to literally just hack and learn all day. I never want this to end.”
