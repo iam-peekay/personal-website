@@ -16,9 +16,6 @@ tags:
   - Education
   - Programming
 ---
-
-### JavaScript Modules: A Beginner’s Guide
-
 <figure>
 
 ![](/media/javascript-modules-a-beginner-s-guide-0.jpeg)
@@ -136,7 +133,7 @@ var global = 'Hello, I am a global variable :)';
 
 Note that the parenthesis around the anonymous function are required, because statements that begin with the keyword _function_ are always considered to be function declarations (remember, you can’t have unnamed function declarations in JavaScript.) Consequently, the surrounding parentheses create a function expression instead. If you’re curious, you can [read more here](http://stackoverflow.com/questions/1634268/explain-javascripts-encapsulated-anonymous-function-syntax).
 
-**Example 2: Global import**  
+**Example 2: Global import**\
 Another popular approach used by libraries like [jQuery](https://github.com/jquery/jquery/tree/master/src) is global import. It’s similar to the anonymous closure we just saw, except now we pass in globals as parameters:
 
 ```
@@ -200,9 +197,9 @@ Another popular approach used by libraries like [jQuery](https://github.com/jque
  }(globalVariable)); 
 ```
 
-In this example, **_globalVariable_** is the only variable that’s global. The benefit of this approach over anonymous closures is that you declare the global variables upfront, making it crystal clear to people reading your code.
+In this example, _**globalVariable**_ is the only variable that’s global. The benefit of this approach over anonymous closures is that you declare the global variables upfront, making it crystal clear to people reading your code.
 
-**Example 3: Object interface**  
+**Example 3: Object interface**\
 Yet another approach is to create modules using a self-contained object interface, like so:
 
 ```
@@ -237,9 +234,9 @@ myGradesCalculate.failing(); // 'You failed 2 times.'
 myGradesCalculate.average(); // 'Your average grade is 70.33333333333333.'
 ```
 
-As you can see, this approach lets us decide what variables/methods we want to keep private (e.g. **_myGrades_**) and what variables/methods we want to expose by putting them in the return statement (e.g. **_average_** & **_failing_**).
+As you can see, this approach lets us decide what variables/methods we want to keep private (e.g. _**myGrades**_) and what variables/methods we want to expose by putting them in the return statement (e.g. _**average**_ & _**failing**_).
 
-**Example 4: Revealing module pattern**  
+**Example 4: Revealing module pattern**\
 This is very similar to the above approach, except that it ensures all methods and variables are kept private until explicitly exposed:
 
 ```
@@ -279,9 +276,9 @@ myGradesCalculate.average(); // 'Your average grade is 70.33333333333333.'
 
 That may seem like a lot to take in, but it’s just the tip of the iceberg when it comes to module patterns. Here are a few of the resources I found useful in my own explorations:
 
-*   [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript) by Addy Osmani: a treasure trove of details in an impressively succinct read
-*   [Adequately Good by Ben Cherry](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html): a useful overview with examples of advanced usage of the module pattern
-*   [Blog of Carl Danley](https://carldanley.com/js-module-pattern/): module pattern overview and resources for other JavaScript patterns.
+* [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript) by Addy Osmani: a treasure trove of details in an impressively succinct read
+* [Adequately Good by Ben Cherry](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html): a useful overview with examples of advanced usage of the module pattern
+* [Blog of Carl Danley](https://carldanley.com/js-module-pattern/): module pattern overview and resources for other JavaScript patterns.
 
 ### CommonJS and AMD
 
@@ -341,8 +338,8 @@ myModuleInstance.goodbye(); // 'goodbye!'
 
 There are two obvious benefits to this approach over the module patterns we discussed before:
 
-1\. Avoiding global namespace pollution  
-2\. Making our dependencies explicit
+1. Avoiding global namespace pollution\
+2. Making our dependencies explicit
 
 Moreover, the syntax is very compact, which I personally love.
 
@@ -362,11 +359,11 @@ define(['myModule', 'myOtherModule'], function(myModule, myOtherModule) {
 });
 ```
 
-What’s happening here is that the **_define_** function takes as its first argument an array of each of the module’s dependencies. These dependencies are loaded in the background (in a non-blocking manner), and once loaded **_define_** calls the callback function it was given.
+What’s happening here is that the _**define**_ function takes as its first argument an array of each of the module’s dependencies. These dependencies are loaded in the background (in a non-blocking manner), and once loaded _**define**_ calls the callback function it was given.
 
-Next, the callback function takes, as arguments, the dependencies that were loaded — in our case, **_myModule_** and **_myOtherModule — _**allowing the function to use these dependencies. Finally, the dependencies themselves must also be defined using the **_define_** keyword.
+Next, the callback function takes, as arguments, the dependencies that were loaded — in our case, _**myModule**_ and _**myOtherModule — **_allowing the function to use these dependencies. Finally, the dependencies themselves must also be defined using the _**define**_ keyword.
 
-For example, **_myModule_** might look like this:
+For example, _**myModule**_ might look like this:
 
 ```
 define([], function() {
@@ -434,8 +431,8 @@ Fortunately, the smart folks at TC39 (the standards body that defines the syntax
 
 ES6 offers up a variety of possibilities for importing and exporting modules which others have done a great job explaining — here are a few of those resources:
 
-*   [jsmodules.io](http://jsmodules.io/cjs.html)
-*   [exploringjs.com](http://exploringjs.com/es6/ch_modules.html)
+* [jsmodules.io](http://jsmodules.io/cjs.html)
+* [exploringjs.com](http://exploringjs.com/es6/ch_modules.html)
 
 What’s great about ES6 modules relative to CommonJS or AMD is how it manages to offer the best of both worlds: compact and declarative syntax _and_ asynchronous loading, plus added benefits like better support for cyclic dependencies.
 
@@ -515,9 +512,9 @@ Wow! Where does the time go? That was a wild ride, but I sincerely hope it gave 
 
 In the next section I’ll walk through module bundling, covering core topics including:
 
-*   Why we bundle modules
-*   Different approaches to bundling
-*   ECMAScript’s module loader API
-*   …and more. :)
+* Why we bundle modules
+* Different approaches to bundling
+* ECMAScript’s module loader API
+* …and more. :)
 
 _NOTE: To keep things simple, I skipped over some of the nitty-gritty details (think: cyclic dependencies) in this post. If I left out anything important and/or fascinating, please let me know in the comments!_
