@@ -14,9 +14,6 @@ tags:
   - JavaScript
   - Documentation
 ---
-
-### Documentation is Scary for Newcomers
-
 I’m amazed how quickly the last four weeks at Hack Reactor flew by! Here’s an updated diagram of what I’ve learned:
 
 <figure>
@@ -45,18 +42,18 @@ Learning how to tackle documentation probably sounds scary for newcomers, especi
 
 Here are a few quick tips for anyone who’s new to programming and finds documentation intimidating:
 
-1.  Never skip the Readme/Introduction! Even if unrelated to your specific issue, they set the context for the rest of the documentation and could save you a lot of time later. Moreover, they typically explain the value of using the API/framework/library along with any limitations up front so that you can double check if it’s the right tool for you in the first place
-2.  Scan through the table of contents before you begin using the technology so that you get an idea for how the contents are structured and where to look for what you need.
-3.  Understand what the function or method you plan to use expects as inputs
+1. Never skip the Readme/Introduction! Even if unrelated to your specific issue, they set the context for the rest of the documentation and could save you a lot of time later. Moreover, they typically explain the value of using the API/framework/library along with any limitations up front so that you can double check if it’s the right tool for you in the first place
+2. Scan through the table of contents before you begin using the technology so that you get an idea for how the contents are structured and where to look for what you need.
+3. Understand what the function or method you plan to use expects as inputs
 
-*   Do you know what these input fields mean?
-*   What datatype are the inputs expecting (e.g. string, object, number, etc.)
+* Do you know what these input fields mean?
+* What datatype are the inputs expecting (e.g. string, object, number, etc.)
 
-1.  Understand what the function or method you plan to use returns as output, if any
+1. Understand what the function or method you plan to use returns as output, if any
 
-*   Does it return an object? A boolean? Nothing?
-*   Does it fire an event?
+* Does it return an object? A boolean? Nothing?
+* Does it fire an event?
 
-1.  Understand how the function or method mutates your data. Does it have side effects? If so, make sure you know what they are
-2.  Square brackets \[likeThis\] around an argument generally indicate that the argument is _optional_. You can exclude them and the default values you see listed there will be used
-3.  If the description in the documentation is unclear to you, read the source code for the specific function you’re trying to use. I’ve found that reading the source code gives you an intimate understanding of what’s happening under the hood. It’s often difficult to understand what’s going on, but give it a try anyway and just focus on understanding it at a high level. If it still doesn’t make sense, search online for examples where other people have used that function or method. Then go back to the documentation and see if it makes more sense
+1. Understand how the function or method mutates your data. Does it have side effects? If so, make sure you know what they are
+2. Square brackets \[likeThis] around an argument generally indicate that the argument is _optional_. You can exclude them and the default values you see listed there will be used
+3. If the description in the documentation is unclear to you, read the source code for the specific function you’re trying to use. I’ve found that reading the source code gives you an intimate understanding of what’s happening under the hood. It’s often difficult to understand what’s going on, but give it a try anyway and just focus on understanding it at a high level. If it still doesn’t make sense, search online for examples where other people have used that function or method. Then go back to the documentation and see if it makes more sense
