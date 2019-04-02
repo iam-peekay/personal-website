@@ -20,7 +20,7 @@ tags:
 
 </figure>
 
-Today was my last day at Andreessen Horowitz.
+Today was my last day at [Andreessen Horowitz](https://a16z.com/).
 
 I feel deeply fortunate to have worked with some of the smartest people in technology — people like Marc Andreessen, Ben Horowitz and Chris Dixon among others — and to have learned so much from them while serving the a16z mission of helping entrepreneurs reach their dreams.
 
