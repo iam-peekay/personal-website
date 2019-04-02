@@ -16,9 +16,6 @@ tags:
   - Software Development
   - Personal Development
 ---
-
-### Who says engineers can’t become entrepreneurs?
-
 <figure>
 
 ![](/media/who-says-engineers-cant-be-entrepreneurs-0.jpeg)
@@ -44,23 +41,23 @@ Today, I’ll pick up [where I left off](https://medium.com/swlh/what-happened-a
 ### My experience as a full-time software engineer
 
 It was April of 2016 when Coinbase offered me a software engineering role on their Brokerage team. The team was brilliant, the industry was cutting edge. Needless to say, I accepted immediately!   
-   
+
 The days before I started were nerve-wracking. (If you’ve ever waited to start a new job before, you know how fear and anxiety can make you second-guess everything.) I haven’t been so nervous to walk into a building since the first day of middle school. 😳
 
 My internal monologue as I rode the elevator up their towering office building in San Francisco’s Financial District went something like this: “I’ve never been a full-time software engineer at a company before. Do I even know what I’m doing? What if I get asked to build a micro-service within 48 hours? Or to rebuild the entire website within a week? I’m surely doomed…”  
-   
+
 I stepped out of the elevator, took a deep breath — and stood there frozen for two minutes, trying to build up enough courage to ring the buzzer. “Buzzzzz”   
-   
+
 Naturally, my nervousness was misplaced. The receptionist was warm and kind. The recruiting coordinator was more worried about how I liked my workspace than what I would be doing at it. I’d barely put down my backpack before the CEO, Brian Armstrong, came by to say “Welcome! Glad to have you on board!”  
-   
+
 “Phew, no micro-services just yet,” I thought.  
-   
+
 By then, my nervousness turned into excitement — I couldn’t wait to get hacking. Perhaps I’m not ready to build a micro-service on my first day, but I sure was ready to build _something_!   
-   
+
 The next few weeks were a steady build of responsibility and familiarity — getting comfortable with the code bases, merging my first few pull requests, and integrating with the workflow, team, and culture. The challenge of diving into a completely new code base, gaining momentum in fixing bugs and implementing features, and building relationships with new friends kept me engaged and excited.  
-   
+
 Fast-forward a couple months later, and I was firmly settled in. By then, I had two major projects under my belt — one where I A/B tested and implemented a new fee structure, and another where I built a new React/Redux front-end for supporting Ethereum buys and sells. I was ready to start on my third and largest project, which was to rewrite the existing monolith Rails front-end in React. Four months later, we [shipped v1](https://twitter.com/iam_preethi/status/796074288432357376) of that massive rewrite. Phew!   
-   
+
 By then it had already been six months and there were lots of things that I was really enjoying about working at Coinbase:
 
 #### Team
@@ -96,7 +93,7 @@ As with everything, every pro comes with cons. Here are a few things that I pers
 #### **Working in Rails**
 
 While half of my time was spent in the new JavaScript and React front-end, the other half inevitably involved fixing bugs and implementing features in our monolithic Rails application. Rails is a phenomenal framework for many reasons, but personally, I was struggling to fall in love with it. It eventually became the least favorite part of my job.   
-   
+
 As regular readers know, the JavaScript community and ecosystem is a _huge_ passion area for me. So naturally, I wanted to contribute my time and energy to mastering JavaScript, functional programming, and the web. Instead, I was fixing uninteresting bugs and implementing unsexy features in what _felt_ like the wrong framework.
 
 Unfortunately, the reality is that maintaining old monolithic software is a core part of what we, as software engineers, must do when we’re working in a large engineering organization. Those are just the facts of life!
@@ -110,11 +107,11 @@ The constant human traffic and frequent interruptions made it feel like I was co
 #### **The product and projects I wasn’t passionate about**
 
 Alright, enough complaining Preethi! Time to get honest about why I felt restless — the truth is, _my unhappiness had nothing to do with Coinbase as an organization._  
-   
+
 At the end of the day, it was because _I wasn’t passionate about the product Coinbase offers_.
 
 First, it wasn’t something that fired me up to get out of bed in the morning. It was difficult to care deeply about the features we were building, when financial products and services wasn’t a passion area for me personally.  
-   
+
 Second, I realized that being at a company with separate roles for product management, project management, engineering management, design, and engineering inevitably meant that the role I served was purely engineering — to implement and engineer solutions and fix bugs.
 
 Those of you who know me can probably imagine how neglecting the entrepreneurial part of my mind would leave me unsatisfied. I wanted to do everything from identifying the business purpose, to building the product, to maintaining and advancing the codebase.
@@ -124,15 +121,15 @@ I needed to be both the entrepreneur _and_ the programmer.
 ### Doubting the corporate engineering trajectory
 
 At this point, I knew that the career trajectory I was on needed to change course. Maybe not as drastically as leaving finance for engineering — but something that engaged me as both an engineer and an entrepreneur needed to happen. Soon.   
-   
+
 Nights and weekends became my “entrepreneur-programmer” time, and I meticulously planned my schedule so I’d have 1–2 hours every day to explore, learn, hack, write, and have fun. Soon, that 1–2 hours grew into 2–4 hours a day. At a certain point, side projects like writing and hacking on app ideas began to seem more “real” than my 9–5.   
-   
+
 Did I feel guilty for wanting to leave a perfect team to work on another crazy dream? _Of course._
 
 Rather than make a spur of the moment decision, I decided to take some time off to reflect on what I was feeling. It’s tricky to figure out what truly makes you tick. But I needed to figure it out so I could answer the burning question: w_here can I contribute to this world in the most meaningful way?_
 
 I treated this time like a “test drive” to see what it’s like to wake up every morning and do whatever my heart and mind desired. Was this just a phase, or could I turn my ideas into a full-time reality?   
-   
+
 Two weeks turned into a month. And then three months. And then to this moment, writing this post: the conviction that I’m ready to leave Coinbase and pursue new, more personal coding challenges and entrepreneurial endeavors.
 
 ### Is this the the “right time” to jump ship?
@@ -142,7 +139,7 @@ One of the biggest things we struggle with as entrepreneurs is knowing when “t
 But I’ve come to realize that there is no rule book that will give us the answer. That the “right time” never comes — you can spend your whole life getting your checks and balances in order and it’ll never feel “just right.” There’s _always_ more you can do to prepare, get more experience, and minimize risk.
 
 …But that doesn’t mean we _should_. Our minds will always rationalize the fear of the unknown.   
-   
+
 So is now the right time for me to leave Coinbase? I honestly don’t know for sure. In fact, a few of my close friends and mentors said that waiting until I get “2 years of experience” seems more appropriate. Or that “testing the waters” by working at a small startup would be a better way to ease into it.
 
 Is it really, though? Or would that just be an excuse to escape the fear and uncertainty of doing it _now_. And here’s my conclusion:
@@ -151,26 +148,26 @@ Is it really, though? Or would that just be an excuse to escape the fear and unc
 
 What I _do_ know is that I feel more confident than ever in my skills as a software engineer. I’m proud of everything I’ve been able to learn and improve my skills at thanks to Coinbase, such as:
 
-*   Version control (git)
-*   Deployment (Docker, circleCI)
-*   Monitoring (New Relic)
-*   Error reporting (Bugsnag)
-*   How to refactor legacy code into a new framework (Rails → React)
-*   How to refactor from one state management library to another (jQuery → Redux → Mobx)
-*   How to give thoughtful, constructive code reviews
-*   How to efficiently and effectively collaborate with designers in going from idea → mockup → wireframe → code
-*   How to test code using unit tests and integration tests
-*   Knowing when to choose between the “correct and thoughtful” solution that takes longer to implement but is more robust and scalable vs. a solution that is quick and “does the job” but isn’t robust or scalable
-*   How to handle situations where you deploy a really terrible bug that causes the entire application to crash in the middle of a big product launch 🙃
-*   How to collaborate with a team of engineers to build a production-grade application that scales to millions of users
-*   … and so much more
+* Version control (git)
+* Deployment (Docker, circleCI)
+* Monitoring (New Relic)
+* Error reporting (Bugsnag)
+* How to refactor legacy code into a new framework (Rails → React)
+* How to refactor from one state management library to another (jQuery → Redux → Mobx)
+* How to give thoughtful, constructive code reviews
+* How to efficiently and effectively collaborate with designers in going from idea → mockup → wireframe → code
+* How to test code using unit tests and integration tests
+* Knowing when to choose between the “correct and thoughtful” solution that takes longer to implement but is more robust and scalable vs. a solution that is quick and “does the job” but isn’t robust or scalable
+* How to handle situations where you deploy a really terrible bug that causes the entire application to crash in the middle of a big product launch 🙃
+* How to collaborate with a team of engineers to build a production-grade application that scales to millions of users
+* … and so much more
 
 And of course, there are tons of things I haven’t learned yet — and all the tantalizing things I’ll probably _never_ learn about programming.
 
 Ultimately, it’s okay, because the most important skill I’ve learned over the last two years is _how to learn_ — the master key to learning and conquering any tool, framework or language I need.
 
 This is all I ever wanted when I set out to go “learn to code,” and now I have it at my finger tips.   
-   
+
 Why wouldn’t I use these skills to build my own products full time? The answer is simple: _“why not.”_
 
 Life is too short not to experiment — and the time to see what value I can create through those experiments is now, while I’m young, driven, and the worst case scenarios aren’t really that bad.
