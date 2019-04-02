@@ -19,9 +19,6 @@ tags:
   - Design
   - Technology
 ---
-
-### How the Web Works Part II: Client-Server Model & the Structure of a Web Application
-
 <figure>
 
 ![](/media/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-0.jpeg)
@@ -46,9 +43,9 @@ There are hundreds of ways to configure a web application. That said, most of th
 
 The client is what the user interacts with. So “client-side” code is responsible for most of what a user actually sees. This includes:
 
-1.  Defining the **structure** of the web page
-2.  Setting the **look and feel** of the web page
-3.  Implementing a mechanism for responding to **user interactions** (clicking buttons, entering text, etc.)
+1. Defining the **structure** of the web page
+2. Setting the **look and feel** of the web page
+3. Implementing a mechanism for responding to **user interactions** (clicking buttons, entering text, etc.)
 
 **Structure:** The layout and content of your webpage are defined by HTML (usually HTML 5 when it comes to web apps these days, but that’s another story.)
 
@@ -62,10 +59,10 @@ For example:
 
 </figure>
 
-*   The content within the “<h1>” tag describes the heading.
-*   The content within the “<p>” tag describes a paragraph.
-*   The content within the “<button>” tag describes a button.
-*   And so on…
+* The content within the “<h1>” tag describes the heading.
+* The content within the “<p>” tag describes a paragraph.
+* The content within the “<button>” tag describes a button.
+* And so on…
 
 A web browser uses these HTML tags to determine how to display the document.
 
