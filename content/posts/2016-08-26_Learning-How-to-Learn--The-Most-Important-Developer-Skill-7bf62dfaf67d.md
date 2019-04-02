@@ -16,9 +16,6 @@ tags:
   - Learning To Code
   - Psychology
 ---
-
-### Learning How to Learn: The Most Important Developer Skill
-
 <figure>
 
 ![](/media/learning-how-to-learn-the-most-important-developer-skill-0.gif)
@@ -153,10 +150,10 @@ First step: I’d start with a Google search for the React.js documentation and 
 
 Knowing the “why” behind any topic is incredibly helpful for framing the learning process. It answers questions like:
 
-*   How is this different from other solutions?
-*   How useful is this to me?
-*   What problems does this solution aim to solve?
-*   Is this just a new shiny tool that’ll only be useful for a few months or will it fundamentally change the way I think and code?
+* How is this different from other solutions?
+* How useful is this to me?
+* What problems does this solution aim to solve?
+* Is this just a new shiny tool that’ll only be useful for a few months or will it fundamentally change the way I think and code?
 
 #### Reading and understanding core concepts
 
@@ -182,14 +179,14 @@ This is when I start to feel that dreaded “just give up” feeling. But instea
 
 Here’s what I do instead:
 
-1.  I first narrow down and figure out what I’m actually stuck on — i.e. define the problem. Then I come up with a hypothesis for what I think could be the root cause or causes of the problem. Even if I have no idea, I just make a guess.
-2.  Then I step away from the problem and my computer and do something that relaxes me. This is incredibly hard to do when I’m so upset about the problem I’m stuck on, but letting go of the problem works wonders. (Ever notice how great ideas always strike in the shower?)
-3.  Now I try to debug with my hypothesis in mind. I get as far as I can on my hypothesis without looking for answers online — there’s something beautiful that happens when you try to solve problems by truly thinking deeply about them on your own first. Even if you’re going down the wrong path, the fact that you made the effort teaches you a lot and you remember the problem space much better next time you run into it.
-4.  If my hypothesis leads to an answer, hooray! I’m done. If not, I Google search for documentation, blog posts, or Stack Overflow posts that could help me get closer to the answer.
-5.  While reading, I take notes on any and all pieces of information that could potentially be helpful.
-6.  Still no solution? That’s fine. I’m sure I learned something valuable by reading through all that, even if it didn’t directly help me solve the problem at hand. Who knows when this knowledge might come in handy next time?
-7.  At this point, if I’m truly stuck, I will either post a question on Stack Overflow or ask a co-worker or developer I know.
-8.  Otherwise, I rinse and repeat until I get closer to the final solution. At some point, the answer always comes.
+1. I first narrow down and figure out what I’m actually stuck on — i.e. define the problem. Then I come up with a hypothesis for what I think could be the root cause or causes of the problem. Even if I have no idea, I just make a guess.
+2. Then I step away from the problem and my computer and do something that relaxes me. This is incredibly hard to do when I’m so upset about the problem I’m stuck on, but letting go of the problem works wonders. (Ever notice how great ideas always strike in the shower?)
+3. Now I try to debug with my hypothesis in mind. I get as far as I can on my hypothesis without looking for answers online — there’s something beautiful that happens when you try to solve problems by truly thinking deeply about them on your own first. Even if you’re going down the wrong path, the fact that you made the effort teaches you a lot and you remember the problem space much better next time you run into it.
+4. If my hypothesis leads to an answer, hooray! I’m done. If not, I Google search for documentation, blog posts, or Stack Overflow posts that could help me get closer to the answer.
+5. While reading, I take notes on any and all pieces of information that could potentially be helpful.
+6. Still no solution? That’s fine. I’m sure I learned something valuable by reading through all that, even if it didn’t directly help me solve the problem at hand. Who knows when this knowledge might come in handy next time?
+7. At this point, if I’m truly stuck, I will either post a question on Stack Overflow or ask a co-worker or developer I know.
+8. Otherwise, I rinse and repeat until I get closer to the final solution. At some point, the answer always comes.
 
 At times this process takes a few seconds, and other times it takes hours (or days). Either way, the process itself is incredibly beneficial to your skill set as a developer.
 
