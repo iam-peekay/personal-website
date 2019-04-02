@@ -15,9 +15,6 @@ tags:
   - Web Development
   - Open Source
 ---
-
-### You don’t have to be a programming wizard to build an open-source library
-
 <figure>
 
 ![](/media/you-don-t-have-to-be-a-programming-wizard-to-build-an-open-source-library-0.png)
@@ -86,9 +83,9 @@ As you may know, [I love documentation](https://medium.com/@preethikasireddy/doc
 
 Going into this project, I wanted every single function documented:
 
-*   What are the inputs?
-*   What are the outputs?
-*   Why does it exist in the first place?
+* What are the inputs?
+* What are the outputs?
+* Why does it exist in the first place?
 
 No one should have to ask these questions when they encounter a library, so I knew docs would be critical for future contributors — and frankly for us too when we look at the code base a few weeks or months from now. We all know that it’s really hard to look back at your code after a while and know exactly why you did something.
 
@@ -98,12 +95,12 @@ I’m happy to say that we’ve got some [amazing docs](https://iam-peekay.gitbo
 
 Libraries are no good if they can’t get to users, so we had to learn how to publish a package to npm. We had so many questions:
 
-*   Should we check our node_modules folder into git? (quick answer: no)
-*   What’s the typical folder structure?
-*   How do we publish new versions to GitHub? to npm?
-*   How do we implement semantic versioning?
-*   How do we correct a mistake after a botched release?
-*   And many, many more…
+* Should we check our node_modules folder into git? (quick answer: no)
+* What’s the typical folder structure?
+* How do we publish new versions to GitHub? to npm?
+* How do we implement semantic versioning?
+* How do we correct a mistake after a botched release?
+* And many, many more…
 
 Luckily, some careful Googling was able to answer all our questions. One of the great things about open-source is that it’s all “out there.” Even when you feel stuck, there’s probably a detailed answer (or exploration) out there somewhere!
 
