@@ -18,9 +18,6 @@ tags:
   - Computer Science
   - Web Development
 ---
-
-### Why use static types in JavaScript? (A 4-part primer on static typing with Flow)
-
 <figure>
 
 ![](/media/why-use-static-types-in-javascript-part-1-0.jpeg)
@@ -46,13 +43,13 @@ To explain, let’s look at types in Java versus Javascript.
 **“Types”** refers to the type of data being defined.
 
 For example, in Java if you define a `boolean` as:  
-  
+
 `boolean result = true;`
 
 This has a correct type, because the `boolean` annotation matches the value given to `result`, as opposed to an integer or anything else.
 
 On the other hand, if you tried to declare:  
-  
+
 `boolean result = 123;`
 
 …this would fail to compile because it has an incorrect type. It explicitly marks `result` as a `boolean`, but then defines it as the integer `123`.
