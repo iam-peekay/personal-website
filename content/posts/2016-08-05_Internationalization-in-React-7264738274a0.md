@@ -16,9 +16,6 @@ tags:
   - Programming
   - Tech
 ---
-
-### Internationalization in React
-
 <figure>
 
 ![](/media/internationalization-in-react-0.jpeg)
@@ -67,10 +64,10 @@ If you don’t plan to use a module bundler to load React Intl into your applica
 
 React Intl relies on this locale data to support plural and relative-time formatting. Locale data defines the following for each specific locale:
 
-*   Locale-specific patterns for formatting and parsing dates, times, time zones, numbers and currency values
-*   Translations for names of currencies, eras, months, weekdays, etc.
-*   Language and script information (plural cases, characters used, gender of lists, capitalization, writing direction, etc.)
-*   Country information (currency, calendar preference, week conventions, telephone codes, etc.)
+* Locale-specific patterns for formatting and parsing dates, times, time zones, numbers and currency values
+* Translations for names of currencies, eras, months, weekdays, etc.
+* Language and script information (plural cases, characters used, gender of lists, capitalization, writing direction, etc.)
+* Country information (currency, calendar preference, week conventions, telephone codes, etc.)
 
 If you’re using Browserify, Webpack or Rollup to bundle React Intl for the browser, it will only contain locale data for basic English by default. The rest of the locale data is **not** included in the main library. So in this sample project we’ll cover how to import the locale data per language you choose to support in your app.
 
@@ -303,9 +300,9 @@ To convert this, we’ll use the **FormattedMessage** component:
 
 The **FormattedMessage** component has props that correspond something called a “**Message** **Descriptor**” in React Intl. The **Message Descriptor** is the format used to define default messages/strings, and is useful for providing the data necessary for having the strings/messages translated. It contains the following properties:
 
-*   **id**: A unique, stable identifier for the message
-*   **description**: Context for the translator about how it’s used in the UI (optional)
-*   **defaultMessage**: The default message (in English)
+* **id**: A unique, stable identifier for the message
+* **description**: Context for the translator about how it’s used in the UI (optional)
+* **defaultMessage**: The default message (in English)
 
 The **id** prop must be unique for every message defined in your app. What’s awesome is that the **defaultMessage** can be passed data from the props, as is the case in **name** above. (Note that the values that are passed as data won’t get translated — they’re simply inserted into the final translated string as-is.)
 
@@ -322,7 +319,7 @@ Next, let’s look at the Subheader, which is slightly more involved:
 />
 ```
 
-The ability to compose components within other components (i.e. have **Formatted**\* items within another **Formatted**\* item) is a powerful feature of React Intl.
+The ability to compose components within other components (i.e. have **Formatted*** items within another **Formatted*** item) is a powerful feature of React Intl.
 
 You can see in the above example that **unreadCount** is a **FormattedNumber**, and **notifications** is a **FormattedPlural**, and that both are values passed into **FormattedMessages**’s **defaultMessage**. Beautiful!
 
@@ -337,7 +334,7 @@ Once translated and formatted, it will read: _“You last logged in 4 hours ago!
 
 ### Passing formatted strings as components
 
-In the above two snippets, we saw how to use the **Formatted**\* Components to define strings, numbers, dates, and pluralization.
+In the above two snippets, we saw how to use the **Formatted*** Components to define strings, numbers, dates, and pluralization.
 
 However, there are plenty of instances where it’s necessary to pass formatted strings as props or use formatted strings to name an HTML component. The **FormattedMessage** component doesn’t well work in cases like this.
 
@@ -478,14 +475,14 @@ I hope this post is enough to start turning your spazzy React application into o
 
 Before I sign off, here are a few other tips to consider when internationalizing your app:
 
-*   **Flexible components:** Build your components such that they are flexible and allow for text expansion and shrinkage. Some languages can expand much larger or shrink much smaller than English. If you don’t account for this, your layout can look unbearable after translation.
-*   **Appropriate font size:** Use a font size that will work well with all the languages you support. Some languages, like Japanese and Chinese, need larger font sizes.
-*   **UTF-8**: Use UTF-8 everywhere. This includes in your HTML, server-side language, database, etc. Unlike other encodings, UTF-8 encoding handles almost all languages really well.
-*   **No text in images:** Avoid using text in images because translating text in graphics is extremely difficult, and not worth the pain.
-*   **Don’t split your strings:** For example, if you have “Your funds will arrive by July 7th,” avoid splitting strings like “Your funds will arrive by” and “July 7th”. The combination might only work in English due to word order variations in other languages.
+* **Flexible components:** Build your components such that they are flexible and allow for text expansion and shrinkage. Some languages can expand much larger or shrink much smaller than English. If you don’t account for this, your layout can look unbearable after translation.
+* **Appropriate font size:** Use a font size that will work well with all the languages you support. Some languages, like Japanese and Chinese, need larger font sizes.
+* **UTF-8**: Use UTF-8 everywhere. This includes in your HTML, server-side language, database, etc. Unlike other encodings, UTF-8 encoding handles almost all languages really well.
+* **No text in images:** Avoid using text in images because translating text in graphics is extremely difficult, and not worth the pain.
+* **Don’t split your strings:** For example, if you have “Your funds will arrive by July 7th,” avoid splitting strings like “Your funds will arrive by” and “July 7th”. The combination might only work in English due to word order variations in other languages.
 
 ### Conclusion
 
 As always, feel free to comment with suggestions and questions. I’d love to hear it :)
 
-All the code for the sample application can be found on github here: [https://github.com/iam-peekay/inbox-react-intl](https://github.com/iam-peekay/inbox-react-intl)
+All the code for the sample application can be found on github here: <https://github.com/iam-peekay/inbox-react-intl>
