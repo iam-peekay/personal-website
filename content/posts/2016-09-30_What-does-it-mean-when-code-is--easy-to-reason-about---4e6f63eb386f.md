@@ -16,9 +16,6 @@ tags:
   - Software Development
   - Coding
 ---
-
-### **What does it mean when code is “easy to reason about”?**
-
 <figure>
 
 ![](/media/what-does-it-mean-when-code-is-easy-to-reason-about-0.png)
@@ -76,7 +73,7 @@ multiplyByThree(array); // [369]
 
 Looks good so far. We’ve tested that the function does what we want it to do.
 
-But how do we know it doesn’t do what we **_don’t_** want it to do? For instance, with careful inspection, we can see that the function mutates the original array.
+But how do we know it doesn’t do what we _**don’t**_ want it to do? For instance, with careful inspection, we can see that the function mutates the original array.
 
 ```
 var array = [1, 2, 3];
@@ -104,7 +101,7 @@ var multiplier = 49;
 multiplyByThree(array); // [ 49, 98, 147 ]
 ```
 
-Uh oh. It looks like when we passed the array **\[1, 2, 3\]** to the function the first time, it returned **\[3, 6, 9\]**, but later it returned **\[ 49, 98, 147 \]**. Those are very different results.
+Uh oh. It looks like when we passed the array **\[1, 2, 3]** to the function the first time, it returned **\[3, 6, 9]**, but later it returned **\[ 49, 98, 147 ]**. Those are very different results.
 
 That’s because the **multiplyByThree** function relies on an external variable **multiplier**. So, if the external state of the program causes the variable **multiplier** to change in between calls to the function **multiplyByThree**, the behavior of the function changes even if we pass the same array into the function.
 
@@ -270,9 +267,9 @@ Sweet. Now it also returns an error if any of the items in the array are not num
 
 By going through the the above steps, we’ve slowly built up a function that is easy to reason about because it has these key qualities:
 
-1.  Does not have unintended side effects
-2.  Does not rely on or affect external state
-3.  Given the same argument, it will always return the same corresponding output (also known as “[referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)”).
+1. Does not have unintended side effects
+2. Does not rely on or affect external state
+3. Given the same argument, it will always return the same corresponding output (also known as “[referential transparency](https://en.wikipedia.org/wiki/Referential_transparency)”).
 
 ### Ways we can guarantee these properties
 
