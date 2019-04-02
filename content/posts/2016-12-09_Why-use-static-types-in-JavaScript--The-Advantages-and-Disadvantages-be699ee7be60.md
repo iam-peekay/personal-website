@@ -16,9 +16,6 @@ tags:
   - Software Development
   - Web Development
 ---
-
-### Why use static types in JavaScript? The Advantages and Disadvantages
-
 <figure>
 
 ![](/media/why-use-static-types-in-javascript-part-2-part-3-0.png)
@@ -458,10 +455,10 @@ type Model = {
 
 Is this good enough? Well, we know that to get the user’s payment methods, we need to make an API request, and depending on where in the fetching process we are, our app will have different states. So there’s actually four possible states:
 
-1) We haven’t fetched the payment methods  
-2) We are fetching the payment methods  
-3) We successfully fetched the payment methods  
-4) We tried fetching but there was an error fetching the payment methods
+1. We haven’t fetched the payment methods  
+2. We are fetching the payment methods  
+3. We successfully fetched the payment methods  
+4. We tried fetching but there was an error fetching the payment methods
 
 But our simple `Model` type with `paymentMethods` doesn’t cover all these cases. Instead, it assumes that `paymentMethods` always exists.
 
