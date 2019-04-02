@@ -16,8 +16,6 @@ tags:
   - Self Improvement
   - Education
 ---
-### Should I go back to school to get a Computer Science degree?
-
 <figure>
 
 ![](/media/should-i-go-back-to-school-to-get-a-cs-degree-0.jpeg)
