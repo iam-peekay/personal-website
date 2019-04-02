@@ -17,9 +17,6 @@ tags:
   - Learning
   - Learning To Code
 ---
-
-### _What topics are toughest for you to learn, as an intermediate web developer?_
-
 <figure>
 
 ![](/media/what-topics-are-toughest-for-you-to-learn-as-an-intermediate-web-developer-0.jpeg)
@@ -40,10 +37,10 @@ This is exactly where a lot of programmers fall off — they learn the basic
 
 In 2017, my goal is to continue writing blog posts and written content focused on this middle ground. And I’m seeking your input on what areas you feel I should write more about:
 
-*   What are some JavaScript **concepts or technologies** that you wish there was a **better explanation** for? (eg. Prototypal inheritance in JavaScript, scope and closures, ES6, Observables, React, Webpack, CSS, etc.)
-*   What **aspects of building a real world application** do you find most **difficult or unclear**? (eg. Set-up, Authentication, Testing, Picking the right tools and frameworks, etc.)
-*   What **topics do you want to learn more about** but find limited good resources to learn from?
-*   Have you ever **struggled with a topic or technology** so much that it caused you to give up? Which ones?
+* What are some JavaScript **concepts or technologies** that you wish there was a **better explanation** for? (eg. Prototypal inheritance in JavaScript, scope and closures, ES6, Observables, React, Webpack, CSS, etc.)
+* What **aspects of building a real world application** do you find most **difficult or unclear**? (eg. Set-up, Authentication, Testing, Picking the right tools and frameworks, etc.)
+* What **topics do you want to learn more about** but find limited good resources to learn from?
+* Have you ever **struggled with a topic or technology** so much that it caused you to give up? Which ones?
 
 I appreciate everyone who reads my posts and would love to hear from you. Respond in the comments below, or shoot me an email at preethi@preethireddy.com.
 
