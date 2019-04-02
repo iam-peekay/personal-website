@@ -16,9 +16,6 @@ tags:
   - Self Improvement
   - Learning To Code
 ---
-
-### Learn the fundamentals of functional programming — for free, in your inbox
-
 <figure>
 
 ![](/media/learning-the-fundamentals-of-functional-programming-0.jpeg)
@@ -36,7 +33,7 @@ In my upcoming course, _Learning Functional JavaScript the Right Way_,  I’ll t
 But before jumping into that course (and I hope you will!), there’s an important prerequisite: building a strong foundation in the _underlying principles of functional programming_.
 
 So I’ve created a new [free email course](https://preethikasireddy.typeform.com/to/yC9qQr) that will take you on a fun and exploratory journey into understanding some of these core principles.  
-   
+
 Let’s take a look at what the email course will cover, so you can decide how it fits into your programming education.
 
 ### What is functional programming?
@@ -54,7 +51,7 @@ Your program is defined in terms of one main function. This main function is def
 </figure>
 
 If you’re reading this thinking, _“Hmm, but wait? Doesn’t every language use functions to write code?”_ then good 👌. It means you’re paying attention.   
-  
+
 You’re right — every programming language has functions. But functional programming takes it to a **whole ‘nother level** 😉
 
 <figure>
@@ -64,24 +61,24 @@ You’re right — every programming language has functions. But functional 
 <figcaption>Functions to a whole ‘nother level</figcaption></figure>
 
 To understand what I mean, let’s rewind and start with the basics.  
-  
+
 Every software program has two things:
 
-1.  Behavior
-2.  Data
+1. Behavior
+2. Data
 
 When we’re learning about a programming paradigm — like functional programming — it’s often helpful to consider how the paradigm approaches behavior and data respectively.   
-   
+
 **Behavior**, for example, is handled purely using functions in functional programming.   
-   
+
 **Functions** are “self contained” pieces of code that accomplish a specific task. It defines a relationship between a set of possible inputs and a set of possible outputs — they usually take in data, process it, and return a result. Once a function is written, it can be used over and over and over again.  
-   
+
 **Data** is, well, data. In functional programming, data is immutable — meaning it can’t be changed. Rather than changing data they take in, functions in functional programming take in data as input and produce **new** values as output. Always.   
-   
+
 Functions and immutable data are the only two things you need to ever deal with in functional programming. To make it even simpler, functions are treated no differently than data.
 
 Put another way, **functions in functional programming can be passed around as easily as data.** You can refer to them from _constants_ and _variables_, pass them as _parameters_ to other functions, and return them as _results_ from other functions.   
-   
+
 This is the most important thing to understand when approaching functional programming.
 
 <figure>
@@ -93,7 +90,7 @@ This is the most important thing to understand when approaching functional progr
 By treating functions as nothing more special than a piece of data and by only using data that is immutable, we are given a lot more freedom in terms of how we can use functions.
 
 Namely, it allows us to create small, independent functions that can be reused and combined together to build up increasingly complex logic. We can **break any complex problem down into smaller sub-problems, solve them using functions, and finally combine them together to solve the bigger problem.**  
-   
+
 Considering the ever-growing complexity of software applications, this kind of “building-block” approach makes a huge difference in keeping programs simple, modular, and understandable. This is also why developers strive to make their functions as **general-purpose** as possible, so that they can be **combined** to solve large, complex problems and **reused** to speed up development time for subsequent programs.
 
 <figure>
@@ -104,22 +101,22 @@ Considering the ever-growing complexity of software applications, this kind of �
 
 Ultimately, the reason that functions are so powerful in functional programming is because the functions follow certain core tenets. Those tenets will be the subject of my email course:
 
-*   Functions are pure
-*   Functions use immutable data
-*   Functions guarantee referential transparency
-*   Functions are first-class entities
+* Functions are pure
+* Functions use immutable data
+* Functions guarantee referential transparency
+* Functions are first-class entities
 
 After that, I’ll briefly touch on how functional programming applies these tenets to encourage us to think carefully about our data and the functions that interact with it.
 
 By the end, you’ll be able to understand how this approach leads to code that is:
 
-*   Easier to understand (that is, “expressive”)
-*   Easier to reuse
-*   Easier to test
-*   Easier to maintain
-*   Easier to refactor
-*   Easier to optimize
-*   Easier to reason about
+* Easier to understand (that is, “expressive”)
+* Easier to reuse
+* Easier to test
+* Easier to maintain
+* Easier to refactor
+* Easier to optimize
+* Easier to reason about
 
 Sound exciting? Come along for the ride!
 
