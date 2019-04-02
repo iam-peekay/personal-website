@@ -14,9 +14,6 @@ tags:
   - Life Lessons
   - JavaScript
 ---
-
-### Don’t Spend Your Life Waiting for the Weekend
-
 Ever have the Monday blues? Or even worse, the Sunday-in-anticipation-of-Monday blues?
 
 If not, I commend and envy you. For the rest of us, let’s admit that the workweek lifestyle sucks — “living for the weekend” may be a good subject for a country song, but it’s a bad way to live your life.
@@ -27,9 +24,9 @@ It was tough to admit to myself that I wasn’t where I needed to be. It was eve
 
 All I knew breaking out of my monday-blues cycle was that I wanted to do something that satisfied three criteria:
 
-1.  Keep my mind off of Fridays and make me excited for Mondays
-2.  Always have something to learn
-3.  Have something I could passionately work on for the rest of my life
+1. Keep my mind off of Fridays and make me excited for Mondays
+2. Always have something to learn
+3. Have something I could passionately work on for the rest of my life
 
 While I can’t say I’ve found nirvana or the purpose of life, I’m happy to say I’ve found something that makes me excited when I wake up on Mondays: programming.
 
@@ -41,11 +38,11 @@ That’s what coding has become for me.
 
 Despite how much I’ve grown to love programming, it definitely has its lows. Here’s a few of the challenges I’ve worked through:
 
-*   It’s incredibly challenging and you always feel uncomfortable. Naturally, this makes it incredibly easy to give up. After all, no one likes feeling incapable.
-*   It can get pretty darn frustrating sometimes. You can sit there for hours fixing a tiny little bug or getting a tiny little feature to work. You get lost in rabbit holes and have to dig your way out. You feel guilty for not being “productive” during the time that you’re dealing with bugs or merge conflicts or the millions of side problems that _always_ come up.
-*   You spend a ton of time on things that feel annoying (e.g. git, build process, documentation, etc.) but are still necessary and important. There’s a lot more to the process of building something that just spitting out code. And you just have to accept that it’s part of the process.
-*   There are ALWAYS people who are 100x better than you. _Always_. You have to be ready to swallow your ego.
-*   It’s extremely fast-paced and there’s a constant influx of new things to learn.
+* It’s incredibly challenging and you always feel uncomfortable. Naturally, this makes it incredibly easy to give up. After all, no one likes feeling incapable.
+* It can get pretty darn frustrating sometimes. You can sit there for hours fixing a tiny little bug or getting a tiny little feature to work. You get lost in rabbit holes and have to dig your way out. You feel guilty for not being “productive” during the time that you’re dealing with bugs or merge conflicts or the millions of side problems that _always_ come up.
+* You spend a ton of time on things that feel annoying (e.g. git, build process, documentation, etc.) but are still necessary and important. There’s a lot more to the process of building something that just spitting out code. And you just have to accept that it’s part of the process.
+* There are ALWAYS people who are 100x better than you. _Always_. You have to be ready to swallow your ego.
+* It’s extremely fast-paced and there’s a constant influx of new things to learn.
 
 Overall, it’s the fact that these lows haven’t discouraged me that has encouraged me to keep leveling up my programming skills — turning what started as a side project into a full-time education, then a full-time career. I simply love programming.
 
