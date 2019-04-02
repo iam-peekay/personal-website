@@ -16,9 +16,6 @@ tags:
   - Technology
   - Startup
 ---
-
-### I’m here to help you through the hardest parts of your coding journey
-
 <figure>
 
 ![](/media/what-are-the-most-challenging-parts-of-your-coding-journey-0.jpeg)
