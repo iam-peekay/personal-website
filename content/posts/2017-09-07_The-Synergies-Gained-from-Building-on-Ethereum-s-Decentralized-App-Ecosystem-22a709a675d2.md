@@ -17,9 +17,6 @@ tags:
   - Decentralized Web
   - Software Development
 ---
-
-### The Synergies Gained from Building on Ethereum’s Decentralized App Ecosystem
-
 <figure>
 
 ![](/media/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem-0.jpeg)
@@ -88,11 +85,11 @@ But the indirect network effects that arise from the complementary Mac applicati
 
 This hardware/software paradigm applies to a number of markets:
 
-*   iPhones (hardware) and iPhone applications (software)
-*   Android phones (hardware) and Android applications (software)
-*   ATM cards (hardware) and compatible teller machines (software)
-*   Televisions (hardware) and movies / TV-shows (software)
-*   Electric cars (hardware) and electric fueling stations (software)
+* iPhones (hardware) and iPhone applications (software)
+* Android phones (hardware) and Android applications (software)
+* ATM cards (hardware) and compatible teller machines (software)
+* Televisions (hardware) and movies / TV-shows (software)
+* Electric cars (hardware) and electric fueling stations (software)
 
 In each one of these cases, you have some standard hardware platform, and a variety of complementary software and services.
 
