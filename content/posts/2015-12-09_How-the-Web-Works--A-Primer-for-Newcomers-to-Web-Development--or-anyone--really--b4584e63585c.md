@@ -19,9 +19,6 @@ tags:
   - Design
   - Technology
 ---
-
-### How the Web Works: A Primer for Newcomers to Web Development (or anyone, really)
-
 <figure>
 
 ![](/media/how-the-web-works-a-primer-for-newcomers-to-web-development-or-anyone-really-0.jpeg)
@@ -78,13 +75,13 @@ Here are the most important terms to understand if you want to grok the secrets 
 
 **HTTP:** Hyper-text Transfer Protocol. The protocol that web browsers and web servers use to communicate with each other over the Internet.
 
-**URL:** Uniform Resource Locators. URLs identify a particular web resource. A simple example is [https://github.com/someone.](https://github.com/someone.) The URL specifies the protocol (“https”), host name (github.com) and file name (someone’s profile page). A user can obtained the web resource identified by this URL via HTTP from a network host whose domain name is github.com. (tongue twister much?!)
+**URL:** Uniform Resource Locators. URLs identify a particular web resource. A simple example is <https://github.com/someone.> The URL specifies the protocol (“https”), host name (github.com) and file name (someone’s profile page). A user can obtained the web resource identified by this URL via HTTP from a network host whose domain name is github.com. (tongue twister much?!)
 
 ### The journey from code to webpage
 
 Alright, now that we have the essential definitions out of the way, let’s walk through that Github search to see how we go from a URL typed into an address bar to a running web page:
 
-1) You type a URL into your browser
+1. You type a URL into your browser
 
 <figure>
 
@@ -92,7 +89,7 @@ Alright, now that we have the essential definitions out of the way, let’s walk
 
 </figure>
 
-2) The browser parses the information contained in the URL. This includes the protocol (“https”), the domain name (“github.com”) and the resource (“/”). In this case, there isn’t anything after the “.com” to indicate a specific resource, so the browser knows to retrieve just the main (index) page
+2. The browser parses the information contained in the URL. This includes the protocol (“https”), the domain name (“github.com”) and the resource (“/”). In this case, there isn’t anything after the “.com” to indicate a specific resource, so the browser knows to retrieve just the main (index) page
 
 <figure>
 
@@ -100,7 +97,7 @@ Alright, now that we have the essential definitions out of the way, let’s walk
 
 </figure>
 
-3) The browser communicates with your ISP to do a DNS lookup of the IP address for the web server that hosts [www.github.com.](http://www.github.com.) The DNS service will first contact a Root Name Server, which looks at [https://www.github.com](https://www.github.com) and replies with the IP address of a name server for the “.com” top-level domain. This address is sent back to your DNS service. The DNS service does another outreach to the “.com” name server and asks it for the address of [https://www.github.com.](https://www.github.com.)
+3. The browser communicates with your ISP to do a DNS lookup of the IP address for the web server that hosts [www.github.com.](http://www.github.com.) The DNS service will first contact a Root Name Server, which looks at <https://www.github.com> and replies with the IP address of a name server for the “.com” top-level domain. This address is sent back to your DNS service. The DNS service does another outreach to the “.com” name server and asks it for the address of <https://www.github.com.>
 
 <figure>
 
@@ -110,7 +107,7 @@ Alright, now that we have the essential definitions out of the way, let’s walk
 
 _source:_ [_https://technet.microsoft.com/en-us/library/bb962069.aspx_](https://technet.microsoft.com/en-us/library/bb962069.aspx)
 
-4) Once the ISP receives the IP address of the destination server, it sends it to your web browser[](http://preethikasireddy.me/wp-content/uploads/2015/12/Screen-Shot-2015-12-06-at-6.32.27-PM1.png)
+4. Once the ISP receives the IP address of the destination server, it sends it to your web browser
 
 <figure>
 
@@ -118,9 +115,8 @@ _source:_ [_https://technet.microsoft.com/en-us/library/bb962069.aspx_](https://
 
 </figure>
 
-5) Your browser takes the IP address and the given port number from the URL (the HTTP protocol defaults to port 80 and HTTPS defaults to port 443) and opens a TCP socket connection. At this point, your web browser and web server are finally connected.
-
-6) Your web browser sends an HTTP request to the web server for the main HTML web page of [www.github.com.](http://www.github.com.)
+5. Your browser takes the IP address and the given port number from the URL (the HTTP protocol defaults to port 80 and HTTPS defaults to port 443) and opens a TCP socket connection. At this point, your web browser and web server are finally connected.
+6. Your web browser sends an HTTP request to the web server for the main HTML web page of [www.github.com.](http://www.github.com.)
 
 <figure>
 
@@ -128,7 +124,7 @@ _source:_ [_https://technet.microsoft.com/en-us/library/bb962069.aspx_](https://
 
 <figcaption>GET request from Client</figcaption></figure>
 
-7) The web server receives the request and looks for that HTML page. If the page exists, the web server prepares the response and sends it back to your browser. If the server cannot find the requested page, it will send an HTTP 404 error message, which stands for “Page Not Found”.
+7. The web server receives the request and looks for that HTML page. If the page exists, the web server prepares the response and sends it back to your browser. If the server cannot find the requested page, it will send an HTTP 404 error message, which stands for “Page Not Found”.
 
 <figure>
 
@@ -136,7 +132,7 @@ _source:_ [_https://technet.microsoft.com/en-us/library/bb962069.aspx_](https://
 
 <figcaption>Server response</figcaption></figure>
 
-8) Your web browser takes the HTML page it receives and then parses through it doing a full head to toe scan looking for other assets that are listed, such as images, CSS files, JavaScript files, etc.
+8. Your web browser takes the HTML page it receives and then parses through it doing a full head to toe scan looking for other assets that are listed, such as images, CSS files, JavaScript files, etc.
 
 <figure>
 
@@ -144,9 +140,8 @@ _source:_ [_https://technet.microsoft.com/en-us/library/bb962069.aspx_](https://
 
 <figcaption>index.html page</figcaption></figure>
 
-9) For each asset listed, the browser repeats the entire process above, making additional HTTP requests to the server for each resource.
-
-10) Once the browser has finished loading all other assets that were listed in the HTML page, the page will finally be loaded in the browser window and the connection will be closed
+9. For each asset listed, the browser repeats the entire process above, making additional HTTP requests to the server for each resource.
+10. Once the browser has finished loading all other assets that were listed in the HTML page, the page will finally be loaded in the browser window and the connection will be closed
 
 <figure>
 
