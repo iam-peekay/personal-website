@@ -14,9 +14,6 @@ tags:
   - Tech
   - Gender Equality
 ---
-
-### Don’t become a programmer like me
-
 I recently stumbled upon this [Quora post](http://www.quora.com/How-do-I-convince-my-daughter-not-to-become-a-programmer-like-me) by a concerned parent asking for advice in discouraging her daughter from becoming a programmer:
 
 > How do I convince my daughter not to become a programmer like me?
@@ -35,9 +32,9 @@ The circumstances of my own life have sheltered me somewhat from having to addre
 
 Now that I’m entering the world of software engineering, I’m realizing that my experience as a “woman in tech” is not the norm. Everyone I meet seems to have a discouraging story to throw at me. Here are a couple of the anecdotes I’ve heard just in the last few weeks:
 
-1.  A female engineer and three male engineers walk into a meeting room to meet with a client. The client immediately assumes that the men are engineers and the female must be a designer or marketer. The woman has actually been an engineer for 20 years.
-2.  A tech entrepreneur hires a female engineer and gives her what he thought was the typical bump in salary relative to her previous job. A year later, he realizes that he had been unknowingly underpaying her relative to another male engineer in the exact same position.
-3.  A woman teaching at a coding bootcamp observes that women are intimidated to apply for senior positions because they subconsciously feel they can’t go up against men, and so they end up applying for junior roles. Meanwhile, their male peers graduate from the same program directly into senior roles.
+1. A female engineer and three male engineers walk into a meeting room to meet with a client. The client immediately assumes that the men are engineers and the female must be a designer or marketer. The woman has actually been an engineer for 20 years.
+2. A tech entrepreneur hires a female engineer and gives her what he thought was the typical bump in salary relative to her previous job. A year later, he realizes that he had been unknowingly underpaying her relative to another male engineer in the exact same position.
+3. A woman teaching at a coding bootcamp observes that women are intimidated to apply for senior positions because they subconsciously feel they can’t go up against men, and so they end up applying for junior roles. Meanwhile, their male peers graduate from the same program directly into senior roles.
 
 If you look at all these stories, you’ll notice that none of the incidents are directly malicious. Of course, there are some evil people in the world who are truly discriminatory and don’t want gender equality, but I would argue that most people aren’t that way. Instead, the main factor at play is **unconscious bias**, by men and women alike. It’s a problem we’ve all created together — a problem deeply rooted in the evolution of humans.
 
@@ -55,7 +52,7 @@ For men, progress doesn’t require letting go of entitlement; it simply means a
 
 For companies, engaging in the debate means putting support systems in place that don’t make the women in the workplace feel like they have to choose between being a good mother and being a good professional. The statistics prove that policies like increased maternity leave _actually save money_:
 
-> “When we increased paid maternity leave to 18 from 12 weeks in 2007, the rate at which new moms left Google fell by 50%. \[…\] Mothers were able to take the time they needed to bond with their babies and return to their jobs feeling confident and ready. And it’s much better for Google’s bottom line — to avoid costly turnover, and to retain the valued expertise, skills and perspective of our employees who are mothers.”— _Susan Wojcicki, YouTube CEO (Source:_ [_WSJ_](http://www.wsj.com/articles/susan-wojcicki-paid-maternity-leave-is-good-for-business-1418773756)_)_
+> “When we increased paid maternity leave to 18 from 12 weeks in 2007, the rate at which new moms left Google fell by 50%. \[…] Mothers were able to take the time they needed to bond with their babies and return to their jobs feeling confident and ready. And it’s much better for Google’s bottom line — to avoid costly turnover, and to retain the valued expertise, skills and perspective of our employees who are mothers.”— _Susan Wojcicki, YouTube CEO (Source:_ [_WSJ_](http://www.wsj.com/articles/susan-wojcicki-paid-maternity-leave-is-good-for-business-1418773756)_)_
 
 Gender diversity shouldn’t be a quota to meet — after all, no one wants to be hired _because_ they are female. [Study](https://www.americanprogress.org/issues/labor/news/2012/07/12/11900/the-top-10-economic-facts-of-diversity-in-the-workplace/) after [study](http://www.theguardian.com/world/2015/sep/24/tackling-gender-inequality-could-add-12tn-to-world-economy-study-finds?CMP=share_btn_tw) show that a diverse workplace leads to higher rates of retention, happiness, and productivity. It leads to a more qualified, creative, and innovative workforce, which is critical for long-term success. This requires fundamental changes in how companies hire — not just who they hire — by implementing criteria that favors the strengths of men and women equally.
 
