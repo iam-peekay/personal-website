@@ -13,9 +13,6 @@ tags:
   - Software Development
   - JavaScript
 ---
-
-### Going from jQuery Spaghetti to MVC
-
 This week, let’s start with a look at the typical web developer’s experience going from pure jQuery to an MVC framework.
 
 <figure>
@@ -110,16 +107,16 @@ In summary, let me tell you what I did and didn’t like about Backbone. Note: I
 
 #### **What I liked**
 
-*   As the name suggests, Backbone is bare bones. Rather than a full-blown framework you get a minimalistic library that provides utilities for manipulating and querying data in your application. As a result, it’s a fairly simple and small code base (which I was able to read last night in a matter of a few hours), making it easy to get started
-*   It hits the metal — meaning, it has fewer abstractions and built-in assumptions relative to other front-end frameworks. This forces you to understand and think about how data will flow through your application, which I think is a very important skillset for a beginner
-*   It’s flexible and plays well with other frameworks or libraries so you don’t have to be locked into a single solution
-*   Backbone is not opinionated. In fact, many organizations create their own conventions and their own accepted way of doing things. Besides the few anti-patterns and conventions that the Backbone community agrees on, the choices of how you decide to wire up the app to make events propagate through it are left up to the programmer
-*   Killer documentation
+* As the name suggests, Backbone is bare bones. Rather than a full-blown framework you get a minimalistic library that provides utilities for manipulating and querying data in your application. As a result, it’s a fairly simple and small code base (which I was able to read last night in a matter of a few hours), making it easy to get started
+* It hits the metal — meaning, it has fewer abstractions and built-in assumptions relative to other front-end frameworks. This forces you to understand and think about how data will flow through your application, which I think is a very important skillset for a beginner
+* It’s flexible and plays well with other frameworks or libraries so you don’t have to be locked into a single solution
+* Backbone is not opinionated. In fact, many organizations create their own conventions and their own accepted way of doing things. Besides the few anti-patterns and conventions that the Backbone community agrees on, the choices of how you decide to wire up the app to make events propagate through it are left up to the programmer
+* Killer documentation
 
 #### **What I didn’t like**
 
-*   No two-way data binding, leaving the developer tasked with writing a lot of boilerplate to update the view whenever the model changes and vice versa
-*   Backbone is not opinionated. This is a gift and curse. I explained above why I think this characteristic makes Backbone special — but it also makes it difficult for beginners who are left with too much choice and can easily wander down the wrong path. I spent too much time searching for “the right way” to do things, only to realize they don’t exist
+* No two-way data binding, leaving the developer tasked with writing a lot of boilerplate to update the view whenever the model changes and vice versa
+* Backbone is not opinionated. This is a gift and curse. I explained above why I think this characteristic makes Backbone special — but it also makes it difficult for beginners who are left with too much choice and can easily wander down the wrong path. I spent too much time searching for “the right way” to do things, only to realize they don’t exist
 
 To close, here’s my update for the week:
 
