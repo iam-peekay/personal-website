@@ -16,9 +16,6 @@ tags:
   - Venture Capital
   - Startup
 ---
-
-### What I wish I knew about fundraising as a first-time founder
-
 <figure>
 
 ![](/media/what-i-wish-i-knew-about-fundraising-as-a-first-time-founder-0.jpg)
@@ -177,9 +174,9 @@ What exactly does this mean?
 
 One suggestion I’d make is to speak to angel investors first. It’s best to talk to the angel community first because these are the people who usually are less formal and are willing to give you more direct feedback (if you ask for it genuinely.) Also, a rejection from an angel is generally:
 
-1.  less embarrassing
-2.  more friendly and light-hearted
-3.  less loud, in terms of signaling
+1. less embarrassing
+2. more friendly and light-hearted
+3. less loud, in terms of signaling
 
 On the other hand, a rejection from a VC firm feels much more “real” and unfortunately can reverberate through the wider VC community.
 
@@ -201,7 +198,7 @@ So, use them to your advantage. **A good analogy can serve as a very strong foun
 
 ### Don’t give up too early
 
-Within the first week of meetings, I had somehow managed to convince a few people to invest in me. After that, when the going got tough, there were so many moments when I just wanted to throw my hands up and call it the end. It was very tempting to just cap the round early with the few backers I knew I had: **_Who wants to go out and keep getting beaten up day after day?_**
+Within the first week of meetings, I had somehow managed to convince a few people to invest in me. After that, when the going got tough, there were so many moments when I just wanted to throw my hands up and call it the end. It was very tempting to just cap the round early with the few backers I knew I had: _**Who wants to go out and keep getting beaten up day after day?**_
 
 Luckily, a couple people kept pushing me to meet one more person, or one more firm. They believed in me and wanted to put me in front of more people. It felt like a never-ending warp of intros and meetings. I was running around San Francisco with my purple suitcase, purple bag and purple jacket for two weeks straight (yes, my favorite color is purple. It was grounding to keep stuff around that reminded me of “me” in the disorienting haze of fundraising.)
 
@@ -219,9 +216,9 @@ Sure, there are some rare cases where a founder will meet with a couple investor
 
 So treat it like a numbers game. For the seed stage, the average number of meetings to do is between 20–40. I was shocked to hear this myself, but it makes sense for a few reasons:
 
-1.  You should plan to get no’s from about 80% of the investors you meet.
-2.  Some of these meetings will be with angel investors, who typically write smaller checks.
-3.  Having multiple options on the table gives you leverage in choosing the best investors for you.
+1. You should plan to get no’s from about 80% of the investors you meet.
+2. Some of these meetings will be with angel investors, who typically write smaller checks.
+3. Having multiple options on the table gives you leverage in choosing the best investors for you.
 
 **Takeaway:** Err on the side of setting up more meetings, not less. If you’re following my advice from earlier, you’ve already set a strict time limit for your raise. Knowing that you’ve only got 2–4 weeks to raise capital should make it easier to bite the bullet and get into meeting mode.
 
