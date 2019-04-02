@@ -16,11 +16,6 @@ tags:
   - Self Improvement
   - Learning
 ---
-
-### Injury is an opportunity
-
-#### Learning of the week
-
 <figure>
 
 ![](/media/injury-is-an-opportunity-0.jpeg)
@@ -57,8 +52,8 @@ Rather than mope and stop working out altogether, I started thinking of other wa
 
 After some consideration, I decided I’d use this time to:
 
-1.  Strengthen my quads and hamstrings to remove pressure off my knees when running.
-2.  Focus on high intensity workouts (I’ve always been an endurance person so this would be a whole new challenge for me).
+1. Strengthen my quads and hamstrings to remove pressure off my knees when running.
+2. Focus on high intensity workouts (I’ve always been an endurance person so this would be a whole new challenge for me).
 
 I signed up for TRX and created a few strength training workouts for myself. Meanwhile, for cardio, I switched to doing the staircase and elliptical to the extent my knee could handle it. I basically completely revamped my workout from long, endurance based ones to short, high intensity interval based workouts.
 
@@ -87,7 +82,7 @@ His swing coach Hank Haney said,
 But apparently, nothing was going to stand in Woods’ way. As Haney explained,
 
 > “Despite a torn anterior cruciate ligament and the double stress fracture, Woods managed to win a major that required five days of flinching, grimacing and a long list of spectacular shots that have defined his career.
-
+>
 > He went 91 holes on a leg that got worse each day, finally defeating [Rocco Mediate](http://sports.espn.go.com/golf/players/profile?playerId=305) on the 19th hole of a playoff.”
 
 #### Conclusion
