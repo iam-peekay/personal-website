@@ -15,9 +15,6 @@ tags:
   - Coding
   - Life Lessons
 ---
-
-### What Happened After I Left the Best Job in the World to Become an Engineer?
-
 <figure>
 
 ![](/media/what-happened-after-i-left-the-best-job-in-the-world-to-become-an-engineer-0.jpeg)
@@ -97,12 +94,12 @@ My thesis project at Hack Reactor is a good example. My teammates and I chose to
 
 Beyond deepening your technical skills, project-based learning also teaches a variety of high-level skills:
 
-*   How to design the right architecture
-*   How to pick the most appropriate tools to work with
-*   How to write code that is easy to read and maintain
-*   How to build a robust and thorough test suite
-*   How to build a great user experience
-*   … and much more
+* How to design the right architecture
+* How to pick the most appropriate tools to work with
+* How to write code that is easy to read and maintain
+* How to build a robust and thorough test suite
+* How to build a great user experience
+* … and much more
 
 #### **Step 3: Continuous Learning**
 
@@ -130,12 +127,12 @@ My personal goal was to become a full-time software engineer, and so as next ste
 
 Luckily, a part of Hack Reactor’s program did just this, and I got to work on three separate group projects over the span of 6 weeks, each of which we took from idea to fully-deployed product. Along the way, we learned things like:
 
-*   How to design a spec as a group
-*   How to discuss varying points of view
-*   How to manage git workflow
-*   How to practice agile software development
-*   How to agree on the right tools to use
-*   How to manage team conflicts and dissimilar personalities
+* How to design a spec as a group
+* How to discuss varying points of view
+* How to manage git workflow
+* How to practice agile software development
+* How to agree on the right tools to use
+* How to manage team conflicts and dissimilar personalities
 
 …Basically, we learned everything that matters outside the code itself.
 
@@ -147,11 +144,11 @@ There were days on this project where the challenges I faced made me feel frustr
 
 At times like this, giving up was all too easy. I had to keep reminding myself that the only way I’d gotten this far was by pushing forward and fighting the negative feelings. So, I would take a deep breath, step back, and give the code room to breathe. Then I’d ask myself questions like:
 
-*   Am I trying to solve the right problem, or have I been side tracked into solving a tangential problem?
-*   What are my constraints? What do I know about this problem? Is my interpretation of the problem valid?
-*   Is my current approach harder than it needs to be? Can I find an easier way?
-*   What can I find on the interwebs that would help me with this problem?
-*   Is there someone or somewhere I can ask for help?
+* Am I trying to solve the right problem, or have I been side tracked into solving a tangential problem?
+* What are my constraints? What do I know about this problem? Is my interpretation of the problem valid?
+* Is my current approach harder than it needs to be? Can I find an easier way?
+* What can I find on the interwebs that would help me with this problem?
+* Is there someone or somewhere I can ask for help?
 
 In the end, every problem ended in a solution. It’s through experiences like these that I realized there’s nothing you can’t figure out with effort — including the “seemingly impossible” tasks.
 
@@ -167,7 +164,7 @@ The engineering job market is a huge topic. I can’t offer any revolutionary so
 
 #### **Rejection != You are terrible**
 
-When I was getting started, I thought that if you were good enough, you could swing a homerun every time. That delusion was quickly dashed. It’s difficult to ace _every_ programming interview. Even some incredibly talented developers I know said they’ve gotten rejections because they messed up an algorithms question or got nervous or whatever the silly reason. In fact, there’s even a [“They rejected us”](http://rejected.us/) list ([http://rejected.us/](http://rejected.us/)) of developers that I look up to everyday who share their stories on rejection.
+When I was getting started, I thought that if you were good enough, you could swing a homerun every time. That delusion was quickly dashed. It’s difficult to ace _every_ programming interview. Even some incredibly talented developers I know said they’ve gotten rejections because they messed up an algorithms question or got nervous or whatever the silly reason. In fact, there’s even a [“They rejected us”](http://rejected.us/) list (<http://rejected.us/>) of developers that I look up to everyday who share their stories on rejection.
 
 None the less, rejection is always disappointing, whether it’s because of our own shortcomings, or simply factors beyond our control.
 
@@ -215,11 +212,11 @@ Some of my favorite resources for learning algorithms and data structures includ
 
 #### **Final Common Sense Tips**
 
-*   Be a nice person during your interviews. You’ll be surprised how far it gets you. Interviewers are not only looking for technical skills, but also for people who they would enjoy working with.
-*   Be confident in your skills. You might not know everything there is to know about programming, but know what you’re good at, the value you provide, and act in a way that conveys your value to others. Show that you believe in your ability to contribute.
-*   Be genuinely interested in the problem the company you’re interviewing with is solving. Ask thought-provoking questions about the business, the team, the future of the engineering organization and the problems they are excited to tackle. Show that you care (and if you don’t care, then don’t apply to that company).
-*   Get warm intros if you can (preferably from someone who the company knows well and trusts).
-*   Don’t settle for your first offer (unless it’s your dream offer). Push yourself to get more. Searching for a job only happens once every 2–5 years, but the consequence of that process has an effect on your life every day — so put the work into it now to get a job you’re excited about.
+* Be a nice person during your interviews. You’ll be surprised how far it gets you. Interviewers are not only looking for technical skills, but also for people who they would enjoy working with.
+* Be confident in your skills. You might not know everything there is to know about programming, but know what you’re good at, the value you provide, and act in a way that conveys your value to others. Show that you believe in your ability to contribute.
+* Be genuinely interested in the problem the company you’re interviewing with is solving. Ask thought-provoking questions about the business, the team, the future of the engineering organization and the problems they are excited to tackle. Show that you care (and if you don’t care, then don’t apply to that company).
+* Get warm intros if you can (preferably from someone who the company knows well and trusts).
+* Don’t settle for your first offer (unless it’s your dream offer). Push yourself to get more. Searching for a job only happens once every 2–5 years, but the consequence of that process has an effect on your life every day — so put the work into it now to get a job you’re excited about.
 
 Who knows. You might just end up finding your dream job.
 
@@ -231,12 +228,12 @@ Absolutely not. I have so much more I want to learn and so much I want to tackle
 
 Here are some of the ways I plan to continue educating myself:
 
-*   Follow the conversations happening around my favorite open-source projects. Then, when I feel comfortable, get actively involved and contribute.
-*   Continue to grow my professional network — through Twitter, open-source, meet ups, etc. — and then grow from my network. There are lots of phenomenal developers out there who are willing to help and mentor. I want to meet them and learn from them.
-*   Teach others through blog posts and presentations at conferences and local meetups.
-*   Seek out technical and non-technical mentors and have regular conversations with them. Ask for their advice. Use their past experience to inform my future decisions.
-*   Read programming books and take online computer science courses in my spare time
-*   Most importantly, never let myself get comfortable.
+* Follow the conversations happening around my favorite open-source projects. Then, when I feel comfortable, get actively involved and contribute.
+* Continue to grow my professional network — through Twitter, open-source, meet ups, etc. — and then grow from my network. There are lots of phenomenal developers out there who are willing to help and mentor. I want to meet them and learn from them.
+* Teach others through blog posts and presentations at conferences and local meetups.
+* Seek out technical and non-technical mentors and have regular conversations with them. Ask for their advice. Use their past experience to inform my future decisions.
+* Read programming books and take online computer science courses in my spare time
+* Most importantly, never let myself get comfortable.
 
 ### **Looking forward**
 
