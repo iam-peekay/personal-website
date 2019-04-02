@@ -17,9 +17,6 @@ tags:
   - Startup
   - Design
 ---
-
-### Between the Wires: An interview with Chris Coyier of CodePen & CSS-Tricks fame
-
 <figure>
 
 ![](/media/between-the-wires-an-interview-with-chris-coyier-of-codepen-css-tricks-fame-0.)
@@ -134,7 +131,7 @@ We also do some advertising as well, because of how many views we get. We have a
 
 #### How do you decide which features should be free versus PRO? How do you get that balance right?
 
-> “Monetization is the hardest stuff to think about, period. \[…\] In the end, how do I know for sure that we made the right choice? I don’t.”
+> “Monetization is the hardest stuff to think about, period. \[…] In the end, how do I know for sure that we made the right choice? I don’t.”
 
 Monetization is the hardest stuff to think about, period. You get so much conflicting advice too. It’s crazy.
 
@@ -252,7 +249,7 @@ I have hobbies, I go on vacation. I have enough of a well-rounded life that I do
 
 ### How do you build a culture with remote teams?
 
-> “Positivity is also really important to CodePen and our team embraces it. \[…\] It feels safe here, comfortable, and that’s how good communities are born.”
+> “Positivity is also really important to CodePen and our team embraces it. \[…] It feels safe here, comfortable, and that’s how good communities are born.”
 
 I probably think about this a little too much. I like to shower people with praise. I like to talk things out as a team and find those small teaching moments. Culture comes from that — from moments where you think about how to approach a situation and why, as a team. I also encourage people to pay attention to industry news, and throw their two cents in. Those are culture-building moments.
 
@@ -266,7 +263,7 @@ Positivity is also really important to CodePen and our team embraces it. We neve
 
 ### Who are your programming heroes?
 
-> “It’s hard for me to look at random people in the industry and consider them programming heroes. \[…\] My heroes are the the people I work with directly.”
+> “It’s hard for me to look at random people in the industry and consider them programming heroes. \[…] My heroes are the the people I work with directly.”
 
 When you work directly with someone and experience their genius on a day-to-day basis, they feel like the best programmer in the world, and that’s how I feel all the time.
 
