@@ -16,9 +16,6 @@ tags:
   - Software Development
   - Learning To Code
 ---
-
-### Why use static types in JavaScript? Should we use them or not?
-
 <figure>
 
 ![](/media/why-use-static-types-in-javascript-part-4-0.jpeg)
@@ -39,17 +36,17 @@ Dynamic typing feels faster and easier, but it sometimes loses ground once you a
 
 Ultimately, there’s no silver bullet. My personal approach is to favor using types under these circumstances:
 
-1.  The program is critical to your business
-2.  The program is likely to be refactored as your needs evolve
-3.  The program is complex and has many moving parts
-4.  The program is maintained by a large team of developers who need to be able to grasp and understand the code quickly and accurately
+1. The program is critical to your business
+2. The program is likely to be refactored as your needs evolve
+3. The program is complex and has many moving parts
+4. The program is maintained by a large team of developers who need to be able to grasp and understand the code quickly and accurately
 
 On the flip side, I’d consider opting out of types in these types of situations:
 
-1.  The code is short-lived and non-critical
-2.  You’re prototyping and trying to move as quickly as possible
-3.  The program is small and/or simple
-4.  You’re the only developer
+1. The code is short-lived and non-critical
+2. You’re prototyping and trying to move as quickly as possible
+3. The program is small and/or simple
+4. You’re the only developer
 
 The beauty of being a JavaScript developer today is that because of tools like Flow and TypeScript, we finally have a choice of whether to use static types or good ol’ vanilla JavaScript.
 
