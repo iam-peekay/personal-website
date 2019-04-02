@@ -17,9 +17,6 @@ tags:
   - Technology
   - Future
 ---
-
-### Blockchains don’t scale. Not today, at least. But there’s hope.
-
 <figure>
 
 ![](/media/blockchains-dont-scale-not-today-at-least-but-there-s-hope-0.jpeg)
@@ -27,36 +24,36 @@ tags:
 </figure>
 
 The first Bitcoin [paper](https://bitcoin.org/bitcoin.pdf) was first released in 2008. My excitement about the potential of blockchain technology has been building ever since.   
-   
+
 Decentralized digital currency, once just a far-fetched goal, is finally making inroads into the mainstream. While that’s exciting on its own merit, I’m personally most excited about the potential for decentralized applications. Financial exchanges, prediction markets, and asset management platforms all carry enormous potential.   
-   
+
 The _trustless systems_ supporting them are no less intriguing; identity verification systems, smart property, _censorship resistant_ social platforms, and _autonomous structures and_ _governance models_ like [DAOs](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization). The most disruptive use cases probably haven’t even been dreamt up yet.   
-   
-But this dream still remains a dream for the foreseeable future — while a few early enthusiasts and entrepreneurs are experimenting with building such applications, there’s still a big missing piece that prevents us from seeing these applications come to fruition_:_ **_scalability_**_._ **Blockchains, as it stands today, are limited in their ability to scale.**  
-   
+
+But this dream still remains a dream for the foreseeable future — while a few early enthusiasts and entrepreneurs are experimenting with building such applications, there’s still a big missing piece that prevents us from seeing these applications come to fruition_:_ _**scalability**._ **Blockchains, as it stands today, are limited in their ability to scale.**  
+
 That’s not to say that this will be the case forever, but it’s definitely true today. In fact, I’d argue it’s one of the biggest technological barriers we face with blockchain technology today. It’s quickly become a very active area of research among researchers in the community and cryptocurrency in general.
 
 ### Why isn’t the blockchain scalable?
 
 **Currently, all blockchain consensus protocols (eg. Bitcoin, Ethereum, Ripple, Tendermint) have a challenging limitation: every fully participating node in the network must process every transaction**. Recall that blockchains have one inherent critical characteristic — “decentralization” — which means that every single node on the network processes every transaction and maintains a copy of the entire state.  
-   
+
 While a decentralization consensus mechanism offers some critical benefits, such as fault tolerance, a strong guarantee of security, political neutrality, and authenticity, it comes at the cost of scalability. The number of transactions the blockchain can process can never exceed that of a single node that is participating in the network. In fact, the blockchain actually gets weaker as more nodes are added to its network because of the inter-node latency that logarithmically increases with every additional node.  
-   
+
 In a traditional database system, the solution to scalability is to add more servers (i.e. compute power) to handle the added transactions. In the decentralized blockchain world where every node needs to process and validate every transaction, it would require us to add more compute to every node for the network to get faster. Having no control over every public node in the network leaves us in a pickle.  
-   
+
 **As a result, all public blockchain consensus protocols that operate in such a decentralized manner make the tradeoff between low transaction throughput and high degree of centralization.** In other words, as the size of the blockchain grows, the requirements for storage, bandwidth, and compute power required by fully participating in the network increases. At some point, it becomes unwieldy enough that it’s only feasible for a few nodes to process a block — leading to the risk of centralization.  
-   
+
 **In order to scale, the blockchain protocol must figure out a mechanism to limit the number of participating nodes needed to validate each transaction, without losing the network’s trust that each transaction is valid.** It might sound simple in words, but is technologically very difficult. Why?
 
-1.  Since every node is not allowed to validate every transaction, we somehow need nodes to have a statistical and economic means to ensure that other blocks (which they are not personally validating) are secure.
-2.  There must be some way to guarantee data availability. In other words, even if a block looks valid from the perspective of a node not directly validating that block, making the data for that block unavailable leads to a situation where no other validator in the network can validate transactions or produce new blocks, and we end up stuck in the current state. (There are several reasons a node might go offline, including malicious attack and power loss.)
-3.  Transactions need to be processed by different nodes in parallel in order to achieve scalability. However, transitioning state on the blockchain also has several non-parallelizable (serial) parts, so we’re faced with some restrictions on how we can transition state on the blockchain while balancing both parallelizability and utility.
+1. Since every node is not allowed to validate every transaction, we somehow need nodes to have a statistical and economic means to ensure that other blocks (which they are not personally validating) are secure.
+2. There must be some way to guarantee data availability. In other words, even if a block looks valid from the perspective of a node not directly validating that block, making the data for that block unavailable leads to a situation where no other validator in the network can validate transactions or produce new blocks, and we end up stuck in the current state. (There are several reasons a node might go offline, including malicious attack and power loss.)
+3. Transactions need to be processed by different nodes in parallel in order to achieve scalability. However, transitioning state on the blockchain also has several non-parallelizable (serial) parts, so we’re faced with some restrictions on how we can transition state on the blockchain while balancing both parallelizability and utility.
 
 ### Gimme the numbers
 
 So what do the scalability numbers actually look like? Let’s take a look.  
-   
-An Ethereum node’s maximum theoretical transaction processing capacity is over 1,000 transactions per second \[1\]. Unfortunately, this is not the actual throughput due to Ethereum’s “gas limit”, which is currently around 6.7 million gas on average for each block \[2\].
+
+An Ethereum node’s maximum theoretical transaction processing capacity is over 1,000 transactions per second \[1]. Unfortunately, this is not the actual throughput due to Ethereum’s “gas limit”, which is currently around 6.7 million gas on average for each block \[2].
 
 <figure>
 
@@ -73,10 +70,10 @@ Quick “gas” primer in case the measurement is new to you: in Ethereum, gas i
 </figure>
 
 Ethereum’s gas limit is somewhat similar to Bitcoin’s 1 MB limit on the size of each block, with the difference being that Ethereum’s gas limit is dynamically set by miners while Bitcoin’s block size limit is hard-coded into the protocol.   
-   
-This gas limit for Ethereum imposes a soft cap on the network’s computational power per block: **with the current 6.7 million gas limit and the current average gas used per standard transaction of approximately 21K, we get approximately 300 standard transactions every block. The current average block time is 20 seconds which equates to roughly 15 transactions per second (300 / 20 = 15) at best** \[4\]. This gets much lower with more complex transactions (e.g. median gas used by smart contract calls is 50K \[3\], which means roughly ~7 transactions per second).
 
-Combined with the fact that the number of transactions on the Ethereum network is growing at a significant pace, you can see how this would become a problem. **Daily transactions increased from approximately 40K to 240K from Q2 2016 to Q2 2017 \[4\], which represents a 500% year-over-year growth**. Moreover, just in the past month it reached a peak of over **440K transactions per day!** If we do some back of the envelope calculations, that’s an average of 5 transactions per second.
+This gas limit for Ethereum imposes a soft cap on the network’s computational power per block: **with the current 6.7 million gas limit and the current average gas used per standard transaction of approximately 21K, we get approximately 300 standard transactions every block. The current average block time is 20 seconds which equates to roughly 15 transactions per second (300 / 20 = 15) at best** \[4]. This gets much lower with more complex transactions (e.g. median gas used by smart contract calls is 50K \[3], which means roughly ~7 transactions per second).
+
+Combined with the fact that the number of transactions on the Ethereum network is growing at a significant pace, you can see how this would become a problem. **Daily transactions increased from approximately 40K to 240K from Q2 2016 to Q2 2017 \[4], which represents a 500% year-over-year growth**. Moreover, just in the past month it reached a peak of over **440K transactions per day!** If we do some back of the envelope calculations, that’s an average of 5 transactions per second.
 
 Uh oh.
 
@@ -88,7 +85,7 @@ I’ve been architecting and implementing a new protocol on Ethereum, and have f
 
 The truth of the matter is that unfortunately, none of the solutions provide the silver bullet answer to scalability. In reality, each one of these solutions will help improve scalability incrementally. Combined together, there’s a promising outlook for the future of blockchain scalability.
 
-Please note that the goal of this post is not to explore all the technical intricacies or to debate the merits of each proposed solution. Instead, my goal is to give you a 10,000 foot overview of some of the proposed solutions that I am aware of. If readers are interested, I can dive into some of the specific solutions in more depth in later posts. This post also assumes that you have a basic understanding of how the blockchain works. (If not, you can check out my last post “[**_Bitcoin, Ethereum, Blockchain, Tokens, ICOs: Why should anyone care?_**](https://hackernoon.com/bitcoin-ethereum-blockchain-tokens-icos-why-should-anyone-care-890b868cec06)” for a refresher.)
+Please note that the goal of this post is not to explore all the technical intricacies or to debate the merits of each proposed solution. Instead, my goal is to give you a 10,000 foot overview of some of the proposed solutions that I am aware of. If readers are interested, I can dive into some of the specific solutions in more depth in later posts. This post also assumes that you have a basic understanding of how the blockchain works. (If not, you can check out my last post “[_**Bitcoin, Ethereum, Blockchain, Tokens, ICOs: Why should anyone care?**_](https://hackernoon.com/bitcoin-ethereum-blockchain-tokens-icos-why-should-anyone-care-890b868cec06)” for a refresher.)
 
 Let’s dig in.
 
@@ -106,13 +103,13 @@ Every Bitcoin transaction contains:
 
 **Input**
 
-*   Sender’s previous transaction details
-*   Sender’s unique private key (i.e. \`scriptSig\`) which verifies that the sender has the right amount (based on their previous transactions) to make the transaction
+* Sender’s previous transaction details
+* Sender’s unique private key (i.e. \`scriptSig\`) which verifies that the sender has the right amount (based on their previous transactions) to make the transaction
 
 **Output**
 
-*   Amount to send
-*   Recipient’s public address (i.e. \`ScriptPubKey\`)
+* Amount to send
+* Recipient’s public address (i.e. \`ScriptPubKey\`)
 
 Out of these elements, the digital signature (\`scriptSig\`) is the largest in terms of size, accounting for ~60–70% of the transaction. Still, signatures are only needed at validation time.
 
@@ -143,12 +140,12 @@ Plans of this block size increase have long been a [subject](https://www.mail-ar
 ### Proposed solution #3: Off-chain state channels
 
 **State channels are essentially a mechanism by which blockchain interactions that could and would normally occur on the blockchain instead get conducted off of the blockchain.** This is done in a cryptographically secure way without increasing the risk of any participant, while providing significant improvements in cost and speed. I personally believe state channels will be a critical part of scaling blockchain technologies to support higher levels of use.  
-   
+
  A state channel works as follows:
 
-1.  Part of the blockchain state is locked via multi-signature or some sort of smart contract, where the only way to update it is if a specific set of participants agree completely.
-2.  Participants make updates amongst themselves by constructing and cryptographically signing transactions without submitting it to the blockchain. Each new update overrides previous updates.
-3.  At some later point, participants submit the state back to the blockchain, which closes the state channel and unlocks the state again.
+1. Part of the blockchain state is locked via multi-signature or some sort of smart contract, where the only way to update it is if a specific set of participants agree completely.
+2. Participants make updates amongst themselves by constructing and cryptographically signing transactions without submitting it to the blockchain. Each new update overrides previous updates.
+3. At some later point, participants submit the state back to the blockchain, which closes the state channel and unlocks the state again.
 
 Steps 1 and 3 involve blockchain operations which are published to the network, pay fees and wait for confirmations. However, Step 2 does not involve the blockchain at all. It can contain an unlimited number of updates and can remain open indefinitely. In this sense, the blockchain is used purely as a settlement layer to process the final transaction of a series of interactions for the final settlement, which helps lifts the burden from the underlying blockchain.
 
@@ -184,7 +181,7 @@ Similarly, with blockchain sharding, the overall state of the blockchain is sepa
 
 ![](/media/blockchains-dont-scale-not-today-at-least-but-there-s-hope-8.)
 
-<figcaption>Top level diagram of blockchain sharding \[6\]</figcaption></figure>
+<figcaption>Top level diagram of blockchain sharding \\[6\]</figcaption></figure>
 
 Transactions that occur on the network are directed to different nodes depending on which shards they affect. **Each shard only processes a small part of the state and does so in parallel.** In order to communicate between shards, there needs to be some message-passing mechanism.
 
@@ -194,11 +191,11 @@ There are various ways to implement message-passing. In Ethereum’s case, the a
 
 ![](/media/blockchains-dont-scale-not-today-at-least-but-there-s-hope-9.)
 
-<figcaption>Ethereum’s receipt paradigm \[1\]</figcaption></figure><figure>
+<figcaption>Ethereum’s receipt paradigm \\[1\]</figcaption></figure><figure>
 
 ![](/media/blockchains-dont-scale-not-today-at-least-but-there-s-hope-10.)
 
-<figcaption>Ethereum’s receipt paradigm \[6\]</figcaption></figure>
+<figcaption>Ethereum’s receipt paradigm \\[6\]</figcaption></figure>
 
 Overall, sharding the blockchain requires us to create a network where every node only processes a small portion of all transactions, while still maintaining high security… A difficult challenge to say the least.
 
@@ -328,7 +325,7 @@ Another reason Proof-of-stake helps scalability (specifically for Ethereum) is b
 
 #### Blockchain rent
 
-Another Ethereum-specific solution is “Blockchain rent” \[5\]. Blockchain rent is a solution that aims to reduce the amount of data that is stored on the network in order to help speed up transaction times. With Ethereum, users pay for computational steps, memory, transaction logs, and permanent storage. While most of these are resources are paid for in a properly incentivized manner, the claim here is that storage is not.
+Another Ethereum-specific solution is “Blockchain rent” \[5]. Blockchain rent is a solution that aims to reduce the amount of data that is stored on the network in order to help speed up transaction times. With Ethereum, users pay for computational steps, memory, transaction logs, and permanent storage. While most of these are resources are paid for in a properly incentivized manner, the claim here is that storage is not.
 
 In the current system, users only pay for bytes of storage. However, in reality, we can make the argument that storage is different from the other resources because it is stored forever permanently in the blocks. Instead, blockchain rent proposes to set the cost of storage to be _\`bytes x time\`_. This way, there’s an incentive built into the protocol to keep the network lighter and reduce transaction times.
 
@@ -351,5 +348,5 @@ This topic is monstrously complex, but I hope this post was useful in giving you
 This is not be a comprehensive list of by any means, and I’ll be following up on this topic as research progresses. I personally doubt that there’ll be a single silver bullet answer to scalability… but I believe some combination of approaches will eventually solve the issue and allow blockchain applications to leap forward.
 
 As always, don’t hesitate to correct any mistakes I’ve made, or start a (healthy) discussion in the comments.   
-   
+
 **Happy blockchaining! ;)**
