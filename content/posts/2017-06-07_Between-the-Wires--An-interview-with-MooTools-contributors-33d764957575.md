@@ -16,9 +16,6 @@ tags:
   - React
   - Web Design
 ---
-
-### Between the Wires: An interview with MooTools contributors
-
 <figure>
 
 ![](/media/between-the-wires-an-interview-with-mootools-contributors-0.)
