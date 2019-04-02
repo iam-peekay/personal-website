@@ -16,9 +16,6 @@ tags:
   - Ethereum
   - Software Development
 ---
-
-### ELI5: What do we mean by “blockchains are trustless”?
-
 <figure>
 
 ![](/media/eli5-what-do-we-mean-by-blockchains-are-trustless-0.jpeg)
@@ -29,7 +26,7 @@ tags:
 
 Many of us are guilty of describing blockchains as “trustless” systems. However, I’ve come to realize that the term “trustless” is ambiguous, confusing, and most importantly, inaccurate.
 
-Blockchains don’t actually **_eliminate_** trust. What they do is **_minimize_** the amount of trust required from any single actor in the system. They do this by **_distributing_** **_trust_** among different actors in the system via an economic game that incentivizes actors to cooperate with the rules defined by the protocol.
+Blockchains don’t actually _**eliminate**_ trust. What they do is _**minimize**_ the amount of trust required from any single actor in the system. They do this by _**distributing**_ _**trust**_ among different actors in the system via an economic game that incentivizes actors to cooperate with the rules defined by the protocol.
 
 Let me explain in more detail.
 
@@ -43,8 +40,8 @@ A truly trustless transactional system would look something like this:
 
 Two people who are interested in transacting with one another change hands directly. They are physically present, and therefore can easily verify
 
-1.  **Authenticity**: the actual sender is handing over the money, and
-2.  **No double spending:** the money is not fake, it’s a real $10 bill
+1. **Authenticity**: the actual sender is handing over the money, and
+2. **No double spending:** the money is not fake, it’s a real $10 bill
 
 While theoretically flawless, this transactional system is limited. Consider: two individuals may trade with one another only when they are in close physical proximity. For economies to function at scale, a transactional system should enable transfers with anyone in the world, regardless of distance.
 
@@ -88,13 +85,13 @@ In a “centralized” system, we trust a single third party (e.g. Chase Bank) t
 
 Public key cryptography (or asymmetrical cryptography) uses:
 
-1.  a set of public keys visible to anyone, and
-2.  a set of private keys visible only to the owner
+1. a set of public keys visible to anyone, and
+2. a set of private keys visible only to the owner
 
 The private key generates a “digital signature” for each blockchain transaction that a user sends out. The signature ensures **authenticity** by:
 
-1.  confirming that the transaction is coming from the user, and
-2.  preventing the transaction from being altered by anyone once it has been issued
+1. confirming that the transaction is coming from the user, and
+2. preventing the transaction from being altered by anyone once it has been issued
 
 Changing the transaction message in any way will cause verification to fail.
 
@@ -120,8 +117,8 @@ Blockchains have a shared ledger that gives us the absolute truth of the state o
 
 Let’s take Bitcoin, for example. The Bitcoin protocol has a consensus algorithm called “Proof of Work” that holds the system together. For a transaction to be settled between two consumers, the algorithm requires that a set of nodes (called “miners”) compete to validate transactions by solving a complex algorithmic problem. In other words, Bitcoin “economically incentivizes” miners to purchase and use compute power to solve complex problems. These economic incentives include:
 
-1.  miners earning a transaction fee that users pay for carrying out a transaction, and
-2.  miners earning new Bitcoins for successfully solving the puzzle
+1. miners earning a transaction fee that users pay for carrying out a transaction, and
+2. miners earning new Bitcoins for successfully solving the puzzle
 
 Because of these economic incentives, miners are constantly watching the network so that they can gather a new set of transactions to fit into a new “block.” Then they use their computing resources to solve the complex algorithm in order to “prove” that they did some work.
 
@@ -151,7 +148,7 @@ When there are forks like this, the network’s “canonical” chain is the one
 
 Every new block that’s added to the blockchain in this manner adds more security to the system because an attacker who wants to create new blocks that overwrite a party of history would need to consistently solve for the puzzle faster than anyone else in the network. This is practically impossible to do, making it’s impossible to reverse engineer or alter the data inside these blocks. This is why users trust continue to trust the system.
 
-So when we transact with one another on the blockchain, we are **_anchoring our trust_** in the miners who are giving up their resources to do some work to ensure no double spending.
+So when we transact with one another on the blockchain, we are _**anchoring our trust**_ in the miners who are giving up their resources to do some work to ensure no double spending.
 
 ### Social Consensus (Governance)
 
@@ -165,6 +162,6 @@ As I described in a [previous post](https://medium.com/@preethikasireddy/fundame
 
 **When we say blockchains are “trustless,” what we mean is that there are mechanisms in place by which all parties in the system can reach a consensus on what the canonical truth is. Power and trust is distributed (or shared) among the network’s stakeholders (e.g. developers, miners, and consumers), rather than concentrated in a single individual or entity (e.g. banks, governments, and financial institutions)**.
 
-Perhaps a more accurate way to describe blockchains is not as “trustless,” but as built on the basis of **_distributed trust:_** **_We are trusting everyone in aggregate._**
+Perhaps a more accurate way to describe blockchains is not as “trustless,” but as built on the basis of _**distributed trust:**_ _**We are trusting everyone in aggregate.**_
 
 Of course, this assumes that we trust that a majority of the power held in the system belongs to stakeholders who share similar values. Unfortunately, I don’t think we can claim — at least, not yet — to have figured out exactly what those shared values consist of. Hence the proliferation of blockchains and contentious forks in the past year … but that’s a long-winded topic for another day! 😊
