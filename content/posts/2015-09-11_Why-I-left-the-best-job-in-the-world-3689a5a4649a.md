@@ -14,8 +14,6 @@ tags:
   - Coding
   - Andreessen Horowitz
 ---
-### Why I left the best job in the world
-
 <figure>
 
 ![](/media/why-i-left-the-best-job-in-the-world-0.jpeg)
@@ -117,9 +115,7 @@ Needless to say, my mom is completely against it. She thinks I’m absolutely nu
 Sure, I don’t have a CS degree from Stanford or MIT. Sure, I might not get a job at Google or Facebook. But whether or not I get into Facebook or Google is not the point of why I want to do this. My goal is to genuinely _learn_. The road map I have in mind looks like this:
 
 1. Figure out what I like developing on the most: Front-end vs. Back-end, Mobile vs. Web, and what application areas I find most interesting: Machine Learning, Artificial Intelligence, Robotics, Computer Vision, etc.
-
 2. Get _really_ good at it
-
 3. Use those skills to change the world. That could mean building a world-changing company or something else entirely.
 
 So yes, I might not have the CS degree from Stanford, but I will as work hard as humanly possible to supplement the degree I don’t have by gaining real-world experience building real-world products. I realize that as I’m starting out some recruiters and hiring managers will still disregard me for not having a CS degree, but that’s OK. I’m confident that I will find at least one person who is willing to trust me by giving me a chance to prove myself, and fortunately that’s often all you need in the tech world. I’m willing to start from the bottom and work my way up, just as I did in finance.
