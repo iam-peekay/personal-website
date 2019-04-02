@@ -16,9 +16,6 @@ tags:
   - Software Development
   - Technology
 ---
-
-### Fundamental challenges with public blockchains
-
 <figure>
 
 ![](/media/fundamental-challenges-with-public-blockchains-0.png)
@@ -39,15 +36,15 @@ I believe that we _will_ get there, but we need to be realistic as developers an
 
 Some of these technical barriers include:
 
-1.  Limited scalability
-2.  Limited privacy
-3.  Lack of formal contract verification
-4.  Storage constraints
-5.  Unsustainable consensus mechanisms
-6.  Lack of governance and standards
-7.  Inadequate tooling
-8.  Quantum computing threat
-9.  … and more.
+1. Limited scalability
+2. Limited privacy
+3. Lack of formal contract verification
+4. Storage constraints
+5. Unsustainable consensus mechanisms
+6. Lack of governance and standards
+7. Inadequate tooling
+8. Quantum computing threat
+9. … and more.
 
 In this post, I’ll walk through these technical barriers and share examples of solutions for overcoming them.
 
@@ -55,7 +52,7 @@ As developers, I believe it’s **critical that we shift some of our focus away 
 
 _NOTE: There’s no way I can cover every problem and every solution out there, but I covered the ones I’m most familiar with. Please refrain from too harshly criticizing me for not including something. I’d love for you to post anything I missed in the comments and I’ll add it if I see fit :) … And if I’ve made any mistakes or wrong assertions, please let me know!_
 
-### 1\. Limited scalability
+### 1. Limited scalability
 
 Currently, all public blockchain consensus protocols have a challenging limitation: every fully participating node in the network must process every transaction.
 
@@ -65,8 +62,8 @@ While a decentralization consensus mechanism offers us the core benefits of bloc
 
 Two practical implications here:
 
-1.  **Low throughput**: Blockchains can only process a limited number of transactions
-2.  **Slow transaction times**: The time required to process a block of transactions is slow. For example, Bitcoin block times are 10 minutes, while Ethereum block times are around 14 seconds. These times are even longer during peak moments. Compare that to the nearly instantaneous confirmations you get when using services like Square or Visa.
+1. **Low throughput**: Blockchains can only process a limited number of transactions
+2. **Slow transaction times**: The time required to process a block of transactions is slow. For example, Bitcoin block times are 10 minutes, while Ethereum block times are around 14 seconds. These times are even longer during peak moments. Compare that to the nearly instantaneous confirmations you get when using services like Square or Visa.
 
 As a result, public blockchains are forced to make a tradeoff between low transaction throughput and high degree of centralization.
 
@@ -114,7 +111,7 @@ I hope to write more about DAG-based approached in future posts; the reality is 
 
 For a more detailed overview of these scalability solutions as well as a few others, I suggest you read the [post I wrote](https://hackernoon.com/blockchains-dont-scale-not-today-at-least-but-there-s-hope-2cb43946551a) before on scalability.
 
-### 2\. Limited privacy
+### 2. Limited privacy
 
 Given that blockchain transactions are not tied directly to your identity, they may appear more private. Anyone in the world can create a new wallet anonymously and transact using it.
 
@@ -122,7 +119,7 @@ However, it’s not quite that simple.
 
 On one hand, it’s certainly true that the great promise of this technology is pseudonymity: transactions are recorded and stored in a public ledger, but they are linked to an account address comprised solely of numbers and letters. With no real-world identity attached to this address, the transaction’s originator seems impossible to track.
 
-However, this appearance of total security is misleading. It’s true that a person can preserve his or her privacy as long as the pseudonym is not linked to the individual, but as soon as somebody makes the connection, the secret is revealed. One instance of such an occurrence was [revealed](https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/) when law enforcement agencies admitted [](https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/) that they were able to identify specific Bitcoin users during investigations, thus ‘deanonymizing’ them and breaking with the overall premise of a blockchain’s total transactional invisibility.
+However, this appearance of total security is misleading. It’s true that a person can preserve his or her privacy as long as the pseudonym is not linked to the individual, but as soon as somebody makes the connection, the secret is revealed. One instance of such an occurrence was [revealed](https://www.wired.com/2015/01/prosecutors-trace-13-4-million-bitcoins-silk-road-ulbrichts-laptop/) when law enforcement agencies admitted  that they were able to identify specific Bitcoin users during investigations, thus ‘deanonymizing’ them and breaking with the overall premise of a blockchain’s total transactional invisibility.
 
 How was this accomplished?
 
@@ -132,11 +129,11 @@ Furthermore, with a blockchain platform like Ethereum, users are interacting wit
 
 Uploading critical business data into a blockchain where hackers, competitors, or other unauthorized parties can view the information is simply not an option for most companies. Consider:
 
-*   **Electronic medical records**, which are extremely private and sensitive information. It’s unacceptable to ever have that information publicly visible on public blockchains, thereby jeopardizing patient confidentiality.
-*   **Identity verification data** such as  social security numbers cannot be openly stored in a public smart contract.
-*   **Credential management** such as passwords and keys have no place in an open, ultimately unsecured smart contract.
-*   **Financial documents** such as e capitalization tables or employee salaries should never be publicly associated with addresses that are easily traceable.
-*   The list goes on.
+* **Electronic medical records**, which are extremely private and sensitive information. It’s unacceptable to ever have that information publicly visible on public blockchains, thereby jeopardizing patient confidentiality.
+* **Identity verification data** such as  social security numbers cannot be openly stored in a public smart contract.
+* **Credential management** such as passwords and keys have no place in an open, ultimately unsecured smart contract.
+* **Financial documents** such as e capitalization tables or employee salaries should never be publicly associated with addresses that are easily traceable.
+* The list goes on.
 
 **Privacy remains a fundamental hindrance for individuals, organizations, and industries that care about privacy and individual sovereignty.** Many of us who are obsessed with blockchain and cryptocurrency have a concerted interested in enabling a trustless and censorship-resistant system that brings financial empowerment to the individual. **Paradoxically, we’re using a public, easily traceable ledger to do so.** (Makes my head go sideways when I think about it!)
 
@@ -208,17 +205,17 @@ Challenge / response games are already in use in blockchains like Ethereum. Howe
 
 What exactly are zkSNARKs? Let’s break down the definition:
 
-*   zk = _zero-knowledge. Doesn’t require knowledge of the information to prove that the information exists_
-*   SNARK: **_S_**_uccinct_ **_N_**_on-interactive_ **_A_**_daptive_ **_AR_**_gument of_ **_K_**_nowledge._
-*   _“Succinct” means a succinct proof that can be verified quickly._
-*   _“Non-interactive” means doesn’t require the verifier to interact with the prover. Instead, the prover can publish their proof in advance, and a verifier can make sure it’s correct._
-*   _“Adaptive argument of knowledge” means a proof of knowledge of some computation._
+* zk = _zero-knowledge. Doesn’t require knowledge of the information to prove that the information exists_
+* SNARK: _**S**uccinct_ _**N**on-interactive_ _**A**daptive_ _**AR**gument of_ _**K**nowledge._
+* _“Succinct” means a succinct proof that can be verified quickly._
+* _“Non-interactive” means doesn’t require the verifier to interact with the prover. Instead, the prover can publish their proof in advance, and a verifier can make sure it’s correct._
+* _“Adaptive argument of knowledge” means a proof of knowledge of some computation._
 
 While I hope to one day cover zkSNARKs in a post, I’ll skip the technical details here. zkSNARKs are an exciting and promising privacy-building block, with a few caveats:
 
-1.  SNARKs are resource intensive.
-2.  SNARKs allows a user to prove they have access to a secret, but the user is held responsible for maintaining the secret and having it available when needed.
-3.  SNARKs have a setup phase during which the [_circuit_](https://en.wikipedia.org/wiki/Boolean_circuit), or computation you want to prove, is fixed. This phase needs to happen in advance among a private trusted group of people. This not only requires you to trust the people preparing the setup, but also means that SNARKs aren’t a good fit to run arbitrary computations since there’s always a preparation phase required.
+1. SNARKs are resource intensive.
+2. SNARKs allows a user to prove they have access to a secret, but the user is held responsible for maintaining the secret and having it available when needed.
+3. SNARKs have a setup phase during which the [_circuit_](https://en.wikipedia.org/wiki/Boolean_circuit), or computation you want to prove, is fixed. This phase needs to happen in advance among a private trusted group of people. This not only requires you to trust the people preparing the setup, but also means that SNARKs aren’t a good fit to run arbitrary computations since there’s always a preparation phase required.
 
 **Example 3: zkSNARKs + Zcash**
 
@@ -280,7 +277,7 @@ Trusted Execution Environment (TEE) is a secure area of the main processor. It g
 
 There’s early research and development going on into TEEs to determine how they can be used to enable privacy on the blockchain. I’m personally very excited for more security experts to tackle these solutions. We definitely need more experts looking into this.
 
-### 3\. Lack of formal contract verification
+### 3. Lack of formal contract verification
 
 Formal verification of smart contracts remains a HUGE unsolved problem. First, let’s understand what it even means to “formally verify” a contract by understanding what a “formal proof” is. A “formal proof” in mathematics means a mathematical proof that has been checked by a computer using the foundational axioms of mathematics and primitive [inference rules](https://en.wikipedia.org/wiki/Rule_of_inference).
 
@@ -306,14 +303,14 @@ There are other teams like Tezos which are completely forgoing using Solidity as
 
 Whatever the right approach, whether it be overhauling the EVM to make it easier to formally verify or building a whole new language that is inherently easier to verify, we need more work put into this effort. We need more researchers and developers working on formal verification. We need formal verification libraries and standards in every possible programming language.
 
-### 4\. Storage constraints
+### 4. Storage constraints
 
 Most applications that get built on a public blockchain will require some sort of storage solution. (User identities, financial information, etc.).
 
 However, storing information on a public blockchain database means that the data is:
 
-1.  Stored by every full node in the network.
-2.  Stored indefinitely since the blockchain database is append only and immutable.
+1. Stored by every full node in the network.
+2. Stored indefinitely since the blockchain database is append only and immutable.
 
 Therefore, data storage imposes a huge cost on a decentralized network where every full node has to store more and more data into infinity. As a result, storage remains a huge hurdle for any realistic application that gets built on the blockchain.
 
@@ -321,13 +318,13 @@ Therefore, data storage imposes a huge cost on a decentralized network where eve
 
 There are several early projects that are using various strategies for splitting up the data into shards and storing it in a distributed fashion across participating nodes (i.e. distributed storage). The basic premise here is that instead of every node storing everything, there are a set of nodes that split or “distribute” the data among themselves. A few example of projects include:
 
-*   **Swarm**: Swarm is a peer-to-peer file sharing protocol for Ethereum that lets you store application code and data off the main blockchain in swarm nodes which are connected to Ethereum blockchain. You can later exchange this data on the blockchain.
-*   **Storj**: A solution where files and data are first sharded, encrypted and then distributed to multiple nodes such that each node only stores a small portion of the data: hence, “distributed storage.” Then the [Storj Coin (SCJX)](https://cointelegraph.com/tags/storj) is used to pay for storage and acts as an incentive for nodes that store a portion of the user’s files or data.
-*   **IPFS**: An alternative p2p hypermedia protocol that provides a high throughput, content-addressed block storage model, with content-addressed hyperlinks. Essentially, it allows files to be stored in a permanent and decentralized fashion, while providing historic versioning for files and removing duplicates.
-*   **Decent**: Decent is a decentralized content sharing platform which allows users to upload and monetize/share their work (videos, music, ebooks, etc.) without relying on a centralized third party. Users can access content in a more affordable way by skipping these intermediaries while the nodes that host the content are rewarded with fees.
-*   … and more.
+* **Swarm**: Swarm is a peer-to-peer file sharing protocol for Ethereum that lets you store application code and data off the main blockchain in swarm nodes which are connected to Ethereum blockchain. You can later exchange this data on the blockchain.
+* **Storj**: A solution where files and data are first sharded, encrypted and then distributed to multiple nodes such that each node only stores a small portion of the data: hence, “distributed storage.” Then the [Storj Coin (SCJX)](https://cointelegraph.com/tags/storj) is used to pay for storage and acts as an incentive for nodes that store a portion of the user’s files or data.
+* **IPFS**: An alternative p2p hypermedia protocol that provides a high throughput, content-addressed block storage model, with content-addressed hyperlinks. Essentially, it allows files to be stored in a permanent and decentralized fashion, while providing historic versioning for files and removing duplicates.
+* **Decent**: Decent is a decentralized content sharing platform which allows users to upload and monetize/share their work (videos, music, ebooks, etc.) without relying on a centralized third party. Users can access content in a more affordable way by skipping these intermediaries while the nodes that host the content are rewarded with fees.
+* … and more.
 
-### 5\. Unsustainable consensus mechanisms
+### 5. Unsustainable consensus mechanisms
 
 Blockchains are “trustless”. Users don’t have to trust anyone else with their transactions. Not needing to trust anyone else affords users attractive properties such as autonomy, censorship resistance, authenticity, and permissionless innovation.
 
@@ -343,7 +340,7 @@ Proof-of-work consensus allowed Bitcoin to become the first truly widely adopted
 
 What are the issues with proof-of-work?
 
-**1\. Specialized hardware has an advantage**
+**1. Specialized hardware has an advantage**
 
 One downside of proof-of-work is the use of specialized hardware. In 2013, devices called “application-specific integrated circuits” (ASICs) were designed solely for the purpose of mining Bitcoin, providing a 10–50x rise in efficiency. Ever since, mining with a regular computer’s CPU and GPU has become completely unprofitable, and the only way to mine is with ASICs that you manufacture yourself or buy from an ASIC manufacturer. This is far from the “decentralized” nature of the blockchain, where everyone has the opportunity to contribute to the security of the network.
 
@@ -351,11 +348,11 @@ In order to mitigate this issue, Ethereum has chosen to make its PoW algorithm (
 
 Of course, that’s not to say that there won’t ever been an ASIC for Ethereum in the future. Specialized hardware remains a huge risk for PoW algorithms.
 
-**2\. Mining pool centralization**
+**2. Mining pool centralization**
 
 The concept behind a mining pool is that instead of each user mining on their own and having a tiny chance of earning the block reward, they mine for a pool.. The pool then sends them a proportionate, consistent payout. The problem with mining pools is that since they have more “weight” in the network, large mining pools have less variance in their returns than a single user. Over time, a few pools start to control the majority of the network and the concentrated set of pools continue to gain more power over time. Right now, for example, the top five mining pools own close to [70% of the total hashrate](https://blockchain.info/pools?timespan=4days). Scary, to say the least.
 
-**3\. Energy waste**
+**3. Energy waste**
 
 Miners spend massive amounts of compute power to run the computations that solve the proof-of-work algorithm, but unfortunately, all of this computational work has no value to society. According to [Digiconomist’s Bitcoin Energy Consumption Index](https://powercompare.co.uk/bitcoin/), Bitcoin’s current estimated annual electricity consumption stands at 29.05TWh, which represents 0.13% of total global electricity consumption. To give you context on how much that really is, Bitcoin mining is now using (read: wasting) more electricity than 159 individual countries.
 
@@ -377,9 +374,9 @@ Proof-of-stake eliminates the need for hardware and is therefore immune to the h
 
 However, as with any technology, there’s no free lunch. Proof-of-stake algorithms have their own fundamental challenges. More specifically, these include:
 
-1.  **Nothing-at-Stake problem:** With proof-of-stake, when there is a fork in the chain, whether the fork is accidental or malicious, the best strategy for any node that is validating a transaction is to “mine” on every chain. They can do this since they aren’t expending physical computational effort and are only voting with their dollars. This means the miners in proof-of-stake will be rewarded regardless of which chain wins (i.e. “nothing is at stake” to prevent them from mining on every chain).
-2.  **Long-range attacks:** When there is a fork in proof-of-work chains, a miner will start a fork a few blocks behind the current head of the main chain. The further back a miner gets in the chain, the more difficult it becomes to catch up to the main chain since it requires the compute power of over half the network to do so. However, with proof-of-stake, a participant can start a fork thousands or millions of blocks back, since the only thing required is stake, or money. This means a participant can try to obtain the keys of past participants and then generate millions of blocks onto a new chain, making it difficult for users to know which blockchain is the “correct” one.
-3.  **Cartel formation**: In a decentralized system that is governed by economic incentives, a very real risk is the formation of coordinated efforts and oligopolies. As Vlad Zamfir, an Ethereum researcher, notes, “_Cryptocurrency is incredibly concentrated. So is mining power. Oligopolistic competition is the norm in many ‘real-life’ markets. Coordination between a small number of relatively wealthy validators is much easier than coordination between a large number of relatively poor validators. Cartel formation is completely expected, in our context.”_
+1. **Nothing-at-Stake problem:** With proof-of-stake, when there is a fork in the chain, whether the fork is accidental or malicious, the best strategy for any node that is validating a transaction is to “mine” on every chain. They can do this since they aren’t expending physical computational effort and are only voting with their dollars. This means the miners in proof-of-stake will be rewarded regardless of which chain wins (i.e. “nothing is at stake” to prevent them from mining on every chain).
+2. **Long-range attacks:** When there is a fork in proof-of-work chains, a miner will start a fork a few blocks behind the current head of the main chain. The further back a miner gets in the chain, the more difficult it becomes to catch up to the main chain since it requires the compute power of over half the network to do so. However, with proof-of-stake, a participant can start a fork thousands or millions of blocks back, since the only thing required is stake, or money. This means a participant can try to obtain the keys of past participants and then generate millions of blocks onto a new chain, making it difficult for users to know which blockchain is the “correct” one.
+3. **Cartel formation**: In a decentralized system that is governed by economic incentives, a very real risk is the formation of coordinated efforts and oligopolies. As Vlad Zamfir, an Ethereum researcher, notes, “_Cryptocurrency is incredibly concentrated. So is mining power. Oligopolistic competition is the norm in many ‘real-life’ markets. Coordination between a small number of relatively wealthy validators is much easier than coordination between a large number of relatively poor validators. Cartel formation is completely expected, in our context.”_
 
 In order to viably replace proof-of-work with a new consensus mechanism like proof-of-stake, we need an algorithm that solves the nothing-at-stake problem and long-range attack problems, without introducing new collusion risks.
 
@@ -387,7 +384,7 @@ A good amount of progress in resolving this problem has been made by teams like 
 
 Unlike proof-of-work, proof-of-stake is unproven and far less understood. Understanding the different trade-offs of various designs requires further research and experimentation. **As such, there’s a strong need to collaborate in creating a more efficient, fast, and secure consensus systems based on these early works.**
 
-### 6\. Lack of governance and standards
+### 6. Lack of governance and standards
 
 It goes by without saying that a public, decentralized blockchain has no central authority or organization making decisions. **While on one hand, this affords us the dream we all are after — a completely trustless, open, and permissionless system — on the other hand, there literally is no safe upgrade path for the protocol, and no one responsible for setting and maintaining standards.**
 
@@ -403,7 +400,7 @@ Tezos is one example of a public blockchain that aims to create the ability to u
 
 Overall, Blockchain governance is an incredibly tricky problem and finding a balance between centralized and distributed control will be key to keeping development on the right path.
 
-### 7\. Inadequate tooling
+### 7. Inadequate tooling
 
 Adequate tooling is essential to developers’ jobs, especially if said developers want do their work effectively and efficiently. Terrible tooling breeds horror stories.
 
@@ -411,17 +408,17 @@ Adequate tooling is essential to developers’ jobs, especially if said develope
 
 As a Solidity and blockchain developer, here’s what I’ve personally found missing from the tooling ecosystem:
 
-*   An **IDE** that has good linters and all the necessary plug-ins for effective smart contract development and blockchain analysis.
-*   A **build tool** and **compiler** that is well-documented and easy to use.
-*   A **deployment tool** that doesn’t suck.
-*   **Technical documentation** that actually exists or is not completely out of date for various APIs and frameworks.
-*   **Testing frameworks** that aren’t lackluster. There are a few tools for Ethereum like Truffle which are passable, but more options and experimentation around testing frameworks are badly needed. I’ve seen too many smart contracts go completely untested out in the wild while moving millions of dollars. A lack of testing is not acceptable under any circumstances, but particularly not when such vast amounts of money are involved. For example, **the BAT token sale smart contracts have** [**no test suite**](https://github.com/brave-intl/basic-attention-token-crowdsale)**, yet those contracts were used to collect $36 million in 24 seconds.** Any rational human knows that if a contract can move that much money around, it is subject to attack.
-*   **Debugging tools**. Oh boy. Debugging Solidity code is like searching for gold in a dark tunnel with a blindfold on. In my previous line of work, I was in web development, and being able to step through code line by line using a debugger was truly a lifesaver. Not having such a tool, or even one that comes remotely close, is incredibly frustrating and unproductive when developing in Solidity. **We desperately need tools that make it easier to isolate and diagnose problems.**
-*   **Logging tools**. Same as above.
-*   **Security auditing**. This is a big one. There’s just one notable security auditing service for Ethereum that I’ve heard of, Open Zepplin. While they are doing great work for the ecosystem with their auditing service, an industry that’s raising billions of dollars using smart contracts needs more than one lone startup. Companies and engineers need to create more advanced tools and services, and more security experts are necessary to help thoroughly audit smart contracts. The only time there’s any noticeable attention paid to smart contract security is after the fact, when attacks such as the [two](https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7) [Parity](https://cointelegraph.com/news/parity-multisig-wallet-hacked-or-how-come) hacks or the [DAO hack](https://www.coindesk.com/understanding-dao-hack-journalists/) occur. Then, of course, the blame is placed on the developers who wrote the smart contracts, or even worse, on the core Ethereum team. I think that’s unfair. Developers shouldn’t be responsible for knowing how to do security audits for their own code. That’s like asking Stephen Curry to do his own accounting. It doesn’t work that way. We desperately need the help and expertise of security engineers and researchers. We need investors to put their mouths where their monies are and fund efforts aimed at making smart contracts and blockchains more secure.
-*   **Block explorers and analytics**. For Ethereum, we have a block explorer called [Etherscan](https://etherscan.io/). For Bitcoin, we have explorers like [Blockchain.info](https://blockchain.info/), [Blockexplorer](https://blockexplorer.com/), or [Blockcypher](https://live.blockcypher.com/btc/). These all are great community efforts. In fact, I use Etherscan extensively. But to do any kind of serious chain analytics, it’s nowhere near enough. There’s all sorts of interesting data we could and should be analyzing about public blockchains.
+* An **IDE** that has good linters and all the necessary plug-ins for effective smart contract development and blockchain analysis.
+* A **build tool** and **compiler** that is well-documented and easy to use.
+* A **deployment tool** that doesn’t suck.
+* **Technical documentation** that actually exists or is not completely out of date for various APIs and frameworks.
+* **Testing frameworks** that aren’t lackluster. There are a few tools for Ethereum like Truffle which are passable, but more options and experimentation around testing frameworks are badly needed. I’ve seen too many smart contracts go completely untested out in the wild while moving millions of dollars. A lack of testing is not acceptable under any circumstances, but particularly not when such vast amounts of money are involved. For example, **the BAT token sale smart contracts have** [**no test suite**](https://github.com/brave-intl/basic-attention-token-crowdsale)**, yet those contracts were used to collect $36 million in 24 seconds.** Any rational human knows that if a contract can move that much money around, it is subject to attack.
+* **Debugging tools**. Oh boy. Debugging Solidity code is like searching for gold in a dark tunnel with a blindfold on. In my previous line of work, I was in web development, and being able to step through code line by line using a debugger was truly a lifesaver. Not having such a tool, or even one that comes remotely close, is incredibly frustrating and unproductive when developing in Solidity. **We desperately need tools that make it easier to isolate and diagnose problems.**
+* **Logging tools**. Same as above.
+* **Security auditing**. This is a big one. There’s just one notable security auditing service for Ethereum that I’ve heard of, Open Zepplin. While they are doing great work for the ecosystem with their auditing service, an industry that’s raising billions of dollars using smart contracts needs more than one lone startup. Companies and engineers need to create more advanced tools and services, and more security experts are necessary to help thoroughly audit smart contracts. The only time there’s any noticeable attention paid to smart contract security is after the fact, when attacks such as the [two](https://blog.zeppelin.solutions/on-the-parity-wallet-multisig-hack-405a8c12e8f7) [Parity](https://cointelegraph.com/news/parity-multisig-wallet-hacked-or-how-come) hacks or the [DAO hack](https://www.coindesk.com/understanding-dao-hack-journalists/) occur. Then, of course, the blame is placed on the developers who wrote the smart contracts, or even worse, on the core Ethereum team. I think that’s unfair. Developers shouldn’t be responsible for knowing how to do security audits for their own code. That’s like asking Stephen Curry to do his own accounting. It doesn’t work that way. We desperately need the help and expertise of security engineers and researchers. We need investors to put their mouths where their monies are and fund efforts aimed at making smart contracts and blockchains more secure.
+* **Block explorers and analytics**. For Ethereum, we have a block explorer called [Etherscan](https://etherscan.io/). For Bitcoin, we have explorers like [Blockchain.info](https://blockchain.info/), [Blockexplorer](https://blockexplorer.com/), or [Blockcypher](https://live.blockcypher.com/btc/). These all are great community efforts. In fact, I use Etherscan extensively. But to do any kind of serious chain analytics, it’s nowhere near enough. There’s all sorts of interesting data we could and should be analyzing about public blockchains.
 
-### 8\. Quantum computing threat
+### 8. Quantum computing threat
 
 One of the looming threats to cryptocurrency and cryptography is the issue of quantum computers.
 
@@ -437,10 +434,10 @@ Regardless of the final solution, building cryptographic solutions that are quan
 
 ### Miscellaneous challenges to keep in mind
 
-*   We need more robust solutions that are capable of inter-blockchain communication to allow multiple chains (e.g. Bitcoin, Ethereum, Litecoin, etc.) to communicate and transact with one another seamlessly.
-*   We need better key management systems built into the blockchain tooling, for the sake of applications built on top.
-*   We need more efficient signature schemes and other cryptographic systems that low-resource devices can handle without sacrificing security.
-*   … and more.
+* We need more robust solutions that are capable of inter-blockchain communication to allow multiple chains (e.g. Bitcoin, Ethereum, Litecoin, etc.) to communicate and transact with one another seamlessly.
+* We need better key management systems built into the blockchain tooling, for the sake of applications built on top.
+* We need more efficient signature schemes and other cryptographic systems that low-resource devices can handle without sacrificing security.
+* … and more.
 
 ### Conclusion
 
@@ -450,8 +447,8 @@ Unfortunately, many are financially incentivized to ignore the problems — 
 
 My goal for the coming year is to continue to:
 
-1.  Increase awareness around these issues
-2.  Pour as much of my time to contribute towards these solutions
-3.  Help empower other researchers and developers to do the same
+1. Increase awareness around these issues
+2. Pour as much of my time to contribute towards these solutions
+3. Help empower other researchers and developers to do the same
 
 Regardless of whether or not the current investment climate turns out to be a bubble or not, I’m a firm believer in that the blockchain is here to stay. **We just need to put in some elbow grease as developers to knock out the barriers holding it back from mainstream use. And we need investors to seek and fund these efforts.**
