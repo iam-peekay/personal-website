@@ -16,9 +16,6 @@ tags:
   - Silicon Valley
   - Blockchain
 ---
-
-### Why I’m leaving Silicon Valley
-
 <figure>
 
 ![](/media/why-im-leaving-silicon-valley-0.jpeg)
@@ -97,9 +94,9 @@ Most importantly, I wanted to pave a path that is unique to me, and I’m doing 
 
 Looking back, when I left Andreessen Horowitz to pursue this path, I set out a [three-part roadmap](https://medium.com/swlh/why-i-left-the-best-job-in-the-world-3689a5a4649a) for myself:
 
-1.  Figure out what I like developing the most.
-2.  Get really good at it.
-3.  Use those skills to have a positive impact on the world.
+1. Figure out what I like developing the most.
+2. Get really good at it.
+3. Use those skills to have a positive impact on the world.
 
 I spent the past two years learning many different areas of programming (e.g. web development, mobile development, distributed systems, etc.) and various application areas (e.g. machine learning, blockchain, etc.). I purposely stayed broad and exposed myself to as much as possible, and learned to code things that interested me most. Eventually, I fell in love with blockchain development.
 
@@ -161,11 +158,11 @@ And the best part is, I can always come back here — for a day, a week or a
 
 So why the heck would I choose Los Angeles of all places? Lots of reasons!
 
-1.  **Proximity**: Los Angeles is quite literally a “plane hop” away from San Francisco. I can get from LA to SF within 3 hours door-to-door. This was a big factor in choosing my next city because it’s important to me to stay connected to Silicon Valley. Being in close proximity makes it easy to come here as often as I need to.
-2.  **Booming tech**: Tech is just starting to boom in Los Angeles. With Snapchat, Google, Facebook, Microsoft, Amazon and many other giant tech companies building giant campuses there, there’s no shortage of tech talent down here on sunny “Silicon Beach”. The tech momentum has just started, and I foresee a massive shift coming where tech is going to make a ripple effect across every industry in Los Angeles. This means there’s an opportunity as an engineer or an entrepreneur to make a huge impact here during this tech boom.
-3.  **Weather**: Not to brag, but Los Angeles has perfect weather. I wake up every morning to beautiful sunshine and the temperature literally can’t get more perfect. It makes me want to be outside a lot more frequently. I’ve noticed my mood is magically better because I get to have sunshine every single day.
-4.  **Diversity**: I love that Los Angeles is full of creative and artistic folks who are out there hustling and trying to make it. Meeting a diverse group of people not just doing tech is frankly refreshing. I’ve had a blast learning from people who are in non-tech fields like fashion, media, entertainment, art, real estate, etc.
-5.  **The hustle**: People here in LA are in it to “make” it. The hustle here is real, which I quickly learned while scoping out neighborhoods the past few months. I remember the first time I went to the gym in the morning at my usually crazy wee early hour, and I saw the gym half packed at 5:30am. I kept checking my watch to see if my clock was off or something. After a few days of utter awe, I started to notice that it was all just people who were motivated, passionate and ready to get it on. They were hustling, and they started first thing in the morning.
+1. **Proximity**: Los Angeles is quite literally a “plane hop” away from San Francisco. I can get from LA to SF within 3 hours door-to-door. This was a big factor in choosing my next city because it’s important to me to stay connected to Silicon Valley. Being in close proximity makes it easy to come here as often as I need to.
+2. **Booming tech**: Tech is just starting to boom in Los Angeles. With Snapchat, Google, Facebook, Microsoft, Amazon and many other giant tech companies building giant campuses there, there’s no shortage of tech talent down here on sunny “Silicon Beach”. The tech momentum has just started, and I foresee a massive shift coming where tech is going to make a ripple effect across every industry in Los Angeles. This means there’s an opportunity as an engineer or an entrepreneur to make a huge impact here during this tech boom.
+3. **Weather**: Not to brag, but Los Angeles has perfect weather. I wake up every morning to beautiful sunshine and the temperature literally can’t get more perfect. It makes me want to be outside a lot more frequently. I’ve noticed my mood is magically better because I get to have sunshine every single day.
+4. **Diversity**: I love that Los Angeles is full of creative and artistic folks who are out there hustling and trying to make it. Meeting a diverse group of people not just doing tech is frankly refreshing. I’ve had a blast learning from people who are in non-tech fields like fashion, media, entertainment, art, real estate, etc.
+5. **The hustle**: People here in LA are in it to “make” it. The hustle here is real, which I quickly learned while scoping out neighborhoods the past few months. I remember the first time I went to the gym in the morning at my usually crazy wee early hour, and I saw the gym half packed at 5:30am. I kept checking my watch to see if my clock was off or something. After a few days of utter awe, I started to notice that it was all just people who were motivated, passionate and ready to get it on. They were hustling, and they started first thing in the morning.
 
 Of course, every city has it’s flaws. Let’s not even get into the traffic situation in LA ;)
 
@@ -173,6 +170,6 @@ Of course, every city has it’s flaws. Let’s not even get into the traffic si
 
 As some of you may know, I’ve been heavily focused in the blockchain space for a while now. I hope to share more details about my next project in the coming months.
 
-In the meantime, look out for more updates from me, whether it’s posts to teach you [blockchain](https://www.hashhack.it/), videos for my [#AskPreethi series](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnUeereoJWjWOhlcWUynq_Z), or pictures of me sitting on Venice beach with my laptop being a nerd and coding 😎
+In the meantime, look out for more updates from me, whether it’s posts to teach you [blockchain](https://www.hashhack.it/), videos for my [\#AskPreethi series](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnUeereoJWjWOhlcWUynq_Z), or pictures of me sitting on Venice beach with my laptop being a nerd and coding 😎
 
 Still here? Good! Here’s the mic. Have you ever made a “crazy” move to chase something you wanted? Tell me about it in the comments so we can keep the fire going!
