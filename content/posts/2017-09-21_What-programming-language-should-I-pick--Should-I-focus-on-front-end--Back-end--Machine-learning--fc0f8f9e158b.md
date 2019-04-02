@@ -19,8 +19,6 @@ tags:
   - Tech
   - Life Lessons
 ---
-### What programming language should I pick? Should I focus on front-end? Back-end? Machine learning?
-
 <figure>
 
 ![](/media/what-programming-language-should-i-pick-should-i-focus-on-front-end-back-end-machine-learning-0.jpeg)
@@ -43,6 +41,6 @@ I’m excited to answer this next question for my [Ask Preethi](https://medium.f
 
 Anyone who has embarked on this journey to learn how to code has came across this question. Your first thought might have been to google it. Next thing you know, you realize that the internet is filled with lots of good opinions. _Too many_ good opinions.
 
-Even after reading those opinions, you’re left still not completely sure which is the _**best**_ language or platform to start with.
+Even after reading those opinions, you’re left still not completely sure which is the **_best_** language or platform to start with.
 
 How do you choose? Well, here’s my 11-minute answer to this question: https://youtu.be/VqiEhZYmvKk
