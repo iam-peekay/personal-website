@@ -16,9 +16,6 @@ tags:
   - Tech
   - Technology
 ---
-
-### How the Web Works Part III: HTTP & REST
-
 <figure>
 
 ![](/media/how-the-web-works-part-iii-http-rest-0.jpeg)
@@ -61,7 +58,7 @@ Many major websites like Google and Facebook use HTTPS — after all, it’s
 
 With those basics out of the way, let’s dive a little deeper into the structure of HTTP.
 
-We can start by visiting [https://www.github.com](https://www.github.com) to communicate with a GitHub server. If you’re using Chrome or Firefox with the Firebug extension installed, you can investigate the details of HTTP requests by going to the “Network” tab. If you have this open, then visit [www.github.com](http://www.github.com) by typing it into your address bar and you should see something like this:
+We can start by visiting <https://www.github.com> to communicate with a GitHub server. If you’re using Chrome or Firefox with the Firebug extension installed, you can investigate the details of HTTP requests by going to the “Network” tab. If you have this open, then visit [www.github.com](http://www.github.com) by typing it into your address bar and you should see something like this:
 
 <figure>
 
@@ -83,32 +80,32 @@ HTTP Headers typically contain metadata (data about data). The metadata includes
 
 Let’s take a closer look at the most important parts of the header using the Github example, starting with the “response headers” section:
 
-*   **Request URL:https://github.com/**
-*   The URL we requested
-*   **Request Method:GET**
-*   The type of HTTP method being used. In our case, our browser said: “Hey, Github’s server, GET me to your homepage.”
-*   **Status Code:200 OK**
-*   A standardized way for the server to tell the client about the result of its request. Status code 200 means that the server successfully found the resource, and is sending it to you.
-*   **Remote Address:192.30.252.129:443**
-*   The IP address and port number of the GitHub website we visited. Note that it’s port # 443 (which means we’re using HTTPS instead of HTTP).
-*   **Content-Encoding:gzip**
-*   The encoding of the resource we received back. In our case, Github’s server is telling us that the content it’s sending back is compressed. Github is probably compressing the file so that you can have faster download time.
-*   **Content-Type:text/HTML; charset=utf-8**
-*   Specifies the representation of the data in the response body, including the type and subtype. The type describes the type of data, while the subtype specifies a specific format for that type of data. In our case, we have text being sent back in the form of HTML
-*   The second part specifies the character encoding for the HTML document. This will most often be UTF-8, as is the case above.
+* **Request URL:https://github.com/**
+* The URL we requested
+* **Request Method:GET**
+* The type of HTTP method being used. In our case, our browser said: “Hey, Github’s server, GET me to your homepage.”
+* **Status Code:200 OK**
+* A standardized way for the server to tell the client about the result of its request. Status code 200 means that the server successfully found the resource, and is sending it to you.
+* **Remote Address:192.30.252.129:443**
+* The IP address and port number of the GitHub website we visited. Note that it’s port # 443 (which means we’re using HTTPS instead of HTTP).
+* **Content-Encoding:gzip**
+* The encoding of the resource we received back. In our case, Github’s server is telling us that the content it’s sending back is compressed. Github is probably compressing the file so that you can have faster download time.
+* **Content-Type:text/HTML; charset=utf-8**
+* Specifies the representation of the data in the response body, including the type and subtype. The type describes the type of data, while the subtype specifies a specific format for that type of data. In our case, we have text being sent back in the form of HTML
+* The second part specifies the character encoding for the HTML document. This will most often be UTF-8, as is the case above.
 
 There’s also a bunch of header information, which the client had to send so that the server could know how to respond. Take a look under the “request headers” portion:
 
-*   **User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10\_10\_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36**
-*   The software that is acting on behalf of a user. Sometimes a website needs to know how it is being viewed. So the browser sends this User-Agent string that the server can use to determine what is being used to access a website
-*   **Accept-Encoding:gzip, deflate, sdch**
-*   Specifies what content encoding the browser is willing to accept. We can see that gzip is listed, and that’s why Github’s server was able to send us the content in gzip format.
-*   **Accept-Language:en-US,en;q=0.8**
-*   Describes the language we want the webpage to be in. In our case, “en” stands for English.
-*   **Host:github.com**
-*   Self-explanatory :)
-*   **Cookie:\_octo=GH1.1.491617779.1446477115; logged\_in=yes; dotcom_user=iam-peekay;** **\_gh\_sess=somethingFakesomething FakesomethingFakesomethingFakesomethingFakesomethingFakesomethingFakesomethingFake; user\_session=FakesomethingFake somethingFakesomethingFakesomethingFake; \_ga=9389479283749823749; tz=America%2FLos\_Angeles\_**
-*   A piece of text that a web server can store on a user’s machine and later retrieve. The information is stored as name-value pairs. One of the name-value pairs that Github stored for my request, for example, is “dotcom_user=iam-peekay”, which informs Github that my userid is iam-peekay.
+* **User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36**
+* The software that is acting on behalf of a user. Sometimes a website needs to know how it is being viewed. So the browser sends this User-Agent string that the server can use to determine what is being used to access a website
+* **Accept-Encoding:gzip, deflate, sdch**
+* Specifies what content encoding the browser is willing to accept. We can see that gzip is listed, and that’s why Github’s server was able to send us the content in gzip format.
+* **Accept-Language:en-US,en;q=0.8**
+* Describes the language we want the webpage to be in. In our case, “en” stands for English.
+* **Host:github.com**
+* Self-explanatory :)
+* **Cookie:_octo=GH1.1.491617779.1446477115; logged_in=yes; dotcom_user=iam-peekay;** **_gh_sess=somethingFakesomething FakesomethingFakesomethingFakesomethingFakesomethingFakesomethingFakesomethingFake; user_session=FakesomethingFake somethingFakesomethingFakesomethingFake; _ga=9389479283749823749; tz=America%2FLos\_Angeles\_**
+* A piece of text that a web server can store on a user’s machine and later retrieve. The information is stored as name-value pairs. One of the name-value pairs that Github stored for my request, for example, is “dotcom_user=iam-peekay”, which informs Github that my userid is iam-peekay.
 
 #### tl;dr: what’s up with all these name-value pairs?
 
@@ -160,10 +157,10 @@ HTTP verbs, or methods, tell the server what to do with the data identified by t
 
 Examples of URLs include:
 
-*   **GET** [http://www.example.com/users](http://www.example.com/users) (get all users)
-*   **POST** [http://www.example.com/users/a-unique-id](http://www.example.com/users/a-unique-id) (create a new user)
-*   **PUT** [http://www.example.com/comments/a-unique-id](http://www.example.com/comments/a-unique-id) (update a comment)
-*   **DELETE** [http://www.example.com/comments/a-unique-id](http://www.example.com/comments/a-unique-id) (delete a comment)
+* **GET** <http://www.example.com/users> (get all users)
+* **POST** <http://www.example.com/users/a-unique-id> (create a new user)
+* **PUT** <http://www.example.com/comments/a-unique-id> (update a comment)
+* **DELETE** <http://www.example.com/comments/a-unique-id> (delete a comment)
 
 When a client makes a request, it’ll indicate the type of request using one these verbs. The most important ones are GET, POST, PUT and DELETE. There are other methods, such as HEAD and OPTIONS, but they are rarer, so we’ll skip those for this post.
 
@@ -219,15 +216,15 @@ The basic idea is that you use a “stateless”, “client-server”, “cachea
 
 The full list of constraints is lengthy and you can read more about it [here](https://en.wikipedia.org/wiki/Representational_state_transfer). For the sake of this post, I’d like to double-click on the two most important ones:
 
-1.  **Uniform interface**: This constraint tells you how to define the interface between the client and server in a way that simplifies and decouples the architecture. It says that:
+1. **Uniform interface**: This constraint tells you how to define the interface between the client and server in a way that simplifies and decouples the architecture. It says that:
 
-*   Resources must be identifiable in a request (e.g. by using resource identifiers in the URI). A resource (e.g. data in a database) is the data that defines the resource representation (e.g. JSON, HTML). Resources and resource representations are separate things — the client only interacts with the resource representation.
-*   The client must have enough information to manipulate resources on the server using the representation of the resource.
-*   Every message exchanged between the client and server needs to be self-descriptive, with information on how to process the message.
-*   Clients must send state data using HTTP body content, HTTP request headers, query parameters and the URL. Servers must send state data using HTTP body content, response codes, and response headers.
-*   NOTE: The HTTP verbs we described above make up a major portion of this “uniform interface” constraint, because they represent the uniform actions that happen on resources.
+* Resources must be identifiable in a request (e.g. by using resource identifiers in the URI). A resource (e.g. data in a database) is the data that defines the resource representation (e.g. JSON, HTML). Resources and resource representations are separate things — the client only interacts with the resource representation.
+* The client must have enough information to manipulate resources on the server using the representation of the resource.
+* Every message exchanged between the client and server needs to be self-descriptive, with information on how to process the message.
+* Clients must send state data using HTTP body content, HTTP request headers, query parameters and the URL. Servers must send state data using HTTP body content, response codes, and response headers.
+* NOTE: The HTTP verbs we described above make up a major portion of this “uniform interface” constraint, because they represent the uniform actions that happen on resources.
 
-**2\. Stateless**: This constraint says that all the state data needed to handle a client request must be contained within the request itself (URL, query parameters, HTTP body, or HTTP headers) and the server must send all the state data necessary back to the client through the response itself (HTTP headers, status code, and HTTP response body).
+**2. Stateless**: This constraint says that all the state data needed to handle a client request must be contained within the request itself (URL, query parameters, HTTP body, or HTTP headers) and the server must send all the state data necessary back to the client through the response itself (HTTP headers, status code, and HTTP response body).
 
 **Side note**: State — or application state — is the data necessary for a server to fulfill a request.
 
