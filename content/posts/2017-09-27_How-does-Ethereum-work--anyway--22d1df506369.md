@@ -16,9 +16,6 @@ tags:
   - Decentralization
   - Software Development
 ---
-
-### How does Ethereum work, anyway?
-
 <figure>
 
 ![](/media/how-does-ethereum-work-anyway-0.jpeg)
@@ -30,18 +27,18 @@ tags:
 Odds are you’ve heard about the Ethereum blockchain, whether or not you know what it is. It’s been in the news a lot lately, including the cover of some major magazines, but reading those articles can be like gibberish if you don’t have a foundation for what exactly Ethereum is. So what is it? In essence, a public database that keeps a permanent record of digital transactions. Importantly, this database doesn’t require any central authority to maintain and secure it. Instead it operates as a “trustless” transactional system — a framework in which individuals can make peer-to-peer transactions without needing to trust a third party OR one another.
 
 Still confused? That’s where this post comes in. My aim is to explain how Ethereum functions at a technical level, without complex math or scary-looking formulas. Even if you’re not a programmer, I hope you’ll walk away with at least better grasp of the tech. If some parts are too technical and difficult to grok, that’s totally fine! There’s really no need to understand every little detail. I recommend just focusing on understanding things at a broad level.  
-   
+
 Many of the topics covered in this post are a breakdown of the concepts discussed in the yellow paper. I’ve added my own explanations and diagrams to make understanding Ethereum easier. Those brave enough to take on the technical challenge can also read the Ethereum yellow paper.
 
 Let’s get started!
 
 ### Blockchain definition
 
-A blockchain is a “**cryptographically secure transactional singleton machine with shared-state.”** \[1\]  That’s a mouthful, isn’t it? Let’s break it down.
+A blockchain is a “**cryptographically secure transactional singleton machine with shared-state.”** \[1]  That’s a mouthful, isn’t it? Let’s break it down.
 
-*   **“Cryptographically secure”** means that the creation of digital currency is secured by complex mathematical algorithms that are obscenely hard to break. Think of a firewall of sorts. They make it nearly impossible to cheat the system (e.g. create fake transactions, erase transactions, etc.)
-*   **“Transactional singleton machine”** means that there’s a single canonical instance of the machine responsible for all the transactions being created in the system. In other words, there’s a single global truth that everyone believes in.
-*   **“With shared-state”** means that the state stored on this machine is shared and open to everyone.
+* **“Cryptographically secure”** means that the creation of digital currency is secured by complex mathematical algorithms that are obscenely hard to break. Think of a firewall of sorts. They make it nearly impossible to cheat the system (e.g. create fake transactions, erase transactions, etc.)
+* **“Transactional singleton machine”** means that there’s a single canonical instance of the machine responsible for all the transactions being created in the system. In other words, there’s a single global truth that everyone believes in.
+* **“With shared-state”** means that the state stored on this machine is shared and open to everyone.
 
 Ethereum implements this blockchain paradigm.
 
@@ -105,14 +102,14 @@ In simple terms, **the GHOST protocol says we must pick the path that has had th
 
 Now that you’ve gotten the 10,000-foot overview of what a blockchain is, let’s dive deeper into the main components that the Ethereum system is comprised of:
 
-*   accounts
-*   state
-*   gas and fees
-*   transactions
-*   blocks
-*   transaction execution
-*   mining
-*   proof of work
+* accounts
+* state
+* gas and fees
+* transactions
+* blocks
+* transaction execution
+* mining
+* proof of work
 
 _One note before getting started: whenever I say “hash” of X, I am referring to the_ [_KECCAK-256_](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use) _hash, which Ethereum uses._
 
@@ -122,8 +119,8 @@ The global “shared-state” of Ethereum is comprised of many small objects (�
 
 There are two types of accounts:
 
-*   Externally owned accounts, which are **controlled by private keys** and have **no code associated with them.**
-*   Contract accounts, which are **controlled by their contract code** and **have code associated with them.**
+* Externally owned accounts, which are **controlled by private keys** and have **no code associated with them.**
+* Contract accounts, which are **controlled by their contract code** and **have code associated with them.**
 
 <figure>
 
@@ -155,10 +152,10 @@ It’s important to understand a fundamental difference between externally owned
 
 The account **state** consists of four components, which are present regardless of the type of account:
 
-*   **nonce**: If the account is an externally owned account, this number represents the number of transactions sent from the account’s address. If the account is a contract account, the nonce is the number of contracts created by the account.
-*   **balance**: The number of Wei owned by this address. There are 1e+18 Wei per Ether.
-*   **storageRoot**: A hash of the root node of a Merkle Patricia tree (we’ll explain Merkle trees later on). This tree encodes the hash of the storage contents of this account, and is empty by default.
-*   **codeHash**: The hash of the EVM (Ethereum Virtual Machine — more on this later) code of this account. For contract accounts, this is the code that gets hashed and stored as the **codeHash**. For externally owned accounts, the **codeHash** field is the hash of the empty string.
+* **nonce**: If the account is an externally owned account, this number represents the number of transactions sent from the account’s address. If the account is a contract account, the nonce is the number of contracts created by the account.
+* **balance**: The number of Wei owned by this address. There are 1e+18 Wei per Ether.
+* **storageRoot**: A hash of the root node of a Merkle Patricia tree (we’ll explain Merkle trees later on). This tree encodes the hash of the storage contents of this account, and is empty by default.
+* **codeHash**: The hash of the EVM (Ethereum Virtual Machine — more on this later) code of this account. For contract accounts, this is the code that gets hashed and stored as the **codeHash**. For externally owned accounts, the **codeHash** field is the hash of the empty string.
 
 <figure>
 
@@ -172,9 +169,9 @@ Okay, so we know that Ethereum’s global state consists of a mapping between ac
 
 A Merkle tree (or also referred as “Merkle trie”) is a type of [binary tree](https://en.wikipedia.org/wiki/Binary_tree) composed of a set of nodes with:
 
-*   a large number of leaf nodes at the bottom of the tree that contain the underlying data
-*   a set of intermediate nodes, where each node is the hash of its two child nodes
-*   a single root node, also formed from the hash of its two child node, representing the top of the tree
+* a large number of leaf nodes at the bottom of the tree that contain the underlying data
+* a set of intermediate nodes, where each node is the hash of its two child nodes
+* a single root node, also formed from the hash of its two child node, representing the top of the tree
 
 <figure>
 
@@ -200,9 +197,9 @@ This tree is required to have a key for every value stored inside it. Beginning 
 
 This same trie structure is used also to store transactions and receipts. More specifically, every block has a “header” which stores the hash of the root node of three different Merkle trie structures, including:
 
-1.  State trie
-2.  Transactions trie
-3.  Receipts trie
+1. State trie
+2. Transactions trie
+3. Receipts trie
 
 <figure>
 
@@ -226,9 +223,9 @@ The reason this works is because hashes in the Merkle tree propagate upward �
 
 Any node that wants to verify a piece of data can use something called a “Merkle proof” to do so. A Merkle proof consists of:
 
-1.  A chunk of data to be verified and its hash
-2.  The root hash of the tree
-3.  The “branch” (all of the partner hashes going up along the path from the chunk to the root)
+1. A chunk of data to be verified and its hash
+2. The root hash of the tree
+3. The “branch” (all of the partner hashes going up along the path from the chunk to the root)
 
 <figure>
 
@@ -303,17 +300,17 @@ We noted earlier that Ethereum is a **transaction-based state machine.** In othe
 **In the most basic sense, a transaction is a cryptographically signed piece of instruction that is generated by an externally owned account, serialized, and then submitted to the blockchain.**
 
 There are two types of transactions: **message calls** and **contract creations** (i.e. transactions that create new Ethereum contracts).   
-   
+
  All transactions contain the following components, regardless of their type:
 
-*   **nonce**: a count of the number of transactions sent by the sender.
-*   **gasPrice**: the number of Wei that the sender is willing to pay per unit of gas required to execute the transaction.
-*   **gasLimit**: the maximum amount of gas that the sender is willing to pay for executing this transaction. This amount is set and paid upfront, before any computation is done.
-*   **to**: the address of the recipient. In a contract-creating transaction, the contract account address does not yet exist, and so an empty value is used.
-*   **value**: the amount of Wei to be transferred from the sender to the recipient. In a contract-creating transaction, this value serves as the starting balance within the newly created contract account.
-*   **v, r, s**: used to generate the signature that identifies the sender of the transaction.
-*   **init** (only exists for contract-creating transactions): An EVM code fragment that is used to initialize the new contract account. **init** is run only once, and then is discarded. When **init** is first run, it returns the body of the account code, which is the piece of code that is permanently associated with the contract account.
-*   **data** (optional field that only exists for message calls): the input data (i.e. parameters) of the message call. For example, if a smart contract serves as a domain registration service, a call to that contract might expect input fields such as the domain and IP address.
+* **nonce**: a count of the number of transactions sent by the sender.
+* **gasPrice**: the number of Wei that the sender is willing to pay per unit of gas required to execute the transaction.
+* **gasLimit**: the maximum amount of gas that the sender is willing to pay for executing this transaction. This amount is set and paid upfront, before any computation is done.
+* **to**: the address of the recipient. In a contract-creating transaction, the contract account address does not yet exist, and so an empty value is used.
+* **value**: the amount of Wei to be transferred from the sender to the recipient. In a contract-creating transaction, this value serves as the starting balance within the newly created contract account.
+* **v, r, s**: used to generate the signature that identifies the sender of the transaction.
+* **init** (only exists for contract-creating transactions): An EVM code fragment that is used to initialize the new contract account. **init** is run only once, and then is discarded. When **init** is first run, it returns the body of the account code, which is the piece of code that is permanently associated with the contract account.
+* **data** (optional field that only exists for message calls): the input data (i.e. parameters) of the message call. For example, if a smart contract serves as a domain registration service, a call to that contract might expect input fields such as the domain and IP address.
 
 <figure>
 
@@ -347,15 +344,15 @@ All transactions are grouped together into “blocks.” A blockchain contains a
 
 In Ethereum, a block consists of:
 
-*   the **block header**
-*   information about the **set of transactions** included in that block
-*   a **set of other block headers for the current block’s ommers**.
+* the **block header**
+* information about the **set of transactions** included in that block
+* a **set of other block headers for the current block’s ommers**.
 
 #### Ommers explained
 
 What the heck is an “ommer?” An ommer is a block whose parent is equal to the current block’s parent’s parent. Let’s take a quick dive into what ommers are used for and why a block contains the block headers for ommers.
 
-Because of the way Ethereum is built, block times are much lower (~15 seconds) than those of other blockchains, like Bitcoin (~10 minutes). This enables faster transaction processing. However, one of the downsides of shorter block times is that more competing block solutions are found by miners. These competing blocks are also referred to as “orphaned blocks” (i.e. mined blocks do not make it into the main chain).
+Because of the way Ethereum is built, block times are much lower (\~15 seconds) than those of other blockchains, like Bitcoin (\~10 minutes). This enables faster transaction processing. However, one of the downsides of shorter block times is that more competing block solutions are found by miners. These competing blocks are also referred to as “orphaned blocks” (i.e. mined blocks do not make it into the main chain).
 
 The purpose of ommers is to help reward miners for including these orphaned blocks. The ommers that miners include must be “valid,” meaning within the sixth generation or smaller of the present block. After six children, stale orphaned blocks can no longer be referenced (because including older transactions would complicate things a bit).
 
@@ -364,24 +361,24 @@ Ommer blocks receive a smaller reward than a full block. Nonetheless, there’s 
 #### Block header
 
 Let’s get back to blocks for a moment. We mentioned previously that every block has a block “header,” but what exactly is this?   
-   
+
  A block header is a portion of the block consisting of:
 
-*   **parentHash**: a hash of the parent block’s header (this is what makes the block set a “chain”)
-*   **ommersHash**: a hash of the current block’s list of ommers
-*   **beneficiary**: the account address that receives the fees for mining this block
-*   **stateRoot**: the hash of the root node of the state trie (recall how we learned that the state trie is stored in the header and makes it easy for light clients to verify anything about the state)
-*   **transactionsRoot**: the hash of the root node of the trie that contains all transactions listed in this block
-*   **receiptsRoot**: the hash of the root node of the trie that contains the receipts of all transactions listed in this block
-*   **logsBloom**: a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) (data structure) that consists of log information
-*   **difficulty**: the difficulty level of this block
-*   **number**: the count of current block (the genesis block has a block number of zero; the block number increases by 1 for each each subsequent block)
-*   **gasLimit**: the current gas limit per block
-*   **gasUsed**: the sum of the total gas used by transactions in this block
-*   **timestamp**: the unix timestamp of this block’s inception
-*   **extraData**: extra data related to this block
-*   **mixHash**: a hash that, when combined with the nonce, proves that this block has carried out enough computation
-*   **nonce**: a hash that, when combined with the mixHash, proves that this block has carried out enough computation
+* **parentHash**: a hash of the parent block’s header (this is what makes the block set a “chain”)
+* **ommersHash**: a hash of the current block’s list of ommers
+* **beneficiary**: the account address that receives the fees for mining this block
+* **stateRoot**: the hash of the root node of the state trie (recall how we learned that the state trie is stored in the header and makes it easy for light clients to verify anything about the state)
+* **transactionsRoot**: the hash of the root node of the trie that contains all transactions listed in this block
+* **receiptsRoot**: the hash of the root node of the trie that contains the receipts of all transactions listed in this block
+* **logsBloom**: a [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) (data structure) that consists of log information
+* **difficulty**: the difficulty level of this block
+* **number**: the count of current block (the genesis block has a block number of zero; the block number increases by 1 for each each subsequent block)
+* **gasLimit**: the current gas limit per block
+* **gasUsed**: the sum of the total gas used by transactions in this block
+* **timestamp**: the unix timestamp of this block’s inception
+* **extraData**: extra data related to this block
+* **mixHash**: a hash that, when combined with the nonce, proves that this block has carried out enough computation
+* **nonce**: a hash that, when combined with the mixHash, proves that this block has carried out enough computation
 
 <figure>
 
@@ -391,9 +388,9 @@ Let’s get back to blocks for a moment. We mentioned previously that every bloc
 
 Notice how every block header contains three trie structures for:
 
-*   state (**stateRoot**)
-*   transactions (**transactionsRoot**)
-*   receipts (**receiptsRoot**)
+* state (**stateRoot**)
+* transactions (**transactionsRoot**)
+* receipts (**receiptsRoot**)
 
 These trie structures are nothing but the Merkle Patricia tries we discussed earlier.
 
@@ -405,9 +402,9 @@ Ethereum allows for logs to make it possible to track various transactions and m
 
 A log entry contains:
 
-*   the logger’s account address,
-*   a series of topics that represent various events carried out by this transaction, and
-*   any data associated with these events.
+* the logger’s account address,
+* a series of topics that represent various events carried out by this transaction, and
+* any data associated with these events.
 
 Logs are stored in a [bloom filter](https://en.wikipedia.org/wiki/Bloom_filter), which stores the endless log data in an efficient manner.
 
@@ -415,13 +412,13 @@ Logs are stored in a [bloom filter](https://en.wikipedia.org/wiki/Bloom_filter),
 
 Logs stored in the header come from the log information contained in the transaction receipt. Just as you receive a receipt when you buy something at a store, Ethereum generates a receipt for every transaction. Like you’d expect, each receipt contains certain information about the transaction. This receipt includes items like:
 
-*   the block number
-*   block hash
-*   transaction hash
-*   gas used by the current transaction
-*   cumulative gas used in the current block after the current transaction has executed
-*   logs created when executing the current transaction
-*   ..and so on
+* the block number
+* block hash
+* transaction hash
+* gas used by the current transaction
+* cumulative gas used in the current block after the current transaction has executed
+* logs created when executing the current transaction
+* ..and so on
 
 #### Block difficulty
 
@@ -437,7 +434,7 @@ The relationship between the block’s **difficulty** and **nonce** is mathemati
 
 </figure>
 
-_where_ **_Hd_** _is the difficulty._
+_where_ _**Hd**_ _is the difficulty._
 
 The only way to find a nonce that meets a difficulty threshold is to use the proof-of-work algorithm to enumerate all of the possibilities. The expected time to find a solution is proportional to the difficulty — the higher the difficulty, the harder it becomes to find the nonce, and so the harder it is to validate the block, which in turn increases the time it takes to validate a new block. **So, by adjusting the difficulty of a block, the protocol can adjust how long it takes to validate a block.**
 
@@ -455,14 +452,14 @@ We’ve come to one of the most complex parts of the Ethereum protocol: the exec
 
 First, all transactions must meet an initial set of requirements in order to be executed. These include:
 
-*   The transaction must be a properly formatted **RLP**. “RLP” stands for “Recursive Length Prefix” and is a data format used to encode nested arrays of binary data. RLP is the format Ethereum uses to serialize objects.
-*   Valid transaction signature.
-*   Valid transaction nonce. Recall that the nonce of an account is the count of transactions sent from that account. To be valid, a transaction nonce must be equal to the sender account’s nonce.
-*   The transaction’s gas limit must be equal to or greater than the **intrinsic gas** used by the transaction. The intrinsic gas includes:
+* The transaction must be a properly formatted **RLP**. “RLP” stands for “Recursive Length Prefix” and is a data format used to encode nested arrays of binary data. RLP is the format Ethereum uses to serialize objects.
+* Valid transaction signature.
+* Valid transaction nonce. Recall that the nonce of an account is the count of transactions sent from that account. To be valid, a transaction nonce must be equal to the sender account’s nonce.
+* The transaction’s gas limit must be equal to or greater than the **intrinsic gas** used by the transaction. The intrinsic gas includes:
 
-1.  a predefined cost of 21,000 gas for executing the transaction
-2.  a gas fee for data sent with the transaction (4 gas for every byte of data or code that equals zero, and 68 gas for every non-zero byte of data or code)
-3.  if the transaction is a contract-creating transaction, an additional 32,000 gas
+1. a predefined cost of 21,000 gas for executing the transaction
+2. a gas fee for data sent with the transaction (4 gas for every byte of data or code that equals zero, and 68 gas for every non-zero byte of data or code)
+3. if the transaction is a contract-creating transaction, an additional 32,000 gas
 
 <figure>
 
@@ -470,7 +467,7 @@ First, all transactions must meet an initial set of requirements in order to be 
 
 </figure>
 
-*   The sender’s account balance must have enough Ether to cover the **“upfront” gas costs** that the sender must pay. The calculation for the upfront gas cost is simple: First, the transaction’s **gas limit** is multiplied by the transaction’s **gas price** to determine the maximum gas cost. Then, this maximum cost is added to the total value being transferred from the sender to the recipient.
+* The sender’s account balance must have enough Ether to cover the **“upfront” gas costs** that the sender must pay. The calculation for the upfront gas cost is simple: First, the transaction’s **gas limit** is multiplied by the transaction’s **gas price** to determine the maximum gas cost. Then, this maximum cost is added to the total value being transferred from the sender to the recipient.
 
 <figure>
 
@@ -490,9 +487,9 @@ First, we deduct the upfront cost of execution from the sender’s balance, and 
 
 Next, the transaction starts executing. Throughout the execution of a transaction, Ethereum keeps track of the “substate.” This substate is a way to record information accrued during the transaction that will be needed immediately after the transaction completes. Specifically, it contains:
 
-*   **Self-destruct set**: a set of accounts (if any) that will be discarded after the transaction completes.
-*   **Log series**: archived and indexable checkpoints of the virtual machine’s code execution.
-*   **Refund balance**: the amount to be refunded to the sender account after the transaction. Remember how we mentioned that storage in Ethereum costs money, and that a sender is refunded for clearing up storage? Ethereum keeps track of this using a refund counter. The refund counter starts at zero and increments every time the contract deletes something in storage.
+* **Self-destruct set**: a set of accounts (if any) that will be discarded after the transaction completes.
+* **Log series**: archived and indexable checkpoints of the virtual machine’s code execution.
+* **Refund balance**: the amount to be refunded to the sender account after the transaction. Remember how we mentioned that storage in Ethereum costs money, and that a sender is refunded for clearing up storage? Ethereum keeps track of this using a refund counter. The refund counter starts at zero and increments every time the contract deletes something in storage.
 
 Next, the various computations required by the transaction are processed.
 
@@ -500,9 +497,9 @@ Once all the steps required by the transaction have been processed, and assuming
 
 Once the sender is refunded:
 
-*   the Ether for the gas is given to the miner
-*   the gas used by the transaction is added to the block gas counter (which keeps track of the total gas used by all transactions in the block, and is useful when validating a block)
-*   all accounts in the self-destruct set (if any) are deleted
+* the Ether for the gas is given to the miner
+* the gas used by the transaction is added to the block gas counter (which keeps track of the total gas used by all transactions in the block, and is useful when validating a block)
+* all accounts in the self-destruct set (if any) are deleted
 
 Finally, we’re left with the new state and a set of the logs created by the transaction.
 
@@ -514,11 +511,11 @@ Recall that in Ethereum, there are two types of accounts: contract accounts and 
 
 In order to create a new contract account, we first declare the address of the new account using a special formula. Then we initialize the new account by:
 
-*   Setting the nonce to zero
-*   If the sender sent some amount of Ether as _value_ with the transaction, setting the account balance to that value
-*   Deducting the value added to this new account’s balance from the sender’s balance
-*   Setting the storage as empty
-*   Setting the contract’s codeHash as the hash of an empty string
+* Setting the nonce to zero
+* If the sender sent some amount of Ether as _value_ with the transaction, setting the account balance to that value
+* Deducting the value added to this new account’s balance from the sender’s balance
+* Setting the storage as empty
+* Setting the contract’s codeHash as the hash of an empty string
 
 Once we initialize the account, we can actually create the account, using the **init code** sent with the transaction (see the “Transaction and messages” section for a refresher on the init code). What happens during the execution of this init code is varied. Depending on the constructor of the contract, it might update the account’s storage, create other contract accounts, make other message calls, etc.
 
@@ -578,17 +575,17 @@ Okay, now on to execution.
 
 Before executing a particular computation, the processor makes sure that the following information is available and valid:
 
-*   System state
-*   Remaining gas for computation
-*   Address of the account that owns the code that is executing
-*   Address of the sender of the transaction that originated this execution
-*   Address of the account that caused the code to execute (could be different from the original sender)
-*   Gas price of the transaction that originated this execution
-*   Input data for this execution
-*   Value (in Wei) passed to this account as part of the current execution
-*   Machine code to be executed
-*   Block header of the current block
-*   Depth of the present message call or contract creation stack
+* System state
+* Remaining gas for computation
+* Address of the account that owns the code that is executing
+* Address of the sender of the transaction that originated this execution
+* Address of the account that caused the code to execute (could be different from the original sender)
+* Gas price of the transaction that originated this execution
+* Input data for this execution
+* Value (in Wei) passed to this account as part of the current execution
+* Machine code to be executed
+* Block header of the current block
+* Depth of the present message call or contract creation stack
 
 At the start of execution, memory and stack are empty and the program counter is zero.
 
@@ -598,11 +595,11 @@ PC: 0 STACK: [] MEM: [], STORAGE: {}
 
 The EVM then executes the transaction recursively, computing the **system state** and the **machine state** for each loop. The system state is simply Ethereum’s global state. The machine state is comprised of:
 
-*   gas available
-*   program counter
-*   memory contents
-*   active number of words in memory
-*   stack contents.
+* gas available
+* program counter
+* memory contents
+* active number of words in memory
+* stack contents.
 
 Stack items are added or removed from the leftmost portion of the series.
 
@@ -610,9 +607,9 @@ On each cycle, the appropriate gas amount is reduced from the remaining gas, and
 
 At the end of each loop, there are three possibilities:
 
-1.  The machine reaches an exceptional state (e.g. insufficient gas, invalid instructions, insufficient stack items, stack items would overflow above 1024, invalid JUMP/JUMPI destination, etc.) and so must be halted, with any changes discarded
-2.  The sequence continues to process into the next loop
-3.  The machine reaches a controlled halt (the end of the execution process)
+1. The machine reaches an exceptional state (e.g. insufficient gas, invalid instructions, insufficient stack items, stack items would overflow above 1024, invalid JUMP/JUMPI destination, etc.) and so must be halted, with any changes discarded
+2. The sequence continues to process into the next loop
+3. The machine reaches a controlled halt (the end of the execution process)
 
 Assuming the execution doesn’t hit an exceptional state and reaches a “controlled” or normal halt, the machine generates the resultant state, the remaining gas after this execution, the accrued substate, and the resultant output.
 
@@ -623,17 +620,17 @@ Phew. We got through one of the most complex parts of Ethereum. Even if you didn
 Finally, let’s look at how a block of many transactions gets finalized.
 
 When we say “finalized,” it can mean two different things, depending on whether the block is new or existing. If it’s a new block, we’re referring to the process required for mining this block. If it’s an existing block, then we’re talking about the process of validating the block. In either case, there are four requirements for a block to be “finalized”:  
-   
-**1) Validate (or, if mining, determine) ommers**  
+
+**1) Validate (or, if mining, determine) ommers**\
  Each ommer block within the block header must be a valid header and be within the sixth generation of the present block.  
-   
-**2) Validate (or, if mining, determine) transactions**  
+
+**2) Validate (or, if mining, determine) transactions**\
 The **gasUsed** number on the block must be equal to the cumulative gas used by the transactions listed in the block. (Recall that when executing a transaction, we keep track of the block gas counter, which keeps track of the total gas used by all transactions in the block).  
-   
-**3) Apply rewards (only if mining)**  
+
+**3) Apply rewards (only if mining)**\
 The beneficiary address is awarded 5 Ether for mining the block. (Under Ethereum proposal [EIP-649](https://github.com/ethereum/EIPs/pull/669), this reward of 5 ETH will soon be reduced to 3 ETH). Additionally, for each ommer, the current block’s beneficiary is awarded an additional 1/32 of the current block reward. Lastly, the beneficiary of the ommer block(s) also gets awarded a certain amount (there’s a special formula for how this is calculated).  
-   
- **4) Verify (or, if mining, compute a valid) state and nonce**  
+
+ **4) Verify (or, if mining, compute a valid) state and nonce**\
 Ensure that all transactions and resultant state changes are applied, and then define the new block as the state after the block reward has been applied to the final transaction’s resultant state. Verification occurs by checking this final state against the state trie stored in the header.
 
 ### Mining proof of work
@@ -650,12 +647,12 @@ The algorithm is formally defined as:
 
 </figure>
 
-_where_ **_m_** _is the_ **_mixHash_**_,_ **_n_** _is the_ **_nonce_**_,_ **_Hn_** _is the new block’s header (excluding the_ **_nonce_** _and_ **_mixHash_** _components, which have to be computed),_ **_Hn_** _is the nonce of the block header, and_ **_d_** _is the_ [_DAG_](https://en.wikipedia.org/wiki/Directed_acyclic_graph)_, which is a large data set._
+_where_ _**m**_ _is the_ _**mixHash**,_ _**n**_ _is the_ _**nonce**,_ _**Hn**_ _is the new block’s header (excluding the_ _**nonce**_ _and_ _**mixHash**_ _components, which have to be computed),_ _**Hn**_ _is the nonce of the block header, and_ _**d**_ _is the_ [_DAG_](https://en.wikipedia.org/wiki/Directed_acyclic_graph)_, which is a large data set._
 
 In the “_Blocks_” section, we talked about the various items that exist in a block header. Two of those components were called the **mixHash** and the **nonce**. As you may recall:
 
-*   **mixHash** is  a hash that, when combined with the nonce, proves that this block has carried out enough computation
-*   **nonce** is a hash that, when combined with the mixHash, proves that this block has carried out enough computation
+* **mixHash** is  a hash that, when combined with the nonce, proves that this block has carried out enough computation
+* **nonce** is a hash that, when combined with the mixHash, proves that this block has carried out enough computation
 
 The PoW function is used to evaluate these two items.
 
@@ -669,7 +666,7 @@ Using the cache, a node can generate the DAG “dataset,” where each item in t
 
 Miners can then take random slices of the dataset and put them through a mathematical function to hash them together into a “**mixHash.**” A miner will repeatedly generate a **mixHash** until the output is below the desired target **nonce**. When the output meets this requirement, this nonce is considered valid and the block can be added to the chain.
 
-**Mining as a security mechanism**  
+**Mining as a security mechanism**\
  Overall, the purpose of the PoW is to prove, in a cryptographically secure way, that a particular amount of computation has been expended to generate some output (i.e. the **nonce**). **This is because there is no better way to find a nonce that is below the required threshold other than to enumerate all the possibilities.** The outputs of repeatedly applying the hash function have a uniform distribution, and so we can be assured that, on average, **the time needed to find such a nonce depends on the difficulty threshold.** The higher the difficulty, the longer it takes to solve for the nonce. In this way, **the PoW algorithm gives meaning to the concept of difficulty, which is used to enforce blockchain security.**
 
 What do we mean by blockchain security? It’s simple: we want to create a blockchain that EVERYONE trusts. As we discussed previously in this post, if more than one chain existed, users would lose trust, because they would be unable to reasonably determine which chain was the “valid” chain. In order for a group of users to accept the underlying state that is stored on a blockchain, we need a single canonical blockchain that a group of people believes in.
@@ -686,14 +683,14 @@ What do we mean by blockchain security? It’s simple: we want to create a block
 
 Beyond providing a secure blockchain, PoW is also a way to distribute wealth to those who expend their computation for providing this security. Recall that a miner receives a reward for mining a block, including:
 
-*   a _static block reward_ of 5 ether for the “winning’” block (soon to be [changed to 3 ether](https://github.com/ethereum/EIPs/pull/669))
-*   the cost of gas expended within the block by the transactions included in the block
-*   an extra reward for including ommers as part of the block
+* a _static block reward_ of 5 ether for the “winning’” block (soon to be [changed to 3 ether](https://github.com/ethereum/EIPs/pull/669))
+* the cost of gas expended within the block by the transactions included in the block
+* an extra reward for including ommers as part of the block
 
 In order to ensure that the use of the PoW consensus mechanism for security and wealth distribution is sustainable in the long run, Ethereum strives to instill these two properties:
 
-*   Make it accessible to as many people as possible. In other words, people shouldn’t need specialized or uncommon hardware to run the algorithm. The purpose of this is to make the wealth distribution model as open as possible so that anyone can provide any amount of compute power in return for Ether.
-*   Reduce the possibility for any single node (or small set) to make a disproportionate amount of profit. Any node that can make a disproportionate amount of profit means that the node has a large influence on determining the canonical blockchain. This is troublesome because it reduces network security.
+* Make it accessible to as many people as possible. In other words, people shouldn’t need specialized or uncommon hardware to run the algorithm. The purpose of this is to make the wealth distribution model as open as possible so that anyone can provide any amount of compute power in return for Ether.
+* Reduce the possibility for any single node (or small set) to make a disproportionate amount of profit. Any node that can make a disproportionate amount of profit means that the node has a large influence on determining the canonical blockchain. This is troublesome because it reduces network security.
 
 In the Bitcoin blockchain network, one problem that arises in relation to the above two properties is that the PoW algorithm is a SHA256 hash function. The weakness with this type of function is that it can be solved much more efficiently using specialized hardware, also known as ASICs.
 
