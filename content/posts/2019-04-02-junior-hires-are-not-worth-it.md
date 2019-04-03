@@ -13,6 +13,12 @@ tags:
   - Startup
   - Life
 ---
+<figure> 
+
+![](/media/sorry-apology_40724.jpg)
+
+</figure>
+
 I've heard a lot of founders say this in the past. Do you agree with this sentiment? 
 
 I disagree—junior hires can indeed be worth it.
@@ -30,7 +36,6 @@ At the time, I couldn't have agreed more. After all, as a founder, your job isn'
 Instead, your role as a founder really boils down to two steps:
 
 1. Identify what needs to be done.
-
 2. Find people who can do it better than you can.
 
 So, while I still agree with my investor's statement for the most part, I'd argue there is one job a founder shouldn't fire themselves from: **Hiring**.  
@@ -43,7 +48,7 @@ With this being said, let's revisit and revise my earlier statement:
 
 So if hiring is my #1 job, then I should probably get good at it, right? Right. 
 
-# What does it mean to get “Good” at hiring? 
+# What does it mean to get “Good” at hiring?
 
 It means you can identify and convince high-quality people to join your team. Plain and simple.
 
@@ -141,11 +146,11 @@ Every founder and company will have a different set of universal skills they car
 
 If you have these skills, the rest can be learned. I can teach you everything you need to know.  
 
-Of course, now the tough question is: **_How do you actually measure these skills? _**
+Of course, now the tough question is: _**How do you actually measure these skills? **_
 
 Let's save that for the next email ;). After all, this is a newsletter, not a book! For now, I'll end this one by saying this: 
 
-**_It's not always possible to hire the perfect team. But you can, at the very least, build a kick-ass one. And sometimes, this means creating and growing that team yourself._**
+_**It's not always possible to hire the perfect team. But you can, at the very least, build a kick-ass one. And sometimes, this means creating and growing that team yourself.**_
 
 Junior hires can be worth it if you know what you want and you're honest with yourself when evaluating them.
 
