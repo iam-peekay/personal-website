@@ -8,7 +8,7 @@ Hey there!
 
 ![](/media/20180906_dre_coinbase_0505_new.jpg)
 
-I'm the Founder & CEO of [TruStory](https://www.trustory.io/). We're building a social network where experts debate the authenticity of claims people make online.
+I'm the Founder & CEO of [TruStory](https://twitter.com/isTruStory). We're building a social network where experts debate the authenticity of claims people make online.
 
 ## **My journey**
 
@@ -30,7 +30,7 @@ In short, learning to code gave me the freedom to learn, explore and truly under
 
 ## What now
 
-I spend all my time building my company, [TruStory](https://www.trustory.io/), and don't code day to day anymore.  
+I spend all my time building my company, [TruStory](https://twitter.com/isTruStory), and don't code day to day anymore.  
 
 So what exactly do I do?
 
