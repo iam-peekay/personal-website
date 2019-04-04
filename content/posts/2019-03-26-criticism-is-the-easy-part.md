@@ -1,7 +1,7 @@
 ---
 template: post
 title: Criticism is the easy part
-slug: Criticism is the easy part
+slug: /posts/criticism-is-the-easy-part
 draft: false
 date: 2019-03-27T16:01:00.000Z
 description: >+
