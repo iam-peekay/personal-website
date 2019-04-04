@@ -1,7 +1,7 @@
 ---
 template: post
 title: Junior hires are not worth it
-slug: Junior hires are not worth it
+slug: /posts/junior-hires-are-not-worth-it
 draft: false
 date: 2019-04-04T13:31:00.000Z
 description: >-
