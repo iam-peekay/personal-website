@@ -9,7 +9,7 @@ description: >+
   10 seconds to draft that tweet. But the lessons it left me with were
   priceless.
 
-category: Lie
+category: Life
 tags:
   - Life
   - Shame
