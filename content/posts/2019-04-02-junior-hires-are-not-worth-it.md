@@ -19,7 +19,7 @@ tags:
 
 </figure>
 
-I've heard a lot of founders say this in the past. Do you agree with this sentiment? 
+I've heard a lot of people say this in the past. Do you agree with this sentiment? 
 
 I disagree—junior hires can indeed be worth it.
 
@@ -146,11 +146,11 @@ Every founder and company will have a different set of universal skills they car
 
 If you have these skills, the rest can be learned. I can teach you everything you need to know.  
 
-Of course, now the tough question is: _**How do you actually measure these skills? **_
+Of course, now the tough question is: **_How do you actually measure these skills? _**
 
 Let's save that for the next email ;). After all, this is a newsletter, not a book! For now, I'll end this one by saying this: 
 
-_**It's not always possible to hire the perfect team. But you can, at the very least, build a kick-ass one. And sometimes, this means creating and growing that team yourself.**_
+**_It's not always possible to hire the perfect team. But you can, at the very least, build a kick-ass one. And sometimes, this means creating and growing that team yourself._**
 
 Junior hires can be worth it if you know what you want and you're honest with yourself when evaluating them.
 
