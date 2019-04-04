@@ -2,8 +2,8 @@
 template: post
 title: Junior hires are not worth it
 slug: Junior hires are not worth it
-draft: true
-date: 2019-04-03T02:31:31.462Z
+draft: false
+date: 2019-04-04T13:31:00.000Z
 description: >-
   I've heard a lot of founders say this in the past. Do you agree with this
   sentiment? 
