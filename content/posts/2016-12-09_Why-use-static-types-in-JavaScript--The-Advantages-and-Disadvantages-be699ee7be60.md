@@ -593,8 +593,8 @@ Not only that, but static type checkers aren’t always perfect. Sometimes you r
 
 I’m sure there are other tradeoffs I’m missing, but these were the big ones for me.
 
-### Up next, [the final conclusion](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-4-b2e1e06a67c9#.cb2z6mty8)
+### Up next, [the final conclusion](https://www.preethikasireddy.com/posts/why-use-static-types-in-javascript-part-4/)
 
-In the [final section](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-4-b2e1e06a67c9#.cb2z6mty8), we’ll conclude by discussing whether it makes sense to use static types.
+In the [final section](https://www.preethikasireddy.com/posts/why-use-static-types-in-javascript-part-4/), we’ll conclude by discussing whether it makes sense to use static types.
 
 I’ll see you [there](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-4-b2e1e06a67c9#.cb2z6mty8).
