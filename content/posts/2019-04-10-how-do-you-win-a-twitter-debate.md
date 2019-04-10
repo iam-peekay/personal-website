@@ -24,7 +24,7 @@ tags:
 
 Only a fool would try to win a debate on Twitter (e.g. [1](https://twitter.com/lrettig/status/1112073070460747777?s=20), [2](https://twitter.com/ameensol/status/1115404373872398336?s=20), [3](https://twitter.com/lrettig/status/1115764125173288960?s=20))
 
-Do you watch Game of Thrones? In one of the earlier seasons, there's a great quote:_ _
+Do you watch Game of Thrones? In one of the earlier seasons, there's a great quote:
 
 _“When you play the game of thrones, you win or you die. There is no middle ground.”_
 
