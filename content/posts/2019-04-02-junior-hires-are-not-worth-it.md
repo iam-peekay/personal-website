@@ -4,9 +4,15 @@ title: Junior hires are not worth it
 slug: /posts/junior-hires-are-not-worth-it
 draft: false
 date: 2019-04-04T13:31:00.000Z
-description: >-
+description: >
   I've heard a lot of founders say this in the past. Do you agree with this
   sentiment? 
+
+
+  I disagree—junior hires can indeed be worth it.
+
+
+  Although, there is a HUGE caveat. Allow me to elaborate...
 category: Hiring
 tags:
   - Hiring
