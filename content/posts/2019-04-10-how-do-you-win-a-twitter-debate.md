@@ -90,7 +90,7 @@ Debating is a powerful way to deploy rational, reasoned arguments and influence 
 
 Once I realized this, it became hard not to love a good debate — especially the ones where I'm wrong.
 
-**In fact, want you to tell me I'm wrong. Otherwise, how will I learn? How will I seek the truth? How will I make progress?**
+**In fact, I want you to tell me I'm wrong. Otherwise, how will I learn? How will I seek the truth? How will I make progress?**
 
 # The importance of healthy debate
 
