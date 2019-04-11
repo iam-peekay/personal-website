@@ -2,7 +2,7 @@
 template: post
 title: How do you win a Twitter debate?
 slug: How-do-you-win-a-Twitter-debate?
-draft: false
+draft: true
 date: 2019-04-10T23:40:05.201Z
 description: >-
   Do you watch Game of Thrones? In one of the earlier seasons, there's a great
