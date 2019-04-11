@@ -1,7 +1,7 @@
 ---
 template: post
 title: How do you win a Twitter debate?
-slug: How-do-you-win-a-Twitter-debate
+slug: /posts/how-do-you-win-a-Twitter-debate
 draft: false
 date: 2019-04-10T23:40:05.201Z
 description: >-
