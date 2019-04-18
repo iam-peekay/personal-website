@@ -2,7 +2,7 @@
 template: post
 title: Stop attaching your identity to your ideas
 slug: /post/stop-attaching-your identity-to-your-ideas
-draft: true
+draft: false
 date: 2019-04-17T23:26:54.159Z
 description: >-
   A person's identity is inseparable from their ideas. This is human nature. We
@@ -18,6 +18,12 @@ tags:
   - identity
   - truth
 ---
+<figure>
+
+![](/media/brain-mind-psychology-idea-hearts-love-1370218-pxhere.com2_.jpg)
+
+</figure>
+
 A person's identity is inseparable from their ideas. For example:
 
 * If you believe that killing animals is bad, you might identify as a vegetarian or vegan.
