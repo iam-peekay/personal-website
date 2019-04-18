@@ -1,7 +1,7 @@
 ---
 template: post
 title: Stop attaching your identity to your ideas
-slug: /post/stop-attaching-your identity-to-your-ideas
+slug: /posts/stop-attaching-your identity-to-your-ideas
 draft: false
 date: 2019-04-17T23:26:54.159Z
 description: >-
