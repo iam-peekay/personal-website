@@ -24,7 +24,9 @@ tags:
 
 </figure>
 
-**A person's identity is inseparable from their ideas.** For example:
+**A person's identity is inseparable from their ideas.**
+
+For example:
 
 * If you believe that killing animals is bad, you may identify as a vegetarian or vegan.
 * If you believe the government must guarantee that no one is in need, you may identify as a liberal. 
