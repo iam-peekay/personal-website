@@ -2,8 +2,8 @@
 template: post
 title: Stop attaching your identity to your ideas
 slug: /posts/stop-attaching-your identity-to-your-ideas/
-draft: true
-date: 2019-04-17T23:26:54.159Z
+draft: false
+date: 2019-04-18T08:26:00.000Z
 description: >-
   A person's identity is inseparable from their ideas. This is human nature. We
   construct our identities around our ideas — we become what we believe. But you
