@@ -41,8 +41,6 @@ So I’ve taken it upon myself to write a four-part field guide to the intimidat
 
 **Part 3:** HTTP and REST
 
-**Part 4:** Code examples of client-server interactions
-
 ### A basic web search
 
 Let’s start somewhere we’ve all been before: Type “www.github.com” into your browser’s address bar and see the page load.
