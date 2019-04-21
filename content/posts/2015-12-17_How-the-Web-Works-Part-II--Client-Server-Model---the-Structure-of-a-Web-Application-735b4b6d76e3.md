@@ -202,4 +202,4 @@ Ta da! A faster website :)
 
 ### Run that by me again?
 
-Next up, read [part 3](https://medium.freecodecamp.com/how-the-web-works-part-iii-http-rest-e61bc50fa0a#.vbrmrnihn) where we’ll fill in the details with a closer look at HTTP and REST! :)
+Next up, read [Part 3](https://www.preethikasireddy.com/posts/how-the-web-works-part-iii-http-rest/) where we’ll fill in the details with a closer look at HTTP and REST! :)
