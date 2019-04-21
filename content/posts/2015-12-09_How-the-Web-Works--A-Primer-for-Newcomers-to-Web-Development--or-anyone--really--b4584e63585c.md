@@ -183,4 +183,4 @@ Once the browser has the DOM nodes and their styles, it’s \*finally\* is ready
 
 So that’s the web in a nutshell. Lost? We all are, but if you’ve read this far you’ve already finished the hard part. I’ve obviously skipped over some details in the interest of showing you the big picture here; but if you can wrap your head around the basic sequence of events outlined above, filling in the details will be a piece of cake.
 
-Check out [Part 2](https://medium.com/@preethikasireddy/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-735b4b6d76e3#.e6tmj8112), where we’ll tackle the structure of a basic web application. :)
+Check out [Part 2](https://www.preethikasireddy.com/posts/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application/), where we’ll tackle the structure of a basic web application. :)
