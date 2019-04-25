@@ -2,8 +2,8 @@
 template: post
 title: Some things never get easier
 slug: /posts/some-things-never-get-easier
-draft: true
-date: 2019-04-25T10:00:00.000Z
+draft: false
+date: 2019-04-25T08:45:00.000Z
 description: >-
   Practice makes perfect, right?Most things in life get easier with experience.
   Take lifting weights or running, for example. With a little dedication and
