@@ -1,7 +1,7 @@
 ---
 template: post
 title: Some things never get easier
-slug: /posts/some-things-never-get-easier
+slug: /posts/some-things-never-get-easier/
 draft: false
 date: 2019-04-25T08:45:00.000Z
 description: >-
