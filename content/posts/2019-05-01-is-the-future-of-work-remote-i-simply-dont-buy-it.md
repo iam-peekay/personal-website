@@ -127,7 +127,7 @@ Thank you, but I'd rather spend five minutes hashing out the situation in the of
 
 Don't get me wrong; Slack is great for asynchronous communication. In fact, we use it religiously at TruStory even when we're all in the office. It makes some parts of collaborating and communicating with team members much easier than the alternative “in-person” approach.
 
-**However, the quality of the communication in Slack has a ceiling. **It's lovely for having small conversations, but not so great for important ones. Video calls are exponentially better than Slack in this way, but they still don't replace face-to-face communication. **It's simply too easy for subtle but essential pieces of information to slip through the cracks.**
+However, the quality of the communication in Slack has a ceiling. It's lovely for having small conversations, but not so great for important ones. Video calls are exponentially better than Slack in this way, but they still don't replace face-to-face communication. **It's simply too easy for subtle but essential pieces of information to slip through the cracks.**
 
 **2) Accountability is hard to account for**
 
