@@ -37,8 +37,6 @@ On one side, we have [staunch](https://twitter.com/jmj/status/108706570396065382
 
 </figure>
 
-
-
 And on the other end, we have those who argue that remote work has the [exact opposite effect](https://twitter.com/AriannaSimpson/status/1106256941922213889) of its intention: It doesn't let us get much work done at all!
 
 <figure>
@@ -75,7 +73,7 @@ When I reflect back on building TruStory over the past year, I get so relieved t
 
 For the rest of this post, I'll aim to answer why I don't see the future of work as remote. So before you get your pitchforks, at least hear me out.
 
-# The pros of remote work 
+# The pros of remote work
 
 First, I want to begin by acknowledging some of the most substantial advantages of remote work: 
 
@@ -107,7 +105,7 @@ The average American spends [26 minutes](https://www.cnbc.com/2018/05/09/the-10-
 
 That's a lot of time for podcasts. But imagine what else you could do with it if it were up to you.
 
-# The cons of remote work 
+# The cons of remote work
 
 Now, let's move on to what I think are some of remote work's biggest disadvantages. 
 
@@ -149,7 +147,7 @@ In fact, I'd argue it's the opposite: Working remotely makes it easier for most 
 
 When you're physically in the office, there's an unmatched level of intimate bonding that occurs. All of the interactions and expressions — the laughs, the tension, the hellos, the goodbyes — these all compound to help create a cohesive team that trusts one another.
 
-**Tight-knit **[**camaraderie and trust**](https://twitter.com/justinkan/status/1121789270685913088)** is crucial for building a strong team. But this can only be done in person; avatars aren't exactly great substitutes for instilling team spirit.**
+**Tight-knit camaraderie and trust is crucial for building a strong team. But this can only be done in person; avatars aren't exactly great substitutes for instilling team spirit.**
 
 In person, the trust you build with your teammates makes you more committed to your role and one another. You want to succeed together. By bringing a more human element to work, it makes collaboration and coordination easier. **It makes the collective mind stronger.**
 
@@ -183,6 +181,6 @@ The chemistry we've cultivated and the bond we've forged are far too important t
 
 **One last note: **Everything I've talked about is in the context of an early stage startup. Perhaps the tables will turn when the company grows and we're too big to fit in one office 🤷‍♀️? I'll keep you posted on that.
 
-For now, I think it's better if the TruStory team faces each challenge together. We just work better that way.
+For now, I think it's better if the [TruStory](https://www.trustory.io/) team faces each challenge together. We just work better that way.
 
 Do you disagree? I'd love to hear why 😊
