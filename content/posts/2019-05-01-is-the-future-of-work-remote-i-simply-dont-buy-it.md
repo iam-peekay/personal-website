@@ -2,7 +2,7 @@
 template: post
 title: Is the future of work remote? I simply don't buy it.
 slug: /posts/is-the-future-of-work-remote
-draft: true
+draft: false
 date: 2019-05-02T00:29:56.016Z
 description: >-
   Remote work is on the rise. Once an obscure topic, this paradigm has now
