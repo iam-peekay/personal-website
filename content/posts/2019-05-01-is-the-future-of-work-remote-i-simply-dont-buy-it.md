@@ -1,6 +1,6 @@
 ---
 template: post
-title: Is the future of work remote? I simply don't buy it.
+title: Is the future of work remote? I don't buy it.
 slug: /posts/is-the-future-of-work-remote
 draft: false
 date: 2019-05-02T00:29:56.016Z
