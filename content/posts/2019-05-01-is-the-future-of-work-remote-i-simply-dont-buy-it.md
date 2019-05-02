@@ -75,7 +75,7 @@ For the rest of this post, I'll aim to answer why I don't see the future of work
 
 # The pros of remote work
 
-First, I want to begin by acknowledging some of the most substantial advantages of remote work: 
+First, I want to begin by acknowledging some of the biggest advantages of remote work: 
 
 **1) Access to a global pool of talent**
 
