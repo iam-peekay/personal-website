@@ -169,7 +169,7 @@ But it's the intangible benefits of being physically together in an office that 
 
 This is because a startup is all about turning nothing into something. When you're starting out, all you have is an idea. Your measure of success is your ability to turn this idea into reality and to do so quickly before you run out of money.
 
-**To accomplish that, you must be able to communicate effectively and iterate quickly. **When you have low bandwidth communication, minimal accountability, and less cohesion, doing these things becomes a lot harder without the introduction of undue process.
+**To accomplish that, you must be able to communicate effectively and iterate quickly.** When you have low bandwidth communication, minimal accountability, and less cohesion, doing these things becomes a lot harder without the introduction of undue process.
 
 # The future of work is what works for you
 
@@ -179,7 +179,7 @@ For example, at TruStory we have _“Work from Home Wednesdays.”_ Everyone in 
 
 The chemistry we've cultivated and the bond we've forged are far too important to lose. Besides this, our iteration speed would slow to a crawl. And we simply don't have time for that.
 
-**One last note: **Everything I've talked about is in the context of an early stage startup. Perhaps the tables will turn when the company grows and we're too big to fit in one office 🤷‍♀️? I'll keep you posted on that.
+**One last note:** Everything I've talked about is in the context of an early stage startup. Perhaps the tables will turn when the company grows and we're too big to fit in one office 🤷‍♀️? I'll keep you posted on that.
 
 For now, I think it's better if the [TruStory](https://www.trustory.io/) team faces each challenge together. We just work better that way.
 
