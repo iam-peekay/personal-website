@@ -34,7 +34,8 @@ module.exports = {
       email: 'preethi@preethireddy.com',
       twitter: 'iam_preethi',
       github: 'iam-peekay',
-      linkedin: 'https://www.linkedin.com/in/preethi-kasireddy-41383528/'
+      linkedin: 'https://www.linkedin.com/in/preethi-kasireddy-41383528/',
+      youtube: 'https://www.youtube.com/channel/UCWOCFO3yzuIFB__E0m3exvg',
     }
   }
 };
