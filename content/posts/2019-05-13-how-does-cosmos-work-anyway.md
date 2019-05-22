@@ -43,7 +43,7 @@ So it's no surprise that many people look at Cosmos and don't understand it. A q
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
-But once I took a deeper look into it, I began to appreciate it. A lot — I ended up falling in love with it! And I'm not just saying this for dramatic effect.
+But once I took a deeper look into it, I began to appreciate it, a lot. And I'm not just saying this for dramatic effect.
 
 **I was so enamored by Cosmos that we decided to build the TruStory application as a Cosmos blockchain application.**
 
@@ -55,7 +55,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
+_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -85,7 +85,7 @@ If this doesn't make complete sense, it would be prudent for you to read up some
 
 BFT is short for “Byzantine Fault-Tolerant.” A blockchain that's Byzantine Fault-Tolerant can guarantee certain properties like “safety” and “liveness” despite having some computers in the network which are faulty and/or malicious (i.e., Byzantine). Safety and liveness ensure the blockchain can successfully maintain the same state across every node in the network.
 
-Side Note: If you need more insight into what safety and liveness are, check out my [post on distributed consensus](https://www.preethikasireddy.com/posts/lets-take-a-crack-at-understanding-distributed-consensus/). 
+_Side Note: If you need more insight into what safety and liveness are, check out my _[_post on distributed consensus_](https://www.preethikasireddy.com/posts/lets-take-a-crack-at-understanding-distributed-consensus/)_. _
 
 A “BFT consensus algorithm,” therefore, is the algorithm which defines how these computers communicate and coordinate to guarantee that the blockchain is Byzantine Fault-Tolerant. Every blockchain in the Cosmos network is powered by a BFT consensus algorithm.
 
@@ -97,7 +97,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -119,7 +119,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -255,13 +255,13 @@ Each validator has its own voting power which is used to weigh the votes. The vo
 
 **Consensus**
 
-By following protocol rules, validators come to a consensus on every block in rounds. Each round is composed of three steps **(Propose, Prevote, and Precommit)**, along with two contingent steps Commit and NewHeight. At a high level, here are the protocol rules that validators use to come to a consensus on what block to add to the next height:
+By following protocol rules, validators come to a consensus on every block in rounds. Each round is composed of three steps **(Propose, Prevote, and Precommit)**, along with two contingent steps **Commit** and **NewHeight**. At a high level, here are the protocol rules that validators use to come to a consensus on what block to add to the next height:
 
 1. First, we have the **Propose** step. This is where a designated proposer proposes a block. The proposer for a round is chosen deterministically in proportion to their voting power from the ordered list of validators.
 2. We then enter the **Prevote** step, where each validator broadcasts its Prevote vote.
 3. When more than 2/3 of voting power Prevote for a particular block in a round, this is known as a “**polka**.” Once a polka is achieved, it moves on to the next step.
 4. In the **Precommit** step, each validator broadcasts its Precommit vote. 
-   *  If 2/3 of voting power Precommits for a particular block in a round, the block moves to the Commit step. This is where we add the block to the blockchain and increment the block height to a **NewHeight**. Every time a new block is added to the blockchain, the “height” of the blockchain increases by 1.
+   * If 2/3 of voting power Precommits for a particular block in a round, the block moves to the **Commit** step. This is where we add the block to the blockchain and increment the block height to a **NewHeight**. Every time a new block is added to the blockchain, the “height” of the blockchain increases by 1.
    * Otherwise, we either return to the Prevote or Precommit step.
 
 Note that there **may be more than one round** required to commit a block at any given block height. There are various reasons for this. Let's cover a few examples:
@@ -330,7 +330,7 @@ I think there are plenty of cases (in fact, most cases) where Tendermint's conse
 
 If we revisit our prediction markets example, I could easily make the case that a decentralized prediction market application doesn't need the level of decentralization that an application like sound money or store of value would need. Having 10, 20, or 100 validators is good enough if all we care about is transparency over the data layer.
 
-At TruStory, for example, we're building our back-end application logic using the Cosmos SDK. Therefore, the data and logic for how claims get created and resolved are open and transparent. Our front-end, on the other hand, is proprietary. This gives users transparency and visibility into the data layer (this was impossible with the previous generation of social networks). It also gives developers the ability to inspect and build their own tools and services on top of the back-end logic. Having 10s or 100s of validators who are running and validating our transactions is enough to give both users and developers the transparency and accountability they need.
+At TruStory, for example, we're building our back-end application logic using the Cosmos SDK. Therefore, the data and logic about claims and arguments live on a blockchain and are open and transparent. Our front-end, on the other hand, is proprietary. This gives users transparency and visibility into the data layer (this was impossible with the previous generation of social networks). It also gives developers the ability to inspect and build their own tools and services on top of the back-end blockchain logic. Having 10s or 100s of validators who are running and validating our transactions is enough to give both users and developers the transparency and accountability they need.
 
 If you can get on-board with the tradeoffs that Tendermint makes in having a fixed and known validator set, then you'll appreciate some of the neat properties it offers which would be impossible otherwise:
 
@@ -346,7 +346,7 @@ Tendermint consensus can have as low as one-second block times and handle up to 
 
 In the blockchain world, finality means that once a block is committed, we deterministically know that state of the blockchain up until that block.
 
-As we mentioned earlier, Nakamoto Consensus is probabilistic, so it doesn't have this finality guarantee. Essentially, you can only guarantee that a transaction is included on the canonical Bitcoin fork based on the probability of a miner majority continuing to mine on that fork.
+As we mentioned earlier, Nakamoto Consensus is probabilistic, so it doesn't have this finality guarantee. Essentially, you can only guarantee that a transaction is included on the canonical Bitcoin fork based on the probability of the majority of miners continuing to mine on that fork.
 
 Tendermint, on the other hand, requires validators to vote on and finalize every block. So basically, as long as more than 2/3 of validators are not Byzantine, transactions have “instant finality” — users know their transactions are finalized as soon as a block is created.
 
@@ -409,7 +409,7 @@ But just what transactions are we propagating and validating? Well, this is wher
 
 **Building applications using the Cosmos SDK**
 
-The [Cosmos SDK ](https://github.com/cosmos/cosmos-sdk)provides a framework for building the application layer. It's l**ike Ruby-on-Rails for blockchains.** Ruby-on-Rails is a framework designed to make programming web applications easier by providing developers with default structures for building them. Similarly, the Cosmos SDK gives developers a framework to build secure blockchain applications on top of Tendermint Core.
+The [Cosmos SDK ](https://github.com/cosmos/cosmos-sdk)provides a framework for building the application layer. It's **like Ruby-on-Rails for blockchains.** Ruby-on-Rails is a framework designed to make programming web applications easier by providing developers with default structures for building them. Similarly, the Cosmos SDK gives developers a framework to build secure blockchain applications on top of Tendermint Core.
 
 Remember, a blockchain is simply a state machine where the same state is replicated on every node. Cosmos SDK lets you build the actual state machine that you're replicating across many nodes. The SDK gives you the functionality and tools needed to define the state of your application, transaction types, and state-transition functions.
 
@@ -607,13 +607,13 @@ For example, the Cosmos Hub could choose to enforce immutability at the Hub, whi
 
 **Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules. And this is already evident in the real world where you see multiple forks of Bitcoin and Ethereum being created because of philosophical and political disagreement over how the blockchain should work.**
 
-**Therefore, Cosmos tries to enable interoperability among Zones, even if they have different governance policies. This aims to give its users the ultimate freedom and potential for permissionless experimentation.**
+**Therefore, Cosmos tries to enable interoperability among Zones, even if they have different governance policies. This aims to give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
 Woah, you made it this far? That's incredible — this is the end. Congratulations! And thanks for sticking with me through this journey of Cosmos.
 
-If you've read all the way up to here, it's safe to say that Cosmos has intrigued you. And rightly so! Or maybe you skipped some sections? Let's put your knowledge of Cosmos to the test!
+If you've read all the way up to here, it's safe to say that Cosmos has intrigued you. And rightly so! Or maybe you skipped some sections? Let's put your knowledge of Cosmos to the test 😉
 
 # It's pop quiz time
 
@@ -655,9 +655,9 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 **A5) **Bond
 
-**A6) **All current validators in Tendermint are required to vote on and finalize every block. Because there is finality and validators can be held accountable for wrong-doing, light clients don't need to download every block header.
+**A6) **All current validators in Tendermint are required to vote on and finalize every block. Because the blockchain is deterministic, light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
 
-**A7)** 1: Defining and submitting the transactions that need to be added to the blockchain and 2: Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
+**A7)** 1) Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
 
 **A8) **Any programming language, technically.
 
