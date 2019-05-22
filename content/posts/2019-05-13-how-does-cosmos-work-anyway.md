@@ -655,7 +655,7 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 **A5) **Bond
 
-**A6) **All current validators in Tendermint are required to vote on and finalize every block. Because the blockchain is deterministic, light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
+**A6) **All current validators in Tendermint are required to vote on and finalize every block. Therefore, the state of the blockchain is deterministic. This means light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
 
 **A7)** 1) Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
 
