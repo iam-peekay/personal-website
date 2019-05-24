@@ -405,7 +405,7 @@ But just what transactions are we propagating and validating? Well, this is wher
 **The Cosmos application layer is responsible for:**
 
 * **defining and submitting the transactions that need to be added to the blockchain.**
-* **subsequently updating the blockchain state after a transaction gets committed by the consensus layer. **
+* **subsequently updating the blockchain state after a transaction gets committed by the consensus layer.**
 
 </figure>
 
