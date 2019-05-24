@@ -382,7 +382,7 @@ As we discussed before, this is because all validators in Tendermint are require
 
 <figure>
 
-![](/media/screen-shot-2019-05-13-at-9.51.47-am.png)
+![](/media/screen-shot-2019-05-24-at-9.52.44-am.png)
 
 </figure>
 
@@ -390,7 +390,7 @@ As we discussed before, this is because all validators in Tendermint are require
 
 As we described above, consensus in Tendermint is achieved by validators voting in rounds. In order to do this, nodes must be able to communicate and pass messages to each other to ensure everyone in the network is seeing the same data.
 
-**So like Bitcoin and Ethereum, Tendermint uses the gossip protocol to bring peers up to speed on the most recent state of the blockchain. **
+**So like Bitcoin and Ethereum, Tendermint uses the gossop protocol to bring peers up to speed on the most recent state of the blockchain.**
 
 A node in the network doesn't have to be a validator to play a role in the networking part of the consensus process. For example, a node can be a light client or a full node which doesn't want to participate as a validator. These are known as “non-validator nodes.” 
 
