@@ -2,8 +2,8 @@
 template: post
 title: 'How does Cosmos work, anyway?'
 slug: /posts/how-does-cosmos-work-anyway
-draft: true
-date: 2019-05-13T16:09:44.503Z
+draft: false
+date: 2019-05-24T16:25:00.000Z
 description: >-
   The crypto industry never really rests.It all started with the launch of
   Bitcoin in 2010. When it first came out, everyone thought Bitcoin was the holy
