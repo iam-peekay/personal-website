@@ -5,7 +5,7 @@ slug: /posts/how-does-cosmos-work-anyway
 draft: false
 date: 2019-05-24T16:25:00.000Z
 description: >-
-  The crypto industry never really rests.It all started with the launch of
+  The crypto industry never really rests. It all started with the launch of
   Bitcoin in 2010. When it first came out, everyone thought Bitcoin was the holy
   grail of digital currencies. What was once believed to be impossible was now
   real: The first ever peer-to-peer (P2P) payments network. Even today, trust in
@@ -35,11 +35,17 @@ Even today, trust in anything remains the most elusive and rarest asset. Bitcoin
 
 Since then, Bitcoin has become the catalyst for a much broader movement of crypto innovation. This has resulted in an array of new decentralized systems and financial primitives: Ethereum, Lightning Network, EOS, Tezos, Maker... The list is now endless.
 
-**But one stands out from the rest: Cosmos.  **
+**But one stands out from the rest: **[**Cosmos**](https://cosmos.network/)**.**
 
 When it comes to blockchains, Cosmos is the “new kid on the block.” While it's been around for some time now, the team has been slowly building it out in the background to get it right. It only recently launched publicly.
 
-So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: What is Cosmos? What purpose does it serve? How does it compare to Bitcoin or Ethereum? 
+So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
+
+**_What is Cosmos? _**
+
+**_What purpose does it serve? _**
+
+**_How does it compare to Bitcoin or Ethereum? _**
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -55,7 +61,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
+**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -67,7 +73,7 @@ In simple terms, a blockchain is a database that's replicated across many comput
 
 <figure>
 
-![](/media/screen-shot-2019-05-13-at-9.14.52-am.png)
+![](/media/screen-shot-2019-05-13-at-9.14.52-am.png "Cosmos")
 
 </figure>
 
@@ -85,7 +91,7 @@ If this doesn't make complete sense, it would be prudent for you to read up some
 
 BFT is short for “Byzantine Fault-Tolerant.” A blockchain that's Byzantine Fault-Tolerant can guarantee certain properties like “safety” and “liveness” despite having some computers in the network which are faulty and/or malicious (i.e., Byzantine). Safety and liveness ensure the blockchain can successfully maintain the same state across every node in the network.
 
-_Side Note: If you need more insight into what safety and liveness are, check out my _[_post on distributed consensus_](https://www.preethikasireddy.com/posts/lets-take-a-crack-at-understanding-distributed-consensus/)_. _
+_Side Note: If you need more insight into what safety and liveness are, check out my _[_post on distributed consensus_](https://www.preethikasireddy.com/posts/lets-take-a-crack-at-understanding-distributed-consensus/)_._
 
 A “BFT consensus algorithm,” therefore, is the algorithm which defines how these computers communicate and coordinate to guarantee that the blockchain is Byzantine Fault-Tolerant. Every blockchain in the Cosmos network is powered by a BFT consensus algorithm.
 
@@ -97,7 +103,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -119,7 +125,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
