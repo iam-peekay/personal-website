@@ -487,7 +487,7 @@ This means developers have the freedom to determine how permissioned or permissi
 
 The Cosmos SDK and underlying Tendermint consensus engine allow developers to easily build a blockchain from scratch. So far, we've talked about Cosmos from the viewpoint of building a single blockchain and blockchain application. But as we noted earlier, one of Cosmos' biggest value propositions is interoperability — **the ability to communicate across MANY blockchains.**
 
-To grasp how this works, we first need to understand the fundamental architect that Cosmos employs to enable this interoperability: "**Hubs and Zones**".** **Blockchains in the Cosmos network use a hub and spoke model:
+To grasp how this works, we first need to understand the fundamental architect that Cosmos employs to enable this interoperability: "**Hubs and Zones**". Blockchains in the Cosmos network use a hub and spoke model:
 
 <figure>
 
