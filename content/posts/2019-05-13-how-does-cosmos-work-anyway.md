@@ -667,4 +667,4 @@ Cosmos is one of the most interesting and innovative projects in the blockchain 
 
 I hope you've enjoyed this piece and taken away something useful from it. I love the concept and team behind Cosmos, and I truly believe it will pave the way for better possibilities with blockchains (else, we wouldn't have built the TruStory application as a Cosmos blockchain application).
 
-Well, that's about it. I'm going to take a much-needed break from writing now. 😭But stay tuned — I'll have another post up before you know it!
+Well, that's about it. I'm going to take a much-needed break from writing now. See you in the next post! 🤗
