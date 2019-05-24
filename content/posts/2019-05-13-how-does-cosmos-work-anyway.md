@@ -613,25 +613,16 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 # It's pop quiz time
 
-**Q1)** True or False: Cosmos separates the application layer from the consensus and networking layers.
-
-**Q2)** Which blockchain application can use Tendermint Core to power its consensus layer?
-
-**Q3)** What are the three steps of the Cosmos consensus round?
-
-**Q4)** Unlike Bitcoin which is probabilistic, Cosmos is \_\_\_ , which means transactions can have \_\_\_
-
-**Q5)** Cosmos solves the “Nothing at Stake” problem by requiring validators to put up a security deposit also known as?
-
-**Q6)** How come Tendermint light clients don't need to sync all block headers? 
-
-**Q7)** What two actions is the Cosmos application layer responsible for?
-
-**Q8)** Using the Cosmos SDK, what programming languages can be used to build blockchain applications?
-
-**Q9)** How does Cosmos enable interoperability?
-
-**Q10) **How does Cosmos handle governance?
+1. True or False: Cosmos separates the application layer from the consensus and networking layers.
+2. Which blockchain application can use Tendermint Core to power its consensus layer?
+3. What are the three steps of the Cosmos consensus round?
+4. Unlike Bitcoin which is probabilistic, Cosmos is \_\_\_ , which means transactions can have \_\_\_
+5. Cosmos solves the “Nothing at Stake” problem by requiring validators to put up a security deposit also known as?
+6. How come Tendermint light clients don't need to sync all block headers? 
+7. What two actions is the Cosmos application layer responsible for?
+8. Using the Cosmos SDK, what programming languages can be used to build blockchain applications?
+9. How does Cosmos enable interoperability?
+10. How does Cosmos handle governance?
 
 ...Okay — Pencils down!
 
@@ -641,27 +632,20 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 **Here are the answers**
 
-**A1) **True!
+1. True
+2. Any blockchain application.
+3. Propose, Prevote, and Precommit.
+4. Deterministic, Instant Finality
+5. Bond
+6. All current validators in Tendermint are required to vote on and finalize every block. Therefore, the state of the blockchain is deterministic. This means light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
+7. 1) Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
+8. Any programming language, technically.
+9. Through the “Hub and Zone” model.
+10. It allows each Hub to have its own governance mechanism. (Bonus: Each Zone can also have its own governance mechanism.)
 
-**A2)** Any blockchain application.
+How'd you fare? 
 
-**A3)** Propose, Prevote, and Precommit.
-
-**A4)** Deterministic, Instant Finality
-
-**A5)** Bond
-
-**A6) **All current validators in Tendermint are required to vote on and finalize every block. Therefore, the state of the blockchain is deterministic. This means light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
-
-**A7)** 1) Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
-
-**A8) **Any programming language, technically.
-
-**A9)** Through the “Hub and Zone” model.
-
-**A10) **It allows each Hub to have its own governance mechanism. (Bonus: Each Zone can also have its own governance mechanism.)
-
-How'd you fare? 💯or 😭or 🤷‍♀️
+💯or 😭or 🤷‍♀️??
 
 Cosmos is one of the most interesting and innovative projects in the blockchain space right now. As they are right now, blockchains desperately need improvements in terms of both scalability and interoperability. And Cosmos has vast potential to move things forward in the right direction.
 
