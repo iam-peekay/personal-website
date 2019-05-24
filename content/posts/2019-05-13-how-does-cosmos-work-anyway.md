@@ -467,14 +467,6 @@ The ABCI is a socket protocol that connects Tendermint Core (consensus + network
 
 **In summary, the Cosmos SDK allows developers to build decentralized applications on top of Tendermint Core. This application can be built in any language and connected to the Tendermint consensus engine via the ABCI. **
 
-In the future, the applications the SDK allows you to build won't be limited to using the Tendermint consensus engine — you'll be able to use any other consensus engine that implements the ABCI.  
-
-<figure>
-
-![](/media/screen-shot-2019-05-13-at-10.07.29-am.png)
-
-</figure>
-
 By separating the networking and consensus layer (Tendermint Core) from the application layer (Cosmos SDK, ABCI), developers have much more flexibility to build various types of applications. And because the Cosmos SDK allows these applications to be written in any programming language, it feels more like traditional application development.
 
 This is a stark contrast to building an application on Ethereum, which requires developers to learn a new language and deal with the constraints and flaws of Solidity. Besides this, **Ethereum apps all have to operate on top of one single network. **The upside of this is that apps built on Ethereum share the same standards and automatically have [massive synergies](https://www.preethikasireddy.com/posts/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/). The downside is that all apps built on Ethereum share the same consensus layer and are bogged down by the weight of every new application that gets built on top of it. Moreover, the network as a whole has to be governed as one giant unit, which makes it difficult to socially scale because of differing philosophies and ideologies of how the network should be governed.
