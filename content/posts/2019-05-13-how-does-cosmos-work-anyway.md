@@ -571,7 +571,7 @@ I'll quickly explain how Cosmos tries to accommodate other chains which have a d
 
 Typically, there are two classes of blockchains: deterministic chains and probabilistic chains.
 
-**Deterministic chains **are ones where you can finalize the state of each block and replay the state at any point in the future (e.g., Tendermint). **Probabilistic chains** are where you have a probabilistic guarantee of determining the canonical chain based on how much of the network's weight is on the dominant fork (e.g., Bitcoin). **Hubs in Cosmos can theoretically work with both, although working with probabilistic chains is more difficult.**
+**Deterministic chains** are ones where you can finalize the state of each block and replay the state at any point in the future (e.g., Tendermint). **Probabilistic chains** are where you have a probabilistic guarantee of determining the canonical chain based on how much of the network's weight is on the dominant fork (e.g., Bitcoin). **Hubs in Cosmos can theoretically work with both, although working with probabilistic chains is more difficult.**
 
 This is because IBC fundamentally works only when a blockchain can guarantee finality. If the blockchain state is probabilistic, then the Hub won't be able to preserve the global invariance of each token's total amount across the zones. And as we discussed, the Hub must be able to do this if it wants to transfer tokens across Zones without double-spends as Zones transfer tokens to one another.
 
