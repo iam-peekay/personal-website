@@ -322,7 +322,7 @@ Unlike Nakamoto Consensus and Ethash, which don't use timeouts to ensure that bl
 
 The Tendermint consensus algorithm follows a traditional approach which relies on all validators to communicate with one another to reach consensus. Because of the communication overhead, it does not scale to 1000s of validators like Bitcoin or Ethereum, which can have an unlimited number of validators. Tendermint works when there are 100s of validators.
 
-Therefore, one of the downsides to Tendermint is that, unlike Bitcoin or Ethereum, it requires the validators to be known ahead of time and doesn't allow for miners to come and go as they please.
+Therefore, one of the downsides of a blockchain built using Tendermint is that, unlike Bitcoin or Ethereum, it requires the validators to be known ahead of time and doesn't allow for miners to come and go as they please.
 
 Besides this, it also requires the system to maintain some notion of time, which is known to be a complex problem in theory. Although in practice, Tendermint has proven this can be done reasonably well if you use the timestamp aggregates of each node.
 
