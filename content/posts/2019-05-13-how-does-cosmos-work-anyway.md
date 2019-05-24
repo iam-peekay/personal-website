@@ -615,21 +615,21 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 **Q1)** True or False: Cosmos separates the application layer from the consensus and networking layers.
 
-**Q2) **Which blockchain application can use Tendermint Core to power its consensus layer?
+**Q2)** Which blockchain application can use Tendermint Core to power its consensus layer?
 
-**Q3) **What are the three steps of the Cosmos consensus round?
+**Q3)** What are the three steps of the Cosmos consensus round?
 
-**Q4) **Unlike Bitcoin which is probabilistic, Cosmos is \_\_\_ , which means transactions can have \_\_\_?
+**Q4)** Unlike Bitcoin which is probabilistic, Cosmos is \_\_\_ , which means transactions can have \_\_\_
 
-**Q5) **Cosmos solves the “Nothing at Stake” problem by requiring validators to put up a security deposit also known as?
+**Q5)** Cosmos solves the “Nothing at Stake” problem by requiring validators to put up a security deposit also known as?
 
 **Q6)** How come Tendermint light clients don't need to sync all block headers? 
 
-**Q7) **What two actions is the Cosmos application layer responsible for?
+**Q7)** What two actions is the Cosmos application layer responsible for?
 
-**Q8) **Using the Cosmos SDK, what programming languages can be used to build blockchain applications?
+**Q8)** Using the Cosmos SDK, what programming languages can be used to build blockchain applications?
 
-**Q9) **How does Cosmos enable interoperability?
+**Q9)** How does Cosmos enable interoperability?
 
 **Q10) **How does Cosmos handle governance?
 
@@ -643,13 +643,13 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 **A1) **True!
 
-**A2) **Any blockchain application.
+**A2)** Any blockchain application.
 
-**A3) **Propose, Prevote, and Precommit.
+**A3)** Propose, Prevote, and Precommit.
 
-**A4) **Deterministic, Instant Finality
+**A4)** Deterministic, Instant Finality
 
-**A5) **Bond
+**A5)** Bond
 
 **A6) **All current validators in Tendermint are required to vote on and finalize every block. Therefore, the state of the blockchain is deterministic. This means light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
 
@@ -657,17 +657,11 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 
 **A8) **Any programming language, technically.
 
-**A9) **Through the “Hub and Zone” model.
+**A9)** Through the “Hub and Zone” model.
 
 **A10) **It allows each Hub to have its own governance mechanism. (Bonus: Each Zone can also have its own governance mechanism.)
 
-How'd you fare? Here's the grading rubric:
-
-**1 to 2 answers correct? **We have a problem. 😳
-
-**3 to 5 answers correct? **We have liftoff! 🙌
-
-**6 to 8 answers correct?** Congratulations — you are a certified Cosmonaut! 🚀
+How'd you fare? 💯or 😭or 🤷‍♀️
 
 Cosmos is one of the most interesting and innovative projects in the blockchain space right now. As they are right now, blockchains desperately need improvements in terms of both scalability and interoperability. And Cosmos has vast potential to move things forward in the right direction.
 
