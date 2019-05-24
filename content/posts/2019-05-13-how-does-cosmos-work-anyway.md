@@ -517,7 +517,7 @@ Assume there are two blockchains: Zone 1 and Zone 2. Now, **what happens if we w
 
 </figure>
 
-To move a packet from **Zone 1 **to **Zone 2**, Zone 1 first publishes a packet to the Hub that is designated for Zone 2. 
+To move a packet from **Zone 1 to Zone 2**, Zone 1 first publishes a packet to the Hub that is designated for Zone 2. 
 
 <figure>
 
