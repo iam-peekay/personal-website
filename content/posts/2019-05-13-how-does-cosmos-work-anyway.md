@@ -509,7 +509,7 @@ Hubs also prevent double spending among Zones by preserving the global invarianc
 
 _Let's look at an example:_
 
-Assume there are two blockchains: Zone 1 and Zone 2. Now, **what happens if we want Zone 1 to send tokens to Zone 2? **
+Assume there are two blockchains: Zone 1 and Zone 2. Now, **what happens if we want Zone 1 to send tokens to Zone 2?**
 
 <figure>
 
