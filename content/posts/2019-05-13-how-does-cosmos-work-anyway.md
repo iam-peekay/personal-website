@@ -35,17 +35,17 @@ Even today, trust in anything remains the most elusive and rarest asset. Bitcoin
 
 Since then, Bitcoin has become the catalyst for a much broader movement of crypto innovation. This has resulted in an array of new decentralized systems and financial primitives: Ethereum, Lightning Network, EOS, Tezos, Maker... The list is now endless.
 
-**But one stands out from the rest: **[**Cosmos**](https://cosmos.network/)**.**
+**But one stands out from the rest: Cosmos**
 
-When it comes to blockchains, Cosmos is the “new kid on the block.” While it's been around for some time now, the team has been slowly building it out in the background to get it right. It only recently launched publicly.
+When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new kid on the block.” While it's been around for some time now, the team has been slowly building it out in the background to get it right. It only recently launched publicly.
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-**_What is Cosmos? _**
+**_What is Cosmos?_**
 
-**_What purpose does it serve? _**
+**_What purpose does it serve?_**
 
-**_How does it compare to Bitcoin or Ethereum? _**
+**_How does it compare to Bitcoin or Ethereum?_**
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
