@@ -415,7 +415,7 @@ But just what transactions are we propagating and validating? Well, this is wher
 
 **Building applications using the Cosmos SDK**
 
-The [Cosmos SDK ](https://github.com/cosmos/cosmos-sdk)provides a framework for building the application layer. It's **like Ruby-on-Rails for blockchains.** Ruby-on-Rails is a framework designed to make programming web applications easier by providing developers with default structures for building them. Similarly, the Cosmos SDK gives developers a framework to build secure blockchain applications on top of Tendermint Core.
+The [Cosmos SDK ](https://github.com/cosmos/cosmos-sdk)provides a framework for building the application layer. It's **like Ruby-on-Rails for blockchains.** Ruby-on-Rails is a framework designed to make programming web applications easier by providing developers with default structures for building them. Similarly, the **Cosmos SDK gives developers a framework to build secure blockchain applications on top of Tendermint Core.**
 
 Remember, a blockchain is simply a state machine where the same state is replicated on every node. Cosmos SDK lets you build the actual state machine that you're replicating across many nodes. The SDK gives you the functionality and tools needed to define the state of your application, transaction types, and state-transition functions.
 
@@ -435,7 +435,7 @@ The power of the Cosmos SDK lies in this unique type of **modularity**, where ea
 * **Auth**: With the Auth module you can create and manage accounts and signatures.
 * **Staking and Slashing**: You can encode the rules for building a Proof-of-Stake consensus mechanism with this module.
 
-**Each module is essentially a little state machine that can be combined with one another to generate the overall state machine. **
+**Each module is essentially a little state machine that can be combined with one another to generate the overall state machine.**
 
 <figure>
 
@@ -465,7 +465,9 @@ The ABCI is a socket protocol that connects Tendermint Core (consensus + network
 
 </figure>
 
-**In summary, the Cosmos SDK allows developers to build applications on top of Tendermint Core. This application can be built in any language and connected to the Tendermint consensus engine via the ABCI. **In the future, the applications the SDK allows you to build won't be limited to using the Tendermint consensus engine — you'll be able to use any other consensus engine that implements the ABCI.  
+**In summary, the Cosmos SDK allows developers to build decentralized applications on top of Tendermint Core. This application can be built in any language and connected to the Tendermint consensus engine via the ABCI. **
+
+In the future, the applications the SDK allows you to build won't be limited to using the Tendermint consensus engine — you'll be able to use any other consensus engine that implements the ABCI.  
 
 <figure>
 
