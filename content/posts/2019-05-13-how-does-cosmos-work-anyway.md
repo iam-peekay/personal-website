@@ -91,7 +91,7 @@ If this doesn't make complete sense, it would be prudent for you to read up some
 
 BFT is short for “Byzantine Fault-Tolerant.” A blockchain that's Byzantine Fault-Tolerant can guarantee certain properties like “safety” and “liveness” despite having some computers in the network which are faulty and/or malicious (i.e., Byzantine). Safety and liveness ensure the blockchain can successfully maintain the same state across every node in the network.
 
-_Side Note: If you need more insight into what safety and liveness are, check out my _[_post on distributed consensus_](https://www.preethikasireddy.com/posts/lets-take-a-crack-at-understanding-distributed-consensus/)_._
+Side Note: If you need more insight into what safety and liveness are, check out my [post on distributed consensus](https://www.preethikasireddy.com/posts/lets-take-a-crack-at-understanding-distributed-consensus/).
 
 A “BFT consensus algorithm,” therefore, is the algorithm which defines how these computers communicate and coordinate to guarantee that the blockchain is Byzantine Fault-Tolerant. Every blockchain in the Cosmos network is powered by a BFT consensus algorithm.
 
