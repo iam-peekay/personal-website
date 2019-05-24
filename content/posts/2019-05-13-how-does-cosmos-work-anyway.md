@@ -193,9 +193,9 @@ Nakamoto Consensus relies on “Proof of Work” to prevent Sybil attacks. Basic
 
 Unlike Bitcoin, Ethereum is designed to enable decentralized applications. Ethereum has a high-level language (i.e., Solidity) which enables developers to code smart contracts that define the functionality of the decentralized application. The EVM (Ethereum Virtual Machine) is the core of the application layer for Ethereum. It compiles smart contract code into byte code using an EVM compiler, which is then uploaded on the underlying blockchain. The EVM then executes these smart contracts. All nodes in the Ethereum network run the EVM.
 
-**2) Networking layer **
+**2) Networking layer**
 
-Similar to Bitcoin, Ethereum also employs the gossip protocol to enable nodes to communicate messages and transactions with their peers.
+Similar to Bitcoin, Ethereum also uses the gossip protocol to enable nodes to communicate messages and transactions with their peers.
 
 **3) Consensus layer**
 
@@ -203,7 +203,7 @@ To achieve consensus, Ethereum uses “[Ethash](https://en.wikipedia.org/wiki/Et
 
 **3a) Sybil resistance layer**
 
-Just like Bitcoin, Ethash is inherently Sybil resistant because it relies on Proof of Work.
+Just like Bitcoin, Ethash is inherently Sybil resistant because it relies on Proof of Work (as of now).
 
 # Building apps with Bitcoin and Ethereum
 
