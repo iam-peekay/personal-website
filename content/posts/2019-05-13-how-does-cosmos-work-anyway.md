@@ -495,7 +495,7 @@ To grasp how this works, we first need to understand the fundamental architect t
 
 </figure>
 
-At the base, we have the Hub. The **Hub manages many independent blockchains called "Zones" **(For the rest of this article, when I say “Zone”, I mean blockchain). The **Hub keeps up with the state of each Zone**. And the Zones are responsible for constantly communicating new blocks being produced in their Zone back to the Hub. Likewise, each **Zone keeps up with the state of the Hub.**
+At the base, we have the Hub. The **Hub manages many independent blockchains called "Zones" **(For the rest of this article, when I say “Zone”, I mean blockchain). **The Hub keeps up with the state of each Zone.** And the Zones are responsible for constantly communicating new blocks being produced in their Zone back to the Hub. Likewise, each **Zone keeps up with the state of the Hub.**
 
 But here's where things get a little tricky — Zones do not keep up with each other directly; only indirectly by sending information packets through the Hub. To understand how this works, we must examine the mechanism that makes it possible: **Inter-blockchain communication (IBC)**.
 
