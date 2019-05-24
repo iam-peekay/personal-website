@@ -286,7 +286,7 @@ The full details of the protocol can be found [here](https://github.com/tendermi
 
 Overall, Tendermint takes a different approach from Bitcoin's Nakamoto Consensus and Ethereum's Ethash. Let's highlight some of the biggest contrasts:
 
-**Deterministic vs. Probabilistic **
+**Deterministic vs. Probabilistic**
 
 Unlike Nakamoto consensus and Ethash which is probabilistic, Tendermint is deterministic. This means each block must be finalized; it's not sufficient to have a high probability of a block being finalized, as in Bitcoin.
 
