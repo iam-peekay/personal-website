@@ -362,7 +362,7 @@ Tendermint uses Proof of Stake as its Sybil resistance mechanism; requiring vali
 
 Proof of Stake is more energy efficient than Proof of Work (where the proof is in the computing power miners expend to solve the next block hash). But it has the inherent “[Nothing at Stake](https://discourse.trustory.io/t/best-trustories-of-the-week-6/455/2?u=preethi)” problem which makes it easy for validators to cheat.
 
-Tendermint solves the Nothing at Stake problem by punishing validators who violate the rules of the protocol (e.g., voting for conflicting blocks and broadcasting unjustified votes) by slashing their bond. More specifically, the protocol has “locking rules” for what each validator is allowed to do when it is voting for particular block. For example, once a validator precommits a block, it is “locked” on that block. At that point, the validator can only unlock and precommit for a new block if there is a polka for that different block in a later round. If these locking rules are violated, validators are penalized by having their bond slashed. 
+Tendermint solves the Nothing at Stake problem by punishing validators who violate the rules of the protocol (e.g., voting for conflicting blocks and broadcasting unjustified votes) by slashing their bond. More specifically, the protocol has **“locking rules”** for what each validator is allowed to do when it is voting for particular block. For example, once a validator precommits a block, it is “locked” on that block. At that point, the validator can only unlock and precommit for a new block if there is a polka for that different block in a later round. If these locking rules are violated, validators are penalized by having their **bond slashed. **
 
 **Easier light clients**
 
@@ -376,7 +376,7 @@ Instead of downloading and storing the full chain, light clients only download t
 
 </figure>
 
-**The cool thing with Tendermint is that light clients don't even need to sync all block headers and can get away with only periodically downloading block headers.**
+**The cool thing with Tendermint-based blockchains is that light clients don't even need to sync all block headers and can get away with only periodically downloading block headers.**
 
 As we discussed before, this is because all validators in Tendermint are required to vote on and finalize every block, unlike Bitcoin and Ethereum. Since there is finality on every block, a light client simply needs to keep tracks of changes in the validator set. As long it knows the latest validator set, the light client can pull the latest block header it is aware of and verify that there are >⅔ PreCommits from the validators for that block.
 
