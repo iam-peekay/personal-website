@@ -503,8 +503,6 @@ But here's where things get a little tricky — Zones do not keep up with each o
 
 Hubs communicate with Zones and Zones communicate with each other indirectly through IBC. When a Zone creates an IBC connection with a Hub, it can automatically access every other Zone that is connected to the Hub. This means a Zone only needs to connect with Hubs, not other Zones. 
 
-_Side Note: Any of the Zones can be hubs themselves. But for this post, we'll keep things simple by focusing on a configuration in which there is only one Hub and many Zones._
-
 Hubs also prevent double spending among Zones by preserving the global invariance of each token's total amount across the Zones. These tokens can be moved from one Zone to another in a special IBC packet called a "coin packet."
 
 **When a Zone receives a token from another Zone through the Hub, it only needs to trust the Hub and the Zone where the token originated; it doesn't need to trust all the other Zones in the network.**
