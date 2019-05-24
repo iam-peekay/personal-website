@@ -294,7 +294,7 @@ Recall that in Nakamoto Consensus, blocks are “not finalized” — instead, w
 
 <figure>
 
-![](/media/screen-shot-2019-05-13-at-9.42.29-am.png)
+![](/media/screen-shot-2019-05-24-at-9.45.41-am.png)
 
 </figure>
 
