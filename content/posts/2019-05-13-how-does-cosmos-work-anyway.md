@@ -533,15 +533,13 @@ The Hub then sends a proof to Zone 2 stating that Zone 1 published a packet for 
 
 </figure>
 
-After this, Zone 2 must verify that this proof of Zone 1 is accurate.
+After this, Zone 2 must verify that this proof of Zone 1 is accurate. In order to do so, Zone 2 uses Zone 1's block headers which are stored on the Hub. Remember, a Hub helps a Zone keep up with the state of every other Zone. It does this by keeping tracking of the other Zones' block headers.
 
 <figure>
 
 ![](/media/screen-shot-2019-05-13-at-10.19.07-am.png)
 
 </figure>
-
-In order to do so, Zone 2 uses Zone 1's block headers. Remember, a Hub helps a Zone keep up with the state of every other Zone. It does this by keeping tracking of the other Zones' block headers.
 
 Now, one thing you might be wondering is: Why doesn't Cosmos just use IBC to directly connect every Zone with every other Zone? Why does it need Hubs and Zones?
 
