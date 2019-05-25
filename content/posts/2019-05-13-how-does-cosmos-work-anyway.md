@@ -485,6 +485,8 @@ This means developers have the freedom to determine how permissioned or permissi
 
 # Conclusion
 
-In this first post, we talked about how the architecture of a single blockchain on Cosmos differs from the Bitcoin and Ethereum blockchain. In part 2, we'll dive into understanding how blockchains in the Cosmos network operate **independently** of one another while also **interoperating** with one another. 
+In this first post, we talked about how the architecture of a single blockchain on Cosmos differs from the Bitcoin and Ethereum blockchain. The architecture enables blockchain applications to have **sovereignty over their chain**. 
+
+In part 2, we'll dive into understanding how sovereign independent blockchains in the Cosmos network **interoperating** with one another, and more importantly, answer the question of **"_Why would blockchains need to ever interoperate with each other?"_**
 
 Stay tuned 😊
