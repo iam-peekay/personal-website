@@ -1,7 +1,7 @@
 ---
 template: post
-title: 'How does Cosmos work, anyway?'
-slug: /posts/how-does-cosmos-work-anyway
+title: 'How is Cosmos different from Bitcoin and Ethereum? (Part 1) '
+slug: /posts/how-is-cosmos-different-from-bitcoin-and-ethereum-part1
 draft: true
 date: 2019-05-24T16:25:00.000Z
 description: >-
