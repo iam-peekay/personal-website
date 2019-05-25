@@ -41,11 +41,11 @@ When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new ki
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-**_What is Cosmos?_**
+_**What is Cosmos?**_
 
-**_How does it compare to Bitcoin or Ethereum?_**
+_**How does it compare to Bitcoin or Ethereum?**_
 
-**_What purpose does it serve?_**
+_**What purpose does it serve?**_
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -61,7 +61,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
+_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -103,7 +103,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -125,7 +125,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -471,14 +471,20 @@ By separating the networking and consensus layer (Tendermint Core) from the appl
 
 This is a stark contrast to building an application on Ethereum, which requires developers to learn a new language and deal with the constraints and flaws of Solidity. **Besides this, Ethereum apps all have to operate on top of one single network.** The upside of this is that apps built on Ethereum share the same standards and automatically have [massive synergies](https://www.preethikasireddy.com/posts/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/). The downside is that all apps built on Ethereum share the same consensus layer and are bogged down by the weight of every new application that gets built on top of it. Moreover, **the network as a whole has to be governed as one giant unit, which makes it difficult to socially scale because of differing philosophies and ideologies of how the network should be governed.**
 
-Instead of having this restriction, **Cosmos applications each operate as their own independent network with their own consensus layer and governance layer.**
+Instead of having this restriction, **Cosmos blockchain applications each operate as their own independent network with their own consensus layer and governance layer.**
 
 This means developers have the freedom to determine how permissioned or permissionless they want their consensus layer to be. They can choose whether they want a public set of validators who are elected based on the token quantity they have at stake or a private set of validators who are pre-authorized to be validators. This freedom to customize the rules that determine a validator set means blockchains have more **sovereignty over their chain.**
 
-**Of course, there is a tradeoff for this advantage: Each application in the Cosmos network has to bootstrap their own validators, community, and economy. And unlike Ethereum, they can't simply piggyback off the global set of validators, community, and economy.**
+**Of course, there is a tradeoff for this advantage: Each blockchain application in the Cosmos network has to bootstrap their own validators, community, and economy. And unlike Ethereum, they can't simply piggyback off the global set of validators, community, and economy.**
 
 <figure>
 
 ![](/media/screen-shot-2019-05-13-at-10.10.45-am.png)
 
 </figure>
+
+# Conclusion
+
+In this first post, we talked about how the architecture of a single blockchain on Cosmos differs from the Bitcoin and Ethereum blockchain. In part 2, we'll dive into understanding how blockchains in the Cosmos network operate **independently** of one another while also **interoperating** with one another. 
+
+Stay tuned 😊
