@@ -39,7 +39,7 @@ But here's where things get a little tricky — Zones do not keep up with each o
 
 Hubs communicate with Zones and Zones communicate with each other indirectly through IBC. When a Zone creates an IBC connection with a Hub, it can automatically access every other Zone that is connected to the Hub. This means a Zone only needs to connect with Hubs, not other Zones. 
 
-Hubs also prevent double spending among Zones by preserving the global invariance of each token's total amount across the Zones. These tokens can be moved from one Zone to another in a special IBC packet called a "coin packet."
+**Hubs also prevent double spending among Zones by preserving the global invariance of each token's total amount across the Zones**. These tokens can be moved from one Zone to another in a special IBC packet called a "coin packet."
 
 **When a Zone receives a token from another Zone through the Hub, it only needs to trust the Hub and the Zone where the token originated; it doesn't need to trust all the other Zones in the network.**
 
@@ -121,25 +121,25 @@ A Peg Zone is a blockchain that tracks the state of another blockchain. Its role
 
 </figure>
 
-Still with me? Great! There's one final part I want to cover: **Why is interoperability important?**
+Still with me? Great! There's one final (and most important) part I want to cover: **Why is interoperability among blockchains even needed?**
 
 # Why is interoperability important?
 
 As you know, blockchains are an immutable ledger. However, just like any other software, software used to build blockchains needs to be upgraded and iterated on over time. It's impossible to build perfect software, so changes are inevitable. How a blockchain proposes, decides, and implements changes to the underlying software protocol is called “governance.”
 
-Bitcoin, for example, relies on the Bitcoin Foundation, Bitcoin core developers, miners, and users to propose and coordinate upgrades. Ethereum relies on social coordination among the Ethereum developers and user community for making such decisions. 
+Bitcoin, for example, relies on the Bitcoin Foundation, Bitcoin core developers, miners, and users to propose and coordinate upgrades. Ethereum relies on social coordination among the Ethereum developers and user community for making such decisions.  
 
-**Cosmos does things a little differently — it allows each Hub to have its own governance mechanism.**
+**Cosmos does things a little differently. Rather than having one governance mechanism for the entire entire, it allows each Hub to have its own governance mechanism. **
 
-Anyone can create a proposal for a change, and validators and delegators can vote on proposals. These proposals can include things like changes to preset system parameters (e.g., block gas limit), software upgrades, or even policy updates for how a hub would deal with theft, hacks, or bugs. 
+Any stakeholder can create a proposal for a change, and validators and delegators on that Zone or Hub can vote on proposals. These proposals can include things like changes to preset system parameters (e.g., block gas limit), software upgrades, or even policy updates for how a hub would deal with theft, hacks, or bugs. 
 
 **Also, each Zone can also have its own governance mechanism.**
 
 For example, the Cosmos Hub could choose to enforce immutability at the Hub, while each zone can set their own policies regarding how immutable it wants to be (or not). 
 
-This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this: _
+This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this:_
 
-**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. Moreover, in Ethereum's case, you see a complete **[**lack of governance**](https://twitter.com/iam_preethi/status/1112776792157220864?s=20)** because stakeholders can't agree on the right form of governance, which in turn has significantly slowed the progress of development.**
+**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. Moreover, in Ethereum's case, you see a **[**breakdown in governance**](https://twitter.com/iam_preethi/status/1112776792157220864?s=20)** because stakeholders can't agree on the right form of governance, which in turn has significantly slowed the progress of development.**
 
 **Cosmos tries to solve this by enabling interoperability among many sovereign blockchains, even if they have different governance policies. Therefore, social scalability is one of the core value props of Cosmos. It give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
