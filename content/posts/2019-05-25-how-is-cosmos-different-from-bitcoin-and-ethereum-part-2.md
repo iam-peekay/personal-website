@@ -121,9 +121,9 @@ A Peg Zone is a blockchain that tracks the state of another blockchain. Its role
 
 </figure>
 
-Still with me? Great! There's one final part I want to cover: Governance.
+Still with me? Great! There's one final part I want to cover: **Why is interoperability important?**
 
-# How do Hubs and Zones govern themselves?
+# Why is interoperability important?
 
 As you know, blockchains are an immutable ledger. However, just like any other software, software used to build blockchains needs to be upgraded and iterated on over time. It's impossible to build perfect software, so changes are inevitable. How a blockchain proposes, decides, and implements changes to the underlying software protocol is called “governance.”
 
@@ -137,9 +137,11 @@ Anyone can create a proposal for a change, and validators and delegators can vot
 
 For example, the Cosmos Hub could choose to enforce immutability at the Hub, while each zone can set their own policies regarding how immutable it wants to be (or not). 
 
-**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules. And this is already evident in the real world where you see multiple forks of Bitcoin and Ethereum being created because of philosophical and political disagreement over how the blockchain should work.**
+This is powerful, and in my opinion, very underrated. If there is one thing to walk away from this post, it's this: 
 
-**Therefore, Cosmos tries to enable interoperability among Zones, even if they have different governance policies. This aims to give its users and developers the ultimate freedom and potential for permissionless experimentation.**
+** philosophical**
+
+**Therefore, Cosmos tries to enable interoperability among many independent and soverign blockchains, even if they have different governance policies. This aims to give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
