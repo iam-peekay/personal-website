@@ -137,11 +137,11 @@ Anyone can create a proposal for a change, and validators and delegators can vot
 
 For example, the Cosmos Hub could choose to enforce immutability at the Hub, while each zone can set their own policies regarding how immutable it wants to be (or not). 
 
-This is powerful, and in my opinion, very underrated. If there is one thing to walk away from this post, it's this: 
+This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this: _
 
-**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement over how the blockchain should work. Moreover, in Ethereum's case, you see a complete lack of governance because stakeholders can't agree on that the right form of governance is for a network where everyone has different philosophical and political values.**
+**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. Moreover, in Ethereum's case, you see a complete lack of governance because stakeholders can't agree on the right form of governance, which in turn has significantly slowed the progress of development.**
 
-**Therefore, Cosmos tries to enable interoperability among many soverin b. lockchains, even if they have different governance policies. This aims to give its users and developers the ultimate freedom and potential for permissionless experimentation.**
+**Therefore, Cosmos tries to enable interoperability among many sovereign blockchains, even if they have different governance policies. This aims to give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
