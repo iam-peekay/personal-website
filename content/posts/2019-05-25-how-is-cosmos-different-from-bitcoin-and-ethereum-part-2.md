@@ -5,11 +5,10 @@ slug: /posts/how-is-cosmos-different-from-bitcoin-and-ethereum-part2
 draft: true
 date: 2019-05-25T19:02:57.038Z
 description: >-
-  The Cosmos SDK and underlying Tendermint consensus engine allow developers to
-  easily build a blockchain from scratch. So far, we've talked about Cosmos from
-  the viewpoint of building a single blockchain and blockchain application. But
-  as we noted earlier, one of Cosmos' biggest value propositions is
-  interoperability — the ability to communicate across MANY blockchains.
+  So far, we've talked about Cosmos from the viewpoint of building a single
+  blockchain and blockchain application. But as we noted earlier, one of Cosmos'
+  biggest value propositions is interoperability — the ability to communicate
+  across MANY blockchains. But how? And why?
 category: Blockchain
 tags:
   - blockchain
@@ -18,11 +17,13 @@ tags:
   - scalability
   - cryptocurrency
 ---
+So far, we've talked about Cosmos from the viewpoint of building a single blockchain and blockchain application. But as we noted earlier, one of Cosmos' biggest value propositions is interoperability — **the ability to communicate across MANY blockchains.**
+
+To grasp how this works, we first need to understand the fundamental architect that Cosmos employs to enable this interoperability: "**Hubs and Zones**". 
+
 # Hubs and Zones
 
-The Cosmos SDK and underlying Tendermint consensus engine allow developers to easily build a blockchain from scratch. So far, we've talked about Cosmos from the viewpoint of building a single blockchain and blockchain application. But as we noted earlier, one of Cosmos' biggest value propositions is interoperability — **the ability to communicate across MANY blockchains.**
-
-To grasp how this works, we first need to understand the fundamental architect that Cosmos employs to enable this interoperability: "**Hubs and Zones**". Blockchains in the Cosmos network use a hub and spoke model:
+Blockchains in the Cosmos network use a hub and spoke model:
 
 <figure>
 
