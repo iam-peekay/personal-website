@@ -125,11 +125,11 @@ Still with me? Great! There's one final (and most important) part I want to cove
 
 # Why is interoperability important?
 
-As you know, blockchains are an immutable ledger. However, just like any other software, software used to build blockchains needs to be upgraded and iterated on over time. It's impossible to build perfect software, so changes are inevitable. How a blockchain proposes, decides, and implements changes to the underlying software protocol is called “governance.”
+As you know, blockchains are an immutable ledger. However, just like any other software, software used to build blockchains needs to be upgraded and iterated on over time. It's impossible to build perfect software, so changes are inevitable. How a blockchain proposes, decides, and implements changes to the underlying software protocol is called “**governance**.”
 
 Bitcoin, for example, relies on the Bitcoin Foundation, Bitcoin core developers, miners, and users to propose and coordinate upgrades. Ethereum relies on social coordination among the Ethereum developers and user community for making such decisions.  
 
-**Cosmos does things a little differently. Rather than having one governance mechanism for the entire entire, it allows each Hub to have its own governance mechanism. **
+**Cosmos does things a little differently. Rather than having one governance mechanism for the entire network, it allows each Hub to have its own governance mechanism. **
 
 Any stakeholder can create a proposal for a change, and validators and delegators on that Zone or Hub can vote on proposals. These proposals can include things like changes to preset system parameters (e.g., block gas limit), software upgrades, or even policy updates for how a hub would deal with theft, hacks, or bugs. 
 
@@ -139,9 +139,9 @@ For example, the Cosmos Hub could choose to enforce immutability at the Hub, whi
 
 This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this:_
 
-**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. Moreover, in Ethereum's case, you see a **[**breakdown in governance**](https://twitter.com/iam_preethi/status/1112776792157220864?s=20)** because stakeholders can't agree on the right form of governance, which in turn has significantly slowed the progress of development.**
+**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. Moreover, in Ethereum's case, you see a **[**breakdown in governance**](https://twitter.com/iam_preethi/status/1112776792157220864?s=20)** because stakeholders can't agree on the right form of governance, which in turn has significantly slowed down the progress of development.**
 
-**Cosmos tries to solve this by enabling interoperability among many sovereign blockchains, even if they have different governance policies. Therefore, social scalability is one of the core value props of Cosmos. It give its users and developers the ultimate freedom and potential for permissionless experimentation.**
+**Cosmos tries to solve this by enabling interoperability among many sovereign blockchains, even and ESPECIALLY if they have different governance policies. Therefore, social AND economic scalability is one of the core value props of Cosmos. It give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
