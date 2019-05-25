@@ -139,9 +139,9 @@ For example, the Cosmos Hub could choose to enforce immutability at the Hub, whi
 
 This is powerful, and in my opinion, very underrated. If there is one thing to walk away from this post, it's this: 
 
-** philosophical**
+**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement over how the blockchain should work. Moreover, in Ethereum's case, you see a complete lack of governance because stakeholders can't agree on that the right form of governance is for a network where everyone has different philosophical and political values.**
 
-**Therefore, Cosmos tries to enable interoperability among many independent and soverign blockchains, even if they have different governance policies. This aims to give its users and developers the ultimate freedom and potential for permissionless experimentation.**
+**sovereign**
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
