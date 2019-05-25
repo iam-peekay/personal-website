@@ -41,11 +41,11 @@ When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new ki
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-**_What is Cosmos?_**
+_**What is Cosmos?**_
 
-**_What purpose does it serve?_**
+_**How does it compare to Bitcoin or Ethereum?**_
 
-**_How does it compare to Bitcoin or Ethereum?_**
+_**What purpose does it serve?**_
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -61,7 +61,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
+_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -103,7 +103,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -125,7 +125,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -638,7 +638,7 @@ If you've read all the way up to here, it's safe to say that Cosmos has intrigue
 4. Deterministic, Instant Finality
 5. Bond
 6. All current validators in Tendermint are required to vote on and finalize every block. Therefore, the state of the blockchain is deterministic. This means light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
-7. 1) Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
+7. 1. Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
 8. Any programming language, technically.
 9. Through the “Hub and Zone” model.
 10. It allows each Hub to have its own governance mechanism. (Bonus: Each Zone can also have its own governance mechanism.)
