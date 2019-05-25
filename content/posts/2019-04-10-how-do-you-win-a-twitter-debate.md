@@ -64,7 +64,7 @@ On the internet, and especially in the crypto world, there's a high priority pla
 
 Whether you're on Twitter, Reddit, or Facebook, most online debates you see today are actually contentious fights. People are screaming, yelling, and attacking each other instead of addressing the discussion at hand.
 
-As a result, internet debates have become a race to react rather than respond.** Instead of being opportunities for meaningful discussion, they've become word wars to win.**
+As a result, internet debates have become a race to react rather than respond. **Instead of being opportunities for meaningful discussion, they've become word wars to win**.
 
 Argumentative attitudes have replaced communication to find common ground or understand different perspectives. _“Let's fight”_ has left no room for _“Let's explore this idea together.”_
 
