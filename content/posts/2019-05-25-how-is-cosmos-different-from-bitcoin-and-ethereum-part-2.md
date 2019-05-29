@@ -3,7 +3,7 @@ template: post
 title: How is Cosmos different from Bitcoin and Ethereum (Part 2)
 slug: /posts/how-is-cosmos-different-from-bitcoin-and-ethereum-part2
 draft: true
-date: 2019-05-25T19:02:57.038Z
+date: 2019-05-29T19:02:57.038Z
 description: >-
   So far, we've talked about Cosmos from the viewpoint of building a single
   blockchain and blockchain application. But as we noted earlier, one of Cosmos'
@@ -17,6 +17,12 @@ tags:
   - scalability
   - cryptocurrency
 ---
+<figure>
+
+![](/media/e88453b35bf7ab9c4eddefdf8cda1f40.jpeg)
+
+</figure>
+
 So far, we've talked about Cosmos from the viewpoint of building a single blockchain and blockchain application. But as we noted earlier, one of Cosmos' biggest value propositions is interoperability — **the ability to communicate across MANY blockchains.**
 
 To grasp how this works, we first need to understand the fundamental architect that Cosmos employs to enable this interoperability: "**Hubs and Zones**". 
@@ -139,7 +145,7 @@ For example, the Cosmos Hub could choose to enforce immutability at the Hub, whi
 
 This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this:_
 
-**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. Moreover, in Ethereum's case, you see a **[**breakdown in governance**](https://twitter.com/iam_preethi/status/1112776792157220864?s=20)** because stakeholders can't agree on the right form of governance, which in turn has significantly slowed down the progress of development.**
+**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. On the other hand, in Ethereum's case, we're seeing that **[**stakeholders can't agree**](https://twitter.com/iam_preethi/status/1112776792157220864)** on the right form of governance and/or have a tendency to resist formal governance, which has been counter-productive and significantly slowing down the progress of development.**
 
 **Cosmos tries to solve this by enabling interoperability among many sovereign blockchains, even and ESPECIALLY if they have different governance policies. Therefore, social AND economic scalability is one of the core value props of Cosmos. It give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
