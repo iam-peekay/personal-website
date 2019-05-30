@@ -137,11 +137,11 @@ Bitcoin, for example, relies on the Bitcoin Foundation, Bitcoin core developers,
 
 **Cosmos does things a little differently. Rather than having one governance mechanism for the entire network, it allows each Hub to have its own governance mechanism. **
 
-Any stakeholder can create a proposal for a change, and validators and delegators on that Zone or Hub can vote on proposals. These proposals can include things like changes to preset system parameters (e.g., block gas limit), software upgrades, or even policy updates for how a hub would deal with theft, hacks, or bugs. 
+Any stakeholder can create a proposal for a change, and validators and delegators on that Zone or Hub can vote on proposals. These proposals can include things like changes to preset system parameters (e.g., block gas limit), software upgrades, or even policy updates for how a hub would deal with theft, hacks, or bugs.
 
 **Also, each Zone can also have its own governance mechanism.**
 
-For example, the Cosmos Hub could choose to enforce immutability at the Hub, while each zone can set their own policies regarding how immutable it wants to be (or not). 
+For example, the Cosmos Hub could choose to enforce immutability at the Hub, while each zone can set their own policies regarding how immutable it wants to be (or not). You can read more about the [how the governance process for the Cosmos Hub works here](https://twitter.com/adriana_kalpa/status/1132736339026305024?s=20).
 
 This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this:_
 
