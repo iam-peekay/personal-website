@@ -47,11 +47,11 @@ When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new ki
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-**_What is Cosmos?_**
+_**What is Cosmos?**_
 
-**_How does it compare to Bitcoin or Ethereum?_**
+_**How does it compare to Bitcoin or Ethereum?**_
 
-**_What purpose does it serve?_**
+_**What purpose does it serve?**_
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -67,7 +67,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
+_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -109,7 +109,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -131,7 +131,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -342,7 +342,7 @@ I think there are plenty of cases (in fact, most cases) where Tendermint's conse
 
 If we revisit our prediction markets example, I could easily make the case that a decentralized prediction market application doesn't need the level of decentralization that an application like sound money or store of value would need. Having 10, 20, or 100 validators is good enough.
 
-At [TruStory](https://www.trustory.io/), for example, we're building our back-end application logic using the Cosmos SDK. Therefore, the state and logic about claims and arguments live on a blockchain and are open and transparent. Our front-end, on the other hand, is proprietary. This gives users transparency and ownership over the data layer (this was impossible with the previous generation of social networks). It also gives developers the ability to inspect and build their own tools and services on top of the back-end blockchain logic. Having 10s or 100s of validators who are running and validating our transactions gives us reasonably enough security while giving both users and developers the transparency, ownership and accountability they need.
+At [TruStory](https://www.trustory.io/), for example, we're building our back-end application logic using the Cosmos SDK. Therefore, the state and logic about claims and arguments live on a blockchain and are open and transparent. Our front-end, on the other hand, is proprietary. This gives users transparency over the data layer and allows users to share in the ownership and governance of the network. They can vote on new features, vote out bad actors, and curate the network to their liking, both at the user and infrastructure level. It also gives developers the ability to inspect and build their own tools and services on top of the back-end blockchain logic. Having 10s or 100s of validators who are running and validating our transactions gives us reasonably enough security while giving both users and developers the transparency, ownership and accountability they need.
 
 If you can get on-board with the tradeoffs that Tendermint makes in having a fixed and known validator set, then you'll appreciate some of the neat properties it offers which would be impossible otherwise:
 
