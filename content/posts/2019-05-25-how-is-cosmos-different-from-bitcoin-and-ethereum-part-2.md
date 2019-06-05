@@ -1,6 +1,6 @@
 ---
 template: post
-title: How does Cosmos work? How does it compare to Bitcoin and Ethereum?  (Part 2)
+title: How does Cosmos work? How does it compare to Bitcoin and Ethereum?  (Pt. 2)
 slug: /posts/how-does-cosmos-work-part2
 draft: false
 date: 2019-06-05T21:25:00.000Z
