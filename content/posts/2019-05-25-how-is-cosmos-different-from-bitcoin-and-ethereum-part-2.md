@@ -145,7 +145,7 @@ For example, the Cosmos Hub could choose to enforce immutability at the Hub, whi
 
 This is powerful, and in my opinion, very underrated. _If there is one thing to walk away from this post, it's this:_
 
-**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. On the other hand, in Ethereum's case, we're seeing that** [stakeholders aren't able to agree](https://twitter.com/iam_preethi/status/1112776792157220864) **on the right form of governance or have a tendency to resist formal governance, which has been counter-productive and slowed down the progress of development.**
+**Cosmos fundamentally believes that it's impossible to get everyone to agree on a single set of rules to govern a world-wide economic network. This is already evident in the real world where you see multiple forks of Bitcoin being created because of philosophical and political disagreement. On the other hand, in Ethereum's case, we're seeing that stakeholders can't agree** **on the right form of governance or have a tendency to resist formal governance, which can be counter-productive and slow down the progress of development.**
 
 **Cosmos tries to solve this by enabling interoperability among many sovereign blockchains, even and ESPECIALLY if they have different governance policies. Therefore, social AND economic scalability is one of the core value props of Cosmos. It give its users and developers the ultimate freedom and potential for permissionless experimentation.**
 
