@@ -151,48 +151,4 @@ This is powerful, and in my opinion, very underrated. _If there is one thing to 
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
-Woah, you made it this far? That's incredible — this is the end. Congratulations! And thanks for sticking with me through this journey of Cosmos.
-
-If you've read all the way up to here, it's safe to say that Cosmos has intrigued you. And rightly so! Or maybe you skipped some sections? Let's put your knowledge of Cosmos to the test 😉
-
-# It's pop quiz time
-
-1. True or False: Cosmos separates the application layer from the consensus and networking layers.
-2. Which blockchain application can use Tendermint Core to power its consensus layer?
-3. What are the three steps of the Cosmos consensus round?
-4. Unlike Bitcoin which is probabilistic, Cosmos is \_\_\_ , which means transactions can have \_\_\_
-5. Cosmos solves the “Nothing at Stake” problem by requiring validators to put up a security deposit also known as?
-6. How come Tendermint light clients don't need to sync all block headers? 
-7. What two actions is the Cosmos application layer responsible for?
-8. Using the Cosmos SDK, what programming languages can be used to build blockchain applications?
-9. How does Cosmos enable interoperability?
-10. How does Cosmos handle governance?
-
-...Okay — Pencils down!
-
-...No cheating.
-
-...Are you ready to see how you did?
-
-**Here are the answers**
-
-1. True
-2. Any blockchain application.
-3. Propose, Prevote, and Precommit.
-4. Deterministic, Instant Finality
-5. Bond
-6. All current validators in Tendermint are required to vote on and finalize every block. Therefore, the state of the blockchain is deterministic. This means light clients can simply keep track of the current validator set and verify the current block based on the validators' votes without needing to download every block header in history.
-7. 1. Defining and submitting the transactions that need to be added to the blockchain and 2) Subsequently updating the blockchain state after a transaction gets committed by the consensus layer.
-8. Any programming language, technically.
-9. Through the “Hub and Zone” model.
-10. It allows each Hub to have its own governance mechanism. (Bonus: Each Zone can also have its own governance mechanism.)
-
-How'd you fare? 
-
-💯or 😭or 🤷‍♀️??
-
-Cosmos is one of the most interesting and innovative projects in the blockchain space right now. As they are right now, blockchains desperately need improvements in terms of both scalability and interoperability. And Cosmos has vast potential to move things forward in the right direction.
-
-I hope you've enjoyed this piece and taken away something useful from it. I love the concept and team behind Cosmos, and I truly believe it will pave the way for better possibilities with blockchains (else, we wouldn't have built the TruStory application as a Cosmos blockchain application).
-
-Well, that's about it. I'm going to take a much-needed break from writing now. See you in the next post! 🤗
+Woah, you made it this far? That's incredible — this is the end. See you in the next post! 🤗
