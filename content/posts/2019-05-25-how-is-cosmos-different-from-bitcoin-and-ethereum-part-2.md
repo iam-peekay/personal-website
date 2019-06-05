@@ -135,7 +135,7 @@ As you know, blockchains are an immutable ledger. However, just like any other s
 
 Bitcoin, for example, relies on the Bitcoin Foundation, Bitcoin core developers, miners, and users to propose and coordinate upgrades. Ethereum relies on social coordination among the Ethereum developers and user community for making such decisions.  
 
-**Cosmos does things a little differently. Rather than having one governance mechanism for the entire network, it allows each Hub to have its own governance mechanism. **
+**Cosmos does things a little differently. Rather than having one governance mechanism for the entire network, it allows each Hub to have its own governance mechanism.** 
 
 Any stakeholder can create a proposal for a change, and validators and delegators on that Zone or Hub can vote on proposals. These proposals can include things like changes to preset system parameters (e.g., block gas limit), software upgrades, or even policy updates for how a hub would deal with theft, hacks, or bugs.
 
