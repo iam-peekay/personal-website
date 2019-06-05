@@ -47,11 +47,11 @@ When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new ki
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-**_What is Cosmos?_**
+_**What is Cosmos?**_
 
-**_How does it compare to Bitcoin or Ethereum?_**
+_**How does it compare to Bitcoin or Ethereum?**_
 
-**_What makes it unique?_**
+_**What makes it unique?**_
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -67,7 +67,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
+_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -109,7 +109,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -131,7 +131,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -453,7 +453,7 @@ The power of the Cosmos SDK lies in this unique type of **modularity**, where ea
 
 The application developer defines the subset of state handled by each module and the custom logic that modifies the state. In addition to the modules the Cosmos SDK provides, developers can also access other third-party modules.
 
-This plug-and-play model for building blockchain applications is incredibly powerful because of the flexibility it affords developers to only use the modules it needs, whether it's a module provided by the SDK itself or an external module.
+This plug-and-play model for building blockchain applications is incredibly powerful because of the flexibility it affords developers to only use the modules it needs, whether it's a module provided by the SDK itself or an external module. 
 
 **How the Application layer interfaces with the Consensus layer**
 
@@ -473,11 +473,15 @@ The ABCI is a socket protocol that connects Tendermint Core (consensus + network
 
 </figure>
 
-**In summary, the Cosmos SDK allows developers to build decentralized applications on top of Tendermint Core. This application can be built in any language and connected to the Tendermint consensus engine via the ABCI.**
+_Note: The current version of the Cosmos SDK primarily supports Golang (more languages will be supported in the future). _
 
-By separating the networking and consensus layer (Tendermint Core) from the application layer (Cosmos SDK, ABCI), developers have much more flexibility to build various types of applications. And because the Cosmos SDK allows these applications to be written in any programming language, it feels more like traditional application development.
+**In summary, the Cosmos SDK allows developers to build decentralized applications on top of Tendermint Core. This application can theoretically be built in any language and connected to the Tendermint consensus engine via the ABCI.**
 
-This is a stark contrast to building an application on Ethereum, which requires developers to learn a new language and deal with the constraints and flaws of Solidity. **Besides this, Ethereum apps all have to operate on top of one single network.** The upside of this is that apps built on Ethereum share the same standards and automatically have [massive synergies](https://www.preethikasireddy.com/posts/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/). The downside is that all apps built on Ethereum share the same consensus layer and are bogged down by the weight of every new application that gets built on top of it. Moreover, **the network as a whole has to be governed as one giant unit, which makes it difficult to socially scale because of differing philosophies and ideologies of how the network should be governed.**
+By separating the networking and consensus layer (Tendermint Core) from the application layer (Cosmos SDK, ABCI), developers have much more **flexibility** to build various types of applications. And because the Cosmos SDK allows these applications to be written in any programming language (e.g. Golang), it feels more like traditional application development.
+
+This is a stark contrast to building an application on Ethereum, which requires developers to learn a new language and deal with the constraints and flaws of Solidity. Moreover, Golang has much better **tooling** than Solidity does, which makes the developer experience 10x better. 
+
+**Besides this, Ethereum apps all have to operate on top of one single network.** The upside of this is that apps built on Ethereum share the same standards and automatically have [massive synergies](https://www.preethikasireddy.com/posts/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/). The downside is that all apps built on Ethereum share the same consensus layer and are bogged down by the weight of every new application that gets built on top of it. Moreover, **the network as a whole has to be governed as one giant unit, which makes it difficult to socially scale because of differing philosophies and ideologies of how the network should be governed.**
 
 Instead of having this restriction, **Cosmos blockchain applications each operate as their own independent network with their own consensus layer and governance layer.**
 
