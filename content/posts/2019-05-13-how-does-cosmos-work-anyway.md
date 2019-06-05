@@ -49,6 +49,8 @@ So it's no surprise that many people look at Cosmos and don't understand it. A q
 
 **_What is Cosmos?_**
 
+**_How does it work?_**
+
 **_How does it compare to Bitcoin or Ethereum?_**
 
 **_What makes it unique?_**
