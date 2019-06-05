@@ -489,7 +489,7 @@ Instead of having this restriction, **Cosmos blockchain applications each operat
 
 This means developers have the freedom to determine how permissioned or permissionless they want their consensus layer to be. They can choose whether they want a public set of validators who are elected based on the token quantity they have at stake or a private set of validators who are pre-authorized to be validators. This freedom to customize the rules that determine a validator set means blockchains have more **sovereignty over their chain.**
 
-**Of course, there is a tradeoff for this advantage: Each blockchain application in the Cosmos network has to bootstrap their own validators, community, and economy. And unlike Ethereum, they can't simply piggyback off the global set of validators, community, and economy.**
+**Of course, there is a tradeoff for this advantage: Each blockchain application in the Cosmos network has to bootstrap their own validators, community, and economy. And unlike Ethereum, they can't simply piggyback off the global set of validators, a powerful community and an existing economy.  **
 
 <figure>
 
