@@ -2,8 +2,8 @@
 template: post
 title: How does Cosmos work? How does it compare to Bitcoin and Ethereum?  (Part 2)
 slug: /posts/how-does-cosmos-work-part2
-draft: true
-date: 2019-05-29T19:02:57.038Z
+draft: false
+date: 2019-06-05T21:25:00.000Z
 description: >-
   So far, we've talked about Cosmos from the viewpoint of building a single
   blockchain and blockchain application. But as we noted earlier, one of Cosmos'
