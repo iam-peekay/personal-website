@@ -1,9 +1,9 @@
 ---
 template: post
-title: 'How is Cosmos different from Bitcoin and Ethereum? (Part 1) '
+title: 'How does Cosmos work? How does it compare to Bitcoin and Ethereum? (Part 1) '
 slug: /posts/how-is-cosmos-different-from-bitcoin-and-ethereum-part1
-draft: true
-date: 2019-05-29T16:25:00.000Z
+draft: false
+date: 2019-06-05T21:25:00.000Z
 description: >-
   The crypto industry never really rests. It all started with the launch of
   Bitcoin in 2010. When it first came out, everyone thought Bitcoin was the holy
