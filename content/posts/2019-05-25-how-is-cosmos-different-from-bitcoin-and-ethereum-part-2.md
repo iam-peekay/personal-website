@@ -151,4 +151,4 @@ This is powerful, and in my opinion, very underrated. _If there is one thing to 
 
 # Thanks for taking the trip through the Cosmos (network) with me!
 
-Woah, you made it this far? That's incredible — this is the end. See you in the next post! 🤗
+Woah, you made it this far? That's incredible — this is the end. See you in another post! 🤗
