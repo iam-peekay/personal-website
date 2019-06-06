@@ -23,7 +23,7 @@ tags:
 
 </figure>
 
-So far, we've talked about Cosmos from the viewpoint of building a single blockchain and blockchain application. But as we noted earlier, one of Cosmos' biggest value propositions is interoperability — **the ability to communicate across MANY blockchains.**
+In [part 1](https://www.preethikasireddy.com/posts/how-does-cosmos-work-part1), we've talked about Cosmos from the viewpoint of building a single blockchain and blockchain application. But as we noted earlier, one of Cosmos' biggest value propositions is interoperability — **the ability to communicate across MANY blockchains.**
 
 To grasp how this works, we first need to understand the fundamental architect that Cosmos employs to enable this interoperability: "**Hubs and Zones**". 
 
