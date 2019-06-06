@@ -261,7 +261,7 @@ Let's take a look at the various factors involved and how the rules play out.
 
 **Validators**
 
-The nodes that are responsible for helping achieve consensus are called “validators.” A validator is any network node that willingly participates in helping the network achieve consensus and receives. For doing so, validators receive fees and a block reward as payment. Tendermint aggregates votes from these validators to determine the correct next block.
+The nodes that are responsible for helping achieve consensus are called “validators.” A validator is any network node that willingly participates in helping the network achieve consensus. For doing so, validators receive fees and a block reward as payment. Tendermint aggregates votes from these validators to determine the correct next block.
 
 **Sybil resistance via Staking**
 
