@@ -47,13 +47,13 @@ When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new ki
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-_**What is Cosmos?**_
+**_What is Cosmos?_**
 
-_**How does it work?**_
+**_How does it work?_**
 
-_**How does it compare to Bitcoin or Ethereum?**_
+**_How does it compare to Bitcoin or Ethereum?_**
 
-_**What makes it unique?**_
+**_What makes it unique?_**
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -69,7 +69,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
+**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -111,7 +111,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -133,7 +133,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -489,7 +489,7 @@ Instead of having this restriction, **Cosmos blockchain applications each operat
 
 This means developers have the freedom to determine how permissioned or permissionless they want their consensus layer to be. They can choose whether they want a public set of validators who are elected based on the token quantity they have at stake or a private set of validators who are pre-authorized to be validators. This freedom to customize the rules that determine a validator set means blockchains have more **sovereignty over their chain.**
 
-**Of course, there is a tradeoff for this advantage: Each blockchain application in the Cosmos network has to bootstrap their own validators, community, and economy. And unlike Ethereum, they can't simply piggyback off the global set of validators, a powerful community and an existing economy.  **
+**Of course, there is a tradeoff for this advantage: Each blockchain application in the Cosmos network has to bootstrap their own validators, community, and economy. And unlike Ethereum, they can't simply piggyback off the global set of validators, a powerful community and an existing economy.**
 
 <figure>
 
