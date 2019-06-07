@@ -8,7 +8,7 @@ Hey there!
 
 ![](/media/20180906_dre_coinbase_0505_new.jpg)
 
-I'm the Founder & CEO of [TruStory](https://twitter.com/isTruStory). We're building a social network where experts debate the authenticity of claims people make online.
+I'm the Founder & CEO of [TruStory](https://twitter.com/isTruStory). We're building a social network where people debate both sides of a Claim and earn rewards for writing and curating compelling Arguments. 
 
 ## **My journey**
 
