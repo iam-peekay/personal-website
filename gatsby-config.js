@@ -173,6 +173,12 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-react-helmet-canonical-urls',
+      options: {
+        siteUrl: 'https://www.preethikasireddy.com',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sass',
       options: {
         postCssPlugins: [...postCssPlugins],

@@ -48,6 +48,7 @@
     "gatsby-plugin-netlify-cms": "^3.0.12",
     "gatsby-plugin-offline": "^2.0.22",
     "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-react-helmet-canonical-urls": "^1.2.0",
     "gatsby-plugin-sass": "^2.0.10",
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-plugin-sitemap": "^2.0.5",
