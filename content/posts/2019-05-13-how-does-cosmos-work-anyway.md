@@ -35,7 +35,7 @@ tags:
 
 The crypto industry never really rests.
 
-It all started with the launch of Bitcoin in 2010. When it first came out, everyone thought Bitcoin was the holy grail of digital currencies. What was once believed to be impossible was now real: The first ever peer-to-peer (P2P) payments network.
+It all started with the launch of Bitcoin in 2009. When it first came out, everyone thought Bitcoin was the holy grail of digital currencies. What was once believed to be impossible was now real: The first ever peer-to-peer (P2P) payments network.
 
 Even today, trust in anything remains the most elusive and rarest asset. Bitcoin circumvented this by creating the first-ever “trustless” system. But this was just the beginning.
 
@@ -47,13 +47,13 @@ When it comes to blockchains, [Cosmos](https://cosmos.network/) is the “new ki
 
 So it's no surprise that many people look at Cosmos and don't understand it. A quick glance only leaves them with more questions than answers: 
 
-_**What is Cosmos?**_
+**_What is Cosmos?_**
 
-_**How does it work?**_
+**_How does it work?_**
 
-_**How does it compare to Bitcoin or Ethereum?**_
+**_How does it compare to Bitcoin or Ethereum?_**
 
-_**What makes it unique?**_
+**_What makes it unique?_**
 
 I've known the Cosmos team for almost two years now. When I first heard about what they were doing, I was honestly just as clueless as others about its concept.
 
@@ -69,7 +69,7 @@ Are you ready to begin? Clear your mind. Put your thinking caps on. And buckle u
 
 Here's how Cosmos defines itself:
 
-_**“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”**_
+**_“A decentralized network of independent parallel blockchains each powered by a BFT consensus algorithm like Tendermint consensus.”_**
 
 Woah, that's more than a mouthful! Let's break this definition down into easy-to-digest pieces.
 
@@ -111,7 +111,7 @@ Side Note: If you're still unsure about what BFT means, I wrote extensively abou
 
 Tendermint is a BFT consensus algorithm that's built by the developers behind Cosmos. Blockchains in the Cosmos network can be powered by Tendermint or any other consensus algorithm which is BFT. We'll learn more about Tendermint later in this post.
 
-In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate **_independent_** of one another AND **_interoperate_** with each other. 
+In short, the Cosmos network is an ecosystem of independent Byzantine Fault-Tolerant blockchains that are operating in parallel to each other. These blockchains can operate _**independent**_ of one another AND _**interoperate**_ with each other. 
 
 So now you may be wondering, _“Why would blockchains need to ever interoperate with each other?”_
 
@@ -133,7 +133,7 @@ Sounds familiar, right? That's because it is! Revisit our blockchain definition 
 
 </figure>
 
-_**“Deterministic”**_ simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
+**_“Deterministic”_** simply means that, given a particular input, the machine will always produce the same output. In the context of a blockchain, it means if you start at a given state and replay the same sequence of transactions, you will always end up with the same final state.
 
 Replicated state machines start at a certain state. Each new valid transaction causes the system's state to transition to the next one (this is just like what happens in a database: if you update some entry, the database is now in a new state with the updated data entry). 
 
@@ -400,7 +400,7 @@ As we discussed before, this is because all validators in Tendermint are require
 
 As we described above, consensus in Tendermint is achieved by validators voting in rounds. In order to do this, nodes must be able to communicate and pass messages to each other to ensure everyone in the network is seeing the same data.
 
-**So like Bitcoin and Ethereum, Tendermint uses the gossop protocol to bring peers up to speed on the most recent state of the blockchain.**
+**So like Bitcoin and Ethereum, Tendermint uses the gossip protocol to bring peers up to speed on the most recent state of the blockchain.**
 
 A node in the network doesn't have to be a validator to play a role in the networking part of the consensus process. For example, a node can be a light client or a full node which doesn't want to participate as a validator. These are known as “non-validator nodes.” 
 
