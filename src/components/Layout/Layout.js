@@ -1,7 +1,22 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { withPrefix } from 'gatsby';
+import useDarkMode from 'use-dark-mode';
+import DarkModeToggle from '../Toggle/DarkModeToggle';
 import styles from './Layout.module.scss';
+
+export const ThemeContext = React.createContext('light');
+
+const Body = ({ children }) => {
+  const darkMode = useDarkMode(false);
+  return (
+    <>
+      <DarkModeToggle darkMode={darkMode} />
+      <ThemeContext.Provider value={darkMode.value ? 'dark' : 'light'}>
+        {children}
+      </ThemeContext.Provider>
+    </>
+  );
+};
 
 const Layout = ({ children, title, description }) => (
   <div className={styles.layout}>
@@ -19,9 +34,10 @@ const Layout = ({ children, title, description }) => (
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content="https://www.preethikasireddy.com/photo.jpg" />
-      <script src="https://cdn.convertkit.com/assets/CKJS4.js?v=21"></script>
+      <script src="https://cdn.convertkit.com/assets/CKJS4.js?v=21" />
     </Helmet>
-    {children}
+
+    <Body>{children}</Body>
   </div>
 );
 
