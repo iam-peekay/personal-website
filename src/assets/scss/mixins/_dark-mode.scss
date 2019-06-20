@@ -1,0 +1,116 @@
+@mixin crater($top, $left, $size) {
+  content: "";
+  position: absolute;
+  top: $top;
+  left: $left;
+  width: $size;
+  height: $size;
+  background-color: #efeeda;
+  border-radius: 100%;
+  border: 4px solid #dee1c5;
+}
+
+@mixin cloudBubble($top, $right, $width, $height, $deg) {
+  content: "";
+  display: block;
+  position: relative;
+  top: $top;
+  right: $right;
+  width: $width;
+  height: $height;
+  border: 8px solid #d4d4d2;
+  border-radius: 100%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotateZ($deg);
+  background-color: #fff;
+}
+
+@mixin time($color) {
+  font-size: $typographic-small-font-size;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color;
+}
+
+@mixin link($color) {
+  color: $color;
+  &:hover,
+  &:focus {
+    color: $color;
+    border-bottom: 1px solid $color;
+  }
+}
+
+@mixin socialLinks($color) {
+  border: 0;
+  display: flex;
+  color: $color;
+
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+}
+
+@mixin menuLinks($color) {
+  font-size: $typographic-base-font-size;
+  color: $color;
+  font-weight: normal;
+  border: 0;
+
+  &:hover,
+  &:focus {
+    color: $color-primary;
+    border-bottom: 1px solid $color-primary;
+  }
+
+  &--active {
+    color: $color;
+    border-bottom: 1px solid $color-base;
+  }
+}
+
+@mixin tagsLinks($color) {
+  display: inline-block;
+  height: $button-height;
+  padding: 0 24px;
+  line-height: $button-height;
+  border: 1px solid $color-gray-border;
+  text-decoration: none;
+  border-radius: $button-border-radius;
+  color: $color;
+
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+}
+
+@mixin allArticleLink($color) {
+  display: block;
+  max-width: 90px;
+  height: $button-height;
+  padding: 0 24px;
+  line-height: $button-height;
+  text-align: center;
+  color: $color;
+  border: 1px solid $color-gray-border;
+  border-radius: $button-border-radius;
+  font-size: $typographic-base-font-size;
+  font-weight: normal;
+  margin-left: 2%;
+  @include margin-top(1);
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+}
+
+@mixin allArticleBreakPoint() {
+  position: fixed;
+  max-width: auto;
+  margin: 0;
+  top: 30px;
+  left: 30px;
+}

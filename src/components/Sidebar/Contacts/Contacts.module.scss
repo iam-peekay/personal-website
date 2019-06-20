@@ -1,5 +1,5 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
 
 .contacts {
   @include margin-bottom(1);
@@ -29,19 +29,13 @@
       border: 1px solid $color-gray-bg;
 
       &-link {
-        border: 0;
-        display: flex;
-        color: $color-base;
-
-        &:hover,
-        &:focus {
-          color: $color-primary;
+        &-dark {
+          @include socialLinks($color-white);
         }
-
+        &-light {
+          @include socialLinks($color-base);
+        }
       }
-
     }
-
   }
-
 }

@@ -1,5 +1,5 @@
-import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
+import React from 'react';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 
@@ -32,7 +32,7 @@ export const Author = (props) => (
             author {
               name
               bio
-              contacts {       
+              contacts {
                 twitter
               }
             }
