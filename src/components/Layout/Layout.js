@@ -8,10 +8,17 @@ export const ThemeContext = React.createContext('light');
 
 const Body = ({ children }) => {
   const darkMode = useDarkMode(false);
+  const isDarkMode = typeof darkMode.value === 'boolean'
+    ? darkMode.value
+    : (() => {
+      darkMode.disable();
+      return false;
+    })();
+
   return (
     <>
-      <DarkModeToggle darkMode={darkMode} />
-      <ThemeContext.Provider value={darkMode.value ? 'dark' : 'light'}>
+      <DarkModeToggle darkMode={{ ...darkMode, value: isDarkMode }} />
+      <ThemeContext.Provider value={isDarkMode ? 'dark' : 'light'}>
         {children}
       </ThemeContext.Provider>
     </>
