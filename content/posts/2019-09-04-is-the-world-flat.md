@@ -2,7 +2,7 @@
 template: post
 title: Is the world flat?
 slug: /posts/is-the-world-flat?
-draft: true
+draft: false
 date: 2019-09-04T17:04:01.964Z
 description: >-
   Is Earth really round? Maybe we’re actually living on a pancake-shaped planet?
