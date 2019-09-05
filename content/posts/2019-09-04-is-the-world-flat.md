@@ -18,6 +18,12 @@ tags:
   - Debate
   - TruStory
 ---
+<figure>
+
+![](/media/map-of-the-world-2401458_1920.jpg)
+
+</figure>
+
 Is Earth really round? Maybe we’re actually living on a pancake-shaped planet? Or perhaps it resembles a triangular prism?
 
 These questions form the basis of a debate that has raged on for centuries. Many ancient civilizations subscribed to the belief that Earth is flat. Then science [came along](https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question54.html) and seemingly squashed any notion of this idea — at least, it seemed it did.
