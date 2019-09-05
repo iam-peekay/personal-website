@@ -10,7 +10,7 @@ description: >-
   debate that has raged on for centuries. Many ancient civilizations subscribed
   to the belief that Earth is flat. Then science came along and seemingly
   squashed any notion of this idea — at least, it seemed it did.
-category: 'Science, Life'
+category: Life
 tags:
   - Life
   - Science
