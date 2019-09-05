@@ -28,11 +28,11 @@ Does this seem too ridiculous to be true? Then you’ll love this post.
 
 As someone who is obsessed with seeking the truth, I was in awe throughout the entire movie. I also couldn’t help but have a ton of questions:
 
-_**Why did these beliefs form? **_
+**_Why did these beliefs form? _**
 
-_**How do they propagate? **_
+**_How do they propagate? _**
 
-_**And what does this mean for the future of humankind?**_
+**_And what does this mean for the future of humankind?_**
 
 I’ll aim to answer these lofty questions and highlight some of the insights I picked up from the movie in the rest of this post.
 
@@ -94,31 +94,15 @@ The [overarching goal](https://www.sciencebuddies.org/science-fair-projects/scie
 
 </figure>
 
-
-
 **The other way to form a belief is to first establish the belief and then look for evidence in support of it afterward.** In other words, construct a belief and then later try to rationalize it with explanations and supporting evidence.
 
 **Belief ← Inputs**
 
 As the writer Michael Sherman says in the scientific journal [Nature](https://www.nature.com/articles/474446a):
 
-> As a 'belief engine', the brain is always seeking to find meaning in the information that pours into it. Once it has constructed a belief, it rationalizes it with explanations, almost always after the event. 
+> As a 'belief engine', the brain is always seeking to find meaning in the information that pours into it. Once it has constructed a belief, it rationalizes it with explanations, almost always after the event. **The brain thus becomes invested in the beliefs and reinforces them by looking for supporting evidence while blinding itself to anything contrary. **Shermer describes this process as _“belief-dependent realism” _— what we believe determines our reality, not the other way around.
 >
-> **The brain thus becomes invested in the beliefs and reinforces them by looking for supporting evidence while blinding itself to anything contrary.**
->
->  Shermer describes this process as 
->
-> _“belief-dependent realism”_
->
->  — what we believe determines our reality, not the other way around.
->
-> **Problems arise when thinking like this is unconstrained. **
->
->  Passionate investment in beliefs 
->
-> **can lead to intolerance and conflict**
->
-> , as history tragically attests. Shermer gives chilling examples of how dangerous belief can be when it is maintained against all evidence.
+> **Problems arise when thinking like this is unconstrained. **Passionate investment in beliefs **can lead to intolerance and conflict**, as history tragically attests. Shermer gives chilling examples of how dangerous belief can be when it is maintained against all evidence.
 
 <figure>
 
@@ -136,9 +120,7 @@ Well, cognitive bias makes this easier said than done.
 
 There's an interesting concept known as the [Dunning-Kruger](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) effect. In case you don't know what it means, here's a quick definition:
 
-> “A cognitive bias in which people mistakenly assess their cognitive ability as greater than it is. It is related to the cognitive bias of illusory superiority and comes from the 
->
-> **inability of people to recognize their lack of ability. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence.**
+> “A cognitive bias in which people mistakenly assess their cognitive ability as greater than it is. It is related to the cognitive bias of illusory superiority and comes from the **inability of people to recognize their lack of ability. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence.**
 >
 > People with substantial, measurable deficits in their knowledge or expertise lack the ability to recognize those deficits and therefore, despite potentially making error after error, tend to think they are performing competently when they are not: ‘In short, those who are incompetent, for lack of a better term, should have little insight into their incompetence—an assertion that has come to be known as the Dunning–Kruger effect.‘”
 
