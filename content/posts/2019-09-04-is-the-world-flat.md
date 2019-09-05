@@ -48,23 +48,23 @@ I honestly had no idea the flat-Earth movement was a thing until recently. It al
 
 While gathered around the table, we were discussing and laughing about some of the fun, quirky debates happening on the TruStory app. Out of the blue, one of our team members said, 
 
-> _“Let’s hope we never have a flat-Earther trying to debate that the Earth is flat.”_
+_“Let’s hope we never have a flat-Earther trying to debate that the Earth is flat.”_
 
-That certainly caught my attention — to the point that I almost spit out my food. 
+That certainly caught my attention — to the point that I almost spit out my food.
 
-> _“Flat-Earthers? What... on Earth is that?” I asked._
+_“Flat-Earthers? What... on Earth is that?”_ I asked.
 
-He chuckled and replied, 
+He chuckled and replied,
 
-> _“People who believe the Earth is flat! You never heard of ‘em?”_
->
-> _“Um... no?” I replied._
+_“People who believe the Earth is flat! You never heard of ‘em?”_
+
+_“Um... no?”_ I replied.
 
 My eyes opened wide at this point. I wasn’t really sure what to make of this. Was this some new fad I was unaware of, like the floss dance or fidget spinners? Was I (gasp) getting old?!
 
 My teammate’s eyebrows furrowed. He looked somewhat uncomfortable. 
 
-> _“Yeah, well, they exist," he said in a serious tone._
+_“Yeah, well, they exist,"_ he said in a serious tone.
 
 I assumed this meant he didn’t want to get into this topic, so I didn’t press it too much more after this.
 
@@ -106,9 +106,9 @@ The [overarching goal](https://www.sciencebuddies.org/science-fair-projects/scie
 
 As the writer Michael Sherman says in the scientific journal [Nature](https://www.nature.com/articles/474446a):
 
-> As a 'belief engine', the brain is always seeking to find meaning in the information that pours into it. Once it has constructed a belief, it rationalizes it with explanations, almost always after the event. **The brain thus becomes invested in the beliefs and reinforces them by looking for supporting evidence while blinding itself to anything contrary. **Shermer describes this process as _“belief-dependent realism” _— what we believe determines our reality, not the other way around.
->
-> **Problems arise when thinking like this is unconstrained. **Passionate investment in beliefs **can lead to intolerance and conflict**, as history tragically attests. Shermer gives chilling examples of how dangerous belief can be when it is maintained against all evidence.
+_As a 'belief engine', the brain is always seeking to find meaning in the information that pours into it. Once it has constructed a belief, it rationalizes it with explanations, almost always after the event. **The brain thus becomes invested in the beliefs and reinforces them by looking for supporting evidence while blinding itself to anything contrary.** Shermer describes this process as “belief-dependent realism” — what we believe determines our reality, not the other way around._
+
+_**Problems arise when thinking like this is unconstrained. **Passionate investment in beliefs **can lead to intolerance and conflict**, as history tragically attests. Shermer gives chilling examples of how dangerous belief can be when it is maintained against all evidence._
 
 <figure>
 
@@ -126,19 +126,19 @@ Well, cognitive bias makes this easier said than done.
 
 There's an interesting concept known as the [Dunning-Kruger](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) effect. In case you don't know what it means, here's a quick definition:
 
-> “A cognitive bias in which people mistakenly assess their cognitive ability as greater than it is. It is related to the cognitive bias of illusory superiority and comes from the **inability of people to recognize their lack of ability. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence.**
->
-> People with substantial, measurable deficits in their knowledge or expertise lack the ability to recognize those deficits and therefore, despite potentially making error after error, tend to think they are performing competently when they are not: ‘In short, those who are incompetent, for lack of a better term, should have little insight into their incompetence—an assertion that has come to be known as the Dunning–Kruger effect.‘”
+_“A cognitive bias in which people mistakenly assess their cognitive ability as greater than it is. It is related to the cognitive bias of illusory superiority and comes from the **inability of people to recognize their lack of ability. Without the self-awareness of metacognition, people cannot objectively evaluate their competence or incompetence.**_
+
+_People with substantial, measurable deficits in their knowledge or expertise lack the ability to recognize those deficits and therefore, despite potentially making error after error, tend to think they are performing competently when they are not: ‘In short, those who are incompetent, for lack of a better term, should have little insight into their incompetence—an assertion that has come to be known as the Dunning–Kruger effect.‘”_
 
 **We all have biases. What we think and experience everyday are based on the stories we tell ourselves to explain what's happening or what has already happened. Stories are how we make sense of the world.**
 
 For example, last weekend, I was chatting with my boyfriend, and he was recounting our experience at Bikram Yoga that morning. 
 
-> _“Man, it was 200-degrees in there. That's probably why I feel so tired today.” _
+_“Man, it was 200-degrees in there. That's probably why I feel so tired today.”_
 
-Meanwhile, I was thinking to myself, 
+Meanwhile, I was thinking to myself,
 
-> _“Yeah, actually it was like 90 degrees in there. You're probably tired because you got no sleep last night and drank alcohol, which probably made you dehydrated.”_
+_“Yeah, actually it was like 90 degrees in there. You're probably tired because you got no sleep last night and drank alcohol, which probably made you dehydrated.”_
 
 He was telling himself a story to explain how he was feeling. Some of it may have been true, but the rest is mostly rationalization to make sense of his reality.
 
@@ -148,7 +148,7 @@ Now, this type of story-telling is completely natural. It’s actually [human na
 
 In the case of flat-Earthers, they think they know everything there is to know about how the Earth is shaped. Consequently, they disregard any science that disproves this belief. Their lack of ability to recognize this gap in their logic leads them to continue to believe it. 
 
-**Cognitive biases, if not recognized for what they are, eventually turn into propaganda.  **
+**Cognitive biases, if not recognized for what they are, eventually turn into propaganda.**
 
 At this point, you may be wondering, _“How does someone ever end up thinking that they know everything there is to know?”_ After all, some of us here are suffering from the opposite problem: [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome).
 
@@ -176,7 +176,7 @@ It’s what leads to extreme beliefs like thinking Earth is flat.
 
 Do you know what frightens me the most about all of this? It’s not just about flat-Earthers; it’s about the world at large. We’ve got a growing population of people who simply aren’t encouraged to think critically and evaluate expert resources.
 
-**When human thinking is left to **[**itself**](http://www.criticalthinking.org/pages/our-conception-of-critical-thinking/411)**, it often gravitates toward prejudice, over-generalization, common fallacies, self-deception, rigidity, and narrowness.**
+**When human thinking is left to **[itself](http://www.criticalthinking.org/pages/our-conception-of-critical-thinking/411)**, it often gravitates toward prejudice, over-generalization, common fallacies, self-deception, rigidity, and narrowness.**
 
 We live in a world where we have advanced our understanding of science to a point where we can send humans to the moon. So when you have a group of people who all of a sudden defy all science and go against it, it's hard not to get frustrated.
 
