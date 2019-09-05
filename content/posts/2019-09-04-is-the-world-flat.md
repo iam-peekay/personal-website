@@ -178,7 +178,7 @@ It’s what leads to extreme beliefs like thinking Earth is flat.
 
 Do you know what frightens me the most about all of this? It’s not just about flat-Earthers; it’s about the world at large. We’ve got a growing population of people who simply aren’t encouraged to think critically and evaluate expert resources.
 
-**When human thinking is left to **[**itself**](http://www.criticalthinking.org/pages/our-conception-of-critical-thinking/411)**, it often gravitates toward prejudice, over-generalization, common fallacies, self-deception, rigidity, and narrowness.**
+**When human thinking is left to itself, it often gravitates toward prejudice, over-generalization, common fallacies, self-deception, rigidity, and narrowness.** [[1](http://www.criticalthinking.org/pages/our-conception-of-critical-thinking/411)]
 
 We live in a world where we have advanced our understanding of science to a point where we can send humans to the moon. So when you have a group of people who all of a sudden defy all science and go against it, it's hard not to get frustrated.
 
