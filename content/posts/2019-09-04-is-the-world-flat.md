@@ -34,9 +34,9 @@ Does this seem too ridiculous to be true? Then you’ll love this post.
 
 As someone who is obsessed with seeking the truth, I was in awe throughout the entire movie. I also couldn’t help but have a ton of questions:
 
-**_Why did these beliefs form? _**
+**_Why did these beliefs form?_**
 
-**_How do they propagate? _**
+**_How do they propagate?_**
 
 **_And what does this mean for the future of humankind?_**
 
