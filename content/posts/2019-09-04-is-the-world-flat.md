@@ -172,7 +172,9 @@ It is delusion in its most volatile state.
 
 It’s what leads to extreme beliefs like thinking Earth is flat.  
 
-# The key to solving bias? A community of critical thinkers
+# The key to solving bias?
+
+**A community of critical thinkers.**
 
 Do you know what frightens me the most about all of this? It’s not just about flat-Earthers; it’s about the world at large. We’ve got a growing population of people who simply aren’t encouraged to think critically and evaluate expert resources.
 
