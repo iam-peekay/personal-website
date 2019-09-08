@@ -34,11 +34,11 @@ Does this seem too ridiculous to be true? Then you’ll love this post.
 
 As someone who is obsessed with seeking the truth, I was in awe throughout the entire movie. I also couldn’t help but have a ton of questions:
 
-**_Why did these beliefs form?_**
+_**Why did these beliefs form?**_
 
-**_How do they propagate?_**
+_**How do they propagate?**_
 
-**_And what does this mean for the future of humankind?_**
+_**And what does this mean for the future of humankind?**_
 
 I’ll aim to answer these lofty questions and highlight some of the insights I picked up from the movie in the rest of this post.
 
@@ -194,4 +194,4 @@ But modern social networks don't incentivize people to think. They incentivize p
 
 It’s been amazing to see this community of critical thinkers come together to form a **movement**. The last thing we want is a world full of people who are easy to manipulate and end up making bad decisions based on flawed logic and thinking. 
 
-[TruStory](https://beta.trustory.io/) is my contribution to helping this cause. What about you?
+[TruStory](https://beta.trustory.io/) is our contribution to helping this cause. What about you?
