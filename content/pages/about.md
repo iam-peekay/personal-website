@@ -8,7 +8,7 @@ Hey there!
 
 ![](/media/20180906_dre_coinbase_0505_new.jpg)
 
-I'm the Founder & CEO of [TruStory](https://twitter.com/isTruStory). We're building a social network where people debate both sides of a Claim and earn rewards for writing and curating compelling Arguments. 
+I'm the Founder & CEO of [TruStory](https://twitter.com/isTruStory), a social debate network. Our mission is to create a place on the internet where people can have productive debate about the biggest issues (or even the smallest issues) of the century.
 
 ## **My journey**
 
@@ -34,6 +34,6 @@ I spend all my time building my company, [TruStory](https://twitter.com/isTruSto
 
 So what exactly do I do?
 
-Well, subscribe to my newsletter (on the front page of this blog) to find out 😊
+Well, subscribe to my newsletter (on the front page of this blog) or join us on [TruStory](beta.trustory.io) to find out 😊
 
 I'm running out of steam talking about myself. I'll get back to this later to fill in the details. 🤟
