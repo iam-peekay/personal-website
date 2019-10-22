@@ -89,11 +89,11 @@
 
 @mixin allArticleLink($color) {
   display: block;
-  max-width: 90px;
+  max-width: 115px;
+  text-align: center;
   height: $button-height;
   padding: 0 24px;
   line-height: $button-height;
-  text-align: center;
   color: $color;
   border: 1px solid $color-gray-border;
   border-radius: $button-border-radius;
