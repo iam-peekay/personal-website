@@ -7,10 +7,7 @@ import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 
 const NewsletterTemplate = ({ data, pageContext }) => {
-  const {
-    title: siteTitle,
-    subtitle: siteSubtitle
-  } = data.site.siteMetadata;
+  const { title: siteTitle, subtitle: siteSubtitle } = data.site.siteMetadata;
 
   const {
     currentPage,
@@ -21,7 +18,9 @@ const NewsletterTemplate = ({ data, pageContext }) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `Newsletter - Page ${currentPage} - ${siteTitle}` : siteTitle;
+  const pageTitle = currentPage > 0
+    ? `Newsletter - Page ${currentPage} - ${siteTitle}`
+    : siteTitle;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
@@ -48,11 +47,13 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
-        limit: $postsLimit,
-        skip: $postsOffset,
-        filter: { frontmatter: { template: { eq: "newsletters" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ){
+      limit: $postsLimit
+      skip: $postsOffset
+      filter: {
+        frontmatter: { template: { eq: "newsletters" }, draft: { ne: true } }
+      }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           fields {
