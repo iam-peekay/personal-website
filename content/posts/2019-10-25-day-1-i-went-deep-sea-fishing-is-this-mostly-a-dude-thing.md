@@ -142,6 +142,6 @@ After I finished eating, I turned to the old Fisherman who was sitting near me a
 
 _“What do you do with the fish you catch everyday? There is no way you eat it all.”_
 
-_“I eat a couple of em. I give some to my neighbor. Last week, I gave em’ to my Gardner. Ain't nothing like fresh fish. I live and die for this.”_
+_“I eat a couple of em. I give some to my neighbor. Last week, I gave em’ to my Gardner. Ain't nothing like fresh fish. I live and die for this.”_ He responded.
 
 Damn. Okay. Well, I’m excited to go cook the fish I caught and see whether it’s truly to die for 😉
