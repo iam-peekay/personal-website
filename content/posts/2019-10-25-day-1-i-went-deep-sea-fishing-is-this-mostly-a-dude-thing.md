@@ -2,7 +2,7 @@
 template: post
 title: 'Day 1: I went Deep sea fishing. Is this mostly a dude thing?'
 slug: /newsletters/day1-I-went-deep-sea-fishing
-draft: false
+draft: true
 date: 2019-10-14T22:32:53.057Z
 description: >-
   Today was the first day of my 2-week break (In case you missed it, I shared a
