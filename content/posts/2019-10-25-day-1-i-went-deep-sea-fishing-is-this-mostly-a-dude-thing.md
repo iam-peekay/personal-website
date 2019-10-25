@@ -20,6 +20,12 @@ Frankly, I’m **still unwinding**. I’m guessing it’ll take at least 3 to 5 
 
 None the less, Day 1 was fun. I went **Deep Sea Fishing**. 😆
 
+<figure>
+
+![](/media/3e02890f-4e90-43fd-8ae1-630e126014db.jpg)
+
+</figure>
+
 I had never been deep sea fishing before. In fact, I’ve never been fishing, period. It was not something my dad ever took me to do when I was a child.
 
 Plus, it is **not really a sport that women seem to gravitate towards** (at least, I don’t think so?).
@@ -81,6 +87,12 @@ But for real, I love the **challenge and trill** of a morning run. In the modern
 I ran close to 3 miles and saw a grand total of 3 cars and 0 people. Just how I like it. 😌
 
 I then ran back home, showered, and jetted to the harbor. Despite it being 40 degrees outside, it was too beautiful to complain.
+
+<figure>
+
+![](/media/19e26af6-7cb1-4534-aea1-ba4f44952c8f.jpg)
+
+</figure>
 
 We spent **10 hours** fishing. And I caught my first fish within 5 minutes! I caught **5 fish** in total. Not bad, right?!?
 
