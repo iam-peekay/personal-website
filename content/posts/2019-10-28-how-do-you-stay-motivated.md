@@ -9,6 +9,9 @@ description: >-
   To be better. But they lack the motivation to do so. As a result, they end up
   living a life where they know that they have "potential" but chose to never
   pursue it. It leads to a mediocre life, at best. 
+
+
+  So how does one gain motivation and not become mediocre?
 category: Life
 tags:
   - life
