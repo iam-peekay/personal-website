@@ -92,7 +92,7 @@ Motivation is when we have a deep desire to take action. If you want to gain mot
 
 I realize this is a **self-fulfilling prophecy**, but that’s exactly the point.
 
-**When you act, you build momentum. A force propels you to take even more action. Which builds more momentum. And so on. **It’s a virtuous cycle. A positive feedback loop.
+**When you act, you build momentum. A force propels you to take even more action. Which builds more momentum. And so on.** It’s a virtuous cycle. A positive feedback loop.
 
 <figure>
 
@@ -120,7 +120,7 @@ Essentially, you’ve shifted your mind from thinking _“Ughh, I don't want to 
 
 ## Conclusion
 
-**The “secret” to motivation is action. The reason you’re “not feeling motivated” is due to inaction. **
+**The “secret” to motivation is action. The reason you’re “not feeling motivated” is due to inaction.** 
 
 Don’t make it more complicated than that.
 
