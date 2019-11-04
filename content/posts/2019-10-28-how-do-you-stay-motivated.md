@@ -20,7 +20,7 @@ tags:
   - secret
   - gym
 ---
-A lot of people struggle with motivation. They have a deep desire to do more. To be better. But they lack the motivation to do so. 
+A lot of people struggle with motivation. They have a deep desire to do more and to be better but they lack the motivation to do so.
 
 <figure>
 
@@ -48,7 +48,7 @@ Have you ever planned to go to the gym but then began to **deeply dread** the id
 
 So what do you do? You start to distract yourself. You check your phone for new notifications. You read useless stuff on the internet. You grab a snack from the refrigerator.
 
-Before you know it, you killed another hour. And by this time, going to the gym feels even more dreadful. There’s a million other things you rather do. Or that you "need" to get done.
+Before you know it, you killed another hour. And by this time, going to the gym feels even more dreadful. There’s a million other things you rather do or that you all of a sudden "need" to get done.
 
 _“I don’t want to go right now. I have a lot of other things to do,”_ you tell yourself.
 
@@ -58,9 +58,9 @@ So how do they do it?
 
 ## Don’t overthink it
 
-We had a really big dinner last night at a hotel buffet. The food was impressive for a buffet, so I ended up getting multiple plates of food. There was an open bar too, so I ended up drinking 4 glasses of wine. And on top of all that, we ended on a sweet note with dessert.
+We had a really big dinner last night at a hotel buffet. The food was impressive for a buffet so I ended up getting multiple plates of food. There was an open bar too and I ended up drinking 4 glasses of wine. And on top of all that, we ended on a sweet note with dessert.
 
-The whole meal took almost 3 hours. By the end of it, I was stuffed and satisfied. 😊
+The whole meal took close to 3 hours. By the end of it, I was stuffed and satisfied. 😊
 
 When I finally got back to my hotel room, I told myself that I’d go to the gym in the morning and do a quick 20-minute sprint workout. Nothing fancy. 1-minute on. 1-minute off. 10 times. For a total 20 minutes.
 
