@@ -3,7 +3,7 @@ template: post
 title: 'What topics are toughest for you to learn, as an intermediate web developer?'
 slug: >-
   /posts/what-topics-are-toughest-for-you-to-learn-as-an-intermediate-web-developer/
-draft: false
+draft: true
 date: 2017-01-04T15:02:00.497Z
 description: >-
   Beginners can feast on hundreds of courses on sites like TreeHouse,
