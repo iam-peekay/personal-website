@@ -5,20 +5,26 @@ slug: /newsletters/day1-I-went-deep-sea-fishing
 draft: false
 date: 2019-10-14T22:32:53.057Z
 description: >-
-  Today was the first day of my 2-week break (In case you missed it, I shared a
-  short update last night on why I’m taking a break.)
+  Today was the first day of my 2-week break. Frankly, I’m still unwinding. I’m
+  guessing it’ll take at least 3 to 5 days before I actually feel like I’m on
+  “break”. Right now, I’m half here and half not. I’m half thinking about my
+  obligations and half trying not to. Le Sigh.
 category: Travel
 tags:
   - fishing
   - water
   - patience
   - running
+  - fisherman
+  - food
+  - fish
+  - boat
 ---
-Today was the **first day of my 2-week break** (In case you missed it, I shared a [short update](https://twitter.com/iam_preethi/status/1183567353998503937?s=20) last night on why I’m taking a break.)
+Today was the** first day of my 2-week break** (In case you missed it, I shared a [short update](https://twitter.com/iam_preethi/status/1183567353998503937?s=20) last night on why I’m taking a break.)
 
-Frankly, I’m **still unwinding**. I’m guessing it’ll take at least 3 to 5 days before I actually feel like I’m on “break”. Right now, I’m half here and half not. I’m half thinking about my obligations and half trying not to. Le Sigh.
+Frankly, I’m **still unwinding**. I’m guessing it’ll take at least 3 to 5 days before I actually feel like I’m in “break mode”. Right now, half of my brain is relaxing while the other half is still focused on my obligations back home. Le sigh.
 
-None the less, Day 1 was fun. I went **Deep Sea Fishing**. 😆
+Nonetheless, Day 1 of my break was an exciting time: **I went deep sea fishing!** 😆
 
 <figure>
 
@@ -26,67 +32,61 @@ None the less, Day 1 was fun. I went **Deep Sea Fishing**. 😆
 
 </figure>
 
-I had never been deep sea fishing before. In fact, I’ve never been fishing, period. It was not something my dad ever took me to do when I was a child.
+I had never been deep sea fishing before this experience. In fact, **I had never been fishing**--period. It was never something I was particularly interested in as a child and my dad never saw fit to take me. Plus, it’s not really a sport that seems to attract many women. Or at least, that’s always been my impression.
 
-Plus, it is **not really a sport that women seem to gravitate towards** (at least, I don’t think so?).
+But I’m a huge **adrenaline junkie**! My definition of a “break” involves numerous physical activities and adventures. I’m not satisfied until I’m so tired that I can barely move. So when the opportunity arose to try deep sea fishing, I couldn’t let it pass me by. My hope was that it would be the first of many adventures during my 2 weeks away from everyday life.
 
-But I’m a huge **adrenaline junkie** and my definition of a “break” is doing a bunch of physical adventurous stuff until I tire myself out and can't move. So I was excited to try out Deep Sea Fishing as the first of many adventures.
-
-I live in Los Angeles so there is plenty of water all around me. It must mean there should be plenty of places to fish nearby, right?
+Now, I know what you might be thinking: **I live in Los Angeles**, so there is plenty of water around me. Surely there would be plenty of places to fish near home, right?
 
 Wrong.
 
-We did **hours of research**, only to find that most fishing spots in California had not updated their website in years. They honestly looked like they were built before JavaScript was invented and not touched ever since. 🙄
+After spending hours researching, we found that most of the fishing spots in California hadn’t updated their websites in years. Honestly, many of them looked like they were built before JavaScript was even invented and left untouched after their initial creation. 🙄
 
 _“WTF?”_ we thought.
 
-Eventually, after hours of scouring the internet, we found one place that looked legit. **Chanel Islands.**
+Eventually, though, our hard work paid off. After spending way too long scouring the internet, we found one placed that actually looked legit: **Chanel Islands**. It was relatively close (only about a 1.5 hour drive) and the reports said the waters had plenty of fish.
 
-It was close by (about a 1.5 hour drive). And the fishing reports said they had **plenty of fish**.
+_“We’ll take it,”_ we said.
 
-_“We'll take it,”_ we said.
+3 days later, we were on our way to Chanel Islands. Driving up the day of would have been a nightmare, so we opted to make our way there the night before. **Apparently when you go fishing, you have to show up early AF**. We’re talking 5am early. 😬
 
-3 days later, we were on our way to Chanel Islands. We drove up the night before because driving up on the day of would have been a nightmare. When you go fishing, you have to show up early AF. **Like, 5am early**. 😬
+Since we would be arriving the day before, we figured we may as well take the chance to explore Chanel Islands and see what we could enjoy that night. Sure, we had to wake up super early for fishing the next day, but there was no need to waste the chance for adventure!
 
-We figured we may as well explore and enjoy the night in Chanel Islands. Then get up early and go fishing.
+We got to the Islands around 7pm last night. After checking into the hotel and unpacking, we decided to hit the town.
 
-So we got here around 7pm last night. Checked into our hotel. Unpacked. And decided to hit the town.
+Chanel Islands is a beautiful town. It’s very clean and private, but also very quaint. The population is less than 4,000 people! That’s 400,000x smaller than Los Angeles! 🤣
 
-Chanel Islands is a quaint little town. It’s **beautiful, clean, and private**. The population is less than 4,000 people!!! That is 400,000x smaller than Los Angeles. 🤣
+Despite the huge difference from LA, I truly love it here. As we were driving around, I realized just **how much I miss living in a small town**.
 
-As we were driving around, I realized how much **I miss living in a small town**.
+Growing up, the town my family lived in was sparsely populated and very rural. Every home was required to have a minimum of 3 acres of land. Deer running through the backyard was a daily occurrence and sometimes you could even hear the howl of wild animals. It was unbelievably **spacious, beautiful, and serene**.
 
-Growing up, the town we lived in was also sparsely populated. Every home was REQUIRED to have a minimum of 3 acres of land. It was unbelievably spacious, beautiful, and serene. We had deer running through our backyard daily. And would even hear an occasional bear howl at night.
+Every time I visit my childhood home, I feel at peace. There’s honestly nothing like it in the world: the privacy, the greenery, the fresh air.
 
-Every time I go back home, I feel **at peace**. There is honestly nothing like it. **The privacy**. **The greenery. The fresh air.** All of it just feels like home.
+**It just feels like home.**
 
-Being in the city doesn’t give me the same sense of being at home. When I’m ready to buy my first home, it’ll definitely NOT be in a big city. It’ll be in a rural place where I can get a ton of land and be surrounded by nature and animals.
+**Being in the city has never really given me that same sense of belonging**. One day when I’m ready to buy my first home, it definitely won’t be in a big city. **I want to live somewhere rural where I can have a ton of land and be surrounded by nature, animals, and freedom**.
 
-Anyways. I digress.
+Sorry, I went off on a tangent there! I digress.
 
-So we explored Chanel Islands a bit and ended up at this impeccable Brazilian restaurant. Gosh, was it delicious. Fried plantains. Rice. Seafood. More fried plantains for dessert. Yum.
+After arriving, we decided to explore Chanel Islands a bit and ended up at this impeccable Brazilian restaurant. Gosh, was it delicious! Fried plantains, rice, seafood. More fried plantains for dessert! Yummy.
 
-Not long after, I had a wonderful food coma and crashed. 😴
+Not long after we left, I fell into a wonderful food coma and crashed back at the hotel. 😴
 
-I woke up the next morning at **4am and went for a short run.**
-
-Whenever I go to new cities, I go for runs early in the morning. Why?
+The next morning, I woke up at 4am and decided to go for a short run. Whenever I go to new cities, I like to go for runs early in the morning. You may be wondering: why?
 
 Well, two things.
 
-One, I get a quick **workout** in.
+One, it’s an easy way to get in a quick workout. Just because I’m on a break from my everyday life doesn’t mean I’m on a break from staying in shape.
 
-Two, it gives me an opportunity to wonder the local streets and alleys and **explore** different pockets of the city while everyone else is asleep.
+Two, it gives me the opportunity to wander the local streets and alleys while everyone is asleep. It can be scary sometimes to explore the city before it’s truly awake, since it’s often pitch dark and no one else is around. All you hear are your own footsteps and the sound of the wind whistling through the trees.
 
-It can be **scary** sometimes because it is pitch dark and no one is around. All I usually hear is my own footsteps and the wind whistling through the trees.
+Sometimes on these early morning runs, I feel very vulnerable. Anything could happen: I could be kidnapped or eaten by a snake or fall into an ocean. Who knows?!
 
-It makes me feel **vulnerable** because anything can happen. I can get kidnapped. Or eaten by a snake. Or fall into an ocean. Who knows?!
+But for real, I love the challenge and thrill of an early morning run. **In modern times, we’ve grown so used to an abundance of comfort. Introducing doses of challenge and risk into our lives is necessary to make us feel alive**.
 
-But for real, I love the **challenge and trill** of a morning run. In the modern **Life of Comfort and Abundance**, inducing doses of **challenge and risk** in our lives is necessary to make us feel alive.
+On this occasion, I ran close to 3 miles and saw a grand total of 3 cars and 0 people. Just how I like it. 😌
 
-I ran close to 3 miles and saw a grand total of 3 cars and 0 people. Just how I like it. 😌
-
-I then ran back home, showered, and jetted to the harbor. Despite it being 40 degrees outside, it was too beautiful to complain.
+After returning to the hotel, I took a quick shower and then we jetted to the harbor. Despite the 40 degree weather outside, it was too beautiful to complain. The day was absolutely perfect for deep sea fishing.
 
 <figure>
 
@@ -94,54 +94,56 @@ I then ran back home, showered, and jetted to the harbor. Despite it being 40 de
 
 </figure>
 
-We spent **10 hours** fishing. And I caught my first fish within 5 minutes! I caught **5 fish** in total. Not bad, right?!?
+In total, **we spent 10 hours fishing**. I even caught my first fish within 5 minutes! I learned that **fishing is a game of patience, vigilance, and luck**. While you can control your patience and vigilance, luck is something only the universe can grant you. Fortunately, I must have had all 3 because at the end of the day, I had caught 5 fish. Not bad, right?
 
-**Fishing is a game of patience, vigilance, and luck**. Luck you have no control over. Patience and Vigilance you do.
+I highly recommend everyone go fishing at least once in their life. Practicing patience and vigilance in this day and age is more important than ever. **Most people nowadays are addicted to a constant stream of dopamine in our go, go, go society. Fishing offers up the complete opposite experience: it’s all about waiting and watching, which sometimes pays off in huge rewards**.
 
-I **highly recommend everyone go fishing at least once**. Practicing patience and vigilance in this day and age is more important than ever. Especially given how addicted most people to constant stream of dopamine. Fishing is the complete opposite.
+Since we’re on the topic of deep sea fishing, here are some random thoughts I had while we were out on the water:
 
-Some random thoughts:
+## Protected Fish (Hooray!)
 
-**1) Protected fish**
+While we were on the boat, there were several instances where people would catch fish and the fisherman would tell them to throw their catch back in the water.
 
-There were a lot of times when people on the boat would catch fish and the Fisherman would tell them to throw it back in the water.
+I was initially confused. Why catch them if you can't keep them?
 
-Why?
+I learned certain fish are protected and it’s actually illegal to keep them if you catch them. For example, some species of fish cannot be caught until they reach a certain size. Others are completely protected and must always be thrown back.
 
-Because certain fish are protected and it’s illegal to catch them. For example, some species cannot be fished until they are a certain size. Others are completely off guard.
+It was really refreshing to see people actually giving a fuck about the environment.
 
-It’s nice to see people giving a fuck about the environment.
+## Fishing is Mostly Men
 
-**2) Fishing is mostly men**
-
-Fishing seems to be a man thing. 95% of the people on the boat were men. No joke.
+Fishing seems to be a pretty masculine activity. No joke, 95% of the people on the boat were men.
 
 Why?
 
-Well, for one, it’s dirty and smelly, and generally girls do not enjoy things that are dirty and smelly.
+Well, for starters, it’s dirty and smelly. Generally, women do not enjoy activities that are dirty and/or smelly.
 
-Second, it’s a very atypical social experience. Women generally love to socialize in groups. Men do too. But Men also enjoy being in isolation. I rarely meet women who travel alone. There are some, but it’s not common. On the other hand, it’s not uncommon to see men traveling alone.
+Second, it’s a very atypical social experience. Women generally love to socialize in groups and men do, too, to an extent. But men also typically enjoy isolation.
 
-My gut tells me that the reason fishing is mostly a dude sport is because it’s a very isolated, solo experience. Something that men deeply enjoy.
+I rarely meet other women who travel alone. There are some, of course, but it’s not common. On the other hand, it’s not uncommon to see men traveling alone.
 
-This is just my guess. I’d love to hear your thoughts. 🙂
+My gut tells me that one of the reasons fishing is mostly a dude sport is because it’s a very isolated, solo experience--the type of thing most men deeply enjoy.
 
-**3) Eating food with Fish-scaled-hands can be grossly fun**
+But that’s just my guess. I’d love to hear your thoughts. 🙂
 
-When I first hopped on the boat, the food in the little kitchen looked so unappetizing. It was dirty and everywhere smelled like a mix of fish and bird poop.
+# Eating Food with Fish-Scale-Covered Hands can be Grossly Fun
 
-_“Yuck,”_ I thought. “There is no way I’m putting this in my mouth. I’ll wait till we get off this boat.”
+When I first hopped on the boat, the food in the little kitchen looked so unappetizing. The kitchen itself was dirty and everywhere smelled like a rank mixture of fish and bird poop.
 
-But after hours of fishing, I got ravenous. So of course, I gave in. I ordered a Pastrami Sandwich.
+_“Yuck,”_ I thought. _“There is no way I’m putting any of this in my mouth. I’ll wait to eat until we get off the boat.”_
 
-GOD HOT DAMN. It was the best Pastrami Sandwich I’ve had EVER in my entire life. Hands down.
+But after hours of fishing, I was ravenous. With no other option, I gave in and ordered a pastrami sandwich.
 
-And the best part? We were eating our sandwiches with dirty, smelly fish-scaled hands. In normal land, this would be absolutely gross. But being on the boat made this experience surreal. Gross, I know. But trust me, every lick was worth it.
+**God. Hot. Damn.**
 
-After I finished eating, I turned to the old Fisherman who was sitting near me and asked:
+That pastrami sandwich was the best pastrami sandwich I have ever had in my entire life, hands down.
 
-_“What do you do with the fish you catch everyday? There is no way you eat it all.”_
+And the best part? We were eating our sandwiches with dirty, smelly hands covered in fish scales. On land, that would be absolutely gross. But something about being on the boat made the experience surreal. It’s still a little gross, I know. You’ll just have to trust me: every bite was totally worth it.
 
-_“I eat a couple of em. I give some to my neighbor. Last week, I gave em’ to my Gardner. Ain't nothing like fresh fish. I live and die for this.”_ He responded.
+After I finished eating, I turned to the old fisherman who was sitting near me and asked: _“What do you do with the fish you catch everyday? There is no way you eat it all.”_
 
-Damn. Okay. Well, I’m excited to go cook the fish I caught and see whether it’s truly to die for 😉
+_“I eat a couple of ‘em. I give some to my neighbor. Last week, I gave ‘em to my gardner. Ain’t nothing like fresh fish. I live and die for this,”_ he responded.
+
+Damn. Okay. His answer gave me an entirely new outlook on things.
+
+Well, I think that about wraps things up for now. I’m sure I’ll be back soon, but for now, I’m excited to go cook the fish I caught. Let’s see whether it’s truly to die for! 😉
