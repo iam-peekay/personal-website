@@ -20,7 +20,7 @@ tags:
   - fish
   - boat
 ---
-Today was the** first day of my 2-week break** (In case you missed it, I shared a [short update](https://twitter.com/iam_preethi/status/1183567353998503937?s=20) last night on why I’m taking a break.)
+Today was the **first day of my 2-week break** (In case you missed it, I shared a [short update](https://twitter.com/iam_preethi/status/1183567353998503937?s=20) last night on why I’m taking a break.)
 
 Frankly, I’m **still unwinding**. I’m guessing it’ll take at least 3 to 5 days before I actually feel like I’m in “break mode”. Right now, half of my brain is relaxing while the other half is still focused on my obligations back home. Le sigh.
 
