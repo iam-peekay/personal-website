@@ -72,7 +72,7 @@ So I snoozed the alarm. 😴
 
 Fifteen minutes later, the alarm woke me up again. And I snoozed it again.
 
-Another 15 minutes passed, and the alarm rang again.
+Another fifteen minutes passed, and the alarm rang again.
 
 An inner voice in my brain still kept saying **no**. It wanted me to sleep some more, but my heart wanted my ass to get up and go.
 
