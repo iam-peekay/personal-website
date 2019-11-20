@@ -8,7 +8,7 @@ Hey there!
 
 ![](/media/20180906_dre_coinbase_0505_new.jpg)
 
-I'm the Founder & CEO of [TruStory](https://twitter.com/isTruStory), a social debate network. Our mission is to create a place on the internet where people can have productive debate about the biggest issues (or even the smallest issues) of the century.
+I'm the Founder of [TruStory](https://beta.trustory.io), a social network for productive debate. Our mission is to create a place on the internet where people can come together and have productive debate.
 
 ## **My journey**
 
@@ -30,10 +30,4 @@ In short, learning to code gave me the freedom to learn, explore and truly under
 
 ## What now
 
-I spend all my time building my company, [TruStory](https://twitter.com/isTruStory), and don't code day to day anymore.  
-
-So what exactly do I do?
-
-Well, subscribe to my newsletter (on the front page of this blog) or join us on [TruStory](beta.trustory.io) to find out 😊
-
-I'm running out of steam talking about myself. I'll get back to this later to fill in the details. 🤟
+I love writing. Sign up to hear from me once in a while ;)
