@@ -5,13 +5,12 @@ slug: /posts/how-do-you-stay-motivated
 draft: false
 date: 2019-10-28T19:51:02.651Z
 description: >-
-  A lot of people struggle with motivation. They have a deep desire to do more.
-  To be better. But they lack the motivation to do so. As a result, they end up
-  living a life where they know that they have "potential" but chose to never
-  pursue it. It leads to a mediocre life, at best. 
-
-
-  So how does one gain motivation and not become mediocre?
+  Every day, tons of people out there are struggling with motivation - or
+  rather, the lack of motivation. They have a deep desire to do more and be
+  better but they simply lack the motivation to do so. As a result, they end up
+  living mediocre lives where they know they have “potential”, but they never
+  chose to pursue said potential. They settle into the same routines and find
+  themselves wishing for more than they have received.
 category: Life
 tags:
   - life
