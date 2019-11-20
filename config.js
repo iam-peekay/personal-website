@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://www.preethikasireddy.com',
   title: 'Blog by Preethi Kasireddy',
-  subtitle: 'Founder & CEO of TruStory. I have a passion for understanding things at a fundamental level and sharing it as clearly as possible.',
+  subtitle: 'Founder of TruStory. I have a passion for understanding things and explaining it as clearly as possible.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 6,
@@ -29,7 +29,7 @@ module.exports = {
   author: {
     name: 'Preethi Kasireddy',
     photo: '/photo.jpg',
-    bio: 'Founder & CEO of TruStory. I have a passion for understanding things at a fundamental level and sharing it as clearly as possible.',
+    bio: 'Founder of TruStory. I have a passion for understanding things and explaining it as clearly as possible.',
     contacts: {
       email: 'preethi@preethireddy.com',
       twitter: 'iam_preethi',
