@@ -15,17 +15,17 @@ const Feed = ({ edges }) => {
               className={styles[`feed__item-meta-time-${theme}`]}
               dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
             >
-              {moment(edge.node.frontmatter.date).format('MMMM YYYY')}
+              {edge.node.frontmatter.template === 'newsletters' ? moment(edge.node.frontmatter.date).format('D MMMM  YYYY') : moment(edge.node.frontmatter.date).format('MMMM YYYY')}
             </time>
             <span className={styles['feed__item-meta-divider']} />
-            <span className={styles['feed__item-meta-category']}>
+            {edge.node.frontmatter.template === 'newsletters' ? null : (<span className={styles['feed__item-meta-category']}>
               <Link
                 to={edge.node.fields.categorySlug}
                 className={styles['feed__item-meta-category-link']}
               >
                 {edge.node.frontmatter.category}
               </Link>
-            </span>
+            </span>)}
           </div>
           <h2 className={styles['feed__item-title']}>
             <Link className={styles[`feed__item-title-link-${theme}`]} to={edge.node.fields.slug}>

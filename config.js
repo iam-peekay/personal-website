@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       label: 'Newsletters',
-      path: '/pages/newsletters'
+      path: '/newsletters'
     }
   ],
   author: {

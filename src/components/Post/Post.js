@@ -18,8 +18,13 @@ const Post = ({ post }) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles[`post__home-button-${theme}`]} to="/">
-        All Articles
+      <Link
+        className={styles[`post__home-button-${theme}`]}
+        to={post.frontmatter.template === 'newsletters' ? '/newsletters' : '/'}
+      >
+        {post.frontmatter.template === 'newsletters'
+          ? 'All Newsletters'
+          : 'All Articles'}
       </Link>
 
       <div className={styles['post__content']}>
@@ -28,12 +33,17 @@ const Post = ({ post }) => {
 
       <div className={styles['post__footer']}>
         <Meta date={date} />
-        <Tags tags={tags} tagSlugs={tagSlugs} />
+        {post.frontmatter.template !== 'newsletters' && (
+          <Tags tags={tags} tagSlugs={tagSlugs} />
+        )}
         <Author />
       </div>
 
       <div className={styles['post__comments']}>
-        <Comments postSlug={post.fields.slug} postTitle={post.frontmatter.title} />
+        <Comments
+          postSlug={post.fields.slug}
+          postTitle={post.frontmatter.title}
+        />
       </div>
     </div>
   );
